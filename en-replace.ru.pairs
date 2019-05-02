@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Начать
+
+Continue
+Продолжить
+
+Profile
+Профиль
+
+
+### Menu
+Settings
+настройки
+
+Video
+видео
+
+Audio
+аудио
+
+Save & Quit
+Сохранить и выйти
+
+Back
+назад
+
+UI Scale
+UI Scale
+
+Fullscreen
+Полноэкранный
+
+Snowfall
+снегопад
+
+Effects
+Последствия
+
+Sound
+звук
+
+Music
+Музыка
+
+Title Screen
+Титульный экран
+
+Autocomplete
+Автозаполнение
+
+High
+Высоко
+
+Low
+Низкий
+
+Medium
+Средняя
+
+Background only
+Только фон
+
+On
+1
+
+Off
+0
+
+
+### Tooltips
+Run
+Бежать
+
+Menu
+Меню
+
+Code Reference
+Ссылка на код
+
+Decrease Speed
+Уменьшить скорость
+
+Increase Speed
+Увеличить скорость
+
+Message Archive
+Архив сообщений
+
+Decrease Code Execution Rate
+Уменьшить скорость выполнения кода
+
+Increase Code Execution Rate
+Увеличить скорость выполнения кода
+
+Load / Save new approach
+Загрузить / сохранить новый подход
+
+Reset
+Сброс
+
+Run (paused)
+Запустить (приостановлено)
+
+Step over
+Переступить
+
+Stop
+Стоп
+
+Step forward
+Шаг вперед
+
+Delete name
+Удалить имя
+
+Exit Level
+Выход
+
+Delete profile
+Удалить профиль
+
+Confirm delete
+Подтвердите удаление
+
+
+### Overlay tutorials
+Type commands here
+Введите здесь команды
+
+Add the lines:
+Добавьте строки:
+
+Press play to run
+Нажмите play, чтобы запустить
+
+Modify the commands and \nre-run to reach the exit
+Измените команды и повторно \nзапустите, чтобы достичь выхода
+
+Press to exit level
+Нажмите для выхода из уровня
+
+Levels have multiple stages\nclick here to view each
+Уровни имеют несколько этапов \nнажмите здесь, чтобы посмотреть каждый
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Ваш код будет перезапускаться на каждом этапе,\nпоэтому одно решение должно решить все.\nВернуться к первому этапу
+
+Reach the first stage exit
+Дойти до первого этапа выхода
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Переделка, чтобы добраться до всех выходов, помните
+
+Change game speed
+Изменить скорость игры
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Нажмите, чтобы открыть ссылку на код, она содержит все разделы\nи функции для начинающих, восстановленные до настоящего времени.
+
+Click to close
+Нажмите, чтобы закрыть
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и переработать… или просто начать с нуля
+
+Scroll with mouse wheel,\nalt
+Прокрутка колесиком мыши,\nalt
+
+, alt pageup/pagedown
+, alt pageup/pagedown
+
+Click to view all recovered messages
+Нажмите, чтобы просмотреть все восстановленные сообщения
+
+Try using `else` and \na comparision like `>`
+Попробуйте использовать `else` и \nсравнение как `>`
+
+Read Comparison and Conditions III to see
+Прочитайте Comparison and Conditions III, чтобы увидеть
+
+and
+и
+
+usage
+использование
+
+Try using a comparision like `>`
+Попробуйте использовать сравнение как `>`
+
+Try using `else`
+Попробуйте использовать `else`
+
+Press to run with execution paused
+Нажмите, чтобы запустить с исполнением приостановлено
+
+Notice the current evaluation is highlighted
+Обратите внимание, что текущая оценка выделена
+
+Press, or use keyboard
+Нажмите или используйте клавиатуру
+
+, to step forward to the next evaluation
+, чтобы перейти к следующей оценке
+
+Level solutions can be\nsaved and loaded here
+Решения уровня могут быть\nсохранены и загружены здесь
+
+The best scoring code in each\ncategory is automatically saved
+Лучший код оценки в каждой\nкатегории автоматически сохраняется
+
+Reach the revealed location
+Добраться до обнаруженного места

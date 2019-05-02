@@ -1,0 +1,20 @@
+[package]
+name = "robo_instructus_translation"
+version = "0.1.0"
+authors = ["Alex Butler <alexheretic@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rustc-hash = "1"
+lazy_static = "1"
+parking_lot = "0.7"
+crossbeam-channel = "0.3.8"
+log = "0.4"
+google_translate = { path = "goog" }
+indexmap = "1"
+env_logger = "0.6"
+
+[build-dependencies]
+quote = "0.6"
+
+[workspace]

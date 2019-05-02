@@ -1,0 +1,10 @@
+[package]
+name = "google_translate"
+version = "0.1.0"
+authors = ["Alex Butler <alexheretic@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9"
+percent-encoding = "1"
+serde_json = "1"
