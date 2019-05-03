@@ -26,10 +26,10 @@ Back
 назад
 
 UI Scale
-UI Scale
+Масштаб интерфейса
 
 Fullscreen
-Полноэкранный
+Полноэкранный режим
 
 Snowfall
 снегопад
@@ -44,7 +44,7 @@ Music
 Музыка
 
 Title Screen
-Титульный экран
+Главный экран
 
 Autocomplete
 Автозаполнение
@@ -79,7 +79,7 @@ Menu
 Меню
 
 Code Reference
-Ссылка на код
+Руководство по коду
 
 Decrease Speed
 Уменьшить скорость
@@ -147,19 +147,19 @@ Levels have multiple stages\nclick here to view each
 Уровни имеют несколько этапов \nнажмите здесь, чтобы посмотреть каждый
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Ваш код будет перезапускаться на каждом этапе,\nпоэтому одно решение должно решить все.\nВернуться к первому этапу
+Ваш код будет перезапускаться на каждом этапе,\nпоэтому одно решение должно подходить везде.\nВернуться к первому этапу
 
 Reach the first stage exit
 Дойти до первого этапа выхода
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Переделка, чтобы добраться до всех выходов, помните
+Переделайте, чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этапе
 
 Change game speed
 Изменить скорость игры
 
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Нажмите, чтобы открыть ссылку на код, она содержит все разделы\nи функции для начинающих, восстановленные до настоящего времени.
+Нажмите, чтобы открыть руководство по коду, она содержит все разделы\nи функции для начинающих, восстановленные до настоящего времени.
 
 Click to close
 Нажмите, чтобы закрыть
@@ -195,7 +195,7 @@ Try using `else`
 Попробуйте использовать `else`
 
 Press to run with execution paused
-Нажмите, чтобы запустить с исполнением приостановлено
+Нажмите, чтобы запустить с остановленным исполнением
 
 Notice the current evaluation is highlighted
 Обратите внимание, что текущая оценка выделена
@@ -210,7 +210,7 @@ Level solutions can be\nsaved and loaded here
 Решения уровня могут быть\nсохранены и загружены здесь
 
 The best scoring code in each\ncategory is automatically saved
-Лучший код оценки в каждой\nкатегории автоматически сохраняется
+Код с наибольшей оценкой в каждой\nкатегории автоматически сохраняется
 
 Reach the revealed location
 Добраться до обнаруженного места
