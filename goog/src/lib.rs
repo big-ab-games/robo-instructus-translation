@@ -29,6 +29,11 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
 
 #[test]
 fn translate_with_newlines_into_ru() {
+    if std::env::var_os("GOOGLE_TRANSLATE_API_KEY").is_none() {
+        eprintln!("Missing env GOOGLE_TRANSLATE_API_KEY, skipping test");
+        return;
+    }
+
     let t = translate_to("ru", "Modify the commands and \nre-run to reach the exit");
     assert_eq!(t, Some("Измените команды и \nповторно запустите, чтобы достичь выхода".into()));
 }

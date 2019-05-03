@@ -8,13 +8,17 @@ edition = "2018"
 rustc-hash = "1"
 lazy_static = "1"
 parking_lot = "0.7"
-crossbeam-channel = "0.3.8"
-log = "0.4"
-google_translate = { path = "goog" }
-indexmap = "1"
-env_logger = "0.6"
+crossbeam-channel = { version = "0.3.8", optional = true }
+log = { version = "0.4", optional = true }
+google_translate = { path = "goog", optional = true }
+indexmap = { version = "1", optional = true }
+env_logger = { version = "0.6", optional = true }
 
 [build-dependencies]
 quote = "0.6"
+
+[features]
+realtime = ["crossbeam-channel", "log", "google_translate", "indexmap"]
+fill = ["env_logger"]
 
 [workspace]
