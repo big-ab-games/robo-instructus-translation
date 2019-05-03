@@ -1,0 +1,6 @@
+sudo: false
+language: rust
+rust: stable
+os: linux
+env: RUST_BACKTRACE=full CARGO_INCREMENTAL=0
+script: cargo test --all --all-features
