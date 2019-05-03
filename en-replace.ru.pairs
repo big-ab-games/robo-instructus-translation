@@ -11,19 +11,19 @@ Profile
 
 ### Menu
 Settings
-настройки
+Настройки
 
 Video
-видео
+Видео
 
 Audio
-аудио
+Аудио
 
 Save & Quit
 Сохранить и выйти
 
 Back
-назад
+Назад
 
 UI Scale
 Масштаб интерфейса
@@ -32,13 +32,13 @@ Fullscreen
 Полноэкранный режим
 
 Snowfall
-снегопад
+Снегопад
 
 Effects
 Последствия
 
 Sound
-звук
+Звук
 
 Music
 Музыка
@@ -53,10 +53,10 @@ High
 Высоко
 
 Low
-Низкий
+Низко
 
 Medium
-Средняя
+Средне
 
 Background only
 Только фон
@@ -68,7 +68,7 @@ Off
 0
 
 Language
-язык
+Язык
 
 
 ### Tooltips
@@ -165,7 +165,7 @@ Click to close
 Нажмите, чтобы закрыть
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и переработать… или просто начать с нуля
+На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и переработать… или просто начните с нуля
 
 Scroll with mouse wheel,\nalt
 Прокрутка колесиком мыши,\nalt
@@ -213,4 +213,4 @@ The best scoring code in each\ncategory is automatically saved
 Код с наибольшей оценкой в каждой\nкатегории автоматически сохраняется
 
 Reach the revealed location
-Добраться до обнаруженного места
+Достигните обнаруженного места
