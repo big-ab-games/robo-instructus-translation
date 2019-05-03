@@ -1,4 +1,4 @@
-#[cfg(debug_assertions)]
+#[cfg(feature = "realtime")]
 pub mod realtime;
 
 use lazy_static::lazy_static;
@@ -42,7 +42,7 @@ pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
     } else if let Some(translated) = REPLACE.get(lang).and_then(|l| l.get(en)) {
         translated
     } else {
-        #[cfg(debug_assertions)]
+        #[cfg(feature = "realtime")]
         realtime::notify_unknown(lang, en);
 
         en
@@ -50,6 +50,11 @@ pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
 }
 
 #[test]
-fn translate_to_ru() {
-    assert_eq!(&*translate_to("ru", "Exit Level"), "Выход");
+fn translate_ru() {
+    assert_eq!(&*translate_to("ru", "Begin"), "Начать");
+}
+
+#[test]
+fn translate_pl() {
+    assert_eq!(&*translate_to("pl", "Begin"), "Zaczynać");
 }

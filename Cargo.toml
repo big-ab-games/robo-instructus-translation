@@ -19,6 +19,6 @@ quote = "0.6"
 
 [features]
 realtime = ["crossbeam-channel", "log", "google_translate", "indexmap"]
-fill = ["env_logger"]
+fill = ["env_logger", "realtime"]
 
 [workspace]

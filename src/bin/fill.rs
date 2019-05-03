@@ -1,14 +1,13 @@
-//! Generate missing translation files, only works in debug mode
+//! Generate missing translation files use `features "fill"`
+#![cfg(feature = "fill")]
 
 use lazy_static::lazy_static;
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::env;
 
 // REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
-#[cfg(debug_assertions)]
 include!("../../target/generated/translations.rs");
 
-#[cfg(debug_assertions)]
 fn main() {
     if env::var_os("RUST_LOG").is_none() {
         env::set_var("RUST_LOG", "robo_instructus=debug");
@@ -28,6 +27,3 @@ fn main() {
         }
     }
 }
-
-#[cfg(not(debug_assertions))]
-fn main() {}
