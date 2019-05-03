@@ -6,16 +6,16 @@ use std::{
 };
 
 fn main() {
-    generate_translations().unwrap();
+    generate_translations();
 }
 
-fn generate_translations() -> io::Result<()> {
-    let translations = std::env::current_dir()?;
+fn generate_translations() {
+    let translations = std::env::current_dir().unwrap();
 
-    let lang_replace: Vec<_> = fs::read_dir(&translations)?
+    let lang_replace: Vec<_> = fs::read_dir(&translations).unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok()?;
-            let path = entry.file_name().to_str()?.to_owned();
+            let entry = entry.ok().unwrap();
+            let path = entry.file_name().to_str().unwrap().to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".pairs"))
@@ -66,10 +66,7 @@ fn generate_translations() -> io::Result<()> {
     };
 
     let generated = Path::new("target").join("generated");
-    if generated.exists() {
-        fs::remove_dir_all(&generated)?;
-    }
-    fs::create_dir_all(&generated)?;
+    fs::create_dir_all(&generated).unwrap();
 
     let dest_path = generated.join("translations.rs");
     let mut file = fs::OpenOptions::new()
@@ -77,13 +74,7 @@ fn generate_translations() -> io::Result<()> {
         .write(true)
         .create(true)
         .truncate(true)
-        .open(&dest_path)?;
+        .open(&dest_path).unwrap();
 
-    file.write_all(contents.to_string().as_bytes())?;
-
-    // if Command::new("rustfmt").arg(dest_path.to_str().unwrap()).status().is_err() {
-    //     eprintln!("rustfmt failed");
-    // }
-
-    Ok(())
+    file.write_all(contents.to_string().as_bytes()).unwrap();
 }
