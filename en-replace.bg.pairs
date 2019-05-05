@@ -1,0 +1,214 @@
+### Title screen
+Begin
+започвам
+
+Continue
+продължи
+
+Profile
+профил
+
+### Menu
+Settings
+Настройки
+
+Video
+Видео
+
+Audio
+звуков
+
+Save & Quit
+Запази
+
+Back
+обратно
+
+UI Scale
+Скала на потребителския интерфейс
+
+Fullscreen
+Цял екран
+
+Snowfall
+снеговалеж
+
+Effects
+вещи
+
+Sound
+звук
+
+Music
+музика
+
+Title Screen
+Заглавен екран
+
+Autocomplete
+функцията за автоматично довършване
+
+High
+Високо
+
+Low
+ниско
+
+Medium
+среда
+
+Background only
+Само за фон
+
+On
+за
+
+Off
+от
+
+Language
+език
+
+### Tooltips
+Run
+тичам
+
+Menu
+Меню
+
+Code Reference
+Референтен код
+
+Decrease Speed
+Намалете скоростта
+
+Increase Speed
+Увеличете скоростта
+
+Message Archive
+Архив на съобщенията
+
+Decrease Code Execution Rate
+Намалете скоростта на изпълнение на кода
+
+Increase Code Execution Rate
+Увеличете скоростта на изпълнение на кода
+
+Load / Save new approach
+Зареждане / запазване на нов подход
+
+Reset
+Нулиране
+
+Run (paused)
+Изпълнение (на пауза)
+
+Step over
+Прекрача
+
+Stop
+Спри се
+
+Step forward
+Стъпка напред
+
+Delete name
+Изтриване на името
+
+Exit Level
+Ниво на излизане
+
+Delete profile
+Изтриване на подпрофила
+
+Confirm delete
+Потвърдете изтриването
+
+### Overlay tutorials
+Type commands here
+Тук въведете команди
+
+Add the lines:
+Добавете редовете:
+
+Press play to run
+Натиснете play, за да стартирате
+
+Modify the commands and \nre-run to reach the exit
+Променете командите и стартирайте отново, за да стигнете до изхода
+
+Press to exit level
+Натиснете, за да излезете от нивото
+
+Levels have multiple stages\nclick here to view each
+Нивата имат няколко етапа \nкликнете тук, за да видите всеки
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Вашият код ще бъде повторно стартиран на всеки етап, така че едно решение трябва да реши всичко. Върнете се на първия етап
+
+Reach the first stage exit
+Стигнете до първия етап на излизане
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Преработете, за да достигнете до всички изходи, помнете \nКодът се изпълнява отново от върха на всеки етап
+
+Change game speed
+Промяна на скоростта на играта
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Кликнете, за да отворите справочника за кода, той съдържа всички секции и функции, възстановени досега
+
+Click to close
+Кликнете, за да затворите
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+На това ниво има някакъв недовършен код, опитайте да го стартирате и преработвате ... или просто започнете от нулата
+
+Scroll with mouse wheel,\nalt
+Скролирайте с колелото на мишката, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Кликнете, за да видите всички възстановени съобщения
+
+Try using `else` and \na comparision like `>`
+Опитайте се да използвате `else` и \nсравняване като `>`
+
+Read Comparison and Conditions III to see
+Прочетете сравнението и условията III, за да видите
+
+and
+и
+
+usage
+употреба
+
+Try using a comparision like `>`
+Опитайте да използвате сравнение като `>`
+
+Try using `else`
+Опитайте да използвате `else`
+
+Press to run with execution paused
+Натиснете, за да стартирате, докато изпълнението е спряно
+
+Notice the current evaluation is highlighted
+Забележете, че текущата оценка е подчертана
+
+Press, or use keyboard
+Натиснете или използвайте клавиатурата
+
+, to step forward to the next evaluation
+, за да пристъпи към следващата оценка
+
+Level solutions can be\nsaved and loaded here
+Тук могат да бъдат запазени и заредени решения на ниво
+
+The best scoring code in each\ncategory is automatically saved
+Най-добрият код за оценка във всяка категория се запазва автоматично
+
+Reach the revealed location
+Достигнете разкритото местоположение
+

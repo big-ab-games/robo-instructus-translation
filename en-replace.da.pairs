@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Begynde
+
+Continue
+Blive ved
+
+Profile
+Profil
+
+### Menu
+Settings
+Indstillinger
+
+Video
+video
+
+Audio
+Lyd
+
+Save & Quit
+Gemme
+
+Back
+Tilbage
+
+UI Scale
+UI-skala
+
+Fullscreen
+Fuld skærm
+
+Snowfall
+snefald
+
+Effects
+effekter
+
+Sound
+Lyd
+
+Music
+musik
+
+Title Screen
+Titel Screen
+
+Autocomplete
+autofuldførelse
+
+High
+Høj
+
+Low
+Lav
+
+Medium
+Medium
+
+Background only
+Kun baggrund
+
+On
+På
+
+Off
+Af
+
+Language
+Sprog
+
+### Tooltips
+Run
+Løb
+
+Menu
+Menu
+
+Code Reference
+Kode Reference
+
+Decrease Speed
+Sænk hastigheden
+
+Increase Speed
+Forøg hastigheden
+
+Message Archive
+Beskedarkiv
+
+Decrease Code Execution Rate
+Reducer kodeudførelse
+
+Increase Code Execution Rate
+Forøg kodeudførelse
+
+Load / Save new approach
+Indlæse / gemme ny tilgang
+
+Reset
+Nulstil
+
+Run (paused)
+Kør (pauset)
+
+Step over
+Træd over
+
+Stop
+Hold op
+
+Step forward
+Skridt fremad
+
+Delete name
+Slet navn
+
+Exit Level
+Udgangsniveau
+
+Delete profile
+Slet profil
+
+Confirm delete
+Bekræft sletning
+
+### Overlay tutorials
+Type commands here
+Skriv kommandoer her
+
+Add the lines:
+Tilføj linjerne:
+
+Press play to run
+Tryk på spil for at køre
+
+Modify the commands and \nre-run to reach the exit
+Rediger kommandoerne og \nre-run for at nå udgangen
+
+Press to exit level
+Tryk for at afslutte niveau
+
+Levels have multiple stages\nclick here to view each
+Niveauer har flere trin \nklik her for at se hver
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Din kode vil blive kørt igen hvert trin, så en enkelt løsning skal løse alle. \nTilbage til første fase
+
+Reach the first stage exit
+Nå udgangen af første etape
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Omarbejder for at nå alle udgange, husk \nkode køres igen fra toppen på hvert trin
+
+Change game speed
+Skift spilhastighed
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Klik for at åbne kodehenvisningen, den indeholder alle \nde primære sektioner og funktioner, der er blevet genoprettet indtil videre
+
+Click to close
+Klik for at lukke
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Der er noget ufærdigt kode fundet på dette niveau, prøv \nkør det og omarbejde ... eller bare start fra bunden
+
+Scroll with mouse wheel,\nalt
+Rul med mushjul, \nalt
+
+, alt pageup/pagedown
+, alt side / pagedown
+
+Click to view all recovered messages
+Klik for at se alle inddrevne meddelelser
+
+Try using `else` and \na comparision like `>`
+Prøv at bruge `else` og \nen sammenligning som `>`
+
+Read Comparison and Conditions III to see
+Læs Sammenligning og betingelser III for at se
+
+and
+og
+
+usage
+forbrug
+
+Try using a comparision like `>`
+Prøv at bruge en sammenligning som `>`
+
+Try using `else`
+Prøv at bruge `else`
+
+Press to run with execution paused
+Tryk for at køre med kørsel af pause
+
+Notice the current evaluation is highlighted
+Bemærk, at den aktuelle evaluering er fremhævet
+
+Press, or use keyboard
+Tryk på, eller brug tastaturet
+
+, to step forward to the next evaluation
+, at gå videre til den næste evaluering
+
+Level solutions can be\nsaved and loaded here
+Niveau løsninger kan \ngemmes og indlæst her
+
+The best scoring code in each\ncategory is automatically saved
+Den bedste scoringskode i hver \nkategori gemmes automatisk
+
+Reach the revealed location
+Nå den afslørede placering
+

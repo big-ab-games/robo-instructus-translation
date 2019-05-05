@@ -1,0 +1,213 @@
+### Title screen
+Begin
+เริ่ม
+
+Continue
+ต่อ
+
+Profile
+ข้อมูลส่วนตัว
+
+### Menu
+Settings
+การตั้งค่า
+
+Video
+วีดีโอ
+
+Audio
+เสียง
+
+Save & Quit
+บันทึก
+
+Back
+กลับ
+
+UI Scale
+มาตราส่วน UI
+
+Fullscreen
+เต็มจอ
+
+Snowfall
+ปริมาณหิมะ
+
+Effects
+ผลกระทบ
+
+Sound
+เสียง
+
+Music
+เพลง
+
+Title Screen
+หน้าจอชื่อเรื่อง
+
+Autocomplete
+การเติมข้อความอัตโนมัติ
+
+High
+สูง
+
+Low
+ต่ำ
+
+Medium
+กลาง
+
+Background only
+พื้นหลังเท่านั้น
+
+On
+บน
+
+Off
+ปิด
+
+Language
+ภาษา
+
+### Tooltips
+Run
+วิ่ง
+
+Menu
+เมนู
+
+Code Reference
+รหัสอ้างอิง
+
+Decrease Speed
+ลดความเร็ว
+
+Increase Speed
+เพิ่มความเร็ว
+
+Message Archive
+เก็บข้อความ
+
+Decrease Code Execution Rate
+ลดอัตราการเรียกใช้โค้ด
+
+Increase Code Execution Rate
+เพิ่มอัตราการเรียกใช้โค้ด
+
+Load / Save new approach
+โหลด / บันทึกแนวทางใหม่
+
+Reset
+รีเซ็ต
+
+Run (paused)
+เรียกใช้ (หยุดชั่วคราว)
+
+Step over
+ก้าวข้ามไป
+
+Stop
+หยุด
+
+Step forward
+ก้าวไปข้างหน้า
+
+Delete name
+ลบชื่อ
+
+Exit Level
+ระดับทางออก
+
+Delete profile
+ลบโปรไฟล์
+
+Confirm delete
+ยืนยันการลบ
+
+### Overlay tutorials
+Type commands here
+พิมพ์คำสั่งที่นี่
+
+Add the lines:
+เพิ่มบรรทัด:
+
+Press play to run
+กดเล่นเพื่อเรียกใช้
+
+Modify the commands and \nre-run to reach the exit
+แก้ไขคำสั่งและ \nเรียกใช้อีกครั้งเพื่อให้ถึงทางออก
+
+Press to exit level
+กดเพื่อออกจากระดับ
+
+Levels have multiple stages\nclick here to view each
+ระดับมีหลายขั้นตอน \nคลิกที่นี่เพื่อดูแต่ละระดับ
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+รหัสของคุณจะถูกเรียกใช้อีกครั้งในแต่ละขั้นตอน \nดังนั้นทางออกเดียวจะต้องแก้ปัญหาทั้งหมด \nกลับไปที่ขั้นตอนแรก
+
+Reach the first stage exit
+ไปถึงทางออกขั้นแรก
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+ทำใหม่เพื่อให้ถึงทางออกทั้งหมดจำไว้ว่า \nรหัสจะถูกเรียกใช้ใหม่จากด้านบนในแต่ละขั้นตอน
+
+Change game speed
+เปลี่ยนความเร็วของเกม
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+คลิกที่นี่เพื่อเปิดการอ้างอิงรหัสมันมีทั้งหมด \nส่วนไพรเมอร์และฟังก์ชั่นการกู้คืนจนถึง
+
+Click to close
+คลิกเพื่อปิด
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+มีบางรหัสที่ยังไม่เสร็จในระดับนี้ลอง \nเรียกใช้และทำงานซ้ำ ...
+
+Scroll with mouse wheel,\nalt
+เลื่อนด้วยล้อเลื่อนของเมาส์ \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+คลิกเพื่อดูข้อความที่กู้คืนทั้งหมด
+
+Try using `else` and \na comparision like `>`
+ลองใช้ `else` และ การเปรียบเทียบเช่น `>'
+
+Read Comparison and Conditions III to see
+อ่านการเปรียบเทียบและเงื่อนไข III เพื่อดู
+
+and
+และ
+
+usage
+การใช้
+
+Try using a comparision like `>`
+ลองใช้การเปรียบเทียบเช่น `>`
+
+Try using `else`
+ลองใช้ `else`
+
+Press to run with execution paused
+กดเพื่อเรียกใช้เมื่อหยุดการทำงานชั่วคราว
+
+Notice the current evaluation is highlighted
+สังเกตว่าการประเมินผลปัจจุบันถูกเน้น
+
+Press, or use keyboard
+กดหรือใช้แป้นพิมพ์
+
+, to step forward to the next evaluation
+เพื่อก้าวไปสู่การประเมินต่อไป
+
+Level solutions can be\nsaved and loaded here
+โซลูชั่นระดับสามารถบันทึกและโหลดได้ที่นี่
+
+The best scoring code in each\ncategory is automatically saved
+รหัสการให้คะแนนที่ดีที่สุดในแต่ละหมวดหมู่จะถูกบันทึกโดยอัตโนมัติ
+
+Reach the revealed location
+เข้าถึงตำแหน่งที่เปิดเผย

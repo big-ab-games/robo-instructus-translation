@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Začít
+
+Continue
+Pokračovat
+
+Profile
+Profil
+
+### Menu
+Settings
+Nastavení
+
+Video
+Video
+
+Audio
+Zvuk
+
+Save & Quit
+Uložit
+
+Back
+Zadní
+
+UI Scale
+Měřítko uživatelského rozhraní
+
+Fullscreen
+Celá obrazovka
+
+Snowfall
+Sněžení
+
+Effects
+Účinky
+
+Sound
+Zvuk
+
+Music
+Hudba
+
+Title Screen
+Obrazovka titulu
+
+Autocomplete
+Automatické doplňování
+
+High
+Vysoký
+
+Low
+Nízký
+
+Medium
+Střední
+
+Background only
+Pouze pozadí
+
+On
+Na
+
+Off
+Vypnuto
+
+Language
+Jazyk
+
+### Tooltips
+Run
+Běh
+
+Menu
+Jídelní lístek
+
+Code Reference
+Odkaz na kód
+
+Decrease Speed
+Snížení rychlosti
+
+Increase Speed
+Zvýšit rychlost
+
+Message Archive
+Archiv zpráv
+
+Decrease Code Execution Rate
+Snižte rychlost spuštění kódu
+
+Increase Code Execution Rate
+Zvyšte rychlost spuštění kódu
+
+Load / Save new approach
+Načíst / uložit nový přístup
+
+Reset
+Reset
+
+Run (paused)
+Spustit (pozastaveno)
+
+Step over
+Překročit
+
+Stop
+Stop
+
+Step forward
+Krok vpřed
+
+Delete name
+Smazat jméno
+
+Exit Level
+Konec Úroveň
+
+Delete profile
+Smazat profil
+
+Confirm delete
+Potvrďte smazání
+
+### Overlay tutorials
+Type commands here
+Sem zadejte příkazy
+
+Add the lines:
+Přidejte řádky:
+
+Press play to run
+Stiskněte tlačítko pro spuštění
+
+Modify the commands and \nre-run to reach the exit
+Upravte příkazy a znovu spusťte, abyste dosáhli výstupu
+
+Press to exit level
+Stiskněte pro opuštění úrovně
+
+Levels have multiple stages\nclick here to view each
+Úrovně mají více stupňů
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Váš kód bude znovu spuštěn v každé fázi, takže jediné řešení musí vyřešit všechny. Zpět do první fáze
+
+Reach the first stage exit
+Dostaňte se k prvnímu výstupu
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Přepracovat k dosažení všech východů, nezapomeňte \nkód je v každé fázi znovu spuštěn shora
+
+Change game speed
+Změna rychlosti hry
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Kliknutím otevřete kódovou referenci, která obsahuje všechny
+
+Click to close
+Kliknutím zavřete
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Tam je nějaký nedokončený kód nalezený na této úrovni, zkuste to spustit a přepracovat ... nebo prostě začít od nuly
+
+Scroll with mouse wheel,\nalt
+Posouvejte kolečkem myši, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Kliknutím zobrazíte všechny obnovené zprávy
+
+Try using `else` and \na comparision like `>`
+Zkuste použít `else` a \na srovnání jako `>`
+
+Read Comparison and Conditions III to see
+Přečtěte si Porovnání a Podmínky III
+
+and
+a
+
+usage
+používání
+
+Try using a comparision like `>`
+Zkuste použít porovnání jako `>`
+
+Try using `else`
+Zkuste použít `else`
+
+Press to run with execution paused
+Stiskněte pro spuštění s pozastaveným provedením
+
+Notice the current evaluation is highlighted
+Všimněte si, že je zvýrazněno aktuální hodnocení
+
+Press, or use keyboard
+Stiskněte nebo použijte klávesnici
+
+, to step forward to the next evaluation
+, aby postoupili k dalšímu hodnocení
+
+Level solutions can be\nsaved and loaded here
+Úroveň řešení lze uložit a načíst zde
+
+The best scoring code in each\ncategory is automatically saved
+Automaticky se uloží nejlepší bodovací kód v každé kategorii
+
+Reach the revealed location
+Dosáhněte odhaleného místa
+

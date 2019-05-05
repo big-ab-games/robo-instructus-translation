@@ -1,29 +1,6 @@
-Exit Level
-Wyjście
-
-Language
-Język
-
-On
-1
-
-Off
-0
-
-Snowfall
-Opady śniegu
-
-Fullscreen
-Pełny ekran
-
-Click to close
-Kliknij, aby zamknąć
-
-Menu
-Menu
-
-Step forward
-Krok naprzód
+### Title screen
+Begin
+Zaczynać
 
 Continue
 Kontynuować
@@ -31,50 +8,82 @@ Kontynuować
 Profile
 Profil
 
-Delete profile
-Usuń profil
+### Menu
+Settings
+Ustawienia
 
-Try using `else` and \na comparision like `>`
-Spróbuj użyć `else` i \nporównania jak `>`
+Video
+Wideo
 
-Level solutions can be\nsaved and loaded here
-Rozwiązania poziomów można zapisywać i ładować tutaj
+Audio
+Audio
+
+Save & Quit
+Zapisz i wyjdź
+
+Back
+Z powrotem
+
+UI Scale
+Skala interfejsu użytkownika
+
+Fullscreen
+Pełny ekran
+
+Snowfall
+Opady śniegu
+
+Effects
+Ruchomości
+
+Sound
+Dźwięk
+
+Music
+Muzyka
+
+Title Screen
+Ekran tytułowy
 
 Autocomplete
 Autouzupełnienie
 
-The best scoring code in each\ncategory is automatically saved
-Najlepszy kod punktacji w każdej kategorii jest automatycznie zapisywany
+High
+Wysoki
 
-Type commands here
-Wpisz tutaj polecenia
+Low
+Niska
 
-Increase Speed
-Zwiększ prędkość
+Medium
+Średni
 
-Add the lines:
-Dodaj linie:
+Background only
+Tylko tło
 
-Click to view all recovered messages
-Kliknij, aby wyświetlić wszystkie odzyskane wiadomości
+On
+1
+
+Off
+0
+
+Language
+Język
+
+### Tooltips
+Run
+Biegać
+
+Menu
+Menu
+
+Code Reference
+Odniesienie do kodu
 
 Decrease Speed
 Zmniejsz prędkość
 
-Scroll with mouse wheel,\nalt
-Przewiń kółkiem myszy, \nalt
-
-Modify the commands and \nre-run to reach the exit
-Zmodyfikuj polecenia i ponownie uruchom, aby dotrzeć do wyjścia
-
-and
-i
-
-usage
-stosowanie
-
-Medium
-Średni
+Increase Speed
+Zwiększ prędkość
 
 Message Archive
 Archiwum wiadomości
@@ -82,128 +91,124 @@ Archiwum wiadomości
 Decrease Code Execution Rate
 Zmniejsz współczynnik wykonania kodu
 
-Press to run with execution paused
-Naciśnij, aby uruchomić z wstrzymanym wykonaniem
-
-Confirm delete
-Potwierdź usunięcie
-
-Press to exit level
-Naciśnij, aby wyjść z poziomu
-
-Notice the current evaluation is highlighted
-Zauważ, że bieżąca ocena jest podświetlona
-
-Change game speed
-Zmień szybkość gry
-
-Back
-Z powrotem
-
-Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nodzyskane do tej pory sekcje i funkcje startera
-
-Begin
-Zaczynać
-
-Effects
-Ruchomości
-
-Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Twój kod zostanie ponownie uruchomiony na każdym etapie,\nwięc jedno rozwiązanie musi rozwiązać wszystkie.\nWróć do pierwszego etapu
-
-, to step forward to the next evaluation
-, aby przejść do następnej oceny
-
-Press play to run
-Naciśnij play, aby uruchomić
-
-High
-Wysoki
-
-Run (paused)
-Uruchom (wstrzymany)
-
-Music
-Muzyka
-
-Background only
-Tylko tło
-
-Step over
-Krok nad
-
-Try using `else`
-Spróbuj użyć `else`
-
 Increase Code Execution Rate
 Zwiększ wskaźnik wykonania kodu
-
-Stop
-Zatrzymać
-
-Settings
-Ustawienia
-
-Reset
-Nastawić
-
-Reach the revealed location
-Dotrzyj do ujawnionej lokalizacji
-
-Press, or use keyboard
-Naciśnij lub użyj klawiatury
-
-Save & Quit
-Zapisz i wyjdź
-
-Run
-Biegać
-
-Rework to reach all exits, remember\n code is re-run from the top at each stage
-Przeróbka, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uruchamiany z góry na każdym etapie
-
-Code Reference
-Odniesienie do kodu
-
-Reach the first stage exit
-Dotrzyj do pierwszego etapu wyjścia
-
-Low
-Niska
-
-There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Na tym poziomie znaleziono jakiś niedokończony kod,\nspróbuj go uruchomić i przerobić... lub po prostu zacząć od zera
-
-Audio
-Audio
-
-Video
-Wideo
-
-Title Screen
-Ekran tytułowy
 
 Load / Save new approach
 Załaduj / zapisz nowe podejście
 
-Levels have multiple stages\nclick here to view each
-Poziomy mają wiele etapów\nkliknij tutaj, aby zobaczyć każdy z nich
+Reset
+Nastawić
 
-Sound
-Dźwięk
+Run (paused)
+Uruchom (wstrzymany)
+
+Step over
+Krok nad
+
+Stop
+Zatrzymać
+
+Step forward
+Krok naprzód
 
 Delete name
 Usuń nazwę
 
+Exit Level
+Wyjście
+
+Delete profile
+Usuń profil
+
+Confirm delete
+Potwierdź usunięcie
+
+### Overlay tutorials
+Type commands here
+Wpisz tutaj polecenia
+
+Add the lines:
+Dodaj linie:
+
+Press play to run
+Naciśnij play, aby uruchomić
+
+Modify the commands and \nre-run to reach the exit
+Zmodyfikuj polecenia i ponownie uruchom, aby dotrzeć do wyjścia
+
+Press to exit level
+Naciśnij, aby wyjść z poziomu
+
+Levels have multiple stages\nclick here to view each
+Poziomy mają wiele etapów\nkliknij tutaj, aby zobaczyć każdy z nich
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Twój kod zostanie ponownie uruchomiony na każdym etapie,\nwięc jedno rozwiązanie musi rozwiązać wszystkie.\nWróć do pierwszego etapu
+
+Reach the first stage exit
+Dotrzyj do pierwszego etapu wyjścia
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Przeróbka, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uruchamiany z góry na każdym etapie
+
+Change game speed
+Zmień szybkość gry
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nodzyskane do tej pory sekcje i funkcje startera
+
+Click to close
+Kliknij, aby zamknąć
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Na tym poziomie znaleziono jakiś niedokończony kod,\nspróbuj go uruchomić i przerobić... lub po prostu zacząć od zera
+
+Scroll with mouse wheel,\nalt
+Przewiń kółkiem myszy, \nalt
+
+, alt pageup/pagedown
+, alt pageup/pagedown
+
+Click to view all recovered messages
+Kliknij, aby wyświetlić wszystkie odzyskane wiadomości
+
+Try using `else` and \na comparision like `>`
+Spróbuj użyć `else` i \nporównania jak `>`
+
 Read Comparison and Conditions III to see
 Czytaj porównanie i warunki III, aby zobaczyć
 
-UI Scale
-Skala interfejsu użytkownika
+and
+i
 
-, alt pageup/pagedown
-, alt pageup/pagedown
+usage
+stosowanie
 
 Try using a comparision like `>`
 Spróbuj użyć porównania, takiego jak `>`
+
+Try using `else`
+Spróbuj użyć `else`
+
+Press to run with execution paused
+Naciśnij, aby uruchomić z wstrzymanym wykonaniem
+
+Notice the current evaluation is highlighted
+Zauważ, że bieżąca ocena jest podświetlona
+
+Press, or use keyboard
+Naciśnij lub użyj klawiatury
+
+, to step forward to the next evaluation
+, aby przejść do następnej oceny
+
+Level solutions can be\nsaved and loaded here
+Rozwiązania poziomów można zapisywać i ładować tutaj
+
+The best scoring code in each\ncategory is automatically saved
+Najlepszy kod punktacji w każdej kategorii jest automatycznie zapisywany
+
+Reach the revealed location
+Dotrzyj do ujawnionej lokalizacji
+

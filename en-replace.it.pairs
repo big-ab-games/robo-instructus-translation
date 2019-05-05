@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Inizio
+
+Continue
+Continua
+
+Profile
+Profilo
+
+### Menu
+Settings
+impostazioni
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Salvare
+
+Back
+Indietro
+
+UI Scale
+Scala UI
+
+Fullscreen
+A schermo intero
+
+Snowfall
+Nevicata
+
+Effects
+effetti
+
+Sound
+Suono
+
+Music
+Musica
+
+Title Screen
+Schermata del titolo
+
+Autocomplete
+Completamento automatico
+
+High
+Alto
+
+Low
+Basso
+
+Medium
+Medio
+
+Background only
+Solo sfondo
+
+On
+Sopra
+
+Off
+via
+
+Language
+linguaggio
+
+### Tooltips
+Run
+Correre
+
+Menu
+Menu
+
+Code Reference
+Codice di riferimento
+
+Decrease Speed
+Diminuisci velocità
+
+Increase Speed
+Aumentare la velocità
+
+Message Archive
+Archivio messaggi
+
+Decrease Code Execution Rate
+Riduci il tasso di esecuzione del codice
+
+Increase Code Execution Rate
+Aumentare il tasso di esecuzione del codice
+
+Load / Save new approach
+Carica / Salva un nuovo approccio
+
+Reset
+Reset
+
+Run (paused)
+Esegui (in pausa)
+
+Step over
+Scavalcare
+
+Stop
+Fermare
+
+Step forward
+Passo in avanti
+
+Delete name
+Elimina nome
+
+Exit Level
+Livello di uscita
+
+Delete profile
+Elimina profilo
+
+Confirm delete
+Conferma cancellazione
+
+### Overlay tutorials
+Type commands here
+Digita i comandi qui
+
+Add the lines:
+Aggiungi le linee:
+
+Press play to run
+Premi play per correre
+
+Modify the commands and \nre-run to reach the exit
+Modificare i comandi e \nri-eseguire per raggiungere l'uscita
+
+Press to exit level
+Premere per uscire dal livello
+
+Levels have multiple stages\nclick here to view each
+I livelli hanno più fasi \nfai clic qui per visualizzarli
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Il tuo codice verrà rieseguito in ogni fase, \nquindi un'unica soluzione deve risolvere tutto. \nTorna alla prima fase
+
+Reach the first stage exit
+Raggiungere l'uscita del primo stadio
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Rilavorazione per raggiungere tutte le uscite, ricorda \nil codice viene ripetuto dall'alto in ogni fase
+
+Change game speed
+Cambia la velocità di gioco
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Fare clic per aprire il codice di riferimento, contiene tutte le sezioni e le funzioni di primer recuperate finora
+
+Click to close
+Clicca per chiudere
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+C'è un codice incompleto trovato su questo livello, prova a eseguirlo e rielaborare ... o semplicemente iniziare da zero
+
+Scroll with mouse wheel,\nalt
+Scorri con la rotella del mouse, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Clicca per vedere tutti i messaggi recuperati
+
+Try using `else` and \na comparision like `>`
+Prova a usare `else` e \nun confronto come `>`
+
+Read Comparison and Conditions III to see
+Leggi il Confronto e le Condizioni III per vedere
+
+and
+e
+
+usage
+uso
+
+Try using a comparision like `>`
+Prova ad usare un confronto come `>`
+
+Try using `else`
+Prova a usare `else`
+
+Press to run with execution paused
+Premere per correre con l'esecuzione sospesa
+
+Notice the current evaluation is highlighted
+Si noti che la valutazione corrente è evidenziata
+
+Press, or use keyboard
+Premi o usa la tastiera
+
+, to step forward to the next evaluation
+, per avanzare alla valutazione successiva
+
+Level solutions can be\nsaved and loaded here
+Le soluzioni di livello possono essere salvate e caricate qui
+
+The best scoring code in each\ncategory is automatically saved
+Il miglior codice di punteggio in ciascuna \ncategoria viene automaticamente salvato
+
+Reach the revealed location
+Raggiungi la posizione rivelata

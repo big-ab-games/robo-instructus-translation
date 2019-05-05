@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Başla
+
+Continue
+Devam et
+
+Profile
+Profil
+
+### Menu
+Settings
+Ayarlar
+
+Video
+Video
+
+Audio
+Ses
+
+Save & Quit
+Kayıt etmek
+
+Back
+Geri
+
+UI Scale
+UI Ölçeği
+
+Fullscreen
+Tam ekran
+
+Snowfall
+Kar yağışı
+
+Effects
+Etkileri
+
+Sound
+Ses
+
+Music
+Müzik
+
+Title Screen
+Başlık ekranı
+
+Autocomplete
+Otomatik tamamlama
+
+High
+Yüksek
+
+Low
+Düşük
+
+Medium
+Orta
+
+Background only
+Sadece arka plan
+
+On
+üzerinde
+
+Off
+kapalı
+
+Language
+Dil
+
+### Tooltips
+Run
+Koşmak
+
+Menu
+Menü
+
+Code Reference
+Kod başvurusu
+
+Decrease Speed
+Hızı azalt
+
+Increase Speed
+Hızı arttır
+
+Message Archive
+Mesaj Arşivi
+
+Decrease Code Execution Rate
+Kod Yürütme Oranını Azalt
+
+Increase Code Execution Rate
+Kod Yürütme Oranını Artırın
+
+Load / Save new approach
+Yeni yaklaşımı yükle / kaydet
+
+Reset
+Reset
+
+Run (paused)
+Çalıştır (duraklatıldı)
+
+Step over
+Adım atmak
+
+Stop
+durdurmak
+
+Step forward
+Öne çık
+
+Delete name
+Adı sil
+
+Exit Level
+Çıkış Seviyesi
+
+Delete profile
+Profili sil
+
+Confirm delete
+Silmeyi onayla
+
+### Overlay tutorials
+Type commands here
+Komutları buraya yazın
+
+Add the lines:
+Satırları ekle:
+
+Press play to run
+Çalıştırmak için play tuşuna basın
+
+Modify the commands and \nre-run to reach the exit
+Komutları değiştirin ve çıkışa ulaşmak için \nyeniden çalıştırın.
+
+Press to exit level
+Seviye çıkmak için basın
+
+Levels have multiple stages\nclick here to view each
+Seviyeler birden fazla aşamada \nher birini görmek için buraya tıklayın
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Kodunuz her aşamada yeniden çalıştırılacak, \nböylece tek bir çözüm hepsini çözmeli
+
+Reach the first stage exit
+İlk etap çıkışına ulaşın
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Tüm çıkışlara ulaşmak için yeniden işleme, hatırla \nkod her aşamada baştan tekrar çalıştırılır
+
+Change game speed
+Oyun hızını değiştir
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Kod Referansını açmak için tıklayın, tüm
+
+Click to close
+Kapatmak için tıklayın
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Bu seviyede bazı bitmemiş kodlar var, dene \nçalıştır ve tekrar çalış
+
+Scroll with mouse wheel,\nalt
+Fare tekerleği ile kaydırma, \nalt
+
+, alt pageup/pagedown
+, sayfa başı / sayfalama
+
+Click to view all recovered messages
+Kurtarılan tüm mesajları görüntülemek için tıklayın
+
+Try using `else` and \na comparision like `>`
+`Else` ve `>` gibi bir\nkarşılaştırma yapmayı deneyin.
+
+Read Comparison and Conditions III to see
+Görmek için Karşılaştırma ve Koşullar III'ü okuyun.
+
+and
+ve
+
+usage
+kullanım
+
+Try using a comparision like `>`
+`>` Gibi bir karşılaştırma yapmayı deneyin.
+
+Try using `else`
+`Else` kullanmayı deneyin
+
+Press to run with execution paused
+Yürütme duraklatılmış olarak çalıştırmak için basın
+
+Notice the current evaluation is highlighted
+Mevcut değerlendirmenin vurgulandığına dikkat edin
+
+Press, or use keyboard
+Basın veya klavyeyi kullanın.
+
+, to step forward to the next evaluation
+, bir sonraki değerlendirmeye geçmek için
+
+Level solutions can be\nsaved and loaded here
+Seviye çözümleri burada \nkaydedilebilir ve yüklenebilir
+
+The best scoring code in each\ncategory is automatically saved
+Her kategorideki en iyi skor kodu otomatik olarak kaydedilir.
+
+Reach the revealed location
+Açığa çıkan yere ulaşın

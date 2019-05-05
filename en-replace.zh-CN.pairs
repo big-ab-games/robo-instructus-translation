@@ -1,0 +1,213 @@
+### Title screen
+Begin
+开始
+
+Continue
+继续
+
+Profile
+轮廓
+
+### Menu
+Settings
+设置
+
+Video
+视频
+
+Audio
+音频
+
+Save & Quit
+保存
+
+Back
+背部
+
+UI Scale
+UI比例
+
+Fullscreen
+全屏
+
+Snowfall
+降雪
+
+Effects
+效果
+
+Sound
+声音
+
+Music
+音乐
+
+Title Screen
+标题屏幕
+
+Autocomplete
+自动完成
+
+High
+高
+
+Low
+低
+
+Medium
+介质
+
+Background only
+仅限背景
+
+On
+上
+
+Off
+离
+
+Language
+语言
+
+### Tooltips
+Run
+跑
+
+Menu
+菜单
+
+Code Reference
+代码参考
+
+Decrease Speed
+降低速度
+
+Increase Speed
+增速
+
+Message Archive
+消息存档
+
+Decrease Code Execution Rate
+降低代码执行率
+
+Increase Code Execution Rate
+提高代码执行率
+
+Load / Save new approach
+加载/保存新方法
+
+Reset
+重启
+
+Run (paused)
+运行（暂停）
+
+Step over
+过来
+
+Stop
+停止
+
+Step forward
+向前一步
+
+Delete name
+删除名称
+
+Exit Level
+退出等级
+
+Delete profile
+删除个人资料
+
+Confirm delete
+确认删除
+
+### Overlay tutorials
+Type commands here
+在此输入命令
+
+Add the lines:
+添加行：
+
+Press play to run
+按播放即可运行
+
+Modify the commands and \nre-run to reach the exit
+修改命令并重新运行以到达出口
+
+Press to exit level
+按退出水平
+
+Levels have multiple stages\nclick here to view each
+级别有多个阶段\n单击此处查看每个阶段
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+您的代码将在每个阶段重新运行，因此单个解决方案必须解决所有问题。\n返回第一阶段
+
+Reach the first stage exit
+到达第一阶段退出
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+返工到达所有出口，记住\n代码在每个阶段从顶部重新运行
+
+Change game speed
+改变游戏速度
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+单击打开代码参考，它包含到目前为止已恢复的所有引物部分和功能
+
+Click to close
+点击关闭
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+在这个级别上找到了一些未完成的代码，尝试运行它并重新编写......或者只是从头开始
+
+Scroll with mouse wheel,\nalt
+滚动鼠标滚轮，\nalt
+
+, alt pageup/pagedown
+，alt pageup / pagedown
+
+Click to view all recovered messages
+单击以查看所有已恢复的消息
+
+Try using `else` and \na comparision like `>`
+尝试使用`else`和\n比较`>`
+
+Read Comparison and Conditions III to see
+阅读比较和条件III看
+
+and
+和
+
+usage
+用法
+
+Try using a comparision like `>`
+尝试使用像`>`这样的比较
+
+Try using `else`
+尝试使用`else`
+
+Press to run with execution paused
+按暂停执行的运行
+
+Notice the current evaluation is highlighted
+请注意，当前评估会突出显示
+
+Press, or use keyboard
+按，或使用键盘
+
+, to step forward to the next evaluation
+，前进到下一个评估
+
+Level solutions can be\nsaved and loaded here
+可以在此处保存和加载级别解决方案
+
+The best scoring code in each\ncategory is automatically saved
+每个类别中最好的评分代码会自动保存
+
+Reach the revealed location
+到达显示的位置

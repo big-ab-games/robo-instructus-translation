@@ -21,9 +21,38 @@ Usuń profil
 
 Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
-* Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
+#### Machine translations needing review
 * Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
+* български език [en-replace.bg.pairs](./en-replace.bg.pairs)
+* 简体中文 [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
+* 繁體中文 [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
+* čeština [en-replace.cs.pairs](./en-replace.cs.pairs)
+* Dansk [en-replace.da.pairs](./en-replace.da.pairs)
+* Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
+* Suomi [en-replace.fi.pairs](./en-replace.fi.pairs)
+* Français [en-replace.fr.pairs](./en-replace.fr.pairs)
+* Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
+* Ελληνικά [en-replace.el.pairs](./en-replace.el.pairs)
+* Magyar [en-replace.hu.pairs](./en-replace.hu.pairs)
+* Italiano [en-replace.it.pairs](./en-replace.it.pairs)
+* 日本語 [en-replace.ja.pairs](./en-replace.ja.pairs)
+* 한국어 [en-replace.ko.pairs](./en-replace.ko.pairs)
+* Norsk [en-replace.no.pairs](./en-replace.no.pairs)
+* Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
+* Português [en-replace.pt.pairs](./en-replace.pt.pairs)
+* Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
+* Română [en-replace.ro.pairs](./en-replace.ro.pairs)
+* Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
+* Español-España [en-replace.e.pairs](./en-replace.e.pairs)
+* Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
+* ไทย [en-replace.th.pairs](./en-replace.th.pairs)
+* Türkçe [en-replace.tr.pairs](./en-replace.tr.pairs)
+* Українська [en-replace.uk.pairs](./en-replace.uk.pairs)
+* Tiếng Việt [en-replace.v.pairs](./en-replace.v.pairs)
+
+#### Community improved translations
+* Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 

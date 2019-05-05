@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Începe
+
+Continue
+Continua
+
+Profile
+Profil
+
+### Menu
+Settings
+Setări
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Salvați
+
+Back
+Înapoi
+
+UI Scale
+UI Scală
+
+Fullscreen
+Ecran complet
+
+Snowfall
+Ninsoare
+
+Effects
+Efecte
+
+Sound
+Sunet
+
+Music
+Muzică
+
+Title Screen
+Ecranul de titlu
+
+Autocomplete
+Completare automată
+
+High
+Înalt
+
+Low
+Scăzut
+
+Medium
+Mediu
+
+Background only
+Doar fundal
+
+On
+Pe
+
+Off
+de pe
+
+Language
+Limba
+
+### Tooltips
+Run
+Alerga
+
+Menu
+Meniul
+
+Code Reference
+Cod de referință
+
+Decrease Speed
+Scade viteza
+
+Increase Speed
+Mărește viteza
+
+Message Archive
+Mesaj Arhiva
+
+Decrease Code Execution Rate
+Reduceți rata de executare a codului
+
+Increase Code Execution Rate
+Creșterea ratei de executare a codului
+
+Load / Save new approach
+Încărcați / salvați o nouă abordare
+
+Reset
+restabili
+
+Run (paused)
+Rularea (întreruptă)
+
+Step over
+Pas peste
+
+Stop
+Stop
+
+Step forward
+Pas înainte
+
+Delete name
+Ștergeți numele
+
+Exit Level
+Ieșire Nivel
+
+Delete profile
+Ștergeți profilul
+
+Confirm delete
+Confirmă ștergerea
+
+### Overlay tutorials
+Type commands here
+Introduceți comenzi aici
+
+Add the lines:
+Adăugați liniile:
+
+Press play to run
+Apăsați pe redare pentru a rula
+
+Modify the commands and \nre-run to reach the exit
+Modificați comenzile și \nre-executați pentru a ajunge la ieșire
+
+Press to exit level
+Apăsați pentru a ieși din nivel
+
+Levels have multiple stages\nclick here to view each
+Nivelurile au mai multe etape \nfaceți clic aici pentru a vedea fiecare
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Codul dvs. va fi reluat în fiecare etapă, astfel încât o singură soluție trebuie să rezolve toate. Întoarceți-vă la prima etapă
+
+Reach the first stage exit
+Ajungeți la ieșirea din prima etapă
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Rework pentru a ajunge la toate ieșirile, rețineți \ncodul este reluat de la început în fiecare etapă
+
+Change game speed
+Modificați viteza jocului
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Faceți clic pentru a deschide codul de referință, conține toate secțiunile și funcțiile recuperate până acum
+
+Click to close
+Faceți clic pentru a închide
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Există niște coduri neterminate găsite la acest nivel, încercați \nsă le rulați și să le refaceți ... sau să începeți de la zero
+
+Scroll with mouse wheel,\nalt
+Derulați cu rotița mouse-ului, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Faceți clic pentru a vizualiza toate mesajele recuperate
+
+Try using `else` and \na comparision like `>`
+Încercați să utilizați altceva și o comparație ca `` `
+
+Read Comparison and Conditions III to see
+Citiți comparația și condițiile III pentru a vedea
+
+and
+și
+
+usage
+folosire
+
+Try using a comparision like `>`
+Încercați să utilizați o comparație ca `` `
+
+Try using `else`
+Încercați să utilizați &quot;altceva&quot;
+
+Press to run with execution paused
+Apăsați pentru a rula cu execuția întreruptă
+
+Notice the current evaluation is highlighted
+Observați că evaluarea curentă este evidențiată
+
+Press, or use keyboard
+Apăsați sau utilizați tastatura
+
+, to step forward to the next evaluation
+, pentru a merge mai departe la următoarea evaluare
+
+Level solutions can be\nsaved and loaded here
+Soluțiile de nivel pot fi salvate și încărcate aici
+
+The best scoring code in each\ncategory is automatically saved
+Cel mai bun cod de notare din fiecare categorie \neste salvat automat
+
+Reach the revealed location
+Ajungeți la locația descoperită
+

@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Bắt đầu
+
+Continue
+Tiếp tục
+
+Profile
+Hồ sơ
+
+### Menu
+Settings
+Cài đặt
+
+Video
+Video
+
+Audio
+Âm thanh
+
+Save & Quit
+Tiết kiệm
+
+Back
+Trở lại
+
+UI Scale
+Tỷ lệ giao diện người dùng
+
+Fullscreen
+Toàn màn hình
+
+Snowfall
+Tuyết rơi
+
+Effects
+Hiệu ứng
+
+Sound
+Âm thanh
+
+Music
+Âm nhạc
+
+Title Screen
+Màn hình tiêu đề
+
+Autocomplete
+Tự động hoàn thành
+
+High
+Cao
+
+Low
+Thấp
+
+Medium
+Trung bình
+
+Background only
+Chỉ nền
+
+On
+Trên
+
+Off
+Tắt
+
+Language
+Ngôn ngữ
+
+### Tooltips
+Run
+Chạy
+
+Menu
+Thực đơn
+
+Code Reference
+Tham chiếu mã
+
+Decrease Speed
+Giảm tốc độ
+
+Increase Speed
+Tăng tốc độ
+
+Message Archive
+Lưu trữ tin nhắn
+
+Decrease Code Execution Rate
+Giảm tỷ lệ thực thi mã
+
+Increase Code Execution Rate
+Tăng tỷ lệ thực thi mã
+
+Load / Save new approach
+Tải / lưu phương pháp mới
+
+Reset
+Cài lại
+
+Run (paused)
+Chạy (tạm dừng)
+
+Step over
+Bước qua
+
+Stop
+Dừng lại
+
+Step forward
+Bước về phía trước
+
+Delete name
+Xóa tên
+
+Exit Level
+Cấp thoát
+
+Delete profile
+Xóa hồ sơ
+
+Confirm delete
+Xác nhận xóa
+
+### Overlay tutorials
+Type commands here
+Nhập lệnh tại đây
+
+Add the lines:
+Thêm các dòng:
+
+Press play to run
+Nhấn play để chạy
+
+Modify the commands and \nre-run to reach the exit
+Sửa đổi các lệnh và \nchạy lại để đạt được lối ra
+
+Press to exit level
+Nhấn để thoát mức
+
+Levels have multiple stages\nclick here to view each
+Cấp độ có nhiều giai đoạn \nbấm vào đây để xem từng cấp độ
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Mã của bạn sẽ được chạy lại từng giai đoạn, vì vậy một giải pháp duy nhất phải giải quyết tất cả. Quay trở lại giai đoạn đầu tiên
+
+Reach the first stage exit
+Tiếp cận lối ra giai đoạn đầu tiên
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Làm lại để đạt được tất cả các lối thoát, hãy nhớ \nmã được chạy lại từ đầu ở mỗi giai đoạn
+
+Change game speed
+Thay đổi tốc độ trò chơi
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Bấm để mở Mã tham chiếu, nó chứa tất cả \ncác phần và chức năng mồi được phục hồi
+
+Click to close
+Bấm để đóng
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Có một số mã chưa hoàn thành được tìm thấy ở cấp độ này, hãy thử \nchạy nó và làm lại ... hoặc chỉ bắt đầu từ đầu
+
+Scroll with mouse wheel,\nalt
+Cuộn bằng bánh xe chuột, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Nhấn vào đây để xem tất cả các tin nhắn được phục hồi
+
+Try using `else` and \na comparision like `>`
+Hãy thử sử dụng `else` và \nmột phép so sánh như `>`
+
+Read Comparison and Conditions III to see
+Đọc So sánh và Điều kiện III để xem
+
+and
+và
+
+usage
+sử dụng
+
+Try using a comparision like `>`
+Hãy thử sử dụng một phép so sánh như `>`
+
+Try using `else`
+Hãy thử sử dụng `else`
+
+Press to run with execution paused
+Nhấn để chạy với thực thi bị tạm dừng
+
+Notice the current evaluation is highlighted
+Lưu ý đánh giá hiện tại được tô sáng
+
+Press, or use keyboard
+Nhấn hoặc sử dụng bàn phím
+
+, to step forward to the next evaluation
+, để bước tới đánh giá tiếp theo
+
+Level solutions can be\nsaved and loaded here
+Các giải pháp cấp độ có thể được lưu và tải ở đây
+
+The best scoring code in each\ncategory is automatically saved
+Mã điểm tốt nhất trong mỗi loại được lưu tự động
+
+Reach the revealed location
+Đến địa điểm được tiết lộ

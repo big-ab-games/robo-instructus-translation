@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Alkaa
+
+Continue
+Jatkaa
+
+Profile
+Profiili
+
+### Menu
+Settings
+asetukset
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Tallentaa
+
+Back
+Takaisin
+
+UI Scale
+UI-skaala
+
+Fullscreen
+Koko näyttö
+
+Snowfall
+Lumisade
+
+Effects
+tehosteet
+
+Sound
+Ääni
+
+Music
+musiikki
+
+Title Screen
+Otsikkoruutu
+
+Autocomplete
+Automaattinen täydennys
+
+High
+Korkea
+
+Low
+Matala
+
+Medium
+keskikokoinen
+
+Background only
+Vain tausta
+
+On
+Päällä
+
+Off
+Pois päältä
+
+Language
+Kieli
+
+### Tooltips
+Run
+Juosta
+
+Menu
+valikko
+
+Code Reference
+Koodiviite
+
+Decrease Speed
+Vähennä nopeutta
+
+Increase Speed
+Lisätä nopeutta
+
+Message Archive
+Viestiarkisto
+
+Decrease Code Execution Rate
+Pienennä koodin suorittamista
+
+Increase Code Execution Rate
+Lisää koodin suorittamisnopeutta
+
+Load / Save new approach
+Lataa / tallenna uusi lähestymistapa
+
+Reset
+asettaa uudelleen
+
+Run (paused)
+Suorita (keskeytetty)
+
+Step over
+Astua yli
+
+Stop
+Stop
+
+Step forward
+Astu eteenpäin
+
+Delete name
+Poista nimi
+
+Exit Level
+Poistu tasosta
+
+Delete profile
+Poista profiili
+
+Confirm delete
+Vahvista poistaminen
+
+### Overlay tutorials
+Type commands here
+Kirjoita komentoja tähän
+
+Add the lines:
+Lisää rivit:
+
+Press play to run
+Paina toista, jos haluat suorittaa
+
+Modify the commands and \nre-run to reach the exit
+Muuta komennot ja \nkäynnistä uudelleen päästäksesi ulos
+
+Press to exit level
+Poistu tasosta painamalla
+
+Levels have multiple stages\nclick here to view each
+Tasoilla on useita vaiheita
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Koodi suoritetaan uudelleen jokaisessa vaiheessa, joten yksi ratkaisu on ratkaistava. \nPalaa ensimmäiseen vaiheeseen
+
+Reach the first stage exit
+Pääset ensimmäiseen vaiheeseen
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Uudelleenkäsittely päästäksesi kaikkiin uloskäynteihin, muista \nkoodi ajetaan uudestaan ylhäältä jokaisessa vaiheessa
+
+Change game speed
+Muuta pelin nopeutta
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Avaa koodiohje napsauttamalla sitä, se sisältää kaikki \nalkukappaleet ja toiminnot, jotka on palautettu tähän mennessä
+
+Click to close
+Sulje napsauttamalla
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Tässä tasossa on jonkin verran keskeneräistä koodia, yritä \najaa sitä ja muokata ... tai aloita tyhjästä
+
+Scroll with mouse wheel,\nalt
+Vieritä hiiren pyörällä, \nalt
+
+, alt pageup/pagedown
+, alt pageup / sivunäkymä
+
+Click to view all recovered messages
+Näytä kaikki palautetut viestit napsauttamalla
+
+Try using `else` and \na comparision like `>`
+Yritä käyttää `else` ja \nvertailua kuten `>`
+
+Read Comparison and Conditions III to see
+Lue vertailu ja ehdot III
+
+and
+ja
+
+usage
+käyttö
+
+Try using a comparision like `>`
+Yritä käyttää vertailua, kuten `>`
+
+Try using `else`
+Kokeile käyttää `else`
+
+Press to run with execution paused
+Paina, jos haluat suorittaa suorituksen keskeytetyllä tavalla
+
+Notice the current evaluation is highlighted
+Huomaa, että nykyinen arviointi on korostettu
+
+Press, or use keyboard
+Paina tai käytä näppäimistöä
+
+, to step forward to the next evaluation
+, askel eteenpäin seuraavaan arviointiin
+
+Level solutions can be\nsaved and loaded here
+Tason ratkaisut voidaan tallentaa ja ladata tähän
+
+The best scoring code in each\ncategory is automatically saved
+Paras pisteytyskoodi kussakin kategoriassa tallennetaan automaattisesti
+
+Reach the revealed location
+Saavuta paljastunut sijainti

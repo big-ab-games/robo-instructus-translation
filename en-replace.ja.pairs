@@ -1,0 +1,214 @@
+### Title screen
+Begin
+ベギン
+
+Continue
+持続する
+
+Profile
+プロフィール
+
+### Menu
+Settings
+設定
+
+Video
+ビデオ
+
+Audio
+オーディオ
+
+Save & Quit
+保存する
+
+Back
+バック
+
+UI Scale
+UIスケール
+
+Fullscreen
+全画面表示
+
+Snowfall
+降雪
+
+Effects
+効果
+
+Sound
+音
+
+Music
+音楽
+
+Title Screen
+タイトル画面
+
+Autocomplete
+オートコンプリート
+
+High
+高い
+
+Low
+低い
+
+Medium
+中
+
+Background only
+背景のみ
+
+On
+に
+
+Off
+オフ
+
+Language
+言語
+
+### Tooltips
+Run
+実行する
+
+Menu
+メニュー
+
+Code Reference
+コード参照
+
+Decrease Speed
+速度を下げる
+
+Increase Speed
+速度を上げます
+
+Message Archive
+メッセージアーカイブ
+
+Decrease Code Execution Rate
+コード実行率を下げる
+
+Increase Code Execution Rate
+コード実行率を上げる
+
+Load / Save new approach
+新しいアプローチをロード/保存
+
+Reset
+リセット
+
+Run (paused)
+実行（一時停止）
+
+Step over
+ステップオーバー
+
+Stop
+やめる
+
+Step forward
+踏み出す
+
+Delete name
+名前を削除
+
+Exit Level
+終了レベル
+
+Delete profile
+プロフィールを削除
+
+Confirm delete
+削除を確認
+
+### Overlay tutorials
+Type commands here
+ここにコマンドを入力
+
+Add the lines:
+行を追加します。
+
+Press play to run
+走るためにplayを押す
+
+Modify the commands and \nre-run to reach the exit
+コマンドを変更して、出口に到達するように再実行します。
+
+Press to exit level
+終了レベルに押す
+
+Levels have multiple stages\nclick here to view each
+レベルには複数の段階があります\nそれぞれを見るにはここをクリックしてください
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+コードは各ステージで再実行されるため、1つのソリューションですべてを解決する必要があります。\n最初のステージに戻る
+
+Reach the first stage exit
+第一段階出口に達する
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+覚えておいてください。各段階でコードが上から再実行される
+
+Change game speed
+ゲームスピードを変更する
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+クリックすると、コードリファレンスが開きます。これには、\nこれまでに回復したすべての\nプライマーセクションと機能
+
+Click to close
+クリックして閉じる
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+このレベルには未完成のコードがいくつかあります。それを実行してやり直してみてください。
+
+Scroll with mouse wheel,\nalt
+マウスホイールでスクロールします、\nalt
+
+, alt pageup/pagedown
+、代替ページアップ/ページダウン
+
+Click to view all recovered messages
+クリックして回収されたメッセージをすべて表示
+
+Try using `else` and \na comparision like `>`
+`else`と`>`のような比較を使ってみてください。
+
+Read Comparison and Conditions III to see
+比較と条件IIIを読んで見てください
+
+and
+そして
+
+usage
+使用法
+
+Try using a comparision like `>`
+`>`のような比較を使ってみてください
+
+Try using `else`
+elseを使ってみてください
+
+Press to run with execution paused
+実行を一時停止して実行する場合に押します
+
+Notice the current evaluation is highlighted
+現在の評価が強調表示されていることに注目してください。
+
+Press, or use keyboard
+キーボードを押すか使用する
+
+, to step forward to the next evaluation
+、次の評価に進むために
+
+Level solutions can be\nsaved and loaded here
+レベルのソリューションを\n保存してここにロードすることができます
+
+The best scoring code in each\ncategory is automatically saved
+各カテゴリーの最高得点コードは自動的に保存されます
+
+Reach the revealed location
+明らかにされた場所に達する
+

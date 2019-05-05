@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Börja
+
+Continue
+Fortsätta
+
+Profile
+Profil
+
+### Menu
+Settings
+inställningar
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Spara
+
+Back
+Tillbaka
+
+UI Scale
+UI-skala
+
+Fullscreen
+Fullskärm
+
+Snowfall
+Snöfall
+
+Effects
+effekter
+
+Sound
+Ljud
+
+Music
+musik
+
+Title Screen
+Titel skärm
+
+Autocomplete
+Komplettera automatiskt
+
+High
+Hög
+
+Low
+Låg
+
+Medium
+Medium
+
+Background only
+Endast bakgrund
+
+On
+På
+
+Off
+Av
+
+Language
+Språk
+
+### Tooltips
+Run
+Springa
+
+Menu
+Meny
+
+Code Reference
+Kodreferens
+
+Decrease Speed
+Minska hastigheten
+
+Increase Speed
+Öka hastighet
+
+Message Archive
+Meddelandearkiv
+
+Decrease Code Execution Rate
+Minska Code Execution Rate
+
+Increase Code Execution Rate
+Öka kodkörningsfrekvensen
+
+Load / Save new approach
+Ladda / spara ny tillvägagångssätt
+
+Reset
+Återställa
+
+Run (paused)
+Kör (pausad)
+
+Step over
+Kliva över
+
+Stop
+Sluta
+
+Step forward
+Stig fram
+
+Delete name
+Ta bort namn
+
+Exit Level
+Utgångsnivå
+
+Delete profile
+Ta bort profil
+
+Confirm delete
+Bekräfta radering
+
+### Overlay tutorials
+Type commands here
+Skriv kommandon här
+
+Add the lines:
+Lägg till raderna:
+
+Press play to run
+Tryck på spel för att springa
+
+Modify the commands and \nre-run to reach the exit
+Ändra kommandona och \nre-run för att nå utgången
+
+Press to exit level
+Tryck för att avsluta nivån
+
+Levels have multiple stages\nclick here to view each
+Nivån har flera steg \nklicka här för att se var och en
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Din kod kommer att återföras varje steg, \nså en enda lösning måste lösa alla. \nÅtergå till första etappen
+
+Reach the first stage exit
+Nå den första etappen
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Rework för att nå alla utgångar, kom ihåg \nkoden återförs upp från toppen i varje steg
+
+Change game speed
+Ändra spelhastighet
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Klicka för att öppna kodreferensen, den innehåller alla \nde primära sektionerna och funktionerna hittills återställda
+
+Click to close
+Klicka för att stänga
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Det finns en del oavslutad kod hittad på den här nivån, försök \nköra den och omarbeta ... eller bara börja från början
+
+Scroll with mouse wheel,\nalt
+Rulla med mushjulet, \nalt
+
+, alt pageup/pagedown
+, all sida / pagedown
+
+Click to view all recovered messages
+Klicka för att visa alla återställda meddelanden
+
+Try using `else` and \na comparision like `>`
+Försök använda `else` och \na jämförelse som `>`
+
+Read Comparison and Conditions III to see
+Läs jämförelse och villkor III att se
+
+and
+och
+
+usage
+användande
+
+Try using a comparision like `>`
+Försök att använda en jämförelse som `>`
+
+Try using `else`
+Försök använda `else`
+
+Press to run with execution paused
+Tryck för att köra med körning pausad
+
+Notice the current evaluation is highlighted
+Observera att den aktuella utvärderingen är markerad
+
+Press, or use keyboard
+Tryck på eller använd tangentbordet
+
+, to step forward to the next evaluation
+, för att gå vidare till nästa utvärdering
+
+Level solutions can be\nsaved and loaded here
+Nivålösningar kan \nsparas och laddas här
+
+The best scoring code in each\ncategory is automatically saved
+Den bästa poängkoden i varje kategori sparas automatiskt
+
+Reach the revealed location
+Nå den uppenbara platsen

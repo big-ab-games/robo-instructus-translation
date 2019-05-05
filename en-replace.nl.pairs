@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Beginnen
+
+Continue
+Doorgaan met
+
+Profile
+Profiel
+
+### Menu
+Settings
+instellingen
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Opslaan
+
+Back
+Terug
+
+UI Scale
+UI-schaal
+
+Fullscreen
+Volledig scherm
+
+Snowfall
+Sneeuwval
+
+Effects
+Bijwerkingen
+
+Sound
+Geluid
+
+Music
+Muziek
+
+Title Screen
+Titelscherm
+
+Autocomplete
+Autocomplete
+
+High
+Hoog
+
+Low
+Laag
+
+Medium
+Medium
+
+Background only
+Alleen achtergrond
+
+On
+Op
+
+Off
+Uit
+
+Language
+Taal
+
+### Tooltips
+Run
+Rennen
+
+Menu
+Menu
+
+Code Reference
+Codeverwijzing
+
+Decrease Speed
+Verminder snelheid
+
+Increase Speed
+Verhoog de snelheid
+
+Message Archive
+Berichtenarchief
+
+Decrease Code Execution Rate
+Verlaag code uitvoeringssnelheid
+
+Increase Code Execution Rate
+Verhoog code uitvoeringssnelheid
+
+Load / Save new approach
+Nieuwe aanpak laden / opslaan
+
+Reset
+Reset
+
+Run (paused)
+Uitvoeren (gepauzeerd)
+
+Step over
+Overstappen
+
+Stop
+Hou op
+
+Step forward
+Stap naar voren
+
+Delete name
+Naam verwijderen
+
+Exit Level
+Verlaat niveau
+
+Delete profile
+Verwijder profiel
+
+Confirm delete
+Bevestig verwijderen
+
+### Overlay tutorials
+Type commands here
+Typ hier commando's
+
+Add the lines:
+Voeg de lijnen toe:
+
+Press play to run
+Druk op play om uit te voeren
+
+Modify the commands and \nre-run to reach the exit
+Wijzig de opdrachten en \nopnieuw uitvoeren om de uitgang te bereiken
+
+Press to exit level
+Druk om het level te verlaten
+
+Levels have multiple stages\nclick here to view each
+Niveaus hebben meerdere fasen \nklik hier om ze allemaal te bekijken
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Je code wordt elke fase opnieuw uitgevoerd, dus één oplossing moet alles oplossen. \nKeer terug naar de eerste fase
+
+Reach the first stage exit
+Bereik de uitgang van de eerste etappe
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Herwerk om alle uitgangen te bereiken, onthoud \ncode wordt opnieuw uitgevoerd vanaf de top in elke fase
+
+Change game speed
+Verander de snelheid van het spel
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Klik om de codereferentie te openen, deze bevat alle \nde primersecties en functies die tot nu toe zijn hersteld
+
+Click to close
+Klik om te sluiten
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Er is een aantal niet-voltooide code gevonden op dit niveau, probeer het door te voeren en opnieuw te bewerken ... of begin gewoon helemaal opnieuw
+
+Scroll with mouse wheel,\nalt
+Scrol met muiswiel, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Klik om alle herstelde berichten te bekijken
+
+Try using `else` and \na comparision like `>`
+Probeer `else` en \neen vergelijking zoals `>` te gebruiken
+
+Read Comparison and Conditions III to see
+Lees Vergelijking en Voorwaarden III om te zien
+
+and
+en
+
+usage
+gebruik
+
+Try using a comparision like `>`
+Gebruik een vergelijking zoals `>`
+
+Try using `else`
+Probeer `else` te gebruiken
+
+Press to run with execution paused
+Druk op om uit te voeren terwijl de uitvoering is gepauzeerd
+
+Notice the current evaluation is highlighted
+Let op de huidige evaluatie is gemarkeerd
+
+Press, or use keyboard
+Druk op of gebruik het toetsenbord
+
+, to step forward to the next evaluation
+, om door te gaan naar de volgende evaluatie
+
+Level solutions can be\nsaved and loaded here
+Niveauoplossingen kunnen hier worden opgeslagen en geladen
+
+The best scoring code in each\ncategory is automatically saved
+De beste scorecode in elke categorie wordt automatisch opgeslagen
+
+Reach the revealed location
+Bereik de geopenbaarde locatie

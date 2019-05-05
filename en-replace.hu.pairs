@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Kezdődik
+
+Continue
+Folytatni
+
+Profile
+Profil
+
+### Menu
+Settings
+Beállítások
+
+Video
+Videó
+
+Audio
+Hang
+
+Save & Quit
+Mentés
+
+Back
+Hát
+
+UI Scale
+UI skála
+
+Fullscreen
+Teljes képernyő
+
+Snowfall
+Hóesés
+
+Effects
+Hatások
+
+Sound
+Hang
+
+Music
+Zene
+
+Title Screen
+Cím képernyő
+
+Autocomplete
+Automatikus kiegészítés
+
+High
+Magas
+
+Low
+Alacsony
+
+Medium
+Közepes
+
+Background only
+Csak háttér
+
+On
+Tovább
+
+Off
+Ki
+
+Language
+Nyelv
+
+### Tooltips
+Run
+Fuss
+
+Menu
+Menü
+
+Code Reference
+Kód hivatkozás
+
+Decrease Speed
+Csökkentse a sebességet
+
+Increase Speed
+Sebesség növelése
+
+Message Archive
+Üzenetarchívum
+
+Decrease Code Execution Rate
+A kód végrehajtásának csökkentése
+
+Increase Code Execution Rate
+Növelje a kód végrehajtási arányát
+
+Load / Save new approach
+Új megközelítés betöltése / mentése
+
+Reset
+Visszaállítás
+
+Run (paused)
+Futtatás (szüneteltetés)
+
+Step over
+Átlép
+
+Stop
+Állj meg
+
+Step forward
+Lépjen elő
+
+Delete name
+Név törlése
+
+Exit Level
+Kilépési szint
+
+Delete profile
+Profil törlése
+
+Confirm delete
+Törlés jóváhagyása
+
+### Overlay tutorials
+Type commands here
+Írja be a parancsokat itt
+
+Add the lines:
+A sorok hozzáadása:
+
+Press play to run
+A lejátszáshoz nyomja meg a lejátszást
+
+Modify the commands and \nre-run to reach the exit
+Módosítsa a parancsokat és \nújra futtatni a kilépéshez
+
+Press to exit level
+A kilépéshez nyomja meg a gombot
+
+Levels have multiple stages\nclick here to view each
+A szintek több lépcsővel rendelkeznek
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+A kódot minden egyes szakaszban újra kell futtatni, így egyetlen megoldást kell megoldania. \nVisszatérés az első szakaszba
+
+Reach the first stage exit
+Érje el az első szakasz kilépését
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Átdolgozás az összes kijárat eléréséhez, ne feledje A kód minden fázisban újra futtatható
+
+Change game speed
+A játék sebességének módosítása
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+A Kód hivatkozás megnyitásához kattintson az összes, az eddigi helyreállítási szakaszra és funkcióra
+
+Click to close
+Kattintson a bezáráshoz
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Van még egy befejezetlen kód ebben a szinten, próbáld ki és futtatni ... vagy csak kezdj a semmiből
+
+Scroll with mouse wheel,\nalt
+Görgessen az egérgombbal, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Kattintson az összes visszaállított üzenet megtekintéséhez
+
+Try using `else` and \na comparision like `>`
+Próbáld ki az `else` és \negy összehasonlítást, mint a `>`
+
+Read Comparison and Conditions III to see
+Olvassa el az összehasonlítást és a feltételeket III
+
+and
+és
+
+usage
+használat
+
+Try using a comparision like `>`
+Próbáljon ki egy olyan összehasonlítást, mint a `>`
+
+Try using `else`
+Próbáld ki az `else`
+
+Press to run with execution paused
+Nyomja meg a futtatáshoz szüneteltetéssel
+
+Notice the current evaluation is highlighted
+Figyeljük meg, hogy az aktuális értékelés kiemelve van
+
+Press, or use keyboard
+Nyomja meg a gombot, vagy használja a billentyűzetet
+
+, to step forward to the next evaluation
+, hogy lépjen tovább a következő értékelésre
+
+Level solutions can be\nsaved and loaded here
+A szintmegoldásokat itt lehet elmenteni és betölteni
+
+The best scoring code in each\ncategory is automatically saved
+Minden kategória legjobb pontozási kódja automatikusan mentésre kerül
+
+Reach the revealed location
+Érje el a feltárt helyet
+

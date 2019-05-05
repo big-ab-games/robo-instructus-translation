@@ -21,6 +21,9 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
     );
 
     let mut json: Value = client.get(&url).send().ok()?.json().ok()?;
+    if json["data"]["translations"].is_null() {
+        return None;
+    }
     match json["data"]["translations"][0]["translatedText"].take() {
         Value::String(translated) => Some(translated.replace("| ", "\n").replace("|", "\n")),
         _ => None

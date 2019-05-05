@@ -1,0 +1,214 @@
+### Title screen
+Begin
+시작하다
+
+Continue
+잇다
+
+Profile
+윤곽
+
+### Menu
+Settings
+설정
+
+Video
+비디오
+
+Audio
+오디오
+
+Save & Quit
+구하다
+
+Back
+뒤로
+
+UI Scale
+UI 스케일
+
+Fullscreen
+전체 화면
+
+Snowfall
+강설량
+
+Effects
+효과
+
+Sound
+소리
+
+Music
+음악
+
+Title Screen
+제목 화면
+
+Autocomplete
+자동 완성
+
+High
+높은
+
+Low
+낮은
+
+Medium
+매질
+
+Background only
+배경 만
+
+On
+에
+
+Off
+떨어져서
+
+Language
+언어
+
+### Tooltips
+Run
+운영
+
+Menu
+메뉴
+
+Code Reference
+코드 참조
+
+Decrease Speed
+속도 감소
+
+Increase Speed
+속도 증가
+
+Message Archive
+메시지 보관소
+
+Decrease Code Execution Rate
+코드 실행 속도 감소
+
+Increase Code Execution Rate
+코드 실행 속도 향상
+
+Load / Save new approach
+신규 접근로드 / 저장
+
+Reset
+다시 놓기
+
+Run (paused)
+실행 (일시 중지됨)
+
+Step over
+건너 뛰기
+
+Stop
+중지
+
+Step forward
+앞으로 단계
+
+Delete name
+이름 삭제
+
+Exit Level
+출구 수준
+
+Delete profile
+프로필 삭제
+
+Confirm delete
+삭제 확인
+
+### Overlay tutorials
+Type commands here
+여기에 명령을 입력하십시오.
+
+Add the lines:
+다음 행을 추가하십시오.
+
+Press play to run
+실행하려면 재생을 누릅니다.
+
+Modify the commands and \nre-run to reach the exit
+명령을 수정하고 \n다시 실행하여 종료하십시오.
+
+Press to exit level
+레벨을 종료하려면 누릅니다.
+
+Levels have multiple stages\nclick here to view each
+레벨에는 여러 단계가 있습니다. \n각 항목을 보려면 여기를 클릭하십시오.
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+코드가 각 단계마다 다시 실행되므로 모든 솔루션을 단일 솔루션으로 해결해야합니다. \n첫 번째 단계로 돌아 가기
+
+Reach the first stage exit
+1 단계 출구로 이동
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+모든 출구에 도달하는 재 작업, 기억 \n코드는 각 단계의 상단에서 다시 실행됩니다.
+
+Change game speed
+게임 속도 변경
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+코드 참고서를 열려면 클릭하십시오. 모든 프라이머 섹션과 지금까지 복구 된 기능이 포함되어 있습니다
+
+Click to close
+닫기를 클릭하십시오
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+이 레벨에서 발견 된 미완성 된 코드가 있습니다. 실행하고 재 작업하십시오 ... 아니면 처음부터 시작하십시오.
+
+Scroll with mouse wheel,\nalt
+마우스 휠로 스크롤 \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+복구 된 모든 메시지를 보려면 클릭하십시오.
+
+Try using `else` and \na comparision like `>`
+`else`와`>`와 같은 비교를 사용해보십시오.
+
+Read Comparison and Conditions III to see
+비교 및 조건 III을 읽고 확인하십시오.
+
+and
+과
+
+usage
+용법
+
+Try using a comparision like `>`
+`>`와 같은 비교를 사용해보십시오.
+
+Try using `else`
+`else`를 사용해보십시오.
+
+Press to run with execution paused
+실행이 일시 중지 된 상태에서 실행하려면 누릅니다.
+
+Notice the current evaluation is highlighted
+현재 평가가 강조 표시됩니다.
+
+Press, or use keyboard
+키보드를 누르거나 사용하십시오.
+
+, to step forward to the next evaluation
+, 다음 평가로 나아가려면
+
+Level solutions can be\nsaved and loaded here
+레벨 솔루션을 여기에 저장하고로드 할 수 있습니다.
+
+The best scoring code in each\ncategory is automatically saved
+각 카테고리의 최고 점수 코드는 자동으로 저장됩니다.
+
+Reach the revealed location
+공개 위치에 도달
+

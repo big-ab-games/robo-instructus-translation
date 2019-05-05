@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Empezar
+
+Continue
+Continuar
+
+Profile
+Perfil
+
+### Menu
+Settings
+Ajustes
+
+Video
+Vídeo
+
+Audio
+Audio
+
+Save & Quit
+Salvar
+
+Back
+Espalda
+
+UI Scale
+Escala de interfaz de usuario
+
+Fullscreen
+Pantalla completa
+
+Snowfall
+Nevada
+
+Effects
+Efectos
+
+Sound
+Sonar
+
+Music
+Música
+
+Title Screen
+Pantalla de título
+
+Autocomplete
+Autocompletar
+
+High
+Alto
+
+Low
+Bajo
+
+Medium
+Medio
+
+Background only
+Solo fondo
+
+On
+En
+
+Off
+Apagado
+
+Language
+Idioma
+
+### Tooltips
+Run
+correr
+
+Menu
+Menú
+
+Code Reference
+Referencia de código
+
+Decrease Speed
+Reducir la velocidad
+
+Increase Speed
+Aumentar la velocidad
+
+Message Archive
+Archivo de mensajes
+
+Decrease Code Execution Rate
+Disminuir la tasa de ejecución del código
+
+Increase Code Execution Rate
+Aumentar la tasa de ejecución del código
+
+Load / Save new approach
+Cargar / Guardar nuevo enfoque
+
+Reset
+Reiniciar
+
+Run (paused)
+Correr (pausado)
+
+Step over
+Paso sobre
+
+Stop
+Detener
+
+Step forward
+Un paso adelante
+
+Delete name
+Eliminar nombre
+
+Exit Level
+Nivel de salida
+
+Delete profile
+Borrar perfil
+
+Confirm delete
+Confirmar eliminación
+
+### Overlay tutorials
+Type commands here
+Escriba los comandos aquí
+
+Add the lines:
+Añade las líneas:
+
+Press play to run
+Presiona play para correr
+
+Modify the commands and \nre-run to reach the exit
+Modificar los comandos y volver a ejecutar para llegar a la salida.
+
+Press to exit level
+Presione para salir del nivel
+
+Levels have multiple stages\nclick here to view each
+Los niveles tienen varias etapas \nhaga clic aquí para ver cada uno
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Su código se volverá a ejecutar en cada etapa, por lo que una sola solución debe resolverlo todo. Volver a la primera etapa
+
+Reach the first stage exit
+Alcanzar la primera salida de la etapa.
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Redacción para llegar a todas las salidas, recuerda \nEl código se vuelve a ejecutar desde la parte superior en cada etapa.
+
+Change game speed
+Cambiar la velocidad del juego
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Haga clic para abrir la referencia de código, contiene todas las secciones de cebador y las funciones recuperadas hasta ahora
+
+Click to close
+Haga clic para cerrar
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Hay un código inacabado en este nivel, intente ejecutarlo y volver a trabajar ... o simplemente comience desde cero
+
+Scroll with mouse wheel,\nalt
+Desplazarse con la rueda del ratón, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Haga clic para ver todos los mensajes recuperados
+
+Try using `else` and \na comparision like `>`
+Intente usar `else` y \nuna comparación como `>`
+
+Read Comparison and Conditions III to see
+Lea la comparación y condiciones III para ver
+
+and
+y
+
+usage
+uso
+
+Try using a comparision like `>`
+Intenta usar una comparación como `>`
+
+Try using `else`
+Intenta usar `else`
+
+Press to run with execution paused
+Presiona para correr con la ejecución en pausa.
+
+Notice the current evaluation is highlighted
+Observe que la evaluación actual está resaltada
+
+Press, or use keyboard
+Presione, o use el teclado
+
+, to step forward to the next evaluation
+, para pasar a la siguiente evaluación.
+
+Level solutions can be\nsaved and loaded here
+Las soluciones de nivel se pueden guardar y cargar aquí
+
+The best scoring code in each\ncategory is automatically saved
+El código de mejor puntuación en cada categoría se guarda automáticamente
+
+Reach the revealed location
+Alcanzar el lugar revelado.
+

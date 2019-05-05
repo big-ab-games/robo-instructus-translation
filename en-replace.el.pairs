@@ -1,0 +1,214 @@
+### Title screen
+Begin
+Αρχίσει
+
+Continue
+Να συνεχίσει
+
+Profile
+Προφίλ
+
+### Menu
+Settings
+Ρυθμίσεις
+
+Video
+βίντεο
+
+Audio
+Ήχος
+
+Save & Quit
+Αποθηκεύσετε
+
+Back
+Πίσω
+
+UI Scale
+Κλίμακα UI
+
+Fullscreen
+ΠΛΗΡΗΣ ΟΘΟΝΗ
+
+Snowfall
+Χιονόπτωση
+
+Effects
+Υπάρχοντα
+
+Sound
+Ήχος
+
+Music
+ΜΟΥΣΙΚΗ
+
+Title Screen
+Οθόνη τίτλου
+
+Autocomplete
+Αυτόματη συμπλήρωση
+
+High
+Υψηλός
+
+Low
+Χαμηλός
+
+Medium
+Μεσαίο
+
+Background only
+Μόνο υπόβαθρο
+
+On
+Επί
+
+Off
+Μακριά από
+
+Language
+Γλώσσα
+
+### Tooltips
+Run
+Τρέξιμο
+
+Menu
+Μενού
+
+Code Reference
+Αναφορά κώδικα
+
+Decrease Speed
+Μειώστε την ταχύτητα
+
+Increase Speed
+Αύξηση ταχύτητας
+
+Message Archive
+Αρχείο μηνυμάτων
+
+Decrease Code Execution Rate
+Μειώστε το ποσοστό εκτέλεσης κώδικα
+
+Increase Code Execution Rate
+Αύξηση του ποσοστού εκτέλεσης κώδικα
+
+Load / Save new approach
+Φόρτωση / Αποθήκευση νέας προσέγγισης
+
+Reset
+Επαναφορά
+
+Run (paused)
+Εκτέλεση (παύση)
+
+Step over
+Βήμα προς τα πάνω
+
+Stop
+Να σταματήσει
+
+Step forward
+Βήμα προς τα εμπρός
+
+Delete name
+Διαγράψτε το όνομα
+
+Exit Level
+Επίπεδο εξόδου
+
+Delete profile
+Διαγραφή προφίλ
+
+Confirm delete
+Επιβεβαιώστε τη διαγραφή
+
+### Overlay tutorials
+Type commands here
+Πληκτρολογήστε εντολές εδώ
+
+Add the lines:
+Προσθέστε τις γραμμές:
+
+Press play to run
+Πατήστε το πλήκτρο για να τρέξετε
+
+Modify the commands and \nre-run to reach the exit
+Τροποποιήστε τις εντολές και επαναλάβετε την εκτέλεση για να φτάσετε στην έξοδο
+
+Press to exit level
+Πατήστε για έξοδο από το επίπεδο
+
+Levels have multiple stages\nclick here to view each
+Τα επίπεδα έχουν πολλαπλά στάδια \nκάντε κλικ εδώ για να δείτε κάθε
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Ο κώδικας θα επαναληφθεί σε κάθε στάδιο, έτσι ώστε μια ενιαία λύση πρέπει να λύσει όλα. Επιστροφή στο πρώτο στάδιο
+
+Reach the first stage exit
+Προσεγγίστε την έξοδο του πρώτου σταδίου
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Επαναλάβετε να φτάσετε σε όλες τις εξόδους, θυμηθείτε \nο κώδικας επαναλαμβάνεται από την κορυφή σε κάθε στάδιο
+
+Change game speed
+Αλλαγή ταχύτητας παιχνιδιού
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Κάντε κλικ για να ανοίξετε τον Κωδικό Αναφοράς, περιέχει όλα τα τμήματα και τις λειτουργίες που έχουν ανακτηθεί μέχρι στιγμής
+
+Click to close
+Κάντε κλικ για να κλείσετε
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Υπάρχει ένας κωδικός που δεν έχει ολοκληρωθεί σε αυτό το επίπεδο, προσπαθήστε να το εκτελέσετε και να επαναλάβετε ... ή απλά να ξεκινήσετε από το μηδέν
+
+Scroll with mouse wheel,\nalt
+Μετακινηθείτε με τον τροχό του ποντικιού, \nalt
+
+, alt pageup/pagedown
+, alt pageup / pagedown
+
+Click to view all recovered messages
+Κάντε κλικ για να δείτε όλα τα ανακτώμενα μηνύματα
+
+Try using `else` and \na comparision like `>`
+Δοκιμάστε να χρησιμοποιήσετε το `else` και μια σύγκριση όπως` ``
+
+Read Comparison and Conditions III to see
+Διαβάστε την Σύγκριση και τις Προϋποθέσεις ΙΙΙ για να δείτε
+
+and
+και
+
+usage
+χρήση
+
+Try using a comparision like `>`
+Δοκιμάστε να χρησιμοποιήσετε μια σύγκριση όπως `` `
+
+Try using `else`
+Δοκιμάστε να χρησιμοποιήσετε το `else`
+
+Press to run with execution paused
+Πατήστε για εκτέλεση με την εκτέλεση της εκτέλεσης σε παύση
+
+Notice the current evaluation is highlighted
+Παρατηρήστε ότι η τρέχουσα αξιολόγηση επισημαίνεται
+
+Press, or use keyboard
+Πατήστε ή χρησιμοποιήστε πληκτρολόγιο
+
+, to step forward to the next evaluation
+, να προχωρήσουμε στην επόμενη αξιολόγηση
+
+Level solutions can be\nsaved and loaded here
+Οι λύσεις επιπέδου μπορούν να αποθηκευτούν και να φορτωθούν εδώ
+
+The best scoring code in each\ncategory is automatically saved
+Ο καλύτερος κωδικός βαθμολόγησης σε κάθε κατηγορία αποθηκεύεται αυτόματα
+
+Reach the revealed location
+Προσεγγίστε την αποκαλυφθείσα τοποθεσία
+

@@ -1,26 +1,6 @@
-Language
-Sprache
-
-Off
-0
-
-Snowfall
-Schneefall
-
-Fullscreen
-Vollbildschirm
-
-Click to close
-Klicken Sie zum Schließen
-
-Menu
-Speisekarte
-
-On
-1
-
-Step forward
-Schritt vorwärts
+### Title screen
+Begin
+Start
 
 Continue
 Fortsetzen
@@ -28,47 +8,82 @@ Fortsetzen
 Profile
 Profil
 
-Delete profile
-Profil löschen
+### Menu
+Settings
+Spieleinstellungen
 
-Try using `else` and \na comparision like `>`
-Versuchen Sie es mit `else` und \neinem Vergleich wie `>`
+Video
+Video
 
-Level solutions can be\nsaved and loaded here
-Hier können Levellösungen\ngespeichert und geladen werden
+Audio
+Audio
+
+Save & Quit
+Speichern & Beenden
+
+Back
+Zurück
+
+UI Scale
+UI-Skala
+
+Fullscreen
+Vollbildschirm
+
+Snowfall
+Schneefall
+
+Effects
+Auswirkungen
+
+Sound
+Klingen
+
+Music
+Musik
+
+Title Screen
+Titelbildschirm
 
 Autocomplete
 Autovervollständigung
 
-The best scoring code in each\ncategory is automatically saved
-Der Bestbewertungscode in jeder\nkategorie wird automatisch gespeichert
+High
+Hoch
 
-Type commands here
-Geben Sie hier Befehle ein
+Low
+Niedrig
 
-Increase Speed
-Geschwindigkeit erhöhen
+Medium
+Mittel
 
-Add the lines:
-Fügen Sie die Zeilen hinzu:
+Background only
+Nur Hintergrund
 
-Click to view all recovered messages
-Klicken Sie hier, um alle wiederhergestellten Nachrichten anzuzeigen
+On
+1
+
+Off
+0
+
+Language
+Sprache
+
+### Tooltips
+Run
+Lauf
+
+Menu
+Speisekarte
+
+Code Reference
+Code-Referenz
 
 Decrease Speed
 Reduziere die Geschwindigkeit
 
-Scroll with mouse wheel,\nalt
-Mit dem Mausrad scrollen, \nalt
-
-Modify the commands and \nre-run to reach the exit
-Ändern Sie die Befehle und \nerneut, um den Ausgang zu erreichen
-
-and
-und
-
-Medium
-Mittel
+Increase Speed
+Geschwindigkeit erhöhen
 
 Message Archive
 Nachrichtenarchiv
@@ -76,134 +91,124 @@ Nachrichtenarchiv
 Decrease Code Execution Rate
 Code-Ausführungsrate verringern
 
-Press to run with execution paused
-Drücken Sie, um die Ausführung mit angehaltener Ausführung auszuführen
-
-Confirm delete
-Löschen bestätigen
-
-Press to exit level
-Drücken Sie, um die Ebene zu verlassen
-
-Notice the current evaluation is highlighted
-Beachten Sie, dass die aktuelle Bewertung hervorgehoben ist
-
-Change game speed
-Spielgeschwindigkeit ändern
-
-Back
-Zurück
-
-Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Klicken Sie hier, um die Codereferenz zu öffnen. Sie enthält alle\nPrimer-Abschnitte und -Funktionen, die bis jetzt wiederhergestellt wurden
-
-Exit Level
-Ebene beenden
-
-Begin
-Start
-
-Effects
-Auswirkungen
-
-Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Ihr Code wird in jeder Phase erneut ausgeführt, so dass alle Lösungen durch eine einzige Lösung gelöst werden müssen.\nKehren Sie zur ersten Phase zurück
-
-, to step forward to the next evaluation
-, um zur nächsten Bewertung überzugehen
-
-Press play to run
-Drücke auf play, um zu laufen
-
-High
-Hoch
-
-Run (paused)
-Run (pausiert)
-
-Music
-Musik
-
-Background only
-Nur Hintergrund
-
-Step over
-Schritt über
-
-Try using `else`
-Versuchen Sie es mit `else`
-
 Increase Code Execution Rate
 Erhöhen Sie die Codeausführungsrate
-
-Stop
-Halt
-
-Settings
-Spieleinstellungen
-
-Reset
-Zurücksetzen
-
-Reach the revealed location
-Erreichen Sie den freigelegten Ort
-
-usage
-Verwendungszweck
-
-Press, or use keyboard
-Drücken Sie oder verwenden Sie die Tastatur
-
-Save & Quit
-Speichern & Beenden
-
-Run
-Lauf
-
-Rework to reach all exits, remember\n code is re-run from the top at each stage
-Um alle Ausgänge zu erreichen, müssen Sie daran denken,\ndass der Code in jeder Phase von oben erneut ausgeführt wird
-
-Code Reference
-Code-Referenz
-
-Reach the first stage exit
-Erreichen Sie die erste Etappe
-
-Low
-Niedrig
-
-There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Auf dieser Ebene wurde noch nicht abgeschlossener Code gefunden. Versuchen Sie, es auszuführen und zu überarbeiten... oder fangen Sie einfach bei Null an
-
-Audio
-Audio
-
-Video
-Video
-
-Title Screen
-Titelbildschirm
 
 Load / Save new approach
 Neuen Ansatz laden / speichern
 
-Levels have multiple stages\nclick here to view each
-Die Stufen haben mehrere Stufen. Klicken Sie hier, um die einzelnen Ebenen anzuzeigen
+Reset
+Zurücksetzen
 
-Sound
-Klingen
+Run (paused)
+Run (pausiert)
+
+Step over
+Schritt über
+
+Stop
+Halt
+
+Step forward
+Schritt vorwärts
 
 Delete name
 Namen löschen
 
-Read Comparison and Conditions III to see
-Lesen Sie Vergleich und Bedingungen III, um zu sehen
+Exit Level
+Ebene beenden
 
-UI Scale
-UI-Skala
+Delete profile
+Profil löschen
+
+Confirm delete
+Löschen bestätigen
+
+### Overlay tutorials
+Type commands here
+Geben Sie hier Befehle ein
+
+Add the lines:
+Fügen Sie die Zeilen hinzu:
+
+Press play to run
+Drücke auf play, um zu laufen
+
+Modify the commands and \nre-run to reach the exit
+Ändern Sie die Befehle und \nerneut, um den Ausgang zu erreichen
+
+Press to exit level
+Drücken Sie, um die Ebene zu verlassen
+
+Levels have multiple stages\nclick here to view each
+Die Stufen haben mehrere Stufen. Klicken Sie hier, um die einzelnen Ebenen anzuzeigen
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Ihr Code wird in jeder Phase erneut ausgeführt, so dass alle Lösungen durch eine einzige Lösung gelöst werden müssen.\nKehren Sie zur ersten Phase zurück
+
+Reach the first stage exit
+Erreichen Sie die erste Etappe
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Um alle Ausgänge zu erreichen, müssen Sie daran denken,\ndass der Code in jeder Phase von oben erneut ausgeführt wird
+
+Change game speed
+Spielgeschwindigkeit ändern
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Klicken Sie hier, um die Codereferenz zu öffnen. Sie enthält alle\nPrimer-Abschnitte und -Funktionen, die bis jetzt wiederhergestellt wurden
+
+Click to close
+Klicken Sie zum Schließen
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Auf dieser Ebene wurde noch nicht abgeschlossener Code gefunden. Versuchen Sie, es auszuführen und zu überarbeiten... oder fangen Sie einfach bei Null an
+
+Scroll with mouse wheel,\nalt
+Mit dem Mausrad scrollen, \nalt
 
 , alt pageup/pagedown
 , alt pageup / pagedown
 
+Click to view all recovered messages
+Klicken Sie hier, um alle wiederhergestellten Nachrichten anzuzeigen
+
+Try using `else` and \na comparision like `>`
+Versuchen Sie es mit `else` und \neinem Vergleich wie `>`
+
+Read Comparison and Conditions III to see
+Lesen Sie Vergleich und Bedingungen III, um zu sehen
+
+and
+und
+
+usage
+Verwendungszweck
+
 Try using a comparision like `>`
 Versuchen Sie es mit einem Vergleich wie `>`
+
+Try using `else`
+Versuchen Sie es mit `else`
+
+Press to run with execution paused
+Drücken Sie, um die Ausführung mit angehaltener Ausführung auszuführen
+
+Notice the current evaluation is highlighted
+Beachten Sie, dass die aktuelle Bewertung hervorgehoben ist
+
+Press, or use keyboard
+Drücken Sie oder verwenden Sie die Tastatur
+
+, to step forward to the next evaluation
+, um zur nächsten Bewertung überzugehen
+
+Level solutions can be\nsaved and loaded here
+Hier können Levellösungen\ngespeichert und geladen werden
+
+The best scoring code in each\ncategory is automatically saved
+Der Bestbewertungscode in jeder\nkategorie wird automatisch gespeichert
+
+Reach the revealed location
+Erreichen Sie den freigelegten Ort
+

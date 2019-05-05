@@ -1,4 +1,6 @@
 //! Generate missing translation files use `features "fill"`
+//!
+//! env GOOGLE_TRANSLATE_API_KEY=abc cargo run --bin fill --features fill
 #![cfg(feature = "fill")]
 
 use lazy_static::lazy_static;

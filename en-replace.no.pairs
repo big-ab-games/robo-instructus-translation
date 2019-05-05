@@ -1,0 +1,213 @@
+### Title screen
+Begin
+Begynne
+
+Continue
+Fortsette
+
+Profile
+Profil
+
+### Menu
+Settings
+Innstillinger
+
+Video
+Video
+
+Audio
+Audio
+
+Save & Quit
+Lagre
+
+Back
+Tilbake
+
+UI Scale
+UI-skala
+
+Fullscreen
+Full skjerm
+
+Snowfall
+Snøfall
+
+Effects
+Effekter
+
+Sound
+Lyd
+
+Music
+Musikk
+
+Title Screen
+Tittelskjerm
+
+Autocomplete
+Autofullfør
+
+High
+Høy
+
+Low
+Lav
+
+Medium
+Medium
+
+Background only
+Bare bakgrunn
+
+On
+På
+
+Off
+Av
+
+Language
+Språk
+
+### Tooltips
+Run
+Løpe
+
+Menu
+Meny
+
+Code Reference
+Kodehenvisning
+
+Decrease Speed
+Reduser hastighet
+
+Increase Speed
+Øk hastighet
+
+Message Archive
+Meldingsarkiv
+
+Decrease Code Execution Rate
+Reduser kodeutføringsfrekvensen
+
+Increase Code Execution Rate
+Øk kodeutføringsfrekvensen
+
+Load / Save new approach
+Legg inn / lagre ny tilnærming
+
+Reset
+tilbakestille
+
+Run (paused)
+Kjør (pauset)
+
+Step over
+Tråkke over
+
+Stop
+Stoppe
+
+Step forward
+Skritt fremover
+
+Delete name
+Slett navn
+
+Exit Level
+Utgangsnivå
+
+Delete profile
+Slett profil
+
+Confirm delete
+Bekreft slett
+
+### Overlay tutorials
+Type commands here
+Skriv kommandoer her
+
+Add the lines:
+Legg til linjene:
+
+Press play to run
+Trykk på spill for å kjøre
+
+Modify the commands and \nre-run to reach the exit
+Endre kommandoene og \nre-run for å nå utgangen
+
+Press to exit level
+Trykk for å gå ut av nivå
+
+Levels have multiple stages\nclick here to view each
+Nivåer har flere stadier \nklikk her for å se hver
+
+Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
+Koden din blir re-run hvert trinn, så en enkelt løsning må løse alle. \nTilbake til første trinn
+
+Reach the first stage exit
+Nå utgangen på første etappe
+
+Rework to reach all exits, remember\n code is re-run from the top at each stage
+Rework å nå alle utganger, husk \nkoden er re-run fra toppen på hvert trinn
+
+Change game speed
+Endre spillhastighet
+
+Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
+Klikk for å åpne kodehenvisningen, den inneholder alle \nde grunnleggende delene og funksjonene som er gjenopprettet hittil
+
+Click to close
+Klikk for å lukke
+
+There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
+Det er noen uferdige kode som er funnet på dette nivået, prøv \nkjører det og omarbeider ... eller bare start fra bunnen av
+
+Scroll with mouse wheel,\nalt
+Rull med mushjulet, \nalt
+
+, alt pageup/pagedown
+, alt side opp / pagedown
+
+Click to view all recovered messages
+Klikk for å vise alle gjenopprettede meldinger
+
+Try using `else` and \na comparision like `>`
+Prøv å bruke `else` og \nen sammenligning som `>`
+
+Read Comparison and Conditions III to see
+Les Sammenligning og betingelser III for å se
+
+and
+og
+
+usage
+bruk
+
+Try using a comparision like `>`
+Prøv å bruke en sammenligning som `>`
+
+Try using `else`
+Prøv å bruke `else`
+
+Press to run with execution paused
+Trykk for å kjøre med kjøring av pause
+
+Notice the current evaluation is highlighted
+Legg merke til at den nåværende evalueringen er uthevet
+
+Press, or use keyboard
+Trykk, eller bruk tastatur
+
+, to step forward to the next evaluation
+, for å gå videre til neste evaluering
+
+Level solutions can be\nsaved and loaded here
+Nivåløsninger kan \nlagres og lastes inn her
+
+The best scoring code in each\ncategory is automatically saved
+Den beste scoringskoden i hver kategori blir automatisk lagret
+
+Reach the revealed location
+Nå den avslørte beliggenheten
