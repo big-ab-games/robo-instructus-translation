@@ -23,7 +23,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
 #### Machine translations needing review
 These translations have been created using google translate and need to be improved before being used in game.
-* Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
 * 简体中文 (Chinese (Simplified)) [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
 * 繁體中文 (Chinese (Traditional)) [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
@@ -41,7 +40,7 @@ These translations have been created using google translate and need to be impro
 * Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
 * Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
-* Español-España [en-replace.e.pairs](./en-replace.e.pairs)
+* Español-España [en-replace.es.pairs](./en-replace.es.pairs)
 * Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
 * ไทย [en-replace.th.pairs](./en-replace.th.pairs)
 * Türkçe [en-replace.tr.pairs](./en-replace.tr.pairs)
