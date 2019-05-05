@@ -1,9 +1,9 @@
 ### Title screen
 Begin
-Beginnen
+Start
 
 Continue
-Doorgaan met
+Verder spelen
 
 Profile
 Profiel
@@ -19,7 +19,7 @@ Audio
 Audio
 
 Save & Quit
-Opslaan
+Opslaan en afsluiten
 
 Back
 Terug
@@ -34,7 +34,7 @@ Snowfall
 Sneeuwval
 
 Effects
-Bijwerkingen
+Effecten
 
 Sound
 Geluid
@@ -46,7 +46,7 @@ Title Screen
 Titelscherm
 
 Autocomplete
-Autocomplete
+Automatisch aanvullen
 
 High
 Hoog
@@ -55,13 +55,13 @@ Low
 Laag
 
 Medium
-Medium
+Gemiddeld
 
 Background only
 Alleen achtergrond
 
 On
-Op
+Aan
 
 Off
 Uit
@@ -71,7 +71,7 @@ Taal
 
 ### Tooltips
 Run
-Rennen
+Uitvoeren
 
 Menu
 Menu
@@ -80,19 +80,19 @@ Code Reference
 Codeverwijzing
 
 Decrease Speed
-Verminder snelheid
+Vertragen
 
 Increase Speed
-Verhoog de snelheid
+Versnellen
 
 Message Archive
 Berichtenarchief
 
 Decrease Code Execution Rate
-Verlaag code uitvoeringssnelheid
+Verlaag code uitvoersnelheid
 
 Increase Code Execution Rate
-Verhoog code uitvoeringssnelheid
+Verhoog code uitvoersnelheid
 
 Load / Save new approach
 Nieuwe aanpak laden / opslaan
@@ -107,7 +107,7 @@ Step over
 Overstappen
 
 Stop
-Hou op
+Stop
 
 Step forward
 Stap naar voren
@@ -116,7 +116,7 @@ Delete name
 Naam verwijderen
 
 Exit Level
-Verlaat niveau
+Verlaat level
 
 Delete profile
 Verwijder profiel
@@ -126,43 +126,43 @@ Bevestig verwijderen
 
 ### Overlay tutorials
 Type commands here
-Typ hier commando's
+Typ commando's hier
 
 Add the lines:
-Voeg de lijnen toe:
+Lijnen toevoegen:
 
 Press play to run
 Druk op play om uit te voeren
 
 Modify the commands and \nre-run to reach the exit
-Wijzig de opdrachten en \nopnieuw uitvoeren om de uitgang te bereiken
+Wijzig de commando's en voer\nopnieuw uit om de uitgang te bereiken
 
 Press to exit level
 Druk om het level te verlaten
 
 Levels have multiple stages\nclick here to view each
-Niveaus hebben meerdere fasen \nklik hier om ze allemaal te bekijken
+Levels hebben meerdere fasen \nklik hier om ze allemaal te bekijken
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
 Je code wordt elke fase opnieuw uitgevoerd, dus één oplossing moet alles oplossen. \nKeer terug naar de eerste fase
 
 Reach the first stage exit
-Bereik de uitgang van de eerste etappe
+Bereik de uitgang van de eerste fase
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Herwerk om alle uitgangen te bereiken, onthoud \ncode wordt opnieuw uitgevoerd vanaf de top in elke fase
+Herschrijf om alle uitgangen te bereiken. Vergeet niet dat code in elke fase opnieuw wordt uitgevoerd vanaf de top
 
 Change game speed
-Verander de snelheid van het spel
+Verander spelsnelheid
 
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Klik om de codereferentie te openen, deze bevat alle \nde primersecties en functies die tot nu toe zijn hersteld
+Klik om de codereferentie te openen, deze bevat alle \nde inleidingen en functies die tot nu toe zijn ontdekt
 
 Click to close
 Klik om te sluiten
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Er is een aantal niet-voltooide code gevonden op dit niveau, probeer het door te voeren en opnieuw te bewerken ... of begin gewoon helemaal opnieuw
+Er is onvoltooide code gevonden in dit level. Probeer het uit te voeren en aan te passen... of begin gewoon opnieuw
 
 ### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
@@ -172,10 +172,10 @@ Scrol met muiswiel, \nalt
 , alt pageup / pagedown
 
 Click to view all recovered messages
-Klik om alle herstelde berichten te bekijken
+Klik om alle gevonden berichten te bekijken
 
 Try using `else` and \na comparision like `>`
-Probeer `else` en \neen vergelijking zoals `>` te gebruiken
+Probeer `else` en een\nvergelijking zoals `>` te gebruiken
 
 Read Comparison and Conditions III to see
 Lees Vergelijking en Voorwaarden III om te zien
@@ -193,23 +193,23 @@ Try using `else`
 Probeer `else` te gebruiken
 
 Press to run with execution paused
-Druk op om uit te voeren terwijl de uitvoering is gepauzeerd
+Druk om uit te voeren met\nde uitvoering gepauseerd
 
 Notice the current evaluation is highlighted
-Let op de huidige evaluatie is gemarkeerd
+Merk op dat de huidige evaluatie gemarkeerd is
 
 ### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
-Druk op of gebruik het toetsenbord
+Druk of gebruik het toetsenbord
 
 , to step forward to the next evaluation
 , om door te gaan naar de volgende evaluatie
 
 Level solutions can be\nsaved and loaded here
-Niveauoplossingen kunnen hier worden opgeslagen en geladen
+Leveloplossingen kunnen hier\nworden opgeslagen en geladen
 
 The best scoring code in each\ncategory is automatically saved
-De beste scorecode in elke categorie wordt automatisch opgeslagen
+De best scorende code in elke\ncategorie wordt automatisch opgeslagen
 
 Reach the revealed location
-Bereik de geopenbaarde locatie
+Bereik de onthulde locatie

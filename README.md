@@ -29,7 +29,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * 繁體中文 (Chinese (Traditional)) [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
 * čeština [en-replace.cs.pairs](./en-replace.cs.pairs)
 * Dansk [en-replace.da.pairs](./en-replace.da.pairs)
-* Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Suomi [en-replace.fi.pairs](./en-replace.fi.pairs)
 * Français [en-replace.fr.pairs](./en-replace.fr.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
@@ -53,6 +52,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
 #### Community improved translations
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
+* Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
