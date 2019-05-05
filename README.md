@@ -39,7 +39,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * 한국어 (Korean) [en-replace.ko.pairs](./en-replace.ko.pairs)
 * Norsk [en-replace.no.pairs](./en-replace.no.pairs)
 * Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
-* Português [en-replace.pt.pairs](./en-replace.pt.pairs)
 * Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
 * Español-España [en-replace.e.pairs](./en-replace.e.pairs)
@@ -52,6 +51,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 #### Community improved translations
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
+* Português [en-replace.pt.pairs](./en-replace.pt.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
