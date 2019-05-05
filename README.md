@@ -49,7 +49,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * ไทย [en-replace.th.pairs](./en-replace.th.pairs)
 * Türkçe [en-replace.tr.pairs](./en-replace.tr.pairs)
 * Українська [en-replace.uk.pairs](./en-replace.uk.pairs)
-* Tiếng Việt [en-replace.v.pairs](./en-replace.v.pairs)
+* Tiếng Việt [en-replace.vi.pairs](./en-replace.vi.pairs)
 
 #### Community improved translations
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
