@@ -1,9 +1,9 @@
 ### Title screen
 Begin
-Zaczynać
+Zacznij
 
 Continue
-Kontynuować
+Kontynuuj
 
 Profile
 Profil
@@ -25,7 +25,7 @@ Back
 Z powrotem
 
 UI Scale
-Skala interfejsu użytkownika
+Skala interfejsu użytkownika / Skala UI
 
 Fullscreen
 Pełny ekran
@@ -34,7 +34,7 @@ Snowfall
 Opady śniegu
 
 Effects
-Ruchomości
+Efekty
 
 Sound
 Dźwięk
@@ -49,10 +49,10 @@ Autocomplete
 Autouzupełnienie
 
 High
-Wysoki
+Wysoko
 
 Low
-Niska
+Nisko
 
 Medium
 Średni
@@ -61,17 +61,17 @@ Background only
 Tylko tło
 
 On
-1
+Wlącz
 
 Off
-0
+Wlącz
 
 Language
 Język
 
 ### Tooltips
 Run
-Biegać
+Biegnij
 
 Menu
 Menu
@@ -98,7 +98,7 @@ Load / Save new approach
 Załaduj / zapisz nowe podejście
 
 Reset
-Nastawić
+Ustaw od nowa
 
 Run (paused)
 Uruchom (wstrzymany)
@@ -107,7 +107,7 @@ Step over
 Krok nad
 
 Stop
-Zatrzymać
+Stop
 
 Step forward
 Krok naprzód
@@ -150,19 +150,19 @@ Reach the first stage exit
 Dotrzyj do pierwszego etapu wyjścia
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Przeróbka, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uruchamiany z góry na każdym etapie
+Przerób, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uruchamiany z góry na każdym etapie
 
 Change game speed
 Zmień szybkość gry
 
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nodzyskane do tej pory sekcje i funkcje startera
+Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nsekcje i funkcje odzyskane do tej pory
 
 Click to close
 Kliknij, aby zamknąć
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Na tym poziomie znaleziono jakiś niedokończony kod,\nspróbuj go uruchomić i przerobić... lub po prostu zacząć od zera
+Na tym poziomie znaleziono niedokończony kod,\nspróbuj go uruchomić i przerobić... lub po prostu zacznij od nowa
 
 #### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
@@ -181,7 +181,7 @@ Try using `else` and \na comparision like `>`
 Spróbuj użyć `else` i \nporównania jak `>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-Czytaj porównanie i warunki III, aby zobaczyć użycie `>` i `else`
+Przeczytaj "Porównanie" i "Warunki III", aby zobaczyć zasady użycia `>` i `else`
 
 Try using a comparision like `>`
 Spróbuj użyć porównania, takiego jak `>`
@@ -193,20 +193,20 @@ Press to run with execution paused
 Naciśnij, aby uruchomić z wstrzymanym wykonaniem
 
 Notice the current evaluation is highlighted
-Zauważ, że bieżąca ocena jest podświetlona
+Zauważ, że bieżące obliczenie jest podświetlone
 
 #### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Naciśnij lub użyj klawiatury
 
 , to step forward to the next evaluation
-, aby przejść do następnej oceny
+, aby przejść do następnego obliczenia
 
 Level solutions can be\nsaved and loaded here
 Rozwiązania poziomów można zapisywać i ładować tutaj
 
 The best scoring code in each\ncategory is automatically saved
-Najlepszy kod punktacji w każdej kategorii jest automatycznie zapisywany
+Najlepszy wynik w każdej kategorii jest automatycznie zapisywany
 
 Reach the revealed location
 Dotrzyj do ujawnionej lokalizacji
