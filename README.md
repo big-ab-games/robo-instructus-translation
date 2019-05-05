@@ -22,6 +22,7 @@ Usuń profil
 Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
 #### Machine translations needing review
+These translations have been created using google translate and need to be improved before being used in game.
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
 * 简体中文 (Chinese (Simplified)) [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
@@ -48,6 +49,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * Tiếng Việt [en-replace.vi.pairs](./en-replace.vi.pairs)
 
 #### Community improved translations
+These languages will be made available in game, though are only partial and may still need tweaks.
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
