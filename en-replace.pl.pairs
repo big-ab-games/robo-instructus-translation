@@ -164,7 +164,7 @@ Kliknij, aby zamknąć
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Na tym poziomie znaleziono jakiś niedokończony kod,\nspróbuj go uruchomić i przerobić... lub po prostu zacząć od zera
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Przewiń kółkiem myszy, \nalt
 
@@ -180,14 +180,8 @@ Spróbuj użyć `loop` w swoim rozwiązaniu
 Try using `else` and \na comparision like `>`
 Spróbuj użyć `else` i \nporównania jak `>`
 
-Read Comparison and Conditions III to see
-Czytaj porównanie i warunki III, aby zobaczyć
-
-and
-i
-
-usage
-stosowanie
+Read Comparison and Conditions III to see `>` and `else` usage
+Czytaj porównanie i warunki III, aby zobaczyć użycie `>` i `else`
 
 Try using a comparision like `>`
 Spróbuj użyć porównania, takiego jak `>`
@@ -201,7 +195,7 @@ Naciśnij, aby uruchomić z wstrzymanym wykonaniem
 Notice the current evaluation is highlighted
 Zauważ, że bieżąca ocena jest podświetlona
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Naciśnij lub użyj klawiatury
 

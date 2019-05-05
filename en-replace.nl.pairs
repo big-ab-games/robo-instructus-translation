@@ -164,7 +164,7 @@ Klik om te sluiten
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Er is onvoltooide code gevonden in dit level. Probeer het uit te voeren en aan te passen... of begin gewoon opnieuw
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Scrol met muiswiel, \nalt
 
@@ -180,14 +180,8 @@ Probeer `loop` in uw oplossing te gebruiken
 Try using `else` and \na comparision like `>`
 Probeer `else` en een\nvergelijking zoals `>` te gebruiken
 
-Read Comparison and Conditions III to see
-Lees Vergelijking en Voorwaarden III om te zien
-
-and
-en
-
-usage
-gebruik
+Read Comparison and Conditions III to see `>` and `else` usage
+Lees Vergelijking en voorwaarden III om het gebruik van `>` en `else` te bekijken
 
 Try using a comparision like `>`
 Gebruik een vergelijking zoals `>`
@@ -201,7 +195,7 @@ Druk om uit te voeren in gepauzeerde modus
 Notice the current evaluation is highlighted
 Merk op dat de huidige evaluatie gemarkeerd is
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Druk of gebruik het toetsenbord
 

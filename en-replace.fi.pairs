@@ -164,7 +164,7 @@ Sulje napsauttamalla
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Tässä tasossa on jonkin verran keskeneräistä koodia, yritä \najaa sitä ja muokata ... tai aloita tyhjästä
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Vieritä hiiren pyörällä, \nalt
 
@@ -180,14 +180,8 @@ Kokeile käyttää `loop`
 Try using `else` and \na comparision like `>`
 Yritä käyttää `else` ja \nvertailua kuten `>`
 
-Read Comparison and Conditions III to see
-Lue vertailu ja ehdot III
-
-and
-ja
-
-usage
-käyttö
+Read Comparison and Conditions III to see `>` and `else` usage
+Lue vertailu ja ehdot III nähdäksesi `>` ja `else` käyttö
 
 Try using a comparision like `>`
 Yritä käyttää vertailua, kuten `>`
@@ -201,7 +195,7 @@ Paina, jos haluat suorittaa suorituksen keskeytetyllä tavalla
 Notice the current evaluation is highlighted
 Huomaa, että nykyinen arviointi on korostettu
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Paina tai käytä näppäimistöä
 

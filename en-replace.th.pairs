@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 มีบางรหัสที่ยังไม่เสร็จในระดับนี้ลอง \nเรียกใช้และทำงานซ้ำ ...
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 เลื่อนด้วยล้อเลื่อนของเมาส์ \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 ลองใช้ `else` และ การเปรียบเทียบเช่น `>'
 
-Read Comparison and Conditions III to see
-อ่านการเปรียบเทียบและเงื่อนไข III เพื่อดู
-
-and
-และ
-
-usage
-การใช้
+Read Comparison and Conditions III to see `>` and `else` usage
+อ่านการเปรียบเทียบและเงื่อนไข III เพื่อดูการใช้ `>` และ `else`
 
 Try using a comparision like `>`
 ลองใช้การเปรียบเทียบเช่น `>`
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 สังเกตว่าการประเมินผลปัจจุบันถูกเน้น
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 กดหรือใช้แป้นพิมพ์
 

@@ -164,7 +164,7 @@ Kattintson a bezáráshoz
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Van még egy befejezetlen kód ebben a szinten, próbáld ki és futtatni ... vagy csak kezdj a semmiből
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Görgessen az egérgombbal, \nalt
 
@@ -180,14 +180,8 @@ Próbáld ki a `loop` -ot a megoldásodban
 Try using `else` and \na comparision like `>`
 Próbáld ki az `else` és \negy összehasonlítást, mint a `>`
 
-Read Comparison and Conditions III to see
-Olvassa el az összehasonlítást és a feltételeket III
-
-and
-és
-
-usage
-használat
+Read Comparison and Conditions III to see `>` and `else` usage
+Az „Összehasonlítás és feltételek III
 
 Try using a comparision like `>`
 Próbáljon ki egy olyan összehasonlítást, mint a `>`
@@ -201,7 +195,7 @@ Nyomja meg a futtatáshoz szüneteltetéssel
 Notice the current evaluation is highlighted
 Figyeljük meg, hogy az aktuális értékelés kiemelve van
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Nyomja meg a gombot, vagy használja a billentyűzetet
 

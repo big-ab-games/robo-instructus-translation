@@ -164,7 +164,7 @@ Clique para fechar
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Há algum código inacabado encontrado neste nível, tente executá-lo e retrabalho ... ou apenas começar do zero
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Role com a roda do mouse, \nalt
 
@@ -180,14 +180,8 @@ Tente usar o `loop` na sua solução
 Try using `else` and \na comparision like `>`
 Tente usar `else` e \numa comparação como `>`
 
-Read Comparison and Conditions III to see
-Leia a comparação e as condições III para ver
-
-and
-e
-
-usage
-uso
+Read Comparison and Conditions III to see `>` and `else` usage
+Lê a seção Comparação e as Condições III para ver a utilização de `>` e `else`
 
 Try using a comparision like `>`
 Tente usar uma comparação como `>`
@@ -201,7 +195,7 @@ Pressione para executar com execução pausada
 Notice the current evaluation is highlighted
 Observe que a avaliação atual está destacada
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Pressione ou use o teclado
 
@@ -216,4 +210,3 @@ O melhor código de pontuação em cada categoria é salvo automaticamente
 
 Reach the revealed location
 Alcançar o local revelado
-

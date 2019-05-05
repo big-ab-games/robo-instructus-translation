@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 在这个级别上找到了一些未完成的代码，尝试运行它并重新编写......或者只是从头开始
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 滚动鼠标滚轮，\nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 尝试使用`else`和\n比较`>`
 
-Read Comparison and Conditions III to see
-阅读比较和条件III看
-
-and
-和
-
-usage
-用法
+Read Comparison and Conditions III to see `>` and `else` usage
+阅读比较和条件III，看看`>`和`else`用法
 
 Try using a comparision like `>`
 尝试使用像`>`这样的比较
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 请注意，当前评估会突出显示
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 按，或使用键盘
 

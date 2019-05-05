@@ -164,7 +164,7 @@ Kapatmak için tıklayın
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Bu seviyede bazı bitmemiş kodlar var, dene \nçalıştır ve tekrar çalış
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Fare tekerleği ile kaydırma, \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 `Else` ve `>` gibi bir\nkarşılaştırma yapmayı deneyin.
 
-Read Comparison and Conditions III to see
-Görmek için Karşılaştırma ve Koşullar III'ü okuyun.
-
-and
-ve
-
-usage
-kullanım
+Read Comparison and Conditions III to see `>` and `else` usage
+`>` Ve `else` kullanımını görmek için Karşılaştırma ve Koşullar III'ü okuyun.
 
 Try using a comparision like `>`
 `>` Gibi bir karşılaştırma yapmayı deneyin.
@@ -201,7 +195,7 @@ Yürütme duraklatılmış olarak çalıştırmak için basın
 Notice the current evaluation is highlighted
 Mevcut değerlendirmenin vurgulandığına dikkat edin
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Basın veya klavyeyi kullanın.
 

@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 На това ниво има някакъв недовършен код, опитайте да го стартирате и преработвате ... или просто започнете от нулата
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Скролирайте с колелото на мишката, \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 Опитайте се да използвате `else` и \nсравняване като `>`
 
-Read Comparison and Conditions III to see
-Прочетете сравнението и условията III, за да видите
-
-and
-и
-
-usage
-употреба
+Read Comparison and Conditions III to see `>` and `else` usage
+Прочетете Сравнение и Условия III, за да видите `>` и `else`
 
 Try using a comparision like `>`
 Опитайте да използвате сравнение като `>`
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 Забележете, че текущата оценка е подчертана
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Натиснете или използвайте клавиатурата
 

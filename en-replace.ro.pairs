@@ -164,7 +164,7 @@ Faceți clic pentru a închide
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Există niște coduri neterminate găsite la acest nivel, încercați \nsă le rulați și să le refaceți ... sau să începeți de la zero
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Derulați cu rotița mouse-ului, \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 Încercați să utilizați altceva și o comparație ca `` `
 
-Read Comparison and Conditions III to see
-Citiți comparația și condițiile III pentru a vedea
-
-and
-și
-
-usage
-folosire
+Read Comparison and Conditions III to see `>` and `else` usage
+Citiți comparația și condițiile III pentru a vedea folosirea `>` și `else`
 
 Try using a comparision like `>`
 Încercați să utilizați o comparație ca `` `
@@ -201,7 +195,7 @@ Apăsați pentru a rula cu execuția întreruptă
 Notice the current evaluation is highlighted
 Observați că evaluarea curentă este evidențiată
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Apăsați sau utilizați tastatura
 

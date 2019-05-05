@@ -164,7 +164,7 @@ Bấm để đóng
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Có một số mã chưa hoàn thành được tìm thấy ở cấp độ này, hãy thử \nchạy nó và làm lại ... hoặc chỉ bắt đầu từ đầu
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Cuộn bằng bánh xe chuột, \nalt
 
@@ -180,14 +180,8 @@ Hãy thử sử dụng `loop` trong giải pháp của bạn
 Try using `else` and \na comparision like `>`
 Hãy thử sử dụng `else` và \nmột phép so sánh như `>`
 
-Read Comparison and Conditions III to see
-Đọc So sánh và Điều kiện III để xem
-
-and
-và
-
-usage
-sử dụng
+Read Comparison and Conditions III to see `>` and `else` usage
+Đọc So sánh và Điều kiện III để xem cách sử dụng `>` và `else`
 
 Try using a comparision like `>`
 Hãy thử sử dụng một phép so sánh như `>`
@@ -201,7 +195,7 @@ Nhấn để chạy với thực thi bị tạm dừng
 Notice the current evaluation is highlighted
 Lưu ý đánh giá hiện tại được tô sáng
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Nhấn hoặc sử dụng bàn phím
 

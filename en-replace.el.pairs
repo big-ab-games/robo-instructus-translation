@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Υπάρχει ένας κωδικός που δεν έχει ολοκληρωθεί σε αυτό το επίπεδο, προσπαθήστε να το εκτελέσετε και να επαναλάβετε ... ή απλά να ξεκινήσετε από το μηδέν
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Μετακινηθείτε με τον τροχό του ποντικιού, \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 Δοκιμάστε να χρησιμοποιήσετε το `else` και μια σύγκριση όπως` ``
 
-Read Comparison and Conditions III to see
-Διαβάστε την Σύγκριση και τις Προϋποθέσεις ΙΙΙ για να δείτε
-
-and
-και
-
-usage
-χρήση
+Read Comparison and Conditions III to see `>` and `else` usage
+Διαβάστε τη Σύγκριση και τις Προϋποθέσεις ΙΙΙ για να δείτε τη χρήση `>` `else`
 
 Try using a comparision like `>`
 Δοκιμάστε να χρησιμοποιήσετε μια σύγκριση όπως `` `
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 Παρατηρήστε ότι η τρέχουσα αξιολόγηση επισημαίνεται
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Πατήστε ή χρησιμοποιήστε πληκτρολόγιο
 

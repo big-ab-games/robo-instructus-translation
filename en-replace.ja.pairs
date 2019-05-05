@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 このレベルには未完成のコードがいくつかあります。それを実行してやり直してみてください。
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 マウスホイールでスクロールします、\nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 `else`と`>`のような比較を使ってみてください。
 
-Read Comparison and Conditions III to see
-比較と条件IIIを読んで見てください
-
-and
-そして
-
-usage
-使用法
+Read Comparison and Conditions III to see `>` and `else` usage
+`>`と `else`の使い方を見るために比較と条件IIIを読んでください
 
 Try using a comparision like `>`
 `>`のような比較を使ってみてください
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 現在の評価が強調表示されていることに注目してください。
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 キーボードを押すか使用する
 

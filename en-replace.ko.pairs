@@ -164,7 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 이 레벨에서 발견 된 미완성 된 코드가 있습니다. 실행하고 재 작업하십시오 ... 아니면 처음부터 시작하십시오.
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 마우스 휠로 스크롤 \nalt
 
@@ -180,14 +180,8 @@ Try using `loop` in your solution
 Try using `else` and \na comparision like `>`
 `else`와`>`와 같은 비교를 사용해보십시오.
 
-Read Comparison and Conditions III to see
-비교 및 조건 III을 읽고 확인하십시오.
-
-and
-과
-
-usage
-용법
+Read Comparison and Conditions III to see `>` and `else` usage
+비교 및 조건 III을 읽고`>`와`else` 사용법을보십시오
 
 Try using a comparision like `>`
 `>`와 같은 비교를 사용해보십시오.
@@ -201,7 +195,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 현재 평가가 강조 표시됩니다.
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 키보드를 누르거나 사용하십시오.
 

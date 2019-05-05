@@ -164,7 +164,7 @@ Klikk for å lukke
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Det er noen uferdige kode som er funnet på dette nivået, prøv \nkjører det og omarbeider ... eller bare start fra bunnen av
 
-### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
+#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
 Rull med mushjulet, \nalt
 
@@ -180,14 +180,8 @@ Prøv å bruke `loop` i løsningen din
 Try using `else` and \na comparision like `>`
 Prøv å bruke `else` og \nen sammenligning som `>`
 
-Read Comparison and Conditions III to see
-Les Sammenligning og betingelser III for å se
-
-and
-og
-
-usage
-bruk
+Read Comparison and Conditions III to see `>` and `else` usage
+Les Sammenligning og betingelser III for å se `>` og `else` bruk
 
 Try using a comparision like `>`
 Prøv å bruke en sammenligning som `>`
@@ -201,7 +195,7 @@ Trykk for å kjøre med kjøring av pause
 Notice the current evaluation is highlighted
 Legg merke til at den nåværende evalueringen er uthevet
 
-### the following 2 are split up here as they appear in-game with → symbols between them
+#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
 Press, or use keyboard
 Trykk, eller bruk tastatur
 
