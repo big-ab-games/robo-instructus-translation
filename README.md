@@ -22,7 +22,6 @@ Usuń profil
 Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
 #### Machine translations needing review
-* Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
 * 简体中文 (Chinese (Simplified)) [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
@@ -52,6 +51,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
+* Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
