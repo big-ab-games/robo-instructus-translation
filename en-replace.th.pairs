@@ -174,6 +174,9 @@ Scroll with mouse wheel,\nalt
 Click to view all recovered messages
 คลิกเพื่อดูข้อความที่กู้คืนทั้งหมด
 
+Try using `loop` in your solution
+ลองใช้ `loop` ในโซลูชันของคุณ
+
 Try using `else` and \na comparision like `>`
 ลองใช้ `else` และ การเปรียบเทียบเช่น `>'
 

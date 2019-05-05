@@ -4,31 +4,37 @@
 #![cfg(feature = "sort")]
 
 use lazy_static::lazy_static;
+use log::*;
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::{
     env, fs,
     io::{self, BufRead, Write},
 };
-use log::*;
 
 // REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
 include!("../../target/generated/translations.rs");
 
 fn main() {
     if env::var_os("RUST_LOG").is_none() {
-        env::set_var("RUST_LOG", "robo_instructus=debug");
+        env::set_var("RUST_LOG", "info");
     }
     env_logger::init();
 
     let master: String = env::args().nth(1).unwrap();
 
-    if !REPLACE.contains_key(master.as_str()) {
-        eprintln!("Unknown language {}", master);
-        std::process::exit(1);
-    }
-    if REPLACE.values().map(|t| t.len()).collect::<FxHashSet<_>>().len() != 1 {
-        eprintln!("All translation must have equal coverage/size");
-        std::process::exit(2);
+    {
+        if !REPLACE.contains_key(master.as_str()) {
+            eprintln!("Unknown language {}", master);
+            std::process::exit(1);
+        }
+        let translation_counts = REPLACE.values().map(|t| t.len()).collect::<FxHashSet<_>>();
+        if translation_counts.len() != 1 {
+            eprintln!(
+                "All translation must have equal coverage/size: {:?}",
+                REPLACE.iter().map(|(l, t)| (l, t.len())).collect::<FxHashMap<_, _>>()
+            );
+            std::process::exit(2);
+        }
     }
 
     let ordered_ens = {
@@ -65,8 +71,13 @@ fn main() {
                 Line::Comment(s) => writeln!(file, "{}", s).unwrap(),
                 Line::English(en) => {
                     let translated = &vals[en.as_str()];
-                    write!(file, "{}\n{}\n\n", en.replace('\n', r"\n"), translated.replace('\n', r"\n"))
-                        .unwrap();
+                    write!(
+                        file,
+                        "{}\n{}\n\n",
+                        en.replace('\n', r"\n"),
+                        translated.replace('\n', r"\n")
+                    )
+                    .unwrap();
                 }
             }
         }
