@@ -1,7 +1,7 @@
 use quote::quote;
 use std::{
     fs,
-    io::{self, BufRead, BufReader, Write},
+    io::{BufRead, BufReader, Write},
     path::*,
 };
 
