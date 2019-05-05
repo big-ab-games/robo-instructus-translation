@@ -42,7 +42,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
 * Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
-* Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Español-España [en-replace.e.pairs](./en-replace.e.pairs)
 * Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
 * ไทย [en-replace.th.pairs](./en-replace.th.pairs)
