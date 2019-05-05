@@ -164,6 +164,7 @@ Clicca per chiudere
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 C'è un codice incompleto trovato su questo livello, prova a eseguirlo e rielaborare ... o semplicemente iniziare da zero
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Scorri con la rotella del mouse, \nalt
 
@@ -197,6 +198,7 @@ Premere per correre con l'esecuzione sospesa
 Notice the current evaluation is highlighted
 Si noti che la valutazione corrente è evidenziata
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Premi o usa la tastiera
 
@@ -211,3 +213,4 @@ Il miglior codice di punteggio in ciascuna \ncategoria viene automaticamente sal
 
 Reach the revealed location
 Raggiungi la posizione rivelata
+

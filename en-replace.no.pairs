@@ -164,6 +164,7 @@ Klikk for å lukke
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Det er noen uferdige kode som er funnet på dette nivået, prøv \nkjører det og omarbeider ... eller bare start fra bunnen av
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Rull med mushjulet, \nalt
 
@@ -197,6 +198,7 @@ Trykk for å kjøre med kjøring av pause
 Notice the current evaluation is highlighted
 Legg merke til at den nåværende evalueringen er uthevet
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Trykk, eller bruk tastatur
 
@@ -211,3 +213,4 @@ Den beste scoringskoden i hver kategori blir automatisk lagret
 
 Reach the revealed location
 Nå den avslørte beliggenheten
+

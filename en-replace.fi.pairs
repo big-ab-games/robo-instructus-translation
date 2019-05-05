@@ -164,6 +164,7 @@ Sulje napsauttamalla
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Tässä tasossa on jonkin verran keskeneräistä koodia, yritä \najaa sitä ja muokata ... tai aloita tyhjästä
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Vieritä hiiren pyörällä, \nalt
 
@@ -197,6 +198,7 @@ Paina, jos haluat suorittaa suorituksen keskeytetyllä tavalla
 Notice the current evaluation is highlighted
 Huomaa, että nykyinen arviointi on korostettu
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Paina tai käytä näppäimistöä
 
@@ -211,3 +213,4 @@ Paras pisteytyskoodi kussakin kategoriassa tallennetaan automaattisesti
 
 Reach the revealed location
 Saavuta paljastunut sijainti
+

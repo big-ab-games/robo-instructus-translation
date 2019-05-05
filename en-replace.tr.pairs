@@ -164,6 +164,7 @@ Kapatmak için tıklayın
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Bu seviyede bazı bitmemiş kodlar var, dene \nçalıştır ve tekrar çalış
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Fare tekerleği ile kaydırma, \nalt
 
@@ -197,6 +198,7 @@ Yürütme duraklatılmış olarak çalıştırmak için basın
 Notice the current evaluation is highlighted
 Mevcut değerlendirmenin vurgulandığına dikkat edin
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Basın veya klavyeyi kullanın.
 
@@ -211,3 +213,4 @@ Her kategorideki en iyi skor kodu otomatik olarak kaydedilir.
 
 Reach the revealed location
 Açığa çıkan yere ulaşın
+

@@ -164,6 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 มีบางรหัสที่ยังไม่เสร็จในระดับนี้ลอง \nเรียกใช้และทำงานซ้ำ ...
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 เลื่อนด้วยล้อเลื่อนของเมาส์ \nalt
 
@@ -197,6 +198,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 สังเกตว่าการประเมินผลปัจจุบันถูกเน้น
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 กดหรือใช้แป้นพิมพ์
 
@@ -211,3 +213,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 เข้าถึงตำแหน่งที่เปิดเผย
+

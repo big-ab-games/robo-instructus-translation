@@ -164,6 +164,7 @@ Klicka för att stänga
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Det finns en del oavslutad kod hittad på den här nivån, försök \nköra den och omarbeta ... eller bara börja från början
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Rulla med mushjulet, \nalt
 
@@ -197,6 +198,7 @@ Tryck för att köra med körning pausad
 Notice the current evaluation is highlighted
 Observera att den aktuella utvärderingen är markerad
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Tryck på eller använd tangentbordet
 
@@ -211,3 +213,4 @@ Den bästa poängkoden i varje kategori sparas automatiskt
 
 Reach the revealed location
 Nå den uppenbara platsen
+

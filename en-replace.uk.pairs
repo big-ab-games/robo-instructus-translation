@@ -164,6 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 На цьому рівні знайдено деякий незакінчений код, спробуйте запустити його і переробити ... або просто почати з нуля
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Прокрутіть за допомогою коліщатка миші, \nalt
 
@@ -197,6 +198,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 Зверніть увагу на те, що поточна оцінка виділена
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Натисніть або використовуйте клавіатуру
 
@@ -211,3 +213,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 Досягніть виявленого місця розташування
+

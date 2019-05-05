@@ -164,6 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 このレベルには未完成のコードがいくつかあります。それを実行してやり直してみてください。
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 マウスホイールでスクロールします、\nalt
 
@@ -197,6 +198,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 現在の評価が強調表示されていることに注目してください。
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 キーボードを押すか使用する
 

@@ -164,6 +164,7 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 在这个级别上找到了一些未完成的代码，尝试运行它并重新编写......或者只是从头开始
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 滚动鼠标滚轮，\nalt
 
@@ -197,6 +198,7 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 请注意，当前评估会突出显示
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 按，或使用键盘
 
@@ -211,3 +213,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到达显示的位置
+

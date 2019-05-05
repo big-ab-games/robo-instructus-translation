@@ -164,6 +164,7 @@ Bấm để đóng
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Có một số mã chưa hoàn thành được tìm thấy ở cấp độ này, hãy thử \nchạy nó và làm lại ... hoặc chỉ bắt đầu từ đầu
 
+### the following 2 are split up here as they appear in-game with ↑↓ symbols between them
 Scroll with mouse wheel,\nalt
 Cuộn bằng bánh xe chuột, \nalt
 
@@ -197,6 +198,7 @@ Nhấn để chạy với thực thi bị tạm dừng
 Notice the current evaluation is highlighted
 Lưu ý đánh giá hiện tại được tô sáng
 
+### the following 2 are split up here as they appear in-game with → symbols between them
 Press, or use keyboard
 Nhấn hoặc sử dụng bàn phím
 
@@ -211,3 +213,4 @@ Mã điểm tốt nhất trong mỗi loại được lưu tự động
 
 Reach the revealed location
 Đến địa điểm được tiết lộ
+
