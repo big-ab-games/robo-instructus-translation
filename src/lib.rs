@@ -56,5 +56,5 @@ fn translate_ru() {
 
 #[test]
 fn translate_pl() {
-    assert_eq!(&*translate_to("pl", "Begin"), "Zaczynać");
+    assert_eq!(&*translate_to("pl", "Begin"), "Zacznij");
 }
