@@ -13,10 +13,10 @@ Settings
 設置選項
 
 Video
-視頻
+視頻選項
 
 Audio
-音頻
+音頻選項
 
 Save & Quit
 保存退出
@@ -37,14 +37,16 @@ Effects
 繪圖品質
 #assuming graphic effects/visual effects
 
+## Volume settings (sound as opposed to music)
 Sound
-聲音
+音效
 
+## Music volume
 Music
 音樂
 
 Title Screen
-標題屏幕
+主頁
 
 Autocomplete
 自動完成
@@ -106,13 +108,15 @@ Reset
 Run (paused)
 執行（暫停）
 
+## This goes to the next command/line
 Step over
-略過一步
-#skip a step
+下一個命令
+#next command
 
 Stop
-停
+停止
 
+## This goes to the next thing, sometimes the same command
 Step forward
 下一步
 #next step
@@ -188,8 +192,9 @@ Try using `else` and \na comparison like `>`
 修改解決方案使用`else`和\n嚴格不等號，如：`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-閱讀《比較和條件三》，看嚴格不等號（如：`>`）和`else`的例子
+閱讀《比較》和《條件三》，看嚴格不等號（如：`>`）和`else`的例子
 #see "examples" of ...
+#chapter title names will need to match of course
 
 Try using a comparison like `>`
 使用嚴格不等號吧（如：`>`）
