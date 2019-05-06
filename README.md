@@ -34,7 +34,6 @@ These translations have been created using google translate and need to be impro
 * 日本語 (Japanese) [en-replace.ja.pairs](./en-replace.ja.pairs)
 * 한국어 (Korean) [en-replace.ko.pairs](./en-replace.ko.pairs)
 * Norsk [en-replace.no.pairs](./en-replace.no.pairs)
-* Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
 * Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
 * Español-España [en-replace.es.pairs](./en-replace.es.pairs)
