@@ -19,7 +19,7 @@ Audio
 Audio
 
 Save & Quit
-Sauvegarder
+Sauvegarder & Quitter
 
 #### as in "go back to previous menu"
 Back
@@ -39,21 +39,21 @@ Effets
 
 #### volume settings (sound as opposed to music)
 Sound
-Du son
+Son
 
 #### music volume
 Music
-La musique
+Musique
 
 Title Screen
 Écran titre
 
 Autocomplete
-Autocomplete
+Saisie Automatique
 
 #### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
 High
-Haute
+Haut
 
 Low
 Faible
@@ -62,16 +62,16 @@ Medium
 Moyen
 
 Background only
-Contexte seulement
+Image de fond seulement
 
 On
-Sur
+Allumé
 
 Off
-De
+Eteint
 
 Language
-La langue
+Langue
 
 ### Tooltips
 Run
@@ -115,7 +115,7 @@ Enjamber
 
 #### stop running code
 Stop
-Arrêtez
+Arrêter
 
 #### code navigation when paused/debugging
 Step forward
@@ -138,10 +138,10 @@ Type commands here
 Tapez les commandes ici
 
 Add the lines:
-Ajouter les lignes:
+Ajoutez les lignes:
 
 Press play to run
-Appuyez sur play pour courir
+Appuyez sur play pour faire fonctionner
 
 Modify the commands and \nre-run to reach the exit
 Modifiez les commandes et \nre-run pour atteindre la sortie
@@ -153,7 +153,7 @@ Levels have multiple stages\nclick here to view each
 Les niveaux ont plusieurs étapes \ncliquez ici pour les afficher
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Votre code sera réexécuté à chaque étape, \nune seule solution doit alors résoudre tout. \nRevenir à la première étape
+Votre code sera réexécuté à chaque étape, \nune seule solution doit tout résoudre. \nRevenir à la première étape
 
 Reach the first stage exit
 Atteindre la sortie de la première étape
@@ -162,7 +162,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Retravaillez pour atteindre toutes les sorties, rappelez-vous \nle code est réexécuté par le haut à chaque étape
 
 Change game speed
-Changer la vitesse de jeu
+Changez la vitesse de jeu
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
@@ -197,14 +197,14 @@ Try using `else`
 Essayez d'utiliser `else`
 
 Press to run with execution paused
-Appuyez sur pour exécuter avec l'exécution en pause
+Appuyez pour exécuter avec l'exécution en pause
 
 Notice the current evaluation is highlighted
 Notez que l'évaluation en cours est surlignée
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Appuyez sur ou utilisez le clavier → pour passer à l&#39;évaluation suivante.
+Appuyez ou utilisez le clavier → pour passer à l&#39;évaluation suivante.
 
 Level solutions can be\nsaved and loaded here
 Les solutions de niveau peuvent être \nenregistrées et chargées ici
@@ -213,5 +213,5 @@ The best scoring code in each\ncategory is automatically saved
 Le meilleur code de score dans chaque catégorie est automatiquement enregistré.
 
 Reach the revealed location
-Atteindre le lieu révélé
+Atteignez le lieu révélé
 
