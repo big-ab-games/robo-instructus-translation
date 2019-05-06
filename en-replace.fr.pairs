@@ -51,7 +51,7 @@ Title Screen
 Autocomplete
 Saisie Automatique
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Haut
 
@@ -61,9 +61,13 @@ Faible
 Medium
 Moyen
 
+Maximum
+Maximum
+
 Background only
 Image de fond seulement
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Allumé
 
@@ -214,3 +218,4 @@ Le meilleur code de score dans chaque catégorie est automatiquement enregistré
 
 Reach the revealed location
 Atteignez le lieu révélé
+

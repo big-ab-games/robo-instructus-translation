@@ -51,7 +51,7 @@ Title Screen
 Autocomplete
 การเติมข้อความอัตโนมัติ
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 สูง
 
@@ -61,9 +61,13 @@ Low
 Medium
 กลาง
 
+Maximum
+สูงสุด
+
 Background only
 พื้นหลังเท่านั้น
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 บน
 

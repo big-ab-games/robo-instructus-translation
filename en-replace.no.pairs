@@ -51,7 +51,7 @@ Tittelskjerm
 Autocomplete
 Autofullfør
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Høy
 
@@ -61,9 +61,13 @@ Lav
 Medium
 Medium
 
+Maximum
+Maksimum
+
 Background only
 Bare bakgrunn
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 På
 

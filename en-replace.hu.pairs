@@ -51,7 +51,7 @@ Cím képernyő
 Autocomplete
 Automatikus kiegészítés
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Magas
 
@@ -61,9 +61,13 @@ Alacsony
 Medium
 Közepes
 
+Maximum
+Maximális
+
 Background only
 Csak háttér
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Tovább
 

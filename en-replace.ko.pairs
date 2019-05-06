@@ -51,7 +51,7 @@ Title Screen
 Autocomplete
 자동 완성
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 높은
 
@@ -61,9 +61,13 @@ Low
 Medium
 매질
 
+Maximum
+최고
+
 Background only
 배경 만
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 에
 

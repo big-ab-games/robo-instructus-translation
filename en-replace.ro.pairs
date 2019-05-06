@@ -51,7 +51,7 @@ Ecranul de titlu
 Autocomplete
 Completare automată
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Înalt
 
@@ -61,9 +61,13 @@ Scăzut
 Medium
 Mediu
 
+Maximum
+Maxim
+
 Background only
 Doar fundal
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Pe
 

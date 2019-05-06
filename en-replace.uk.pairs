@@ -51,7 +51,7 @@ Title Screen
 Autocomplete
 Автозавершення
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Високий
 
@@ -61,9 +61,13 @@ Low
 Medium
 Середній
 
+Maximum
+Максимум
+
 Background only
 Тільки фон
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Увімкнено
 

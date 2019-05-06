@@ -51,7 +51,7 @@ Ekran tytułowy
 Autocomplete
 Autouzupełnienie
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Wysokie
 
@@ -61,9 +61,13 @@ Niskie
 Medium
 Średnie
 
+Maximum
+Maksymalny
+
 Background only
 Tylko tło
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Wlącz
 
@@ -214,3 +218,4 @@ Najlepszy wynik w każdej kategorii jest automatycznie zapisywany
 
 Reach the revealed location
 Dotrzyj do ujawnionej lokalizacji
+

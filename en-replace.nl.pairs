@@ -51,7 +51,7 @@ Titelscherm
 Autocomplete
 Automatisch aanvullen
 
-#### low,medium,high related to graphics effects quality, e.g. "Effects: Medium"
+#### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
 Hoog
 
@@ -61,9 +61,13 @@ Laag
 Medium
 Gemiddeld
 
+Maximum
+maximaal
+
 Background only
 Alleen achtergrond
 
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 Aan
 
@@ -214,3 +218,4 @@ De best scorende code in elke\ncategorie wordt automatisch opgeslagen
 
 Reach the revealed location
 Bereik de onthulde locatie
+
