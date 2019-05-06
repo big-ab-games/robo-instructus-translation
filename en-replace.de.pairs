@@ -35,11 +35,11 @@ Snowfall
 Schneefall
 
 Effects
-Auswirkungen
+Effekte
 
 #### volume settings (sound as opposed to music)
 Sound
-Klingen
+Ton
 
 #### music volume
 Music
@@ -65,10 +65,10 @@ Background only
 Nur Hintergrund
 
 On
-1
+An
 
 Off
-0
+Aus
 
 Language
 Sprache
@@ -79,7 +79,7 @@ Lauf
 
 #### main menu button at top-left
 Menu
-Speisekarte
+Menu
 
 Code Reference
 Code-Referenz
@@ -97,7 +97,7 @@ Decrease Code Execution Rate
 Code-Ausführungsrate verringern
 
 Increase Code Execution Rate
-Erhöhen Sie die Codeausführungsrate
+Code-Ausführungsrate erhöhen
 
 Load / Save new approach
 Neuen Ansatz laden / speichern
@@ -111,11 +111,11 @@ Run (pausiert)
 
 #### code navigation when paused/debugging
 Step over
-Schritt über
+Schritt überspringen
 
 #### stop running code
 Stop
-Halt
+Stopp
 
 #### code navigation when paused/debugging
 Step forward
@@ -125,7 +125,7 @@ Delete name
 Namen löschen
 
 Exit Level
-Ebene beenden
+Level beenden
 
 Delete profile
 Profil löschen
@@ -141,22 +141,22 @@ Add the lines:
 Fügen Sie die Zeilen hinzu:
 
 Press play to run
-Drücke auf play, um zu laufen
+Drücken Sie auf Start um zu beginnen
 
 Modify the commands and \nre-run to reach the exit
-Ändern Sie die Befehle und \nerneut, um den Ausgang zu erreichen
+Ändern Sie die Befehle\n um den Ausgang zu erreichen
 
 Press to exit level
-Drücken Sie, um die Ebene zu verlassen
+Drücken Sie Beenden, um den Level zu verlassen
 
 Levels have multiple stages\nclick here to view each
-Die Stufen haben mehrere Stufen. Klicken Sie hier, um die einzelnen Ebenen anzuzeigen
+Die Levels haben mehrere Stufen. Klicken Sie hier, um die einzelnen Ebenen anzuzeigen
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
 Ihr Code wird in jeder Phase erneut ausgeführt, so dass alle Lösungen durch eine einzige Lösung gelöst werden müssen.\nKehren Sie zur ersten Phase zurück
 
 Reach the first stage exit
-Erreichen Sie die erste Etappe
+Erreichen Sie die erste Stufe
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
 Um alle Ausgänge zu erreichen, müssen Sie daran denken,\ndass der Code in jeder Phase von oben erneut ausgeführt wird
@@ -172,7 +172,7 @@ Click to close
 Klicken Sie zum Schließen
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Auf dieser Ebene wurde noch nicht abgeschlossener Code gefunden. Versuchen Sie, es auszuführen und zu überarbeiten... oder fangen Sie einfach bei Null an
+Auf diesem Level wurde noch nicht abgeschlossener Code gefunden. Versuchen Sie, es auszuführen und zu überarbeiten... oder fangen Sie einfach erneut an
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
@@ -197,7 +197,7 @@ Try using `else`
 Versuchen Sie es mit `else`
 
 Press to run with execution paused
-Drücken Sie, um die Ausführung mit angehaltener Ausführung auszuführen
+Drücken Sie Start, um die Ausführung mit angehaltener Ausführung auszuführen
 
 Notice the current evaluation is highlighted
 Beachten Sie, dass die aktuelle Bewertung hervorgehoben ist
@@ -210,7 +210,7 @@ Level solutions can be\nsaved and loaded here
 Hier können Levellösungen\ngespeichert und geladen werden
 
 The best scoring code in each\ncategory is automatically saved
-Der Bestbewertungscode in jeder\nkategorie wird automatisch gespeichert
+Der Code mit der höchsten Punktzahl wird in jeder\nkategorie automatisch gespeichert
 
 Reach the revealed location
 Erreichen Sie den freigelegten Ort
