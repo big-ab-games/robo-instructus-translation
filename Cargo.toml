@@ -8,7 +8,7 @@ publish = false
 [dependencies]
 rustc-hash = "1"
 lazy_static = "1"
-parking_lot = "0.7"
+parking_lot = "0.8"
 crossbeam-channel = { version = "0.3.8", optional = true }
 log = { version = "0.4", optional = true }
 google_translate = { path = "goog", optional = true }
