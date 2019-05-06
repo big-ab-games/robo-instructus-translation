@@ -6,11 +6,11 @@ Continue
 繼續
 
 Profile
-輪廓
+用户資料
 
 ### Menu
 Settings
-設置
+設置選項
 
 Video
 視頻
@@ -19,22 +19,23 @@ Audio
 音頻
 
 Save & Quit
-保存
+保存退出
 
 Back
-背部
+返回
 
 UI Scale
-UI比例
+用户界面大小
 
 Fullscreen
 全屏
 
 Snowfall
-降雪
+雪
 
 Effects
-效果
+繪圖品質
+#assuming graphic effects/visual effects
 
 Sound
 聲音
@@ -56,32 +57,33 @@ Low
 低
 
 Medium
-介質
+中
 
 Background only
 僅限背景
 
 On
-上
+開
 
 Off
-離
+關
 
 Language
 語言
 
 ### Tooltips
 Run
-跑
+執行
 
 Menu
-菜單
+主選單
+#main menu - if this is used more widely, 選單 or 菜單
 
 Code Reference
 代碼參考
 
 Decrease Speed
-降低速度
+降速
 
 Increase Speed
 增速
@@ -102,16 +104,18 @@ Reset
 重啟
 
 Run (paused)
-運行（暫停）
+執行（暫停）
 
 Step over
-過來
+略過一步
+#skip a step
 
 Stop
-停止
+停
 
 Step forward
-向前一步
+下一步
+#next step
 
 Delete name
 刪除名稱
@@ -120,7 +124,7 @@ Exit Level
 退出等級
 
 Delete profile
-刪除個人資料
+刪除用户資料
 
 Confirm delete
 確認刪除
@@ -130,16 +134,17 @@ Type commands here
 在此輸入命令
 
 Add the lines:
-添加行：
+添加：
 
 Press play to run
-按播放即可運行
+按播放即可執行
 
 Modify the commands and \nre-run to reach the exit
 修改命令並重新運行以到達出口
 
 Press to exit level
-按退出水平
+退出等級
+#just "exit level"
 
 Levels have multiple stages\nclick here to view each
 級別有多個階段\n單擊此處查看每個階段
@@ -148,10 +153,10 @@ Your code will be re-run each stage,\nso a single solution must solve all.\nRetu
 您的代碼將在每個階段重新運行，因此單個解決方案必須解決所有問題。\n返回第一階段
 
 Reach the first stage exit
-到達第一階段退出
+到達第一階段的出口
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-返工到達所有出口，記住\n代碼在每個階段從頂部重新運行
+返工到達所有出口，記住代碼在每個階段從頂部重新執行
 
 Change game speed
 改變遊戲速度
@@ -160,35 +165,38 @@ Click to open the Code Reference, it contains all\nthe primer sections and funct
 單擊打開代碼參考，它包含到目前為止已恢復的所有引物部分和功能
 
 Click to close
-點擊關閉
+關閉
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 在這個級別上找到了一些未完成的代碼，嘗試運行它並重新編寫......或者只是從頭開始
 
 #### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
 Scroll with mouse wheel,\nalt
-滾動鼠標滾輪，\nalt
+滾動鼠標滾輪，\n轉換鍵+
 
 , alt pageup/pagedown
-，alt pageup / pagedown
+或者轉換鍵+Page Up鍵 / 轉換鍵+Page Down鍵
+# alt-page up/ald-page down
 
 Click to view all recovered messages
 單擊以查看所有已恢復的消息
 
 Try using `loop` in your solution
-嘗試在解決方案中使用`loop`
+修改解決方案使用`loop`的命令吧
 
 Try using `else` and \na comparison like `>`
-嘗試使用`else`和\n比較`>`
+修改解決方案使用`else`和\n嚴格不等號，如：`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-閱讀比較和條件III，看看`>`和`else`用法
+閱讀《比較和條件三》，看嚴格不等號（如：`>`）和`else`的例子
+#see "examples" of ...
 
 Try using a comparison like `>`
-嘗試使用像`>`這樣的比較
+使用嚴格不等號吧（如：`>`）
+#The translation for "comparison" here and above essentially means "inequality signs"
 
 Try using `else`
-嘗試使用`else`
+使用`else`吧
 
 Press to run with execution paused
 按暫停執行的運行
@@ -201,7 +209,7 @@ Press, or use keyboard
 按，或使用鍵盤
 
 , to step forward to the next evaluation
-，前進到下一個評估
+鍵即可前進到下一個評估
 
 Level solutions can be\nsaved and loaded here
 可以在此處保存和加載級別解決方案
