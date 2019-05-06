@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Tallentaa
 
+#### as in "go back to previous menu"
 Back
 Takaisin
 
@@ -36,9 +37,11 @@ Lumisade
 Effects
 tehosteet
 
+#### volume settings (sound as opposed to music)
 Sound
 Ääni
 
+#### music volume
 Music
 musiikki
 
@@ -74,6 +77,7 @@ Kieli
 Run
 Juosta
 
+#### main menu button at top-left
 Menu
 valikko
 
@@ -101,15 +105,19 @@ Lataa / tallenna uusi lähestymistapa
 Reset
 asettaa uudelleen
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Suorita (keskeytetty)
 
+#### code navigation when paused/debugging
 Step over
 Astua yli
 
+#### stop running code
 Stop
 Stop
 
+#### code navigation when paused/debugging
 Step forward
 Astu eteenpäin
 
@@ -156,6 +164,7 @@ Uudelleenkäsittely päästäksesi kaikkiin uloskäynteihin, muista \nkoodi ajet
 Change game speed
 Muuta pelin nopeutta
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Avaa koodiohje napsauttamalla sitä, se sisältää kaikki \nalkukappaleet ja toiminnot, jotka on palautettu tähän mennessä
 

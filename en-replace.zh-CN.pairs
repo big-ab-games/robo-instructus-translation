@@ -21,6 +21,7 @@ Audio
 Save & Quit
 保存
 
+#### as in "go back to previous menu"
 Back
 背部
 
@@ -36,9 +37,11 @@ Snowfall
 Effects
 效果
 
+#### volume settings (sound as opposed to music)
 Sound
 声音
 
+#### music volume
 Music
 音乐
 
@@ -74,6 +77,7 @@ Language
 Run
 跑
 
+#### main menu button at top-left
 Menu
 菜单
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 重启
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 运行（暂停）
 
+#### code navigation when paused/debugging
 Step over
 过来
 
+#### stop running code
 Stop
 停止
 
+#### code navigation when paused/debugging
 Step forward
 向前一步
 
@@ -156,6 +164,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 改变游戏速度
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 单击打开代码参考，它包含到目前为止已恢复的所有引物部分和功能
 

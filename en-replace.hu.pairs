@@ -21,6 +21,7 @@ Hang
 Save & Quit
 Mentés
 
+#### as in "go back to previous menu"
 Back
 Hát
 
@@ -36,9 +37,11 @@ Hóesés
 Effects
 Hatások
 
+#### volume settings (sound as opposed to music)
 Sound
 Hang
 
+#### music volume
 Music
 Zene
 
@@ -74,6 +77,7 @@ Nyelv
 Run
 Fuss
 
+#### main menu button at top-left
 Menu
 Menü
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 Visszaállítás
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Futtatás (szüneteltetés)
 
+#### code navigation when paused/debugging
 Step over
 Átlép
 
+#### stop running code
 Stop
 Állj meg
 
+#### code navigation when paused/debugging
 Step forward
 Lépjen elő
 
@@ -156,6 +164,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 A játék sebességének módosítása
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 A Kód hivatkozás megnyitásához kattintson az összes, az eddigi helyreállítási szakaszra és funkcióra
 

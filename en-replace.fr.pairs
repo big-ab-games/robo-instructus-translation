@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Sauvegarder
 
+#### as in "go back to previous menu"
 Back
 Retour
 
@@ -36,9 +37,11 @@ Chute de neige
 Effects
 Effets
 
+#### volume settings (sound as opposed to music)
 Sound
 Du son
 
+#### music volume
 Music
 La musique
 
@@ -74,6 +77,7 @@ La langue
 Run
 Courir
 
+#### main menu button at top-left
 Menu
 Menu
 
@@ -101,15 +105,19 @@ Charger / Enregistrer une nouvelle approche
 Reset
 Réinitialiser
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Run (en pause)
 
+#### code navigation when paused/debugging
 Step over
 Enjamber
 
+#### stop running code
 Stop
 Arrêtez
 
+#### code navigation when paused/debugging
 Step forward
 Avancer
 
@@ -156,6 +164,7 @@ Retravaillez pour atteindre toutes les sorties, rappelez-vous \nle code est rée
 Change game speed
 Changer la vitesse de jeu
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Cliquez pour ouvrir la référence de code, elle contient toutes les sections de l'amorce et les fonctions récupérées jusqu'à présent.
 

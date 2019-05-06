@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Opslaan en afsluiten
 
+#### as in "go back to previous menu"
 Back
 Terug
 
@@ -36,9 +37,11 @@ Sneeuwval
 Effects
 Effecten
 
+#### volume settings (sound as opposed to music)
 Sound
 Geluid
 
+#### music volume
 Music
 Muziek
 
@@ -74,6 +77,7 @@ Taal
 Run
 Uitvoeren
 
+#### main menu button at top-left
 Menu
 Menu
 
@@ -101,15 +105,19 @@ Nieuwe aanpak laden / opslaan
 Reset
 Reset
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Uitvoeren (gepauzeerd)
 
+#### code navigation when paused/debugging
 Step over
 Overstappen
 
+#### stop running code
 Stop
 Stop
 
+#### code navigation when paused/debugging
 Step forward
 Stap naar voren
 
@@ -156,6 +164,7 @@ Herschrijf om alle uitgangen te bereiken. Vergeet niet dat code in elke fase opn
 Change game speed
 Verander spelsnelheid
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Klik om de codereferentie te openen, deze bevat alle \nde inleidingen en functies die tot nu toe zijn ontdekt
 

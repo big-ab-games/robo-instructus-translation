@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Tiết kiệm
 
+#### as in "go back to previous menu"
 Back
 Trở lại
 
@@ -36,9 +37,11 @@ Tuyết rơi
 Effects
 Hiệu ứng
 
+#### volume settings (sound as opposed to music)
 Sound
 Âm thanh
 
+#### music volume
 Music
 Âm nhạc
 
@@ -74,6 +77,7 @@ Ngôn ngữ
 Run
 Chạy
 
+#### main menu button at top-left
 Menu
 Thực đơn
 
@@ -101,15 +105,19 @@ Tải / lưu phương pháp mới
 Reset
 Cài lại
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Chạy (tạm dừng)
 
+#### code navigation when paused/debugging
 Step over
 Bước qua
 
+#### stop running code
 Stop
 Dừng lại
 
+#### code navigation when paused/debugging
 Step forward
 Bước về phía trước
 
@@ -156,6 +164,7 @@ Làm lại để đạt được tất cả các lối thoát, hãy nhớ \nmã 
 Change game speed
 Thay đổi tốc độ trò chơi
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Bấm để mở Mã tham chiếu, nó chứa tất cả \ncác phần và chức năng mồi được phục hồi
 

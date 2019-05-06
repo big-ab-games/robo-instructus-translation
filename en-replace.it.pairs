@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Salvare
 
+#### as in "go back to previous menu"
 Back
 Indietro
 
@@ -36,9 +37,11 @@ Nevicata
 Effects
 effetti
 
+#### volume settings (sound as opposed to music)
 Sound
 Suono
 
+#### music volume
 Music
 Musica
 
@@ -74,6 +77,7 @@ linguaggio
 Run
 Correre
 
+#### main menu button at top-left
 Menu
 Menu
 
@@ -101,15 +105,19 @@ Carica / Salva un nuovo approccio
 Reset
 Reset
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Esegui (in pausa)
 
+#### code navigation when paused/debugging
 Step over
 Scavalcare
 
+#### stop running code
 Stop
 Fermare
 
+#### code navigation when paused/debugging
 Step forward
 Passo in avanti
 
@@ -156,6 +164,7 @@ Rilavorazione per raggiungere tutte le uscite, ricorda \nil codice viene ripetut
 Change game speed
 Cambia la velocità di gioco
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Fare clic per aprire il codice di riferimento, contiene tutte le sezioni e le funzioni di primer recuperate finora
 

@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Zapisz i wyjdź
 
+#### as in "go back to previous menu"
 Back
 Z powrotem
 
@@ -36,9 +37,11 @@ Opady śniegu
 Effects
 Efekty
 
+#### volume settings (sound as opposed to music)
 Sound
 Dźwięk
 
+#### music volume
 Music
 Muzyka
 
@@ -74,6 +77,7 @@ Język
 Run
 Biegnij
 
+#### main menu button at top-left
 Menu
 Menu
 
@@ -101,15 +105,19 @@ Załaduj / zapisz nowe podejście
 Reset
 Ustaw od nowa
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Uruchom (wstrzymany)
 
+#### code navigation when paused/debugging
 Step over
 Krok nad
 
+#### stop running code
 Stop
 Stop
 
+#### code navigation when paused/debugging
 Step forward
 Krok naprzód
 
@@ -156,6 +164,7 @@ Przerób, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uru
 Change game speed
 Zmień szybkość gry
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nsekcje i funkcje odzyskane do tej pory
 

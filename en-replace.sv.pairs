@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Spara
 
+#### as in "go back to previous menu"
 Back
 Tillbaka
 
@@ -36,9 +37,11 @@ Snöfall
 Effects
 Effekter
 
+#### volume settings (sound as opposed to music)
 Sound
 Ljud
 
+#### music volume
 Music
 Musik
 
@@ -74,6 +77,7 @@ Språk
 Run
 Springa
 
+#### main menu button at top-left
 Menu
 Meny
 
@@ -101,15 +105,19 @@ Ladda / spara ny tillvägagångssätt
 Reset
 Återställa
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Kör (pausad)
 
+#### code navigation when paused/debugging
 Step over
 Kliva över
 
+#### stop running code
 Stop
 Sluta
 
+#### code navigation when paused/debugging
 Step forward
 Stig fram
 
@@ -156,6 +164,7 @@ Rework för att nå alla utgångar, kom ihåg \nkoden återförs upp från toppe
 Change game speed
 Ändra spelhastighet
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Klicka för att öppna kodreferensen, den innehåller alla \nde primära sektionerna och funktionerna hittills återställda
 

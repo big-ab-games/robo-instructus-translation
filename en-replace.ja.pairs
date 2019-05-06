@@ -21,6 +21,7 @@ Audio
 Save & Quit
 保存する
 
+#### as in "go back to previous menu"
 Back
 バック
 
@@ -36,9 +37,11 @@ Snowfall
 Effects
 効果
 
+#### volume settings (sound as opposed to music)
 Sound
 音
 
+#### music volume
 Music
 音楽
 
@@ -74,6 +77,7 @@ Language
 Run
 実行する
 
+#### main menu button at top-left
 Menu
 メニュー
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 リセット
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 実行（一時停止）
 
+#### code navigation when paused/debugging
 Step over
 ステップオーバー
 
+#### stop running code
 Stop
 やめる
 
+#### code navigation when paused/debugging
 Step forward
 踏み出す
 
@@ -156,6 +164,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 ゲームスピードを変更する
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 クリックすると、コードリファレンスが開きます。これには、\nこれまでに回復したすべての\nプライマーセクションと機能
 

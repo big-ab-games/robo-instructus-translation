@@ -21,6 +21,7 @@ Audio
 Save & Quit
 บันทึก
 
+#### as in "go back to previous menu"
 Back
 กลับ
 
@@ -36,9 +37,11 @@ Snowfall
 Effects
 ผลกระทบ
 
+#### volume settings (sound as opposed to music)
 Sound
 เสียง
 
+#### music volume
 Music
 เพลง
 
@@ -74,6 +77,7 @@ Language
 Run
 วิ่ง
 
+#### main menu button at top-left
 Menu
 เมนู
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 รีเซ็ต
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 เรียกใช้ (หยุดชั่วคราว)
 
+#### code navigation when paused/debugging
 Step over
 ก้าวข้ามไป
 
+#### stop running code
 Stop
 หยุด
 
+#### code navigation when paused/debugging
 Step forward
 ก้าวไปข้างหน้า
 
@@ -156,6 +164,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 เปลี่ยนความเร็วของเกม
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 คลิกที่นี่เพื่อเปิดการอ้างอิงรหัสมันมีทั้งหมด \nส่วนไพรเมอร์และฟังก์ชั่นการกู้คืนจนถึง
 

@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Αποθηκεύσετε
 
+#### as in "go back to previous menu"
 Back
 Πίσω
 
@@ -36,9 +37,11 @@ Snowfall
 Effects
 Υπάρχοντα
 
+#### volume settings (sound as opposed to music)
 Sound
 Ήχος
 
+#### music volume
 Music
 ΜΟΥΣΙΚΗ
 
@@ -74,6 +77,7 @@ Language
 Run
 Τρέξιμο
 
+#### main menu button at top-left
 Menu
 Μενού
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 Επαναφορά
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Εκτέλεση (παύση)
 
+#### code navigation when paused/debugging
 Step over
 Βήμα προς τα πάνω
 
+#### stop running code
 Stop
 Να σταματήσει
 
+#### code navigation when paused/debugging
 Step forward
 Βήμα προς τα εμπρός
 
@@ -156,6 +164,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 Αλλαγή ταχύτητας παιχνιδιού
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Κάντε κλικ για να ανοίξετε τον Κωδικό Αναφοράς, περιέχει όλα τα τμήματα και τις λειτουργίες που έχουν ανακτηθεί μέχρι στιγμής
 

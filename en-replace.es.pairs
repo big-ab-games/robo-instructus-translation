@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Salvar
 
+#### as in "go back to previous menu"
 Back
 Espalda
 
@@ -36,9 +37,11 @@ Nevada
 Effects
 Efectos
 
+#### volume settings (sound as opposed to music)
 Sound
 Sonar
 
+#### music volume
 Music
 Música
 
@@ -74,6 +77,7 @@ Idioma
 Run
 correr
 
+#### main menu button at top-left
 Menu
 Menú
 
@@ -101,15 +105,19 @@ Cargar / Guardar nuevo enfoque
 Reset
 Reiniciar
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Correr (pausado)
 
+#### code navigation when paused/debugging
 Step over
 Paso sobre
 
+#### stop running code
 Stop
 Detener
 
+#### code navigation when paused/debugging
 Step forward
 Un paso adelante
 
@@ -156,6 +164,7 @@ Redacción para llegar a todas las salidas, recuerda \nEl código se vuelve a ej
 Change game speed
 Cambiar la velocidad del juego
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Haga clic para abrir la referencia de código, contiene todas las secciones de cebador y las funciones recuperadas hasta ahora
 

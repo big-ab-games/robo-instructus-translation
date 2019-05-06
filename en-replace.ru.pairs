@@ -22,6 +22,7 @@ Audio
 Save & Quit
 Сохранить и выйти
 
+#### as in "go back to previous menu"
 Back
 Назад
 
@@ -37,9 +38,11 @@ Snowfall
 Effects
 Последствия
 
+#### volume settings (sound as opposed to music)
 Sound
 Звук
 
+#### music volume
 Music
 Музыка
 
@@ -76,6 +79,7 @@ Language
 Run
 Бежать
 
+#### main menu button at top-left
 Menu
 Меню
 
@@ -103,15 +107,19 @@ Load / Save new approach
 Reset
 Сброс
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Запустить (приостановлено)
 
+#### code navigation when paused/debugging
 Step over
 Переступить
 
+#### stop running code
 Stop
 Стоп
 
+#### code navigation when paused/debugging
 Step forward
 Шаг вперед
 
@@ -159,6 +167,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 Изменить скорость игры
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Нажмите, чтобы открыть руководство по коду, она содержит все разделы\nи функции для начинающих, восстановленные до настоящего времени.
 

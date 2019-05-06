@@ -21,6 +21,7 @@ Audio
 Save & Quit
 保存退出
 
+#### as in "go back to previous menu"
 Back
 返回
 
@@ -37,9 +38,11 @@ Effects
 繪圖品質
 #assuming graphic effects/visual effects
 
+#### volume settings (sound as opposed to music)
 Sound
 聲音
 
+#### music volume
 Music
 音樂
 
@@ -75,6 +78,7 @@ Language
 Run
 執行
 
+#### main menu button at top-left
 Menu
 主選單
 #main menu - if this is used more widely, 選單 or 菜單
@@ -103,16 +107,20 @@ Load / Save new approach
 Reset
 重啟
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 執行（暫停）
 
+#### code navigation when paused/debugging
 Step over
 略過一步
 #skip a step
 
+#### stop running code
 Stop
 停
 
+#### code navigation when paused/debugging
 Step forward
 下一步
 #next step
@@ -161,6 +169,7 @@ Rework to reach all exits, remember\n code is re-run from the top at each stage
 Change game speed
 改變遊戲速度
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 單擊打開代碼參考，它包含到目前為止已恢復的所有引物部分和功能
 

@@ -21,6 +21,7 @@ Zvuk
 Save & Quit
 Uložit
 
+#### as in "go back to previous menu"
 Back
 Zadní
 
@@ -36,9 +37,11 @@ Sněžení
 Effects
 Účinky
 
+#### volume settings (sound as opposed to music)
 Sound
 Zvuk
 
+#### music volume
 Music
 Hudba
 
@@ -74,6 +77,7 @@ Jazyk
 Run
 Běh
 
+#### main menu button at top-left
 Menu
 Jídelní lístek
 
@@ -101,15 +105,19 @@ Načíst / uložit nový přístup
 Reset
 Reset
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Spustit (pozastaveno)
 
+#### code navigation when paused/debugging
 Step over
 Překročit
 
+#### stop running code
 Stop
 Stop
 
+#### code navigation when paused/debugging
 Step forward
 Krok vpřed
 
@@ -156,6 +164,7 @@ Přepracovat k dosažení všech východů, nezapomeňte \nkód je v každé fá
 Change game speed
 Změna rychlosti hry
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Kliknutím otevřete kódovou referenci, která obsahuje všechny
 

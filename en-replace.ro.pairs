@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Salvați
 
+#### as in "go back to previous menu"
 Back
 Înapoi
 
@@ -36,9 +37,11 @@ Ninsoare
 Effects
 Efecte
 
+#### volume settings (sound as opposed to music)
 Sound
 Sunet
 
+#### music volume
 Music
 Muzică
 
@@ -74,6 +77,7 @@ Limba
 Run
 Alerga
 
+#### main menu button at top-left
 Menu
 Meniul
 
@@ -101,15 +105,19 @@ Load / Save new approach
 Reset
 restabili
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Rularea (întreruptă)
 
+#### code navigation when paused/debugging
 Step over
 Pas peste
 
+#### stop running code
 Stop
 Stop
 
+#### code navigation when paused/debugging
 Step forward
 Pas înainte
 
@@ -156,6 +164,7 @@ Rework pentru a ajunge la toate ieșirile, rețineți \ncodul este reluat de la 
 Change game speed
 Modificați viteza jocului
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Faceți clic pentru a deschide codul de referință, conține toate secțiunile și funcțiile recuperate până acum
 

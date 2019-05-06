@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Speichern & Beenden
 
+#### as in "go back to previous menu"
 Back
 Zurück
 
@@ -36,9 +37,11 @@ Schneefall
 Effects
 Auswirkungen
 
+#### volume settings (sound as opposed to music)
 Sound
 Klingen
 
+#### music volume
 Music
 Musik
 
@@ -74,6 +77,7 @@ Sprache
 Run
 Lauf
 
+#### main menu button at top-left
 Menu
 Speisekarte
 
@@ -101,15 +105,19 @@ Neuen Ansatz laden / speichern
 Reset
 Zurücksetzen
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Run (pausiert)
 
+#### code navigation when paused/debugging
 Step over
 Schritt über
 
+#### stop running code
 Stop
 Halt
 
+#### code navigation when paused/debugging
 Step forward
 Schritt vorwärts
 
@@ -156,6 +164,7 @@ Um alle Ausgänge zu erreichen, müssen Sie daran denken,\ndass der Code in jede
 Change game speed
 Spielgeschwindigkeit ändern
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Klicken Sie hier, um die Codereferenz zu öffnen. Sie enthält alle\nPrimer-Abschnitte und -Funktionen, die bis jetzt wiederhergestellt wurden
 

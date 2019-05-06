@@ -21,6 +21,7 @@ Ses
 Save & Quit
 Kayıt etmek
 
+#### as in "go back to previous menu"
 Back
 Geri
 
@@ -36,9 +37,11 @@ Kar yağışı
 Effects
 Etkileri
 
+#### volume settings (sound as opposed to music)
 Sound
 Ses
 
+#### music volume
 Music
 Müzik
 
@@ -74,6 +77,7 @@ Dil
 Run
 Koşmak
 
+#### main menu button at top-left
 Menu
 Menü
 
@@ -101,15 +105,19 @@ Yeni yaklaşımı yükle / kaydet
 Reset
 Reset
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Çalıştır (duraklatıldı)
 
+#### code navigation when paused/debugging
 Step over
 Adım atmak
 
+#### stop running code
 Stop
 durdurmak
 
+#### code navigation when paused/debugging
 Step forward
 Öne çık
 
@@ -156,6 +164,7 @@ Tüm çıkışlara ulaşmak için yeniden işleme, hatırla \nkod her aşamada b
 Change game speed
 Oyun hızını değiştir
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Kod Referansını açmak için tıklayın, tüm
 

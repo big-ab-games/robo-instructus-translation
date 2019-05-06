@@ -21,6 +21,7 @@ Audio
 Save & Quit
 Guardar & Sair
 
+#### as in "go back to previous menu"
 Back
 Voltar
 
@@ -36,9 +37,11 @@ Queda de neve
 Effects
 Efeitos
 
+#### volume settings (sound as opposed to music)
 Sound
 Som
 
+#### music volume
 Music
 Música
 
@@ -74,6 +77,7 @@ Idioma
 Run
 Executar
 
+#### main menu button at top-left
 Menu
 Menu
 
@@ -101,15 +105,19 @@ Carregar / Salvar nova abordagem
 Reset
 Repor
 
+#### start running the code but immediately paused / debugging
 Run (paused)
 Executar (pausado)
 
+#### code navigation when paused/debugging
 Step over
 Passar por cima
 
+#### stop running code
 Stop
 Parar
 
+#### code navigation when paused/debugging
 Step forward
 Passar à frente
 
@@ -156,6 +164,7 @@ Modifica para alcançar todas as saídas, atencão que\no código é executado n
 Change game speed
 Alterar a velocidade do jogo
 
+#### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
 Clica para abrir o Guia do Código, este contém todas\nas seções do guia inicial e funções recuperadas até o momento
 
