@@ -25,12 +25,9 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 These translations have been created using google translate and need to be improved before being used in game.
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
 * 简体中文 (Chinese (Simplified)) [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
-* 繁體中文 (Chinese (Traditional)) [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
 * čeština [en-replace.cs.pairs](./en-replace.cs.pairs)
 * Dansk [en-replace.da.pairs](./en-replace.da.pairs)
 * Suomi [en-replace.fi.pairs](./en-replace.fi.pairs)
-* Français [en-replace.fr.pairs](./en-replace.fr.pairs)
-* Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 * Ελληνικά [en-replace.el.pairs](./en-replace.el.pairs)
 * Magyar [en-replace.hu.pairs](./en-replace.hu.pairs)
 * Italiano [en-replace.it.pairs](./en-replace.it.pairs)
@@ -53,6 +50,9 @@ These languages will be made available in game, though are only partial and may 
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
 * Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
+* 繁體中文 (Chinese (Traditional)) [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
+* Français [en-replace.fr.pairs](./en-replace.fr.pairs)
+* Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
