@@ -174,12 +174,9 @@ Kliknutím zavřete
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Tam je nějaký nedokončený kód nalezený na této úrovni, zkuste to spustit a přepracovat ... nebo prostě začít od nuly
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Posouvejte kolečkem myši, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Posouvejte kolečkem myši,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Kliknutím zobrazíte všechny obnovené zprávy
@@ -205,12 +202,9 @@ Stiskněte pro spuštění s pozastaveným provedením
 Notice the current evaluation is highlighted
 Všimněte si, že je zvýrazněno aktuální hodnocení
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Stiskněte nebo použijte klávesnici
-
-, to step forward to the next evaluation
-, aby postoupili k dalšímu hodnocení
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Stisknutím tlačítka nebo pomocí klávesnice → přejdete na další vyhodnocení
 
 Level solutions can be\nsaved and loaded here
 Úroveň řešení lze uložit a načíst zde

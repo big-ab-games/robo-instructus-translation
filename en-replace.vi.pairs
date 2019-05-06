@@ -174,12 +174,9 @@ Bấm để đóng
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Có một số mã chưa hoàn thành được tìm thấy ở cấp độ này, hãy thử \nchạy nó và làm lại ... hoặc chỉ bắt đầu từ đầu
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Cuộn bằng bánh xe chuột, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Cuộn bằng bánh xe chuột, \nalt /, alt pageup/pagedown
 
 Click to view all recovered messages
 Nhấn vào đây để xem tất cả các tin nhắn được phục hồi
@@ -205,12 +202,9 @@ Nhấn để chạy với thực thi bị tạm dừng
 Notice the current evaluation is highlighted
 Lưu ý đánh giá hiện tại được tô sáng
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Nhấn hoặc sử dụng bàn phím
-
-, to step forward to the next evaluation
-, để bước tới đánh giá tiếp theo
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Nhấn hoặc sử dụng bàn phím → để chuyển sang đánh giá tiếp theo
 
 Level solutions can be\nsaved and loaded here
 Các giải pháp cấp độ có thể được lưu và tải ở đây

@@ -174,12 +174,9 @@ Kattintson a bezáráshoz
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Van még egy befejezetlen kód ebben a szinten, próbáld ki és futtatni ... vagy csak kezdj a semmiből
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Görgessen az egérgombbal, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Görgetés az egérgombbal,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Kattintson az összes visszaállított üzenet megtekintéséhez
@@ -205,12 +202,9 @@ Nyomja meg a futtatáshoz szüneteltetéssel
 Notice the current evaluation is highlighted
 Figyeljük meg, hogy az aktuális értékelés kiemelve van
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Nyomja meg a gombot, vagy használja a billentyűzetet
-
-, to step forward to the next evaluation
-, hogy lépjen tovább a következő értékelésre
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Nyomja meg a gombot, vagy használja a billentyűzetet →, hogy lépjen a következő értékeléshez
 
 Level solutions can be\nsaved and loaded here
 A szintmegoldásokat itt lehet elmenteni és betölteni

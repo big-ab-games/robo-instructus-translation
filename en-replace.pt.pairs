@@ -174,12 +174,9 @@ Clica para fechar
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Encontrámos algum código por acabar neste nível, tenta\nexecutar e modificar o código... ou então começa do zero
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Faz scroll com a roda do rato, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Faz scroll com a roda do rato,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Clica para ver todas as mensagens recuperadas
@@ -205,12 +202,9 @@ Pressiona para executar com a execução pausada
 Notice the current evaluation is highlighted
 Repara que a avaliação atual está destacada
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Pressiona ou usa o teclado
-
-, to step forward to the next evaluation
-, para avançar para a próxima avaliação
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Pressione ou use o teclado → para avançar para a próxima avaliação
 
 Level solutions can be\nsaved and loaded here
 As soluções dos níveis podem\nser guardadas e carregadas aqui
@@ -220,4 +214,3 @@ O código com melhor pontuação em\ncada categoria é guardado automaticamente
 
 Reach the revealed location
 Chega ao local que foi revelado
-

@@ -174,12 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 이 레벨에서 발견 된 미완성 된 코드가 있습니다. 실행하고 재 작업하십시오 ... 아니면 처음부터 시작하십시오.
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-마우스 휠로 스크롤 \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+마우스 휠로 스크롤\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 복구 된 모든 메시지를 보려면 클릭하십시오.
@@ -205,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 현재 평가가 강조 표시됩니다.
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-키보드를 누르거나 사용하십시오.
-
-, to step forward to the next evaluation
-, 다음 평가로 나아가려면
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+를 누르거나 키보드 →를 사용하여 다음 평가로 이동합니다.
 
 Level solutions can be\nsaved and loaded here
 레벨 솔루션을 여기에 저장하고로드 할 수 있습니다.

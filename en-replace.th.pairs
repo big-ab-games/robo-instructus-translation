@@ -174,12 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 มีบางรหัสที่ยังไม่เสร็จในระดับนี้ลอง \nเรียกใช้และทำงานซ้ำ ...
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-เลื่อนด้วยล้อเลื่อนของเมาส์ \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+เลื่อนด้วยล้อเลื่อนของเมาส์\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 คลิกเพื่อดูข้อความที่กู้คืนทั้งหมด
@@ -205,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 สังเกตว่าการประเมินผลปัจจุบันถูกเน้น
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-กดหรือใช้แป้นพิมพ์
-
-, to step forward to the next evaluation
-เพื่อก้าวไปสู่การประเมินต่อไป
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+กดหรือใช้คีย์บอร์ด→เพื่อก้าวไปข้างหน้าสู่การประเมินผลครั้งต่อไป
 
 Level solutions can be\nsaved and loaded here
 โซลูชั่นระดับสามารถบันทึกและโหลดได้ที่นี่

@@ -174,12 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 На цьому рівні знайдено деякий незакінчений код, спробуйте запустити його і переробити ... або просто почати з нуля
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Прокрутіть за допомогою коліщатка миші, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Прокрутіть за допомогою коліщатка миші,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Натисніть, щоб переглянути всі відновлені повідомлення
@@ -205,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 Зверніть увагу на те, що поточна оцінка виділена
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Натисніть або використовуйте клавіатуру
-
-, to step forward to the next evaluation
-, щоб перейти до наступної оцінки
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Натисніть або використовуйте клавіатуру →, щоб перейти до наступної оцінки
 
 Level solutions can be\nsaved and loaded here
 Рівні рівня можуть бути збережені і завантажені тут

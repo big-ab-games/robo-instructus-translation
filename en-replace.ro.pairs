@@ -174,12 +174,9 @@ Faceți clic pentru a închide
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Există niște coduri neterminate găsite la acest nivel, încercați \nsă le rulați și să le refaceți ... sau să începeți de la zero
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Derulați cu rotița mouse-ului, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Derulați cu rotița mouse-ului,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Faceți clic pentru a vizualiza toate mesajele recuperate
@@ -205,12 +202,9 @@ Apăsați pentru a rula cu execuția întreruptă
 Notice the current evaluation is highlighted
 Observați că evaluarea curentă este evidențiată
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Apăsați sau utilizați tastatura
-
-, to step forward to the next evaluation
-, pentru a merge mai departe la următoarea evaluare
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Apăsați sau utilizați tastatura →, pentru a merge mai departe la următoarea evaluare
 
 Level solutions can be\nsaved and loaded here
 Soluțiile de nivel pot fi salvate și încărcate aici

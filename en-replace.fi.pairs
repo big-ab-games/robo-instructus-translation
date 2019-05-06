@@ -174,12 +174,9 @@ Sulje napsauttamalla
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Tässä tasossa on jonkin verran keskeneräistä koodia, yritä \najaa sitä ja muokata ... tai aloita tyhjästä
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Vieritä hiiren pyörällä, \nalt
-
-, alt pageup/pagedown
-, alt pageup / sivunäkymä
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Selaa hiiren pyörällä,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Näytä kaikki palautetut viestit napsauttamalla
@@ -205,12 +202,9 @@ Paina, jos haluat suorittaa suorituksen keskeytetyllä tavalla
 Notice the current evaluation is highlighted
 Huomaa, että nykyinen arviointi on korostettu
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Paina tai käytä näppäimistöä
-
-, to step forward to the next evaluation
-, askel eteenpäin seuraavaan arviointiin
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Voit siirtyä seuraavaan arviointiin painamalla tai näppäimistöllä →
 
 Level solutions can be\nsaved and loaded here
 Tason ratkaisut voidaan tallentaa ja ladata tähän

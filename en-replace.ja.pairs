@@ -174,12 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 このレベルには未完成のコードがいくつかあります。それを実行してやり直してみてください。
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-マウスホイールでスクロールします、\nalt
-
-, alt pageup/pagedown
-、代替ページアップ/ページダウン
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+マウスホイールでスクロール、\nalt↑/↓、alt pageup/pagedown
 
 Click to view all recovered messages
 クリックして回収されたメッセージをすべて表示
@@ -205,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 現在の評価が強調表示されていることに注目してください。
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-キーボードを押すか使用する
-
-, to step forward to the next evaluation
-、次の評価に進むために
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+次の評価に進むには、→を押すか、キーボードを使用します
 
 Level solutions can be\nsaved and loaded here
 レベルのソリューションを\n保存してここにロードすることができます

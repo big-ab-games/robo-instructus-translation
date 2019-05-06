@@ -174,12 +174,9 @@ Klik for at lukke
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Der er noget ufærdigt kode fundet på dette niveau, prøv \nkør det og omarbejde ... eller bare start fra bunden
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Rul med mushjul, \nalt
-
-, alt pageup/pagedown
-, alt side / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Rul med mus hjul,\nalt ↑/↓, alt side op / pagedown
 
 Click to view all recovered messages
 Klik for at se alle inddrevne meddelelser
@@ -205,12 +202,9 @@ Tryk for at køre med kørsel af pause
 Notice the current evaluation is highlighted
 Bemærk, at den aktuelle evaluering er fremhævet
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Tryk på, eller brug tastaturet
-
-, to step forward to the next evaluation
-, at gå videre til den næste evaluering
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Tryk på eller brug tastaturet → for at gå videre til den næste evaluering
 
 Level solutions can be\nsaved and loaded here
 Niveau løsninger kan \ngemmes og indlæst her

@@ -174,12 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 在这个级别上找到了一些未完成的代码，尝试运行它并重新编写......或者只是从头开始
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-滚动鼠标滚轮，\nalt
-
-, alt pageup/pagedown
-，alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+滚动鼠标滚轮，\nalt↑/↓，alt pageup/pagedown
 
 Click to view all recovered messages
 单击以查看所有已恢复的消息
@@ -205,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 请注意，当前评估会突出显示
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-按，或使用键盘
-
-, to step forward to the next evaluation
-，前进到下一个评估
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+按，或使用键盘→，前进到下一个评估
 
 Level solutions can be\nsaved and loaded here
 可以在此处保存和加载级别解决方案

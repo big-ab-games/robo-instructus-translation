@@ -174,12 +174,9 @@ Kapatmak için tıklayın
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Bu seviyede bazı bitmemiş kodlar var, dene \nçalıştır ve tekrar çalış
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Fare tekerleği ile kaydırma, \nalt
-
-, alt pageup/pagedown
-, sayfa başı / sayfalama
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Fare tekerleği ile kaydırma,\nalt ↑/↓, alt sayfa / sayfalama
 
 Click to view all recovered messages
 Kurtarılan tüm mesajları görüntülemek için tıklayın
@@ -205,12 +202,9 @@ Yürütme duraklatılmış olarak çalıştırmak için basın
 Notice the current evaluation is highlighted
 Mevcut değerlendirmenin vurgulandığına dikkat edin
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Basın veya klavyeyi kullanın.
-
-, to step forward to the next evaluation
-, bir sonraki değerlendirmeye geçmek için
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Bir sonraki değerlendirmeye geçmek için tuşuna basın veya klavyeyi kullanın →
 
 Level solutions can be\nsaved and loaded here
 Seviye çözümleri burada \nkaydedilebilir ve yüklenebilir

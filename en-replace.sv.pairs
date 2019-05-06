@@ -174,12 +174,9 @@ Klicka för att stänga
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Det finns en del oavslutad kod hittad på den här nivån, försök \nköra den och omarbeta ... eller bara börja från början
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Rulla med mushjulet, \nalt
-
-, alt pageup/pagedown
-, all sida / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Bläddra med mushjulet,\nalt ↑/↓, alt sidan / pagedown
 
 Click to view all recovered messages
 Klicka för att visa alla återställda meddelanden
@@ -205,12 +202,9 @@ Tryck för att köra med körning pausad
 Notice the current evaluation is highlighted
 Observera att den aktuella utvärderingen är markerad
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Tryck på eller använd tangentbordet
-
-, to step forward to the next evaluation
-, för att gå vidare till nästa utvärdering
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Tryck på, eller använd tangentbordet →, för att gå vidare till nästa utvärdering
 
 Level solutions can be\nsaved and loaded here
 Nivålösningar kan \nsparas och laddas här

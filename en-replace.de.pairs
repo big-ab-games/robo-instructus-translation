@@ -174,12 +174,9 @@ Klicken Sie zum Schließen
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Auf dieser Ebene wurde noch nicht abgeschlossener Code gefunden. Versuchen Sie, es auszuführen und zu überarbeiten... oder fangen Sie einfach bei Null an
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Mit dem Mausrad scrollen, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Scrollen Sie mit dem Mausrad, \nAlt ↑ / ↓, Alt Pageup / Pagedown
 
 Click to view all recovered messages
 Klicken Sie hier, um alle wiederhergestellten Nachrichten anzuzeigen
@@ -205,12 +202,9 @@ Drücken Sie, um die Ausführung mit angehaltener Ausführung auszuführen
 Notice the current evaluation is highlighted
 Beachten Sie, dass die aktuelle Bewertung hervorgehoben ist
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Drücken Sie oder verwenden Sie die Tastatur
-
-, to step forward to the next evaluation
-, um zur nächsten Bewertung überzugehen
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Drücken Sie oder verwenden Sie die Tastatur →, um zur nächsten Auswertung zu gelangen
 
 Level solutions can be\nsaved and loaded here
 Hier können Levellösungen\ngespeichert und geladen werden

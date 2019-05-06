@@ -174,12 +174,9 @@ Klik om te sluiten
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 Er is onvoltooide code gevonden in dit level. Probeer het uit te voeren en aan te passen... of begin gewoon opnieuw
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-Scrol met muiswiel, \nalt
-
-, alt pageup/pagedown
-, alt pageup / pagedown
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+Scrol met muiswiel,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Klik om alle gevonden berichten te bekijken
@@ -205,12 +202,9 @@ Druk om uit te voeren in gepauzeerde modus
 Notice the current evaluation is highlighted
 Merk op dat de huidige evaluatie gemarkeerd is
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-Druk of gebruik het toetsenbord
-
-, to step forward to the next evaluation
-, om door te gaan naar de volgende evaluatie
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+Druk op of gebruik toetsenbord → om door te gaan naar de volgende evaluatie
 
 Level solutions can be\nsaved and loaded here
 Leveloplossingen kunnen hier\nworden opgeslagen en geladen
@@ -220,4 +214,3 @@ De best scorende code in elke\ncategorie wordt automatisch opgeslagen
 
 Reach the revealed location
 Bereik de onthulde locatie
-

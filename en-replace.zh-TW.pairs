@@ -36,7 +36,6 @@ Snowfall
 
 Effects
 繪圖品質
-#assuming graphic effects/visual effects
 
 #### volume settings (sound as opposed to music)
 Sound
@@ -81,7 +80,6 @@ Run
 #### main menu button at top-left
 Menu
 主選單
-#main menu - if this is used more widely, 選單 or 菜單
 
 Code Reference
 代碼參考
@@ -114,7 +112,6 @@ Run (paused)
 #### code navigation when paused/debugging
 Step over
 下一個命令
-#next command
 
 #### stop running code
 Stop
@@ -123,7 +120,6 @@ Stop
 #### code navigation when paused/debugging
 Step forward
 下一步
-#next step
 
 Delete name
 刪除名稱
@@ -152,7 +148,6 @@ Modify the commands and \nre-run to reach the exit
 
 Press to exit level
 退出等級
-#just "exit level"
 
 Levels have multiple stages\nclick here to view each
 級別有多個階段\n單擊此處查看每個階段
@@ -179,13 +174,9 @@ Click to close
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
 在這個級別上找到了一些未完成的代碼，嘗試運行它並重新編寫......或者只是從頭開始
 
-#### Split sections: "Scroll with mouse wheel, alt ↑ ↓, alt pageup/pagedown"
-Scroll with mouse wheel,\nalt
-滾動鼠標滾輪，\n轉換鍵+
-
-, alt pageup/pagedown
-或者轉換鍵+Page Up鍵 / 轉換鍵+Page Down鍵
-# alt-page up/ald-page down
+#### note: ↑,↓ chars are converted into icons and should always exist in order
+Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
+滾動鼠標滾輪，\nalt↑/↓，alt pageup/pagedown
 
 Click to view all recovered messages
 單擊以查看所有已恢復的消息
@@ -198,12 +189,9 @@ Try using `else` and \na comparison like `>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
 閱讀《比較》和《條件三》，看嚴格不等號（如：`>`）和`else`的例子
-#see "examples" of ...
-#chapter title names will need to match of course
 
 Try using a comparison like `>`
 使用嚴格不等號吧（如：`>`）
-#The translation for "comparison" here and above essentially means "inequality signs"
 
 Try using `else`
 使用`else`吧
@@ -214,12 +202,9 @@ Press to run with execution paused
 Notice the current evaluation is highlighted
 請注意，當前評估會突出顯示
 
-#### Split with symbols in the middle: "Press, or use keyboard →, to step forward..."
-Press, or use keyboard
-按，或使用鍵盤
-
-, to step forward to the next evaluation
-鍵即可前進到下一個評估
+#### note: → char is converted into an icon and should always exist
+Press, or use keyboard →, to step forward to the next evaluation
+按，或使用鍵盤→，前進到下一個評估
 
 Level solutions can be\nsaved and loaded here
 可以在此處保存和加載級別解決方案
@@ -229,3 +214,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到達顯示的位置
+
