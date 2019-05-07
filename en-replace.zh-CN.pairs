@@ -154,16 +154,16 @@ Press to exit level
 按退出水平
 
 Levels have multiple stages\nclick here to view each
-级别有多个阶段\n单击此处查看每个阶段
+级别有多个阶段单击此处查看每个阶段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-您的代码将在每个阶段重新运行，因此单个解决方案必须解决所有问题。\n返回第一阶段
+您的代码将在每个阶段重新运行，因此单个解决方案必须解决所有问题。返回第一阶段
 
 Reach the first stage exit
 到达第一阶段退出
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-返工到达所有出口，记住\n代码在每个阶段从顶部重新运行
+返工到达所有出口，记住代码在每个阶段从顶部重新运行
 
 Change game speed
 改变游戏速度
@@ -180,7 +180,7 @@ There's some unfinished code found on this level, try\nrunning it and reworking.
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-滚动鼠标滚轮，\nalt↑/↓，alt pageup/pagedown
+滚动鼠标滚轮，alt↑/↓，alt pageup/pagedown
 
 Click to view all recovered messages
 单击以查看所有已恢复的消息
@@ -189,7 +189,7 @@ Try using `loop` in your solution
 尝试在解决方案中使用`loop`
 
 Try using `else` and \na comparison like `>`
-尝试使用`else`和\n比较`>`
+尝试使用`else`和比较`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
 阅读比较和条件III，看看`>`和`else`用法
@@ -218,4 +218,3 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到达显示的位置
-

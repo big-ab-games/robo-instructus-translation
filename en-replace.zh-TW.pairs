@@ -154,10 +154,10 @@ Press to exit level
 退出等級
 
 Levels have multiple stages\nclick here to view each
-級別有多個階段\n單擊此處查看每個階段
+級別有多個階段單擊此處查看每個階段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-您的代碼將在每個階段重新運行，因此單個解決方案必須解決所有問題。\n返回第一階段
+您的代碼將在每個階段重新運行，因此單個解決方案必須解決所有問題。返回第一階段
 
 Reach the first stage exit
 到達第一階段的出口
@@ -180,7 +180,7 @@ There's some unfinished code found on this level, try\nrunning it and reworking.
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-滾動鼠標滾輪，\nalt↑/↓，alt pageup/pagedown
+滾動鼠標滾輪，alt↑/↓，alt pageup/pagedown
 
 Click to view all recovered messages
 單擊以查看所有已恢復的消息
@@ -218,4 +218,3 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到達顯示的位置
-
