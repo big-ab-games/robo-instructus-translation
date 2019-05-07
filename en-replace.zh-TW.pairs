@@ -62,12 +62,12 @@ Medium
 中
 
 Maximum
-最大值
+非常高
 
 Background only
 僅限背景
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
 開
 
@@ -95,7 +95,7 @@ Increase Speed
 增速
 
 Message Archive
-消息存檔
+消息記錄
 
 Decrease Code Execution Rate
 降低代碼執行率
@@ -148,51 +148,51 @@ Press play to run
 按播放即可執行
 
 Modify the commands and \nre-run to reach the exit
-修改命令並重新運行以到達出口
+修改命令並重新執行以到達出口
 
 Press to exit level
 退出等級
 
 Levels have multiple stages\nclick here to view each
-級別有多個階段單擊此處查看每個階段
+每等級有幾個階段；按此處查看各階段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-您的代碼將在每個階段重新運行，因此單個解決方案必須解決所有問題。返回第一階段
+代碼將在每個階段重新執行，因此單個解決方案需要解決所有階段。返回第一階段
 
 Reach the first stage exit
 到達第一階段的出口
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-返工到達所有出口，記住代碼在每個階段從頂部重新執行
+修改代碼到達每個階段的出口，記住代碼每個階段重新執行
 
 Change game speed
 改變遊戲速度
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-單擊打開代碼參考，它包含到目前為止已恢復的所有引物部分和功能
+按此處打開代碼參考，它包含到目前為止已找到的所有手冊章節和函数
 
 Click to close
 關閉
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-在這個級別上找到了一些未完成的代碼，嘗試運行它並重新編寫......或者只是從頭開始
+這個等級有些未完成的代碼，嘗試執行修改......或者簡直從頭開始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
 滾動鼠標滾輪，alt↑/↓，alt pageup/pagedown
 
 Click to view all recovered messages
-單擊以查看所有已恢復的消息
+按此處查看所有已找到的消息
 
 Try using `loop` in your solution
 修改解決方案使用`loop`的命令吧
 
 Try using `else` and \na comparison like `>`
-修改解決方案使用`else`和\n嚴格不等號，如：`>`
+修改解決方案使用`else`和嚴格不等號，如：`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-閱讀《比較》和《條件三》，看嚴格不等號（如：`>`）和`else`的例子
+閱讀《Comparison》和《Conditions III》，看嚴格不等號（如：`>`）和`else`的例子
 
 Try using a comparison like `>`
 使用嚴格不等號吧（如：`>`）
@@ -201,20 +201,20 @@ Try using `else`
 使用`else`吧
 
 Press to run with execution paused
-按暫停執行的運行
+按此處執行並在第一命令暫停
 
 Notice the current evaluation is highlighted
 請注意，當前評估會突出顯示
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-按，或使用鍵盤→，前進到下一個評估
+按此處或按鍵盤的→即可前進到下一個評估
 
 Level solutions can be\nsaved and loaded here
-可以在此處保存和加載級別解決方案
+此處可以保存和加載等級的解決方案
 
 The best scoring code in each\ncategory is automatically saved
-每個類別中最好的評分代碼會自動保存
+每個類別中最好評分的解決方案就自動保存
 
 Reach the revealed location
-到達顯示的位置
+到達顯示的地方
