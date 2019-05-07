@@ -1,6 +1,6 @@
 ### Title screen
 Begin
-Zacznij
+Rozpocznij
 
 Continue
 Kontynuuj
@@ -23,10 +23,10 @@ Zapisz i wyjdź
 
 #### as in "go back to previous menu"
 Back
-Z powrotem
+Powrót
 
 UI Scale
-Skala interfejsu użytkownika / Skala UI
+Rozmiar interfejsu użytkownika
 
 Fullscreen
 Pełny ekran
@@ -49,7 +49,7 @@ Title Screen
 Ekran tytułowy
 
 Autocomplete
-Autouzupełnienie
+Autouzupełnianie
 
 #### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
@@ -62,31 +62,31 @@ Medium
 Średnie
 
 Maximum
-Maksymalny
+Maksymalne
 
 Background only
 Tylko tło
 
 #### ie "Fullscreen: On", "Autocomplete: Off"
 On
-Wlącz
+Włączone
 
 Off
-Wlącz
+Wyłączone
 
 Language
 Język
 
 ### Tooltips
 Run
-Biegnij
+Uruchom
 
 #### main menu button at top-left
 Menu
 Menu
 
 Code Reference
-Odniesienie do kodu
+Opis dostępnych funkcji
 
 Decrease Speed
 Zmniejsz prędkość
@@ -98,10 +98,10 @@ Message Archive
 Archiwum wiadomości
 
 Decrease Code Execution Rate
-Zmniejsz współczynnik wykonania kodu
+Zmniejsz prędkość wykonania kodu
 
 Increase Code Execution Rate
-Zwiększ wskaźnik wykonania kodu
+Zwiększ prędkość wykonania kodu
 
 Load / Save new approach
 Załaduj / zapisz nowe podejście
@@ -111,11 +111,11 @@ Ustaw od nowa
 
 #### start running the code but immediately paused / debugging
 Run (paused)
-Uruchom (wstrzymany)
+Uruchom (krok po kroku)
 
 #### code navigation when paused/debugging
 Step over
-Krok nad
+Następny krok
 
 #### stop running code
 Stop
@@ -160,17 +160,17 @@ Your code will be re-run each stage,\nso a single solution must solve all.\nRetu
 Twój kod zostanie ponownie uruchomiony na każdym etapie,\nwięc jedno rozwiązanie musi rozwiązać wszystkie.\nWróć do pierwszego etapu
 
 Reach the first stage exit
-Dotrzyj do pierwszego etapu wyjścia
+Dotrzyj do wyjścia pierwszego etapu
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Przerób, aby dotrzeć do wszystkich wyjść, zapamiętaj\nkod jest ponownie uruchamiany z góry na każdym etapie
+Przerób kod, aby dotrzeć do wszystkich wyjść.\nPamiętaj, kod jest uruchamiany od nowa na każdym etapie
 
 Change game speed
 Zmień szybkość gry
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Kliknij, aby otworzyć odniesienie do kodu, zawiera on wszystkie\nsekcje i funkcje odzyskane do tej pory
+Kliknij, aby otworzyć opis dostępnych funkcji, zawiera on wszystkie\nsekcje i funkcje poznane do tej pory
 
 Click to close
 Kliknij, aby zamknąć
@@ -204,11 +204,11 @@ Press to run with execution paused
 Naciśnij, aby uruchomić z wstrzymanym wykonaniem
 
 Notice the current evaluation is highlighted
-Zauważ, że bieżące obliczenie jest podświetlone
+Zauważ, że bieżące polecenie jest podświetlone
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Naciśnij lub użyj klawiatury →, aby przejść do następnego obliczenia
+Naciśnij lub użyj klawiatury →, aby przejść do następnego polecenia
 
 Level solutions can be\nsaved and loaded here
 Rozwiązania poziomów można zapisywać i ładować tutaj
