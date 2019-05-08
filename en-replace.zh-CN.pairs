@@ -6,47 +6,47 @@ Continue
 继续
 
 Profile
-轮廓
+用户资料
 
 ### Menu
 Settings
-设置
+设置选项
 
 Video
-视频
+视频选项
 
 Audio
-音频
+音频选项
 
 Save & Quit
-保存
+保存退出
 
 #### as in "go back to previous menu"
 Back
-背部
+返回
 
 UI Scale
-UI比例
+用户界面大小
 
 Fullscreen
 全屏
 
 Snowfall
-降雪
+雪
 
 Effects
-效果
+绘图品质
 
 #### volume settings (sound as opposed to music)
 Sound
-声音
+音效
 
 #### music volume
 Music
 音乐
 
 Title Screen
-标题屏幕
+主页
 
 Autocomplete
 自动完成
@@ -59,20 +59,20 @@ Low
 低
 
 Medium
-介质
+中
 
 Maximum
-最大值
+最高
 
 Background only
 仅限背景
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
-上
+开
 
 Off
-离
+关
 
 Language
 语言
@@ -80,19 +80,19 @@ Language
 ### Tooltips
 #### main menu button at top-left
 Menu
-菜单
+主选单
 
 Code Reference
 代码参考
 
 Decrease Speed
-降低速度
+降速
 
 Increase Speed
 增速
 
 Message Archive
-消息存档
+消息记录
 
 Decrease Code Execution Rate
 降低代码执行率
@@ -109,15 +109,15 @@ Reset
 
 #### start running the code
 Run
-跑
+执行
 
 #### start running the code but immediately paused / debugging
 Run (paused)
-运行（暂停）
+执行（暂停）
 
 #### code navigation when paused/debugging
 Step over
-过来
+下一个命令
 
 #### stop running code
 Stop
@@ -129,7 +129,7 @@ Pause
 
 #### code navigation when paused/debugging
 Step forward
-向前一步
+下一步
 
 Delete name
 删除名称
@@ -138,7 +138,7 @@ Exit Level
 退出等级
 
 Delete profile
-删除个人资料
+删除用户资料
 
 Confirm delete
 确认删除
@@ -148,80 +148,79 @@ Type commands here
 在此输入命令
 
 Add the lines:
-添加行：
+添加：
 
 Press play to run
-按播放即可运行
+按播放即可执行
 
 Modify the commands and \nre-run to reach the exit
-修改命令并重新运行以到达出口
+修改命令并重新执行以到达出口
 
 Press to exit level
-按退出水平
+退出等级
 
 Levels have multiple stages\nclick here to view each
-级别有多个阶段单击此处查看每个阶段
+每等级有几个阶段；按此处查看各阶段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-您的代码将在每个阶段重新运行，因此单个解决方案必须解决所有问题。返回第一阶段
+代码将在每个阶段重新执行，因此单个解决方案需要解决所有阶段。返回第一阶段
 
 Reach the first stage exit
-到达第一阶段退出
+到达第一阶段的出口
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-返工到达所有出口，记住代码在每个阶段从顶部重新运行
+修改代码到达每个阶段的出口，记住代码每个阶段重新执行
 
 Change game speed
 改变游戏速度
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-单击打开代码参考，它包含到目前为止已恢复的所有引物部分和功能
+按此处打开代码参考，它包含到目前为止已找到的所有手册章节和函数
 
 Click to close
-点击关闭
+关闭
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-在这个级别上找到了一些未完成的代码，尝试运行它并重新编写......或者只是从头开始
+这个等级有些未完成的代码，尝试执行修改......或者简直从头开始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-滚动鼠标滚轮，alt↑/↓，alt pageup/pagedown
+用鼠标滑轮、alt↑/↓、alt pageup/pagedown即可上下滚动
 
 Click to view all recovered messages
-单击以查看所有已恢复的消息
+按此处查看所有已找到的消息
 
 Try using `loop` in your solution
-尝试在解决方案中使用`loop`
+修改解决方案使用`loop`的命令吧
 
 Try using `else` and \na comparison like `>`
-尝试使用`else`和比较`>`
+修改解决方案使用`else`和严格不等号，如：`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-阅读比较和条件III，看看`>`和`else`用法
+阅读《Comparison》和《Conditions III》，看严格不等号（如：`>`）和`else`的例子
 
 Try using a comparison like `>`
-尝试使用像`>`这样的比较
+使用严格不等号吧（如：`>`）
 
 Try using `else`
-尝试使用`else`
+使用`else`吧
 
 Press to run with execution paused
-按暂停执行的运行
+按此处执行并在第一命令暂停
 
 Notice the current evaluation is highlighted
 请注意，当前评估会突出显示
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-按，或使用键盘→，前进到下一个评估
+按此处或按键盘的→即可前进到下一个评估
 
 Level solutions can be\nsaved and loaded here
-可以在此处保存和加载级别解决方案
+此处可以保存和加载等级的解决方案
 
 The best scoring code in each\ncategory is automatically saved
-每个类别中最好的评分代码会自动保存
+每个类别中最好评分的解决方案就自动保存
 
 Reach the revealed location
-到达显示的位置
-
+到达显示的地方
