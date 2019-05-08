@@ -37,7 +37,6 @@ These translations have been created using google translate and need to be impro
 * Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
 * Español-España [en-replace.es.pairs](./en-replace.es.pairs)
-* Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
 * ไทย [en-replace.th.pairs](./en-replace.th.pairs)
 * Türkçe [en-replace.tr.pairs](./en-replace.tr.pairs)
 * Українська [en-replace.uk.pairs](./en-replace.uk.pairs)
@@ -52,6 +51,7 @@ These languages will be made available in game, though are only partial and may 
 * 繁體中文 [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
 * Français [en-replace.fr.pairs](./en-replace.fr.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
+* Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
