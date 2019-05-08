@@ -62,7 +62,7 @@ Medium
 中
 
 Maximum
-非常高
+最高
 
 Background only
 僅限背景
@@ -186,7 +186,7 @@ There's some unfinished code found on this level, try\nrunning it and reworking.
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-滾動鼠標滾輪，alt↑/↓，alt pageup/pagedown
+用鼠標滑輪，alt↑/↓，alt pageup/pagedown即可上下滾動
 
 Click to view all recovered messages
 按此處查看所有已找到的消息
@@ -198,7 +198,7 @@ Try using `else` and \na comparison like `>`
 修改解決方案使用`else`和嚴格不等號，如：`>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-閱讀《Comparison》和《Conditions III》，看嚴格不等號（如：`>`）和`else`的例子
+閲讀《Comparison》和《Conditions III》，看嚴格不等號（如：`>`）和`else`的例子
 
 Try using a comparison like `>`
 使用嚴格不等號吧（如：`>`）
