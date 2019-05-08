@@ -43,7 +43,7 @@ These translations have been created using google translate and need to be impro
 * Tiếng Việt [en-replace.vi.pairs](./en-replace.vi.pairs)
 
 #### Community improved translations
-These languages will be made available in game, though are only partial and may still need tweaks.
+These languages will be made available in game, though may still need tweaks.
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
