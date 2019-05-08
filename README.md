@@ -24,7 +24,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 #### Machine translations needing review
 These translations have been created using google translate and need to be improved before being used in game.
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
-* 简体中文 [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
 * čeština [en-replace.cs.pairs](./en-replace.cs.pairs)
 * Dansk [en-replace.da.pairs](./en-replace.da.pairs)
 * Suomi [en-replace.fi.pairs](./en-replace.fi.pairs)
@@ -48,6 +47,7 @@ These languages will be made available in game, though may still need tweaks.
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
 * Português [en-replace.pt.pairs](./en-replace.pt.pairs)
 * Polski [en-replace.pl.pairs](./en-replace.pl.pairs)
+* 简体中文 [en-replace.zh-CN.pairs](./en-replace.zh-CN.pairs)
 * 繁體中文 [en-replace.zh-TW.pairs](./en-replace.zh-TW.pairs)
 * Français [en-replace.fr.pairs](./en-replace.fr.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
