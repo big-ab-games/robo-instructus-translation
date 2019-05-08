@@ -3,7 +3,7 @@ Begin
 Börja
 
 Continue
-Fortsätta
+Fortsätt
 
 Profile
 Profil
@@ -32,7 +32,7 @@ Fullscreen
 Fullskärm
 
 Snowfall
-Snöfall
+Snö
 
 Effects
 Effekter
@@ -62,7 +62,7 @@ Medium
 Medium
 
 Maximum
-Maximal
+Max
 
 Background only
 Endast bakgrund
@@ -77,9 +77,9 @@ Av
 Language
 Språk
 
-### Tooltips
+### Tooltips, assuming run as in run code not run instead of walk
 Run
-Springa
+Kör
 
 #### main menu button at top-left
 Menu
@@ -95,19 +95,19 @@ Increase Speed
 Öka hastighet
 
 Message Archive
-Meddelandearkiv
+Arkiv
 
 Decrease Code Execution Rate
-Minska Code Execution Rate
+Minska exekveringshastighet
 
 Increase Code Execution Rate
-Öka kodkörningsfrekvensen
+Öka exekveringshastighet
 
 Load / Save new approach
-Ladda / spara ny tillvägagångssätt
+Ladda / spara nytt tillvägagångssätt
 
 Reset
-Återställa
+Återställ
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -115,7 +115,7 @@ Kör (pausad)
 
 #### code navigation when paused/debugging
 Step over
-Kliva över
+Stig över
 
 #### stop running code
 Stop
@@ -129,7 +129,7 @@ Delete name
 Ta bort namn
 
 Exit Level
-Utgångsnivå
+Utgång
 
 Delete profile
 Ta bort profil
@@ -145,7 +145,7 @@ Add the lines:
 Lägg till raderna:
 
 Press play to run
-Tryck på spel för att springa
+Tryck på play knappen för att köra
 
 Modify the commands and \nre-run to reach the exit
 Ändra kommandona och \nre-run för att nå utgången
@@ -157,20 +157,20 @@ Levels have multiple stages\nclick here to view each
 Nivån har flera steg \nklicka här för att se var och en
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Din kod kommer att återföras varje steg, \nså en enda lösning måste lösa alla. \nÅtergå till första etappen
+Din kod kommer att köras varje steg, \nså en enda lösning måste lösa alla etapper. \nÅtergå till första etappen
 
 Reach the first stage exit
-Nå den första etappen
+Nå den första etappens utgång
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Rework för att nå alla utgångar, kom ihåg \nkoden återförs upp från toppen i varje steg
+Omarbeta för att nå alla utgångar, kom ihåg \nkoden körs från toppen i varje etapp
 
 Change game speed
 Ändra spelhastighet
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Klicka för att öppna kodreferensen, den innehåller alla \nde primära sektionerna och funktionerna hittills återställda
+Klicka för att öppna kodreferensen, den innehåller alla \nde primära sektionerna och funktionerna som har hittats hittills
 
 Click to close
 Klicka för att stänga
@@ -217,5 +217,5 @@ The best scoring code in each\ncategory is automatically saved
 Den bästa poängkoden i varje kategori sparas automatiskt
 
 Reach the revealed location
-Nå den uppenbara platsen
+Nå den upptäckta platsen
 
