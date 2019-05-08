@@ -59,4 +59,4 @@ If you see a line that could be improved edit it and raise a pull request.
 If you'd like to see support for a new language please [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
 
 ## Test
-`cargo test --all --all-features`
+`cargo test`
