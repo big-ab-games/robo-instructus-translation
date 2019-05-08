@@ -78,9 +78,6 @@ Language
 Ngôn ngữ
 
 ### Tooltips
-Run
-Chạy
-
 #### main menu button at top-left
 Menu
 Thực đơn
@@ -106,8 +103,13 @@ Tăng tỷ lệ thực thi mã
 Load / Save new approach
 Tải / lưu phương pháp mới
 
+#### resets current level
 Reset
 Cài lại
+
+#### start running the code
+Run
+Chạy
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Bước qua
 #### stop running code
 Stop
 Dừng lại
+
+#### pause running code
+Pause
+Tạm ngừng
 
 #### code navigation when paused/debugging
 Step forward

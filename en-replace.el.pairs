@@ -78,9 +78,6 @@ Language
 Γλώσσα
 
 ### Tooltips
-Run
-Τρέξιμο
-
 #### main menu button at top-left
 Menu
 Μενού
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Φόρτωση / Αποθήκευση νέας προσέγγισης
 
+#### resets current level
 Reset
 Επαναφορά
+
+#### start running the code
+Run
+Τρέξιμο
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 Να σταματήσει
+
+#### pause running code
+Pause
+Παύση
 
 #### code navigation when paused/debugging
 Step forward

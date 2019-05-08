@@ -78,9 +78,6 @@ Language
 Мова
 
 ### Tooltips
-Run
-Запустити
-
 #### main menu button at top-left
 Menu
 Меню
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Завантажити / Зберегти новий підхід
 
+#### resets current level
 Reset
 Скинути
+
+#### start running the code
+Run
+Запустити
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 Стій
+
+#### pause running code
+Pause
+Пауза
 
 #### code navigation when paused/debugging
 Step forward

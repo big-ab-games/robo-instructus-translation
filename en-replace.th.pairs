@@ -78,9 +78,6 @@ Language
 ภาษา
 
 ### Tooltips
-Run
-วิ่ง
-
 #### main menu button at top-left
 Menu
 เมนู
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 โหลด / บันทึกแนวทางใหม่
 
+#### resets current level
 Reset
 รีเซ็ต
+
+#### start running the code
+Run
+วิ่ง
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -119,6 +121,10 @@ Step over
 
 #### stop running code
 Stop
+หยุด
+
+#### pause running code
+Pause
 หยุด
 
 #### code navigation when paused/debugging

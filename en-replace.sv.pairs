@@ -77,10 +77,7 @@ Av
 Language
 Språk
 
-### Tooltips, assuming run as in run code not run instead of walk
-Run
-Kör
-
+### Tooltips
 #### main menu button at top-left
 Menu
 Meny
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Ladda / spara nytt tillvägagångssätt
 
+#### resets current level
 Reset
 Återställ
+
+#### start running the code
+Run
+Kör
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Stig över
 #### stop running code
 Stop
 Sluta
+
+#### pause running code
+Pause
+Paus
 
 #### code navigation when paused/debugging
 Step forward
@@ -218,3 +224,4 @@ Den bästa poängkoden i varje kategori sparas automatiskt
 
 Reach the revealed location
 Nå den upptäckta platsen
+

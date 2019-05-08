@@ -78,9 +78,6 @@ Language
 Språk
 
 ### Tooltips
-Run
-Løpe
-
 #### main menu button at top-left
 Menu
 Meny
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Legg inn / lagre ny tilnærming
 
+#### resets current level
 Reset
 tilbakestille
+
+#### start running the code
+Run
+Løpe
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Tråkke over
 #### stop running code
 Stop
 Stoppe
+
+#### pause running code
+Pause
+Pause
 
 #### code navigation when paused/debugging
 Step forward

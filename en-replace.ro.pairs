@@ -78,9 +78,6 @@ Language
 Limba
 
 ### Tooltips
-Run
-Alerga
-
 #### main menu button at top-left
 Menu
 Meniul
@@ -106,8 +103,13 @@ Creșterea ratei de executare a codului
 Load / Save new approach
 Încărcați / salvați o nouă abordare
 
+#### resets current level
 Reset
 restabili
+
+#### start running the code
+Run
+Alerga
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Pas peste
 #### stop running code
 Stop
 Stop
+
+#### pause running code
+Pause
+Pauză
 
 #### code navigation when paused/debugging
 Step forward

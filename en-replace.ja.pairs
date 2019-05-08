@@ -78,9 +78,6 @@ Language
 言語
 
 ### Tooltips
-Run
-実行する
-
 #### main menu button at top-left
 Menu
 メニュー
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 新しいアプローチをロード/保存
 
+#### resets current level
 Reset
 リセット
+
+#### start running the code
+Run
+実行する
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 やめる
+
+#### pause running code
+Pause
+一時停止
 
 #### code navigation when paused/debugging
 Step forward

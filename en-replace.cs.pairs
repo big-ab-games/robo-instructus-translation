@@ -78,9 +78,6 @@ Language
 Jazyk
 
 ### Tooltips
-Run
-Běh
-
 #### main menu button at top-left
 Menu
 Jídelní lístek
@@ -106,8 +103,13 @@ Zvyšte rychlost spuštění kódu
 Load / Save new approach
 Načíst / uložit nový přístup
 
+#### resets current level
 Reset
 Reset
+
+#### start running the code
+Run
+Běh
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Překročit
 #### stop running code
 Stop
 Stop
+
+#### pause running code
+Pause
+Pauza
 
 #### code navigation when paused/debugging
 Step forward

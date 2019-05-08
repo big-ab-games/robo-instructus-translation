@@ -78,9 +78,6 @@ Language
 Sprog
 
 ### Tooltips
-Run
-Løb
-
 #### main menu button at top-left
 Menu
 Menu
@@ -106,8 +103,13 @@ Forøg kodeudførelse
 Load / Save new approach
 Indlæse / gemme ny tilgang
 
+#### resets current level
 Reset
 Nulstil
+
+#### start running the code
+Run
+Løb
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Træd over
 #### stop running code
 Stop
 Hold op
+
+#### pause running code
+Pause
+Pause
 
 #### code navigation when paused/debugging
 Step forward

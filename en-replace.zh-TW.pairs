@@ -67,7 +67,7 @@ Maximum
 Background only
 僅限背景
 
-#### eg "Fullscreen: On", "Autocomplete: Off"
+#### ie "Fullscreen: On", "Autocomplete: Off"
 On
 開
 
@@ -78,9 +78,6 @@ Language
 語言
 
 ### Tooltips
-Run
-執行
-
 #### main menu button at top-left
 Menu
 主選單
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 加載/保存新方法
 
+#### resets current level
 Reset
 重啟
+
+#### start running the code
+Run
+執行
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 停止
+
+#### pause running code
+Pause
+暫停
 
 #### code navigation when paused/debugging
 Step forward
@@ -218,3 +224,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到達顯示的地方
+

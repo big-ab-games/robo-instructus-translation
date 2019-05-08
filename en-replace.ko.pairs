@@ -78,9 +78,6 @@ Language
 언어
 
 ### Tooltips
-Run
-운영
-
 #### main menu button at top-left
 Menu
 메뉴
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 신규 접근로드 / 저장
 
+#### resets current level
 Reset
 다시 놓기
+
+#### start running the code
+Run
+운영
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -119,6 +121,10 @@ Step over
 
 #### stop running code
 Stop
+중지
+
+#### pause running code
+Pause
 중지
 
 #### code navigation when paused/debugging

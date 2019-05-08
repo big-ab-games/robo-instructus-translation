@@ -78,9 +78,6 @@ Language
 Sprache
 
 ### Tooltips
-Run
-Lauf
-
 #### main menu button at top-left
 Menu
 Menu
@@ -106,8 +103,13 @@ Code-Ausführungsrate erhöhen
 Load / Save new approach
 Neuen Ansatz laden / speichern
 
+#### resets current level
 Reset
 Zurücksetzen
+
+#### start running the code
+Run
+Lauf
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Schritt überspringen
 #### stop running code
 Stop
 Stopp
+
+#### pause running code
+Pause
+Pause
 
 #### code navigation when paused/debugging
 Step forward

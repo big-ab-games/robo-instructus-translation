@@ -78,9 +78,6 @@ Language
 Nyelv
 
 ### Tooltips
-Run
-Fuss
-
 #### main menu button at top-left
 Menu
 Menü
@@ -106,8 +103,13 @@ Növelje a kód végrehajtási arányát
 Load / Save new approach
 Új megközelítés betöltése / mentése
 
+#### resets current level
 Reset
 Visszaállítás
+
+#### start running the code
+Run
+Fuss
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 Állj meg
+
+#### pause running code
+Pause
+Szünet
 
 #### code navigation when paused/debugging
 Step forward

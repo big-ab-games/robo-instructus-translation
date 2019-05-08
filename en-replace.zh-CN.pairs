@@ -78,9 +78,6 @@ Language
 语言
 
 ### Tooltips
-Run
-跑
-
 #### main menu button at top-left
 Menu
 菜单
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 加载/保存新方法
 
+#### resets current level
 Reset
 重启
+
+#### start running the code
+Run
+跑
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 停止
+
+#### pause running code
+Pause
+暂停
 
 #### code navigation when paused/debugging
 Step forward
@@ -218,3 +224,4 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 到达显示的位置
+

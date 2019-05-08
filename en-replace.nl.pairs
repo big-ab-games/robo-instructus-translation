@@ -78,9 +78,6 @@ Language
 Taal
 
 ### Tooltips
-Run
-Uitvoeren
-
 #### main menu button at top-left
 Menu
 Menu
@@ -106,8 +103,13 @@ Verhoog code uitvoersnelheid
 Load / Save new approach
 Nieuwe aanpak laden / opslaan
 
+#### resets current level
 Reset
 Reset
+
+#### start running the code
+Run
+Uitvoeren
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Overstappen
 #### stop running code
 Stop
 Stop
+
+#### pause running code
+Pause
+Pauze
 
 #### code navigation when paused/debugging
 Step forward

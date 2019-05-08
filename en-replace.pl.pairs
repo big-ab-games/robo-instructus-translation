@@ -78,9 +78,6 @@ Language
 Język
 
 ### Tooltips
-Run
-Uruchom
-
 #### main menu button at top-left
 Menu
 Menu
@@ -106,8 +103,13 @@ Zwiększ prędkość wykonania kodu
 Load / Save new approach
 Załaduj / zapisz nowe podejście
 
+#### resets current level
 Reset
 Ustaw od nowa
+
+#### start running the code
+Run
+Uruchom
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Następny krok
 #### stop running code
 Stop
 Stop
+
+#### pause running code
+Pause
+Pauza
 
 #### code navigation when paused/debugging
 Step forward

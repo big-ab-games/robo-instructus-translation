@@ -78,9 +78,6 @@ Language
 Idioma
 
 ### Tooltips
-Run
-Executar
-
 #### main menu button at top-left
 Menu
 Menu
@@ -106,8 +103,13 @@ Aumentar o ritmo de execução de código
 Load / Save new approach
 Carregar / Salvar nova abordagem
 
+#### resets current level
 Reset
 Repor
+
+#### start running the code
+Run
+Executar
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Passar por cima
 #### stop running code
 Stop
 Parar
+
+#### pause running code
+Pause
+Pausa
 
 #### code navigation when paused/debugging
 Step forward

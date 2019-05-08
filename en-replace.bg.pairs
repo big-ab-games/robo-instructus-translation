@@ -78,9 +78,6 @@ Language
 език
 
 ### Tooltips
-Run
-тичам
-
 #### main menu button at top-left
 Menu
 Меню
@@ -106,8 +103,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Зареждане / запазване на нов подход
 
+#### resets current level
 Reset
 Нулиране
+
+#### start running the code
+Run
+тичам
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Step over
 #### stop running code
 Stop
 Спри се
+
+#### pause running code
+Pause
+пауза
 
 #### code navigation when paused/debugging
 Step forward

@@ -78,9 +78,6 @@ Language
 Dil
 
 ### Tooltips
-Run
-Koşmak
-
 #### main menu button at top-left
 Menu
 Menü
@@ -106,8 +103,13 @@ Kod Yürütme Oranını Artırın
 Load / Save new approach
 Yeni yaklaşımı yükle / kaydet
 
+#### resets current level
 Reset
 Reset
+
+#### start running the code
+Run
+Koşmak
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Adım atmak
 #### stop running code
 Stop
 durdurmak
+
+#### pause running code
+Pause
+Duraklat
 
 #### code navigation when paused/debugging
 Step forward

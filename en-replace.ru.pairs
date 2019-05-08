@@ -80,9 +80,6 @@ Language
 
 
 ### Tooltips
-Run
-Бежать
-
 #### main menu button at top-left
 Menu
 Меню
@@ -108,8 +105,13 @@ Increase Code Execution Rate
 Load / Save new approach
 Загрузить / сохранить новый подход
 
+#### resets current level
 Reset
 Сброс
+
+#### start running the code
+Run
+Бежать
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -122,6 +124,10 @@ Step over
 #### stop running code
 Stop
 Стоп
+
+#### pause running code
+Pause
+Пауза
 
 #### code navigation when paused/debugging
 Step forward

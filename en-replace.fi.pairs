@@ -78,9 +78,6 @@ Language
 Kieli
 
 ### Tooltips
-Run
-Juosta
-
 #### main menu button at top-left
 Menu
 valikko
@@ -106,8 +103,13 @@ Lisää koodin suorittamisnopeutta
 Load / Save new approach
 Lataa / tallenna uusi lähestymistapa
 
+#### resets current level
 Reset
 asettaa uudelleen
+
+#### start running the code
+Run
+Juosta
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -120,6 +122,10 @@ Astua yli
 #### stop running code
 Stop
 Stop
+
+#### pause running code
+Pause
+Tauko
 
 #### code navigation when paused/debugging
 Step forward
