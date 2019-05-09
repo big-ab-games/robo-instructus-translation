@@ -68,7 +68,7 @@ Maximum
 Background only
 Только фон
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
 1
 
@@ -227,3 +227,6 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 Достигните обнаруженного места
+
+Hold alt to access more options while paused
+Удерживайте Alt, чтобы получить доступ к дополнительным параметрам во время паузы

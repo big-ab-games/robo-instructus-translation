@@ -67,7 +67,7 @@ Máximo
 Background only
 Solo fondo
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
 En
 
@@ -224,4 +224,7 @@ El código de mejor puntuación en cada categoría se guarda automáticamente
 
 Reach the revealed location
 Alcanzar el lugar revelado.
+
+Hold alt to access more options while paused
+Mantenga presionada la tecla Alt para acceder a más opciones mientras está en pausa
 

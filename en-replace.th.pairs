@@ -67,7 +67,7 @@ Maximum
 Background only
 พื้นหลังเท่านั้น
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
 บน
 
@@ -224,4 +224,7 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 เข้าถึงตำแหน่งที่เปิดเผย
+
+Hold alt to access more options while paused
+กด alt ค้างไว้เพื่อเข้าถึงตัวเลือกเพิ่มเติมขณะหยุดชั่วคราว
 

@@ -67,7 +67,7 @@ Maximum
 Background only
 背景のみ
 
-#### ie "Fullscreen: On", "Autocomplete: Off"
+#### eg "Fullscreen: On", "Autocomplete: Off"
 On
 に
 
@@ -224,4 +224,7 @@ The best scoring code in each\ncategory is automatically saved
 
 Reach the revealed location
 明らかにされた場所に達する
+
+Hold alt to access more options while paused
+一時停止中にAltキーを押しながら他のオプションにアクセスする
 
