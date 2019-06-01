@@ -25,6 +25,7 @@ Mentés
 Back
 Hát
 
+#### UI = user interface
 UI Scale
 UI skála
 
@@ -34,6 +35,7 @@ Teljes képernyő
 Snowfall
 Hóesés
 
+#### Graphic effects
 Effects
 Hatások
 
@@ -45,6 +47,7 @@ Hang
 Music
 Zene
 
+#### Main menu screen
 Title Screen
 Cím képernyő
 
@@ -82,6 +85,7 @@ Nyelv
 Menu
 Menü
 
+#### A list of all commands yet learnt about
 Code Reference
 Kód hivatkozás
 
@@ -115,7 +119,7 @@ Fuss
 Run (paused)
 Futtatás (szüneteltetés)
 
-#### code navigation when paused/debugging
+#### code navigation when paused/debugging - next line of code
 Step over
 Átlép
 
@@ -127,7 +131,7 @@ Stop
 Pause
 Szünet
 
-#### code navigation when paused/debugging
+#### code navigation when paused/debugging - next process, sometimes in the same line of code
 Step forward
 Lépjen elő
 
@@ -143,7 +147,7 @@ Profil törlése
 Confirm delete
 Törlés jóváhagyása
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to help the player in the early levels of the game
 Type commands here
 Írja be a parancsokat itt
 
@@ -197,6 +201,7 @@ Próbáld ki a `loop` -ot a megoldásodban
 Try using `else` and \na comparison like `>`
 Próbáld ki az `else` és \negy összehasonlítást, mint a `>`
 
+### "Comparison" and "Conditions III" are chapter names in the code reference.
 Read Comparison and Conditions III to see `>` and `else` usage
 Az „Összehasonlítás és feltételek III
 
@@ -209,6 +214,7 @@ Próbáld ki az `else`
 Press to run with execution paused
 Nyomja meg a futtatáshoz szüneteltetéssel
 
+### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Figyeljük meg, hogy az aktuális értékelés kiemelve van
 
