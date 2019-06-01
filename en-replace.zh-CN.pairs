@@ -157,7 +157,7 @@ Modify the commands and \nre-run to reach the exit
 修改命令并重新执行以到达出口
 
 Press to exit level
-退出等级
+按此处退出等级
 
 Levels have multiple stages\nclick here to view each
 每等级有几个阶段；按此处查看各阶段
@@ -192,7 +192,7 @@ Click to view all recovered messages
 按此处查看所有已找到的消息
 
 Try using `loop` in your solution
-修改解决方案使用`loop`的命令吧
+修改解决方案使用`loop`的命令
 
 Try using `else` and \na comparison like `>`
 修改解决方案使用`else`和严格不等号，如：`>`
@@ -201,16 +201,16 @@ Read Comparison and Conditions III to see `>` and `else` usage
 阅读《Comparison》和《Conditions III》，看严格不等号（如：`>`）和`else`的例子
 
 Try using a comparison like `>`
-使用严格不等号吧（如：`>`）
+尝试使用严格不等号（如：`>`）
 
 Try using `else`
-使用`else`吧
+尝试使用`else`
 
 Press to run with execution paused
 按此处执行并在第一命令暂停
 
 Notice the current evaluation is highlighted
-请注意，当前评估会突出显示
+请注意，正在被执行的代码突出显示
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
