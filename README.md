@@ -29,7 +29,6 @@ These translations have been created using google translate and need to be impro
 * Suomi [en-replace.fi.pairs](./en-replace.fi.pairs)
 * Ελληνικά [en-replace.el.pairs](./en-replace.el.pairs)
 * Magyar [en-replace.hu.pairs](./en-replace.hu.pairs)
-* Italiano [en-replace.it.pairs](./en-replace.it.pairs)
 * 日本語 [en-replace.ja.pairs](./en-replace.ja.pairs)
 * 한국어 [en-replace.ko.pairs](./en-replace.ko.pairs)
 * Norsk [en-replace.no.pairs](./en-replace.no.pairs)
@@ -52,6 +51,7 @@ These languages will be made available in game, though may still need tweaks.
 * Français [en-replace.fr.pairs](./en-replace.fr.pairs)
 * Deutsch [en-replace.de.pairs](./en-replace.de.pairs)
 * Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
+* Italiano [en-replace.it.pairs](./en-replace.it.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
