@@ -10,7 +10,7 @@ Profilo
 
 ### Menu
 Settings
-impostazioni
+Impostazioni
 
 Video
 Video
@@ -19,7 +19,7 @@ Audio
 Audio
 
 Save & Quit
-Salvare
+Salva e Esci
 
 #### as in "go back to previous menu"
 Back
@@ -35,7 +35,7 @@ Snowfall
 Nevicata
 
 Effects
-effetti
+Effetti
 
 #### volume settings (sound as opposed to music)
 Sound
@@ -69,13 +69,13 @@ Solo sfondo
 
 #### eg "Fullscreen: On", "Autocomplete: Off"
 On
-Sopra
+Acceso
 
 Off
-via
+Spento
 
 Language
-linguaggio
+Linguaggio
 
 ### Tooltips
 #### main menu button at top-left
@@ -89,19 +89,19 @@ Decrease Speed
 Diminuisci velocità
 
 Increase Speed
-Aumentare la velocità
+Aumenta velocità
 
 Message Archive
 Archivio messaggi
 
 Decrease Code Execution Rate
-Riduci il tasso di esecuzione del codice
+Riduci il tasso di esecuzione codice
 
 Increase Code Execution Rate
-Aumentare il tasso di esecuzione del codice
+Aumenta il tasso di esecuzione codice
 
 Load / Save new approach
-Carica / Salva un nuovo approccio
+Carica / Salva una nuova entrata
 
 #### resets current level
 Reset
@@ -109,7 +109,7 @@ Reset
 
 #### start running the code
 Run
-Correre
+Esegui
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -117,11 +117,11 @@ Esegui (in pausa)
 
 #### code navigation when paused/debugging
 Step over
-Scavalcare
+Salta
 
 #### stop running code
 Stop
-Fermare
+Stop
 
 #### pause running code
 Pause
@@ -129,19 +129,19 @@ Pausa
 
 #### code navigation when paused/debugging
 Step forward
-Passo in avanti
+Procedi
 
 Delete name
 Elimina nome
 
 Exit Level
-Livello di uscita
+Esci dal livello
 
 Delete profile
 Elimina profilo
 
 Confirm delete
-Conferma cancellazione
+Conferma cancella
 
 ### Overlay tutorials
 Type commands here
@@ -151,13 +151,13 @@ Add the lines:
 Aggiungi le linee:
 
 Press play to run
-Premi play per correre
+Premi play per eseguire
 
 Modify the commands and \nre-run to reach the exit
 Modificare i comandi e \nri-eseguire per raggiungere l'uscita
 
 Press to exit level
-Premere per uscire dal livello
+Premi per uscire dal livello
 
 Levels have multiple stages\nclick here to view each
 I livelli hanno più fasi \nfai clic qui per visualizzarli
@@ -166,23 +166,23 @@ Your code will be re-run each stage,\nso a single solution must solve all.\nRetu
 Il tuo codice verrà rieseguito in ogni fase, \nquindi un'unica soluzione deve risolvere tutto. \nTorna alla prima fase
 
 Reach the first stage exit
-Raggiungere l'uscita del primo stadio
+Raggiungi l'uscita del primo livello
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Rilavorazione per raggiungere tutte le uscite, ricorda \nil codice viene ripetuto dall'alto in ogni fase
+Rilavora per raggiungere tutte le uscite, ricorda \nil codice viene ri-eseguito a partire dall'alto in ogni fase
 
 Change game speed
-Cambia la velocità di gioco
+Cambia la velocità del gioco
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Fare clic per aprire il codice di riferimento, contiene tutte le sezioni e le funzioni di primer recuperate finora
+Fai clic per aprire il codice di riferimento, contiene tutte le sezioni e le funzioni introduttive recuperate finora
 
 Click to close
 Clicca per chiudere
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-C'è un codice incompleto trovato su questo livello, prova a eseguirlo e rielaborare ... o semplicemente iniziare da zero
+C'è un codice incompleto trovato su questo livello, prova a eseguirlo e rielaborare ... o semplicemente inizia da capo
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
@@ -195,10 +195,10 @@ Try using `loop` in your solution
 Prova a usare `loop` nella soluzione
 
 Try using `else` and \na comparison like `>`
-Prova a usare `else` e \nun confronto come `>`
+Prova a usare `else` e \nun confronta come `>`
 
 Read Comparison and Conditions III to see `>` and `else` usage
-Leggi il Confronto e le Condizioni III per vedere l'uso di `>` e `else`
+Leggi Confronto e Condizioni III per vedere l'uso di `>` e `else`
 
 Try using a comparison like `>`
 Prova ad usare un confronto come `>`
@@ -207,10 +207,10 @@ Try using `else`
 Prova a usare `else`
 
 Press to run with execution paused
-Premere per correre con l'esecuzione sospesa
+Premere per eseguire con l'esecuzione in pausa
 
 Notice the current evaluation is highlighted
-Si noti che la valutazione corrente è evidenziata
+Nota che la valutazione corrente è evidenziata
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
@@ -223,7 +223,7 @@ The best scoring code in each\ncategory is automatically saved
 Il miglior codice di punteggio in ciascuna \ncategoria viene automaticamente salvato
 
 Reach the revealed location
-Raggiungi la posizione rivelata
+Raggiungi la posizione indicata
 
 Hold alt to access more options while paused
 Tieni premuto alt per accedere a più opzioni mentre sei in pausa
