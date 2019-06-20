@@ -147,6 +147,10 @@ Supprimer le profil
 Confirm delete
 Confirmation de la suppression
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Scène sombre
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Tapez les commandes ici
@@ -233,4 +237,23 @@ Atteignez le lieu révélé
 
 Hold alt to access more options while paused
 Maintenez la touche Alt enfoncée pour accéder à plus d'options en pause
+
+Dark stages are similar to the others\nbut their details are hidden
+Les étapes sombres sont semblables aux autres \nmais leurs détails sont cachés
+
+Ensure your solution is general enough\nto solve these hidden variants
+Assurez-vous que votre solution est suffisamment générale pour résoudre ces variantes cachées.
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Somme des durées d&#39;exécution des appels de fonction
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Nombre de phrases de code évaluées distinctes
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Nombre total de phrases de code évaluées
 

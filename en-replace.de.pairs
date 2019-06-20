@@ -147,6 +147,10 @@ Profil löschen
 Confirm delete
 Löschen bestätigen
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Dunkle Bühne
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Geben Sie hier Befehle ein
@@ -233,4 +237,23 @@ Erreichen Sie den freigelegten Ort
 
 Hold alt to access more options while paused
 Halten Sie die Alt-Taste gedrückt, um während der Pause auf weitere Optionen zuzugreifen
+
+Dark stages are similar to the others\nbut their details are hidden
+Dunkle Stadien ähneln den anderen, aber ihre Details sind verborgen
+
+Ensure your solution is general enough\nto solve these hidden variants
+Stellen Sie sicher, dass Ihre Lösung allgemein genug ist, um diese versteckten Varianten zu lösen
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Summe der Funktionsaufruf-Laufzeiten
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Anzahl der verschiedenen bewerteten Codephrasen
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Gesamtzahl der bewerteten Codesätze
 

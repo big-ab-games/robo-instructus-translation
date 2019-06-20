@@ -147,6 +147,10 @@ Delete profile
 Confirm delete
 삭제 확인
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+다크 스테이지
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 여기에 명령을 입력하십시오.
@@ -233,4 +237,23 @@ Reach the revealed location
 
 Hold alt to access more options while paused
 일시 중지 된 상태에서 다른 옵션에 액세스하려면 alt 키를 길게 누릅니다.
+
+Dark stages are similar to the others\nbut their details are hidden
+다크 스테이지는 다른 스테이지와 비슷하지만 세부 사항은 숨겨져 있습니다.
+
+Ensure your solution is general enough\nto solve these hidden variants
+이러한 숨겨진 변형을 해결할 수있는 일반적인 솔루션인지 확인하십시오.
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+함수 호출 런타임의 합
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+별개의 평가 된 코드 구의 수
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+평가 된 코드 구의 총 수
 

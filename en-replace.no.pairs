@@ -147,6 +147,10 @@ Slett profil
 Confirm delete
 Bekreft slett
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Dark Stage
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Skriv kommandoer her
@@ -233,4 +237,23 @@ Nå den avslørte beliggenheten
 
 Hold alt to access more options while paused
 Hold alt for å få tilgang til flere alternativer mens du har stoppet det
+
+Dark stages are similar to the others\nbut their details are hidden
+Mørke stadier ligner de andre \nmen deres detaljer er skjult
+
+Ensure your solution is general enough\nto solve these hidden variants
+Sørg for at løsningen er generell nok \nfor å løse disse skjulte varianter
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Summen av funksjonsoppringningstidene
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Antall særskilte evaluerte kodefraser
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Totalt antall evaluerte kodesetninger
 

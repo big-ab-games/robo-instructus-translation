@@ -147,6 +147,10 @@ Delete profile
 Confirm delete
 確認刪除
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+黑暗的舞台
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 在此輸入命令
@@ -233,4 +237,23 @@ Reach the revealed location
 
 Hold alt to access more options while paused
 暫停時按住alt鍵即可接觸更多選項
+
+Dark stages are similar to the others\nbut their details are hidden
+黑暗階段與其他階段類似\n但他們的細節是隱藏的
+
+Ensure your solution is general enough\nto solve these hidden variants
+確保您的解決方案足夠通用\n以解決這些隱藏的變體
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+函數調用運行時的總和
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+不同評估的代碼短語的數量
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+已評估的代碼短語總數
 

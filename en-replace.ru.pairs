@@ -147,6 +147,10 @@ Delete profile
 Confirm delete
 Подтвердите удаление
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Темная сцена
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Введите здесь команды
@@ -234,3 +238,21 @@ Reach the revealed location
 Hold alt to access more options while paused
 Удерживайте Alt, чтобы получить доступ к дополнительным параметрам во время паузы
 
+Dark stages are similar to the others\nbut their details are hidden
+Темные сцены похожи на другие, но их детали скрыты
+
+Ensure your solution is general enough\nto solve these hidden variants
+Убедитесь, что ваше решение достаточно общее,\nчтобы решить эти скрытые варианты
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Сумма времени выполнения вызова функции
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Количество различных оцененных кодовых фраз
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Общее количество оцененных кодовых фраз

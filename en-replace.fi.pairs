@@ -147,6 +147,10 @@ Poista profiili
 Confirm delete
 Vahvista poistaminen
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Tumma vaihe
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Kirjoita komentoja tähän
@@ -233,4 +237,23 @@ Saavuta paljastunut sijainti
 
 Hold alt to access more options while paused
 Pidä alt-painiketta, jos haluat käyttää muita vaihtoehtoja, kun olet keskeyttänyt
+
+Dark stages are similar to the others\nbut their details are hidden
+Tummat vaiheet ovat samanlaisia kuin muut, mutta niiden yksityiskohdat ovat piilossa
+
+Ensure your solution is general enough\nto solve these hidden variants
+Varmista, että ratkaisu on tarpeeksi yleinen ratkaisemaan nämä piilotetut vaihtoehdot
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Toimintopuheluaikojen summa
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Erilaisten arvioitujen koodilausekkeiden lukumäärä
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Arvioitujen koodilausekkeiden kokonaismäärä
 

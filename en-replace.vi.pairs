@@ -147,6 +147,10 @@ Xóa hồ sơ
 Confirm delete
 Xác nhận xóa
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Sân khấu tối
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Nhập lệnh tại đây
@@ -233,4 +237,23 @@ Reach the revealed location
 
 Hold alt to access more options while paused
 Giữ alt để truy cập nhiều tùy chọn hơn trong khi tạm dừng
+
+Dark stages are similar to the others\nbut their details are hidden
+Các giai đoạn tối tương tự như các giai đoạn khác \nnhưng chi tiết của chúng bị ẩn
+
+Ensure your solution is general enough\nto solve these hidden variants
+Đảm bảo giải pháp của bạn đủ chung \nđể giải quyết các biến thể ẩn này
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Tổng số thời gian gọi hàm
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Số cụm từ mã được đánh giá riêng biệt
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Tổng số cụm từ mã được đánh giá
 

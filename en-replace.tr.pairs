@@ -147,6 +147,10 @@ Profili sil
 Confirm delete
 Silmeyi onayla
 
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Karanlık sahne
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Komutları buraya yazın
@@ -233,4 +237,23 @@ Açığa çıkan yere ulaşın
 
 Hold alt to access more options while paused
 Duraklatıldığında daha fazla seçeneğe erişmek için alt tuşunu basılı tutun
+
+Dark stages are similar to the others\nbut their details are hidden
+Karanlık aşamalar diğerlerine benzer \nancak ayrıntıları gizli
+
+Ensure your solution is general enough\nto solve these hidden variants
+Çözümünüzün bu gizli değişkenleri çözebilecek kadar \nyeterli olduğundan emin olun
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+İşlev çağrısı çalışma sürelerinin toplamı
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Farklı değerlendirilen kod cümlelerinin sayısı
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Toplam değerlendirilen kod cümleleri sayısı
 
