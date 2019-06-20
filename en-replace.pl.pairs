@@ -25,6 +25,7 @@ Zapisz i wyjdź
 Back
 Powrót
 
+#### UI = user interface
 UI Scale
 Rozmiar interfejsu użytkownika
 
@@ -34,6 +35,7 @@ Pełny ekran
 Snowfall
 Opady śniegu
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Efekty
 
@@ -45,6 +47,7 @@ Dźwięk
 Music
 Muzyka
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Ekran tytułowy
 
@@ -82,6 +85,7 @@ Język
 Menu
 Menu
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Opis dostępnych funkcji
 
@@ -143,7 +147,7 @@ Usuń profil
 Confirm delete
 Potwierdź usunięcie
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Wpisz tutaj polecenia
 
@@ -197,6 +201,7 @@ Spróbuj użyć `loop` w swoim rozwiązaniu
 Try using `else` and \na comparison like `>`
 Spróbuj użyć `else` i \nporównania jak `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Przeczytaj "Porównanie" i "Warunki III", aby zobaczyć zasady użycia `>` i `else`
 
@@ -209,6 +214,7 @@ Spróbuj użyć `else`
 Press to run with execution paused
 Naciśnij, aby uruchomić z wstrzymanym wykonaniem
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Zauważ, że bieżące polecenie jest podświetlone
 

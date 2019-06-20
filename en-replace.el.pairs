@@ -25,6 +25,7 @@ Save & Quit
 Back
 Πίσω
 
+#### UI = user interface
 UI Scale
 Κλίμακα UI
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 Χιονόπτωση
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Εφέ
 
@@ -45,6 +47,7 @@ Sound
 Music
 Μουσική
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Αρχική οθόνη
 
@@ -82,6 +85,7 @@ Language
 Menu
 Μενού
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Αναφορά κώδικα
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 Επιβεβαίωση διαγραφής
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Πληκτρολογήστε εντολές εδώ
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 Δοκιμάστε να χρησιμοποιήσετε το `else` και μια σύγκριση όπως `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Διαβάστε τη Σύγκριση και τις Συνθήκες ΙΙΙ για να δείτε τη χρήση των `>` και `else`
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 Πατήστε για να τρέξετε με την εκτέλεση σε παύση
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Παρατηρήστε ότι η τρέχουσα εντολή επισημαίνεται
 

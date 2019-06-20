@@ -25,6 +25,7 @@ Salvar
 Back
 Espalda
 
+#### UI = user interface
 UI Scale
 Escala de interfaz de usuario
 
@@ -34,6 +35,7 @@ Pantalla completa
 Snowfall
 Nevada
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Efectos
 
@@ -45,6 +47,7 @@ Sonar
 Music
 Música
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Pantalla de título
 
@@ -82,6 +85,7 @@ Idioma
 Menu
 Menú
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Referencia de código
 
@@ -143,7 +147,7 @@ Borrar perfil
 Confirm delete
 Confirmar eliminación
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Escriba los comandos aquí
 
@@ -197,6 +201,7 @@ Intenta usar `loop` en tu solución
 Try using `else` and \na comparison like `>`
 Intente usar `else` y \nuna comparación como `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Lea la Comparación y las Condiciones III para ver el uso de `>` y `else`
 
@@ -209,6 +214,7 @@ Intenta usar `else`
 Press to run with execution paused
 Presiona para correr con la ejecución en pausa.
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Observe que la evaluación actual está resaltada
 

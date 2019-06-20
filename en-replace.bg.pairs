@@ -25,6 +25,7 @@ Save & Quit
 Back
 обратно
 
+#### UI = user interface
 UI Scale
 Скала на потребителския интерфейс
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 снеговалеж
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 вещи
 
@@ -45,6 +47,7 @@ Sound
 Music
 музика
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Заглавен екран
 
@@ -82,6 +85,7 @@ Language
 Menu
 Меню
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Референтен код
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 Потвърдете изтриването
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Тук въведете команди
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 Опитайте се да използвате `else` и \nсравняване като `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Прочетете Сравнение и Условия III, за да видите `>` и `else`
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 Натиснете, за да стартирате, докато изпълнението е спряно
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Забележете, че текущата оценка е подчертана
 

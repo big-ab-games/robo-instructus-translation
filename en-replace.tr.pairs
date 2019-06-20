@@ -25,6 +25,7 @@ Kayıt etmek
 Back
 Geri
 
+#### UI = user interface
 UI Scale
 UI Ölçeği
 
@@ -34,6 +35,7 @@ Tam ekran
 Snowfall
 Kar yağışı
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Etkileri
 
@@ -45,6 +47,7 @@ Ses
 Music
 Müzik
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Başlık ekranı
 
@@ -82,6 +85,7 @@ Dil
 Menu
 Menü
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Kod başvurusu
 
@@ -143,7 +147,7 @@ Profili sil
 Confirm delete
 Silmeyi onayla
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Komutları buraya yazın
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 `Else` ve `>` gibi bir\nkarşılaştırma yapmayı deneyin.
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 `>` Ve `else` kullanımını görmek için Karşılaştırma ve Koşullar III'ü okuyun.
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 Yürütme duraklatılmış olarak çalıştırmak için basın
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Mevcut değerlendirmenin vurgulandığına dikkat edin
 

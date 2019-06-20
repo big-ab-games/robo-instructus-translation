@@ -25,6 +25,7 @@ Opslaan en afsluiten
 Back
 Terug
 
+#### UI = user interface
 UI Scale
 UI-schaal
 
@@ -34,6 +35,7 @@ Volledig scherm
 Snowfall
 Sneeuwval
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Effecten
 
@@ -45,6 +47,7 @@ Geluid
 Music
 Muziek
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Titelscherm
 
@@ -82,6 +85,7 @@ Taal
 Menu
 Menu
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Codeverwijzing
 
@@ -143,7 +147,7 @@ Verwijder profiel
 Confirm delete
 Bevestig verwijderen
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Typ commando's hier
 
@@ -197,6 +201,7 @@ Probeer `loop` in uw oplossing te gebruiken
 Try using `else` and \na comparison like `>`
 Probeer `else` en een\nvergelijking zoals `>` te gebruiken
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Lees Vergelijking en voorwaarden III om het gebruik van `>` en `else` te bekijken
 
@@ -209,6 +214,7 @@ Probeer `else` te gebruiken
 Press to run with execution paused
 Druk om uit te voeren in gepauzeerde modus
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Merk op dat de huidige evaluatie gemarkeerd is
 

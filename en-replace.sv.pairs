@@ -25,6 +25,7 @@ Spara
 Back
 Tillbaka
 
+#### UI = user interface
 UI Scale
 UI-skala
 
@@ -34,6 +35,7 @@ Fullskärm
 Snowfall
 Snö
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Effekter
 
@@ -45,6 +47,7 @@ Ljud
 Music
 Musik
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Titel skärm
 
@@ -82,6 +85,7 @@ Språk
 Menu
 Meny
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Kodreferens
 
@@ -143,7 +147,7 @@ Ta bort profil
 Confirm delete
 Bekräfta radering
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Skriv kommandon här
 
@@ -197,6 +201,7 @@ Försök använda `loop` i din lösning
 Try using `else` and \na comparison like `>`
 Försök använda `else` och \na jämförelse som `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Läs jämförelse och villkor III för att se `>` och `else` användning
 
@@ -209,6 +214,7 @@ Försök använda `else`
 Press to run with execution paused
 Tryck för att köra med körning pausad
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Observera att den aktuella utvärderingen är markerad
 

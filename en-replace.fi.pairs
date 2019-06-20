@@ -25,6 +25,7 @@ Tallentaa
 Back
 Takaisin
 
+#### UI = user interface
 UI Scale
 UI-skaala
 
@@ -34,6 +35,7 @@ Koko näyttö
 Snowfall
 Lumisade
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 tehosteet
 
@@ -45,6 +47,7 @@ Sound
 Music
 musiikki
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Otsikkoruutu
 
@@ -82,6 +85,7 @@ Kieli
 Menu
 valikko
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Koodiviite
 
@@ -143,7 +147,7 @@ Poista profiili
 Confirm delete
 Vahvista poistaminen
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Kirjoita komentoja tähän
 
@@ -197,6 +201,7 @@ Kokeile käyttää `loop`
 Try using `else` and \na comparison like `>`
 Yritä käyttää `else` ja \nvertailua kuten `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Lue vertailu ja ehdot III nähdäksesi `>` ja `else` käyttö
 
@@ -209,6 +214,7 @@ Kokeile käyttää `else`
 Press to run with execution paused
 Paina, jos haluat suorittaa suorituksen keskeytetyllä tavalla
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Huomaa, että nykyinen arviointi on korostettu
 

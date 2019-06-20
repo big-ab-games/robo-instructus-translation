@@ -25,6 +25,7 @@ Save & Quit
 Back
 뒤로
 
+#### UI = user interface
 UI Scale
 UI 스케일
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 강설량
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 효과
 
@@ -45,6 +47,7 @@ Sound
 Music
 음악
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 제목 화면
 
@@ -82,6 +85,7 @@ Language
 Menu
 메뉴
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 코드 참조
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 삭제 확인
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 여기에 명령을 입력하십시오.
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 `else`와`>`와 같은 비교를 사용해보십시오.
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 비교 및 조건 III을 읽고`>`와`else` 사용법을보십시오
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 실행이 일시 중지 된 상태에서 실행하려면 누릅니다.
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 현재 평가가 강조 표시됩니다.
 

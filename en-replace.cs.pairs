@@ -25,6 +25,7 @@ Uložit
 Back
 Zadní
 
+#### UI = user interface
 UI Scale
 Měřítko uživatelského rozhraní
 
@@ -34,6 +35,7 @@ Celá obrazovka
 Snowfall
 Sněžení
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Účinky
 
@@ -45,6 +47,7 @@ Zvuk
 Music
 Hudba
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Obrazovka titulu
 
@@ -82,6 +85,7 @@ Jazyk
 Menu
 Jídelní lístek
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Odkaz na kód
 
@@ -143,7 +147,7 @@ Smazat profil
 Confirm delete
 Potvrďte smazání
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Sem zadejte příkazy
 
@@ -197,6 +201,7 @@ Pokuste se použít `loop` ve vašem řešení
 Try using `else` and \na comparison like `>`
 Zkuste použít `else` a \na srovnání jako `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Přečtěte si Srovnání a Podmínky III a podívejte se na jejich použití
 
@@ -209,6 +214,7 @@ Zkuste použít `else`
 Press to run with execution paused
 Stiskněte pro spuštění s pozastaveným provedením
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Všimněte si, že je zvýrazněno aktuální hodnocení
 

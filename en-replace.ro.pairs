@@ -25,6 +25,7 @@ Salvați
 Back
 Înapoi
 
+#### UI = user interface
 UI Scale
 UI Scală
 
@@ -34,6 +35,7 @@ Ecran complet
 Snowfall
 Ninsoare
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Efecte
 
@@ -45,6 +47,7 @@ Sunet
 Music
 Muzică
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Ecranul de titlu
 
@@ -82,6 +85,7 @@ Limba
 Menu
 Meniul
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Cod de referință
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 Confirmă ștergerea
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Introduceți comenzi aici
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 Încercați să utilizați altceva și o comparație ca `` `
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Citiți comparația și condițiile III pentru a vedea folosirea `>` și `else`
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 Apăsați pentru a rula cu execuția întreruptă
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Observați că evaluarea curentă este evidențiată
 

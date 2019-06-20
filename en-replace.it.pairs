@@ -25,6 +25,7 @@ Salva e Esci
 Back
 Indietro
 
+#### UI = user interface
 UI Scale
 Scala UI
 
@@ -34,6 +35,7 @@ A schermo intero
 Snowfall
 Nevicata
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Effetti
 
@@ -45,6 +47,7 @@ Suono
 Music
 Musica
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Schermata del titolo
 
@@ -82,6 +85,7 @@ Linguaggio
 Menu
 Menu
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Codice di riferimento
 
@@ -143,7 +147,7 @@ Elimina profilo
 Confirm delete
 Conferma cancella
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Digita i comandi qui
 
@@ -197,6 +201,7 @@ Prova a usare `loop` nella soluzione
 Try using `else` and \na comparison like `>`
 Prova a usare `else` e \nun confronta come `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Leggi Confronto e Condizioni III per vedere l'uso di `>` e `else`
 
@@ -209,6 +214,7 @@ Prova a usare `else`
 Press to run with execution paused
 Premere per eseguire con l'esecuzione in pausa
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Nota che la valutazione corrente è evidenziata
 

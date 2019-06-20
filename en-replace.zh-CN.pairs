@@ -25,6 +25,7 @@ Save & Quit
 Back
 返回
 
+#### UI = user interface
 UI Scale
 用户界面大小
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 雪
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 绘图品质
 
@@ -45,6 +47,7 @@ Sound
 Music
 音乐
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 主页
 
@@ -82,6 +85,7 @@ Language
 Menu
 主选单
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 代码参考
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 确认删除
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 在此输入命令
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 修改解决方案使用`else`和严格不等号，如：`>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 阅读《Comparison》和《Conditions III》，看严格不等号（如：`>`）和`else`的例子
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 按此处执行并在第一命令暂停
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 请注意，正在被执行的代码突出显示
 

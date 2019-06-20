@@ -25,6 +25,7 @@ Tiết kiệm
 Back
 Trở lại
 
+#### UI = user interface
 UI Scale
 Tỷ lệ giao diện người dùng
 
@@ -34,6 +35,7 @@ Toàn màn hình
 Snowfall
 Tuyết rơi
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Hiệu ứng
 
@@ -45,6 +47,7 @@ Sound
 Music
 Âm nhạc
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Màn hình tiêu đề
 
@@ -82,6 +85,7 @@ Ngôn ngữ
 Menu
 Thực đơn
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Tham chiếu mã
 
@@ -143,7 +147,7 @@ Xóa hồ sơ
 Confirm delete
 Xác nhận xóa
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Nhập lệnh tại đây
 
@@ -197,6 +201,7 @@ Hãy thử sử dụng `loop` trong giải pháp của bạn
 Try using `else` and \na comparison like `>`
 Hãy thử sử dụng `else` và \nmột phép so sánh như `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Đọc So sánh và Điều kiện III để xem cách sử dụng `>` và `else`
 
@@ -209,6 +214,7 @@ Hãy thử sử dụng `else`
 Press to run with execution paused
 Nhấn để chạy với thực thi bị tạm dừng
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Lưu ý đánh giá hiện tại được tô sáng
 

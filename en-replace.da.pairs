@@ -25,6 +25,7 @@ Gemme
 Back
 Tilbage
 
+#### UI = user interface
 UI Scale
 UI-skala
 
@@ -34,6 +35,7 @@ Fuld skærm
 Snowfall
 snefald
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 effekter
 
@@ -45,6 +47,7 @@ Lyd
 Music
 musik
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Titel Screen
 
@@ -82,6 +85,7 @@ Sprog
 Menu
 Menu
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Kode Reference
 
@@ -143,7 +147,7 @@ Slet profil
 Confirm delete
 Bekræft sletning
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Skriv kommandoer her
 
@@ -197,6 +201,7 @@ Prøv at bruge `loop` i din løsning
 Try using `else` and \na comparison like `>`
 Prøv at bruge `else` og \nen sammenligning som `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Læs Sammenligning og betingelser III for at se `>` og `else` brug
 
@@ -209,6 +214,7 @@ Prøv at bruge `else`
 Press to run with execution paused
 Tryk for at køre med kørsel af pause
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Bemærk, at den aktuelle evaluering er fremhævet
 

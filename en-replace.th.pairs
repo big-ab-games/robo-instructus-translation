@@ -25,6 +25,7 @@ Save & Quit
 Back
 กลับ
 
+#### UI = user interface
 UI Scale
 มาตราส่วน UI
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 ปริมาณหิมะ
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 ผลกระทบ
 
@@ -45,6 +47,7 @@ Sound
 Music
 เพลง
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 หน้าจอชื่อเรื่อง
 
@@ -82,6 +85,7 @@ Language
 Menu
 เมนู
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 รหัสอ้างอิง
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 ยืนยันการลบ
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 พิมพ์คำสั่งที่นี่
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 ลองใช้ `else` และ การเปรียบเทียบเช่น `>'
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 อ่านการเปรียบเทียบและเงื่อนไข III เพื่อดูการใช้ `>` และ `else`
 
@@ -209,6 +214,7 @@ Try using `else`
 Press to run with execution paused
 กดเพื่อเรียกใช้เมื่อหยุดการทำงานชั่วคราว
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 สังเกตว่าการประเมินผลปัจจุบันถูกเน้น
 

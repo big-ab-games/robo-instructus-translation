@@ -25,6 +25,7 @@ Save & Quit
 Back
 バック
 
+#### UI = user interface
 UI Scale
 UIスケール
 
@@ -34,6 +35,7 @@ Fullscreen
 Snowfall
 降雪
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 効果
 
@@ -45,6 +47,7 @@ Sound
 Music
 音楽
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 タイトル画面
 
@@ -82,6 +85,7 @@ Language
 Menu
 メニュー
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 コード参照
 
@@ -143,7 +147,7 @@ Delete profile
 Confirm delete
 削除を確認
 
-### Overlay tutorials
+### Overlay tutorials - these pop up to explain things
 Type commands here
 ここにコマンドを入力
 
@@ -197,6 +201,7 @@ Try using `loop` in your solution
 Try using `else` and \na comparison like `>`
 `else`と`>`のような比較を使ってみてください。
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 `>`と `else`の使い方を見るために比較と条件IIIを読んでください
 
@@ -209,6 +214,7 @@ elseを使ってみてください
 Press to run with execution paused
 実行を一時停止して実行する場合に押します
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 現在の評価が強調表示されていることに注目してください。
 
