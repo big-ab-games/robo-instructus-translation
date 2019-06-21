@@ -247,7 +247,7 @@ Ensure your solution is general enough\nto solve these hidden variants
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Сумма времени выполнения вызова функции
+Общее время выполнения вызовов функций и задержек окружения
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
