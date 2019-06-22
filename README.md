@@ -58,6 +58,8 @@ If you see a line that could be improved edit it and raise a pull request.
 ## 2. Game store description
 The game description that appears in Steam & other stores. The original English description is in [store-description.en.bbcode](./store-description.en.bbcode).
 
+![](https://user-images.githubusercontent.com/2331607/59967068-293d8a80-951d-11e9-92c4-549bbeafe3a8.png)
+
 Improve or create the file `store-description.LANGUAGE.bbcode` with translated text.
 
 ### Community translations
