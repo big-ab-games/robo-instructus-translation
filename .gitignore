@@ -1,6 +1,6 @@
 target/
 **/*.rs.bk
-**.lock
+*.lock
 *backup
 progress.json
 *.log

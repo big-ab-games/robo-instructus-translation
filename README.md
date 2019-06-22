@@ -9,7 +9,7 @@ This project exists to provide a way for open source community translations buil
 ## Want to help?
 If you are multilingual and want to improve the game for your language(s) then please do.
 
-### Interface, menus, tutorial overlays
+## 1. Interface, menus, tutorial overlays
 Shorter translations like menu buttons are arranged in pairs of English then translated lines of text:
 ```
 Profile
@@ -21,7 +21,7 @@ Usuń profil
 
 Take a look at the existing `en-replace.LANGUAGE.pairs` files:
 
-#### Machine translations needing review
+### Machine translations needing review
 These translations have been created using google translate and need to be improved before being used in game.
 * български език [en-replace.bg.pairs](./en-replace.bg.pairs)
 * čeština [en-replace.cs.pairs](./en-replace.cs.pairs)
@@ -39,7 +39,7 @@ These translations have been created using google translate and need to be impro
 * Українська [en-replace.uk.pairs](./en-replace.uk.pairs)
 * Tiếng Việt [en-replace.vi.pairs](./en-replace.vi.pairs)
 
-#### Community improved translations
+### Community translations
 These languages will be made available in game, though may still need tweaks.
 * Русский [en-replace.ru.pairs](./en-replace.ru.pairs)
 * Nederlands [en-replace.nl.pairs](./en-replace.nl.pairs)
@@ -55,8 +55,13 @@ These languages will be made available in game, though may still need tweaks.
 
 If you see a line that could be improved edit it and raise a pull request.
 
-### New languages
-If you'd like to see support for a new language please [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
+## 2. Game store description
+The game description that appears in Steam & other stores. The original English description is in [store-description.en.bbcode](./store-description.en.bbcode).
 
-## Test
-`cargo test`
+Improve or create the file `store-description.LANGUAGE.bbcode` with translated text.
+
+### Community translations
+* Русский [store-description.ru.bbcode](./store-description.ru.bbcode)
+
+## New languages & translations
+If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
