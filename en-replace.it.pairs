@@ -25,6 +25,7 @@ Salva e Esci
 Back
 Indietro
 
+#### UI = user interface
 UI Scale
 Scala UI
 
@@ -34,6 +35,7 @@ A schermo intero
 Snowfall
 Nevicata
 
+#### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
 Effetti
 
@@ -45,6 +47,7 @@ Suono
 Music
 Musica
 
+#### Screen that shows the game title where different profiles can be selected
 Title Screen
 Schermata del titolo
 
@@ -82,6 +85,7 @@ Linguaggio
 Menu
 Menu
 
+#### A list of all functions & code "primers" unlocked so far
 Code Reference
 Codice di riferimento
 
@@ -143,7 +147,11 @@ Elimina profilo
 Confirm delete
 Conferma cancella
 
-### Overlay tutorials
+#### "Dark Stages" are the name of level stages that have totally hidden details
+Dark Stage
+Stage Oscuro
+
+### Overlay tutorials - these pop up to explain things
 Type commands here
 Digita i comandi qui
 
@@ -197,6 +205,7 @@ Prova a usare `loop` nella soluzione
 Try using `else` and \na comparison like `>`
 Prova a usare `else` e \nun confronto come `>`
 
+#### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Leggi il Confronto e le Condizioni III per vedere l'uso di `>` e `else`
 
@@ -209,6 +218,7 @@ Prova a usare `else`
 Press to run with execution paused
 Premi per eseguire con l'esecuzione in pausa
 
+#### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
 Si noti che la valutazione corrente è evidenziata
 
@@ -227,3 +237,23 @@ Raggiungi la posizione rivelata
 
 Hold alt to access more options while paused
 Tieni premuto alt per accedere a più opzioni mentre sei in pausa
+
+Dark stages are similar to the others\nbut their details are hidden
+Gli stadi oscuri sono simili agli altri \nma i loro dettagli sono nascosti
+
+Ensure your solution is general enough\nto solve these hidden variants
+Assicurati che la tua soluzione sia abbastanza generale \nper risolvere queste varianti nascoste
+
+### Score screen
+#### explanation of "Time" score
+Sum of function call runtimes & environmental delays
+Somma dei runtime delle chiamate di funzioni
+
+#### explanation of "Solution size" score
+Number of distinct evaluated code phrases
+Numero di frasi di codice valutate distinte
+
+#### explanation of "Run size" score
+Total number of evaluated code phrases
+Numero totale di frasi di codice valutate
+
