@@ -62,6 +62,18 @@ The game description that appears in Steam & other stores. The original English 
 
 Improve or create the file `store-description.LANGUAGE.bbcode` with translated text.
 
+### Not yet translated
+* Nederlands [store-description.nl.bbcode](./store-description.nl.bbcode)
+* Português [store-description.pt.bbcode](./store-description.pt.bbcode)
+* Polski [store-description.pl.bbcode](./store-description.pl.bbcode)
+* 简体中文 [store-description.zh-CN.bbcode](./store-description.zh-CN.bbcode)
+* 繁體中文 [store-description.zh-TW.bbcode](./store-description.zh-TW.bbcode)
+* Français [store-description.fr.bbcode](./store-description.fr.bbcode)
+* Deutsch [store-description.de.bbcode](./store-description.de.bbcode)
+* Svenska [store-description.sv.bbcode](./store-description.sv.bbcode)
+* Italiano [store-description.it.bbcode](./store-description.it.bbcode)
+* Ελληνικά [store-description.el.bbcode](./store-description.el.bbcode)
+
 ### Community translations
 * Русский [store-description.ru.bbcode](./store-description.ru.bbcode)
 
