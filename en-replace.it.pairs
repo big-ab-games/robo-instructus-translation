@@ -80,6 +80,9 @@ Off
 Language
 Linguaggio
 
+Vsync
+Vsync
+
 ### Tooltips
 #### main menu button at top-left
 Menu
@@ -256,3 +259,4 @@ Numero delle diverse formule del codice stimate
 #### explanation of "Run size" score
 Total number of evaluated code phrases
 Numero totale delle formule del codice stimate
+
