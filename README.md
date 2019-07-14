@@ -66,8 +66,6 @@ Improve or create the file `store-description.LANGUAGE.bbcode` with translated t
 * Nederlands [store-description.nl.bbcode](./store-description.nl.bbcode)
 * Português [store-description.pt.bbcode](./store-description.pt.bbcode)
 * Polski [store-description.pl.bbcode](./store-description.pl.bbcode)
-* 简体中文 [store-description.zh-CN.bbcode](./store-description.zh-CN.bbcode)
-* 繁體中文 [store-description.zh-TW.bbcode](./store-description.zh-TW.bbcode)
 * Français [store-description.fr.bbcode](./store-description.fr.bbcode)
 * Deutsch [store-description.de.bbcode](./store-description.de.bbcode)
 * Svenska [store-description.sv.bbcode](./store-description.sv.bbcode)
@@ -76,6 +74,8 @@ Improve or create the file `store-description.LANGUAGE.bbcode` with translated t
 
 ### Community translations
 * Русский [store-description.ru.bbcode](./store-description.ru.bbcode)
+* 简体中文 [store-description.zh-CN.bbcode](./store-description.zh-CN.bbcode)
+* 繁體中文 [store-description.zh-TW.bbcode](./store-description.zh-TW.bbcode)
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
