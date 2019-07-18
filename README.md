@@ -1,7 +1,7 @@
 Robo Instructus Translations
 ============================
 Translations for programming puzzle game Robo Instructus.
-![](https://user-images.githubusercontent.com/2331607/57169312-dd644400-6dfd-11e9-948c-f163f1e3625e.png)
+![](https://user-images.githubusercontent.com/2331607/61449475-ee2c4c80-a94c-11e9-9390-3832f9c7f1e0.png)
 
 ## About
 This project exists to provide a way for open source community translations built on machine translations to be used in game. As a solo dev with limited resources I may not be able to fund many professional translations, so this can provide a route to a translated game that otherwise wouldn't exist.
