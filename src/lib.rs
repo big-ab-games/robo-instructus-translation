@@ -12,6 +12,9 @@ lazy_static! {
     static ref LANG: RwLock<String> = RwLock::new(String::new());
 }
 
+/// Translations section of Robo Instructus credits
+pub const CREDITS: &str = include_str!("../credits.txt");
+
 /// Sets the global target translation language
 pub fn set_language_target(lang: &str) {
     *LANG.write() = lang.to_owned();
