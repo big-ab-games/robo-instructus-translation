@@ -37,7 +37,7 @@ Snowfall
 
 #### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
-Последствия
+Эффекты
 
 #### volume settings (sound as opposed to music)
 Sound
@@ -52,36 +52,36 @@ Title Screen
 Главный экран
 
 Autocomplete
-Автозаполнение
+Автодополнение
 
 #### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
-Высоко
+Высокие
 
 Low
-Низко
+Низкие
 
 Medium
-Средне
+Средние
 
 Maximum
-Максимальная
+Максимальные
 
 Background only
 Только фон
 
 #### eg "Fullscreen: On", "Autocomplete: Off"
 On
-1
+Да
 
 Off
-0
+Нет
 
 Language
 Язык
 
 Vsync
-Vsync
+Вертикальная синхронизация
 
 ### Tooltips
 #### main menu button at top-left
@@ -90,7 +90,7 @@ Menu
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-Руководство по коду
+Справочник по коду
 
 Decrease Speed
 Уменьшить скорость
@@ -116,7 +116,7 @@ Reset
 
 #### start running the code
 Run
-Бежать
+Запустить
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -124,7 +124,7 @@ Run (paused)
 
 #### code navigation when paused/debugging
 Step over
-Переступить
+Шаг через
 
 #### stop running code
 Stop
@@ -152,11 +152,11 @@ Confirm delete
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-Темная сцена
+Тёмный этап
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
-Введите здесь команды
+Вводите здесь команды
 
 Add the lines:
 Добавьте строки:
@@ -177,7 +177,7 @@ Your code will be re-run each stage,\nso a single solution must solve all.\nRetu
 Ваш код будет перезапускаться на каждом этапе,\nпоэтому одно решение должно подходить везде.\nВернуться к первому этапу
 
 Reach the first stage exit
-Дойти до первого этапа выхода
+Дойти до выхода с первого этапа
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
 Переделайте, чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этапе
@@ -187,17 +187,17 @@ Change game speed
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Нажмите, чтобы открыть руководство по коду, она содержит все разделы\nи функции для начинающих, восстановленные до настоящего времени.
+Нажмите, чтобы открыть справочник по коду, он содержит все примеры\nи функции для начинающих, восстановленные до настоящего времени.
 
 Click to close
 Нажмите, чтобы закрыть
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и переработать… или просто начните с нуля
+На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и доработать... или просто начните с чистого листа
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-Прокрутка колесиком мыши,\nalt ↑/↓, alt pageup/pagedown
+Прокрутка колёсиком мыши,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Нажмите, чтобы просмотреть\nвсе восстановленные сообщения
@@ -206,20 +206,20 @@ Try using `loop` in your solution
 Попробуйте использовать `loop` в вашем решении
 
 Try using `else` and \na comparison like `>`
-Попробуйте использовать `else` и \nсравнение как `>`
+Попробуйте использовать `else` и \nсравнения вроде `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
 Прочитайте Comparison and Conditions III, чтобы увидеть использование `>` и `else`
 
 Try using a comparison like `>`
-Попробуйте использовать сравнение как `>`
+Попробуйте использовать сравнения вроде `>`
 
 Try using `else`
 Попробуйте использовать `else`
 
 Press to run with execution paused
-Нажмите, чтобы запустить с остановленным исполнением
+Нажмите, чтобы запустить с приостановленным исполнением
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
@@ -227,7 +227,7 @@ Notice the current evaluation is highlighted
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Нажмите или используйте клавиатуру →, чтобы перейти к следующей оценке
+Нажмите или используйте клавишу →, чтобы перейти к следующей оценке
 
 Level solutions can be\nsaved and loaded here
 Решения уровня могут быть\nсохранены и загружены здесь
@@ -242,10 +242,10 @@ Hold alt to access more options while paused
 Удерживайте Alt, чтобы получить доступ к дополнительным параметрам во время паузы
 
 Dark stages are similar to the others\nbut their details are hidden
-Темные сцены похожи на другие, но их детали скрыты
+Темные стадии похожи на другие, но их детали скрыты
 
 Ensure your solution is general enough\nto solve these hidden variants
-Убедитесь, что ваше решение достаточно общее,\nчтобы решить эти скрытые варианты
+Убедитесь, что ваше решение достаточно универсально,\nчтобы решить эти скрытые варианты
 
 ### Score screen
 #### explanation of "Time" score
