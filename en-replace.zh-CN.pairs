@@ -19,7 +19,7 @@ Audio
 音频选项
 
 Save & Quit
-保存退出
+保存并退出
 
 #### as in "go back to previous menu"
 Back
@@ -45,7 +45,7 @@ Sound
 
 #### music volume
 Music
-音乐
+音量
 
 #### Screen that shows the game title where different profiles can be selected
 Title Screen
@@ -81,7 +81,7 @@ Language
 语言
 
 Vsync
-Vsync
+垂直同步
 
 ### Tooltips
 #### main menu button at top-left
@@ -90,7 +90,7 @@ Menu
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-代码参考
+编码指南
 
 Decrease Speed
 降速
@@ -142,7 +142,7 @@ Delete name
 删除名称
 
 Exit Level
-退出等级
+退出当前等级
 
 Delete profile
 删除用户资料
@@ -152,7 +152,7 @@ Confirm delete
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-黑暗的階段
+黑暗阶段
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
@@ -168,89 +168,89 @@ Modify the commands and \nre-run to reach the exit
 修改命令并重新执行以到达出口
 
 Press to exit level
-按此处退出等级
+点击此处退出当前等级
 
 Levels have multiple stages\nclick here to view each
-每等级有几个阶段；按此处查看各阶段
+每个等级有多个阶段，点击此处可查看各个阶段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-代码将在每个阶段重新执行，因此单个解决方案需要解决所有阶段。返回第一阶段
+你的代码将在每个阶段重新执行，因此单个解决方案需要通过所有阶段。返回第一阶段
 
 Reach the first stage exit
 到达第一阶段的出口
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-修改代码到达每个阶段的出口，记住代码每个阶段重新执行
+修改代码以到达每个阶段的出口，记住：代码会在每个阶段重新执行
 
 Change game speed
-改变游戏速度
+修改游戏速度
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-按此处打开代码参考，它包含到目前为止已找到的所有手册章节和函数
+点击此处打开编码指南，它包含到目前为止已找到的所有手册章节和函数
 
 Click to close
 关闭
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-这个等级有些未完成的代码，尝试执行修改......或者简直从头开始
+当前等级还有些未完成的代码，尝试执行并修改……或者干脆从头开始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-用鼠标滑轮、alt↑/↓、alt pageup/pagedown即可上下滚动
+用鼠标滑轮、alt↑/↓、alt pageup/pagedown 即可上下滚动
 
 Click to view all recovered messages
-按此处查看所有已找到的消息
+点击此处查看所有已找到的消息
 
 Try using `loop` in your solution
-修改解决方案使用`loop`的命令
+尝试在你的解决方案中使用 `loop` 命令
 
 Try using `else` and \na comparison like `>`
-修改解决方案使用`else`和严格不等号，如：`>`
+尝试在你的解决方案中使用 `else` 和比较操作符（比如：`>`）
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-阅读《Comparison》和《Conditions III》，看严格不等号（如：`>`）和`else`的例子
+阅读《Comparison》和《Conditions III》，了解 `>` 和 `else` 的使用
 
 Try using a comparison like `>`
-尝试使用严格不等号（如：`>`）
+尝试使用比较操作符（比如：`>`）
 
 Try using `else`
-尝试使用`else`
+尝试使用 `else`
 
 Press to run with execution paused
-按此处执行并在第一命令暂停
+点击此处执行并在第一条命令处暂停
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-请注意，正在被执行的代码突出显示
+请注意，正在执行的代码会被突出显示
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-按此处或按键盘的→即可前进到下一个评估
+点击此处或按键盘的→即可前进到下一个评估
 
 Level solutions can be\nsaved and loaded here
 此处可以保存和加载等级的解决方案
 
 The best scoring code in each\ncategory is automatically saved
-每个类别中最好评分的解决方案就自动保存
+每个类别中评分最高的解决方案会被自动保存
 
 Reach the revealed location
 到达显示的地方
 
 Hold alt to access more options while paused
-暂停时按住alt键即可接触更多选项
+暂停时按住 alt 键即可查看更多选项
 
 Dark stages are similar to the others\nbut their details are hidden
-黑暗的阶段与其它阶段相似\n但看不出它们的细节
+黑暗阶段与其它阶段类似\n但是它们的细节会被隐藏起来
 
 Ensure your solution is general enough\nto solve these hidden variants
-确保您的解决方案足够通用\n以解决这些隐藏的阶段
+确保您的解决方案足够通用\n以应对这些隐藏的变化
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-函数调用运行时和环境延误的总和
+函数调用运行时间和环境延时的总和
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -258,5 +258,4 @@ Number of distinct evaluated code phrases
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-已评估代码短语的总数
-
+已评估的代码短语总数
