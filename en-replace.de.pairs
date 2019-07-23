@@ -263,7 +263,7 @@ Anzahl ausgewerteter Codesätze, die sich unterscheiden
 Total number of evaluated code phrases
 Gesamtzahl aller ausgewerteten Codesätze
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 

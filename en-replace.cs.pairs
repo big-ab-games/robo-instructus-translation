@@ -263,7 +263,7 @@ Počet odlišných hodnocených kódových vět
 Total number of evaluated code phrases
 Celkový počet hodnocených kódových frází
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 

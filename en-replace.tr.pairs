@@ -263,7 +263,7 @@ Farklı değerlendirilen kod cümlelerinin sayısı
 Total number of evaluated code phrases
 Toplam değerlendirilen kod cümleleri sayısı
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 

@@ -263,7 +263,7 @@ Number of distinct evaluated code phrases
 Total number of evaluated code phrases
 已评估的代码短语总数
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 
@@ -283,3 +283,4 @@ Total number of evaluated code phrases
 
 {} fewer than previous best
 {} fewer than previous best
+

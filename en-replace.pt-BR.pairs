@@ -263,7 +263,7 @@ Número de frases de código distintas avaliadas
 Total number of evaluated code phrases
 Número total de frases de código avaliadas
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 

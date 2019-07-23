@@ -263,7 +263,7 @@ Số cụm từ mã được đánh giá riêng biệt
 Total number of evaluated code phrases
 Tổng số cụm từ mã được đánh giá
 
-#### "Time" score comparison `{}` is replaced by the number
+#### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
 {} slower than best
 
