@@ -259,3 +259,24 @@ Number of distinct evaluated code phrases
 #### explanation of "Run size" score
 Total number of evaluated code phrases
 Общее количество оцененных кодовых фраз
+
+#### "Time" score comparison `{}` is replaced by the number
+{} slower than best
+{} slower than best
+
+{} faster than previous best
+{} faster than previous best
+
+#### "Solution size" score comparison `{}` is replaced by the number
+{} longer than best
+{} longer than best
+
+{} shorter than previous best
+{} shorter than previous best
+
+#### "Run size" score comparison `{}` is replaced by the number
+{} more than best
+{} more than best
+
+{} fewer than previous best
+{} fewer than previous best

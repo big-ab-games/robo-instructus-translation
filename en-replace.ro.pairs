@@ -260,3 +260,24 @@ Numărul de expresii codificate distincte
 Total number of evaluated code phrases
 Numărul total de fraze de cod evaluate
 
+#### "Time" score comparison `{}` is replaced by the number
+{} slower than best
+{} slower than best
+
+{} faster than previous best
+{} faster than previous best
+
+#### "Solution size" score comparison `{}` is replaced by the number
+{} longer than best
+{} longer than best
+
+{} shorter than previous best
+{} shorter than previous best
+
+#### "Run size" score comparison `{}` is replaced by the number
+{} more than best
+{} more than best
+
+{} fewer than previous best
+{} fewer than previous best
+

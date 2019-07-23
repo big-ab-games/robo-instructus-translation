@@ -1,11 +1,14 @@
 //! Generate missing translation files use `features "fill"`
 //!
-//! env GOOGLE_TRANSLATE_API_KEY=abc cargo run --bin fill --features fill
+//! env GOOGLE_TRANSLATE_API_KEY=abc cargo run --bin fill --features fill -- --google-translate
+//!
+//! cargo run --bin fill --features fill
 #![cfg(feature = "fill")]
 
 use lazy_static::lazy_static;
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::env;
+use std::io::Write;
 
 // REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
 include!("../../target/generated/translations.rs");
@@ -16,7 +19,11 @@ fn main() {
     }
     env_logger::init();
 
-    robo_instructus_translation::realtime::external_init();
+    let machine_translate = env::args().any(|a| a == "--google-translate");
+
+    if machine_translate {
+        robo_instructus_translation::realtime::external_init();
+    }
 
     let all_en: FxHashSet<_> = REPLACE.values().flat_map(FxHashMap::keys).collect();
 
@@ -24,7 +31,15 @@ fn main() {
     for (lang, translations) in REPLACE.iter() {
         for en in &all_en {
             if translations.get(*en).is_none() {
-                robo_instructus_translation::realtime::google_translate(lang, en).unwrap();
+                if machine_translate {
+                    robo_instructus_translation::realtime::google_translate(lang, en).unwrap();
+                } else {
+                    let mut file = std::fs::OpenOptions::new()
+                        .append(true)
+                        .open(&format!("en-replace.{}.pairs", lang))
+                        .unwrap();
+                    writeln!(file, "{}\n{}\n", en, en).unwrap();
+                }
             }
         }
     }
