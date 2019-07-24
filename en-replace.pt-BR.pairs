@@ -13,7 +13,7 @@ Credits
 Credits
 
 Settings
-Definições
+Configurações
 
 Video
 Vídeo
@@ -22,15 +22,15 @@ Audio
 Audio
 
 Save & Quit
-Salve 
+Salvar e Sair
 
 #### as in "go back to previous menu"
 Back
-De volta
+Voltar
 
 #### UI = user interface
 UI Scale
-Escala de interface do usuário
+Escala da interface do usuário
 
 Fullscreen
 Tela cheia
@@ -52,7 +52,7 @@ Música
 
 #### Screen that shows the game title where different profiles can be selected
 Title Screen
-Tela de título
+Tela Inicial
 
 Autocomplete
 Autocompletar
@@ -89,17 +89,17 @@ Vsync
 ### Tooltips
 #### main menu button at top-left
 Menu
-Cardápio
+Menu
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-Referência de código
+Referências de código
 
 Decrease Speed
 Diminuir velocidade
 
 Increase Speed
-Aumente a velocidade
+Aumentar a Velocidade
 
 Message Archive
 Arquivo de Mensagens
@@ -115,11 +115,11 @@ Carregar / Salvar nova abordagem
 
 #### resets current level
 Reset
-Restabelecer
+Resetar
 
 #### start running the code
 Run
-Corre
+Executar
 
 #### start running the code but immediately paused / debugging
 Run (paused)
@@ -135,7 +135,7 @@ Pare
 
 #### pause running code
 Pause
-Pausa
+Pausar
 
 #### code navigation when paused/debugging
 Step forward
@@ -155,7 +155,7 @@ Confirme a exclusão
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-Estágio Escuro
+Fase Negra
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
@@ -168,7 +168,7 @@ Press play to run
 Pressione play para executar
 
 Modify the commands and \nre-run to reach the exit
-Modifique os comandos e volte a executar para alcançar a saída
+Modifique os comandos e volte a\nexecutar para alcançar a saída
 
 Press to exit level
 Pressione para sair do nível
@@ -183,24 +183,24 @@ Reach the first stage exit
 Alcance a saída do primeiro estágio
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Retrabalho para alcançar todas as saídas, lembre-se \ncódigo é executado novamente a partir do topo em cada estágio
+Refaça para alcançar todas as saídas,lembre-se o código é executado novamente a partir do topo em cada estágiof
 
 Change game speed
 Alterar a velocidade do jogo
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Clique para abrir o Código de Referência, ele contém todas as seções de primer e funções recuperadas até o momento
+Clique para abrir os Códigos de Referência,Ali se contém todas as seções e funções do primer recuparadas até o momento
 
 Click to close
 Clique para fechar
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Há algum código inacabado encontrado neste nível, tente executá-lo e retrabalho ... ou apenas começar do zero
+Foi encontrado código inacabado neste nível,tente executá-lo e refazê-lo....ou apenas recomece do zero.
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-Rolar com a roda do mouse,\nalt ↑/↓, alt pageup/pagedown
+Role com o scroll do mouse,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
 Clique para ver todas as mensagens recuperadas
@@ -213,7 +213,7 @@ Tente usar `else` e \numa comparação como `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Lê a seção Comparação e as Condições III para ver a utilização de `>` e `else`
+Leia a seção Comparação e Condições III para ver a utilização de `>` e `else`ê
 
 Try using a comparison like `>`
 Tente usar uma comparação como `>`
@@ -226,34 +226,34 @@ Pressione para executar com execução pausada
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-Observe que a avaliação atual está destacada
+Observe que a avaliação atual está em destaque
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Pressione ou use o teclado → para avançar para a próxima avaliação
+Pressione ou use no teclado → para avançar para a próxima avaliação
 
 Level solutions can be\nsaved and loaded here
-Soluções de nível podem ser salvas e carregadas aqui
+Soluções do nível podem ser salvas e carregadas aqui
 
 The best scoring code in each\ncategory is automatically saved
 O melhor código de pontuação em cada categoria é salvo automaticamente
 
 Reach the revealed location
-Alcançar o local revelado
+Alcance o local revelado
 
 Hold alt to access more options while paused
 Segure alt para acessar mais opções enquanto pausado
 
 Dark stages are similar to the others\nbut their details are hidden
-Estágios escuros são semelhantes aos outros, mas seus detalhes estão ocultos
+Fases negras são semelhantes aos outros,mas seus detalhes estão ocultos
 
 Ensure your solution is general enough\nto solve these hidden variants
-Garanta que sua solução seja geral o suficiente para resolver essas variantes ocultas
+Garanta que sua solução seja generalizada o suficiente para resolver essas variantes ocultas
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Soma dos tempos de execução da chamada de função
+Soma dos tempos de execução da chamada de função e os atrasos do ambiente
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -283,4 +283,3 @@ Número total de frases de código avaliadas
 
 {} fewer than previous best
 {} fewer than previous best
-
