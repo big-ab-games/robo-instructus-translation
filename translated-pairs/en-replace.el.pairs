@@ -250,6 +250,12 @@ Dark stages are similar to the others\nbut their details are hidden
 Ensure your solution is general enough\nto solve these hidden variants
 Βεβαιωθείτε ότι η λύση σας είναι αρκετά γενική\nγια να λύσετε αυτές τις κρυφές παραλλαγές
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

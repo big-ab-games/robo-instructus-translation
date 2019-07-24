@@ -250,6 +250,12 @@ Les étapes sombres sont semblables aux autres \nmais leurs détails sont caché
 Ensure your solution is general enough\nto solve these hidden variants
 Assurez-vous que votre solution est suffisamment générale pour résoudre ces variantes cachées.
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

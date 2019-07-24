@@ -250,6 +250,12 @@ A sötét szakaszok hasonlítanak a többiekhez, de részleteik rejtve vannak
 Ensure your solution is general enough\nto solve these hidden variants
 Győződjön meg róla, hogy a megoldás elég általános ahhoz, hogy megoldja ezeket a rejtett változatokat
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

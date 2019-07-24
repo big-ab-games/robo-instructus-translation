@@ -250,6 +250,12 @@ Mörka stadier liknar de andra \nmen deras detaljer är gömda
 Ensure your solution is general enough\nto solve these hidden variants
 Se till att din lösning är generell nog \nför att lösa dessa dolda varianter
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

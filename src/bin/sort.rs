@@ -38,7 +38,7 @@ fn main() {
     }
 
     let ordered_ens = {
-        let filename = format!("en-replace.{}.pairs", master);
+        let filename = format!("./translated-pairs/en-replace.{}.pairs", master);
         let file = fs::OpenOptions::new().read(true).open(filename).unwrap();
 
         let mut ens = vec![];
@@ -60,7 +60,7 @@ fn main() {
 
     // rewrite all .pairs files except master
     for (lang, vals) in REPLACE.iter().filter(|(lang, _)| *lang != &master) {
-        let filename = format!("en-replace.{}.pairs", lang);
+        let filename = format!("./translated-pairs/en-replace.{}.pairs", lang);
         let file =
             fs::OpenOptions::new().write(true).truncate(true).create(true).open(&filename).unwrap();
         let mut file = io::BufWriter::new(file);

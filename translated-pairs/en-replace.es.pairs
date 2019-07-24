@@ -250,6 +250,12 @@ Los escenarios oscuros son similares a los otros, pero sus detalles están ocult
 Ensure your solution is general enough\nto solve these hidden variants
 Asegúrese de que su solución sea lo suficientemente general para resolver estas variantes ocultas
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

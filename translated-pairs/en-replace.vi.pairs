@@ -250,6 +250,12 @@ Các giai đoạn tối tương tự như các giai đoạn khác \nnhưng chi t
 Ensure your solution is general enough\nto solve these hidden variants
 Đảm bảo giải pháp của bạn đủ chung \nđể giải quyết các biến thể ẩn này
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

@@ -18,7 +18,7 @@ Français _(fr)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Polski _(pl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
@@ -60,7 +60,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files in the `translated
 If you see a line that could be improved edit it and raise a pull request.
 
 ##### Recent Additions
-***`Credits`, `{} slower than best`, `{} faster than previous best`, ...***
+***`Your solution has a flaw uncovered by a hidden stage variant`, `Credits`, `{} slower than best`, `{} faster than previous best`***
 
 ## 2. Game store description
 The game description that appears in Steam & other stores. The original English description is in [translated-store/store-description.en.bbcode](./translated-store/store-description.en.bbcode).

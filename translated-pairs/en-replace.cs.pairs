@@ -250,6 +250,12 @@ Temné fáze jsou podobné ostatním, ale jejich detaily jsou skryté
 Ensure your solution is general enough\nto solve these hidden variants
 Zajistěte, aby vaše řešení bylo dostatečně obecné na vyřešení těchto skrytých variant
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

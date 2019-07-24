@@ -250,6 +250,12 @@ Ciemne sceny są podobne do innych, ale ich szczegóły są ukryte
 Ensure your solution is general enough\nto solve these hidden variants
 Upewnij się, że twoje rozwiązanie jest wystarczająco ogólne, aby rozwiązać te ukryte warianty
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

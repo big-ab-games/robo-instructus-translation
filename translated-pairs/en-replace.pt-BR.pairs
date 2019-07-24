@@ -250,6 +250,12 @@ Fases negras são semelhantes aos outros,mas seus detalhes estão ocultos
 Ensure your solution is general enough\nto solve these hidden variants
 Garanta que sua solução seja generalizada o suficiente para resolver essas variantes ocultas
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
@@ -283,3 +289,4 @@ Número total de frases de código avaliadas
 
 {} fewer than previous best
 {} menos que a melhor anterior
+

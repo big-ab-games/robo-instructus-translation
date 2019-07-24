@@ -250,6 +250,12 @@ Dark stages are similar to the others\nbut their details are hidden
 Ensure your solution is general enough\nto solve these hidden variants
 이러한 숨겨진 변형을 해결할 수있는 일반적인 솔루션인지 확인하십시오.
 
+Your solution has a flaw uncovered by a hidden stage variant
+Your solution has a flaw uncovered by a hidden stage variant
+
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+Future levels are unlocked as normal, but\ndark stage completion is required to score
+
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays

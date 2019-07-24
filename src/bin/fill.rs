@@ -34,11 +34,13 @@ fn main() {
                 if machine_translate {
                     robo_instructus_translation::realtime::google_translate(lang, en).unwrap();
                 } else {
+                    let path = format!("./translated-pairs/en-replace.{}.pairs", lang);
                     let mut file = std::fs::OpenOptions::new()
                         .append(true)
-                        .open(&format!("en-replace.{}.pairs", lang))
-                        .unwrap();
-                    writeln!(file, "{}\n{}\n", en, en).unwrap();
+                        .open(&path)
+                        .expect(&path);
+                    let escaped = en.replace('\n', r"\n");
+                    writeln!(file, "{}\n{}\n", &escaped, &escaped).expect(&path);
                 }
             }
         }
