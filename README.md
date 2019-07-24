@@ -66,6 +66,9 @@ The game description that appears in Steam & other stores. The original English 
 
 Improve or create the file `translated-store/store-description.LANGUAGE.bbcode` with translated text. For example [translated-store/store-description.ru.bbcode](./translated-store/store-description.ru.bbcode).
 
+##### Recent Additions
+***`Credits`, `{} slower than best`, `{} faster than previous best`, ...***
+
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
 
