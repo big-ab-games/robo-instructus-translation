@@ -9,33 +9,33 @@ This project exists to provide a way for open source community translations to b
 
 Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | The rest of the game
 :---: | :---: | :---: | :---:
-English | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Deutsch | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Français | :large_blue_circle: | :black_circle: | :no_entry_sign:
-简体中文 | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-繁體中文 | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Nederlands | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Svenska | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Polski | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Português | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Italiano | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Ελληνικά | :large_blue_circle: | :black_circle: | :no_entry_sign:
-български език | :black_circle: | :black_circle: | :no_entry_sign:
-čeština | :black_circle: | :black_circle: | :no_entry_sign:
-Dansk | :black_circle: | :black_circle: | :no_entry_sign:
-Suomi | :black_circle: | :black_circle: | :no_entry_sign:
-Magyar | :black_circle: | :black_circle: | :no_entry_sign:
-日本語 | :black_circle: | :black_circle: | :no_entry_sign:
-한국어 | :black_circle: | :black_circle: | :no_entry_sign:
-Norsk | :black_circle: | :black_circle: | :no_entry_sign:
-Română | :black_circle: | :black_circle: | :no_entry_sign:
-Español-España | :black_circle: | :black_circle: | :no_entry_sign:
-ไทย | :black_circle: | :black_circle: | :no_entry_sign:
-Türkçe | :black_circle: | :black_circle: | :no_entry_sign:
-Українська | :black_circle: | :black_circle: | :no_entry_sign:
-Tiếng Việt | :black_circle: | :black_circle: | :no_entry_sign:
+English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Русский _(ru)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+Deutsch _(de)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+Français _(fr)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+Polski _(pl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+Português _(pt)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+Italiano _(it)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
+български език _(bg)_ | :black_circle: | :black_circle: | :no_entry_sign:
+čeština _(cs)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Dansk _(da)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Suomi _(fi)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Magyar _(hu)_ | :black_circle: | :black_circle: | :no_entry_sign:
+日本語 _(ja)_ | :black_circle: | :black_circle: | :no_entry_sign:
+한국어 _(ko)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Norsk _(no)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Română _(ro)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Español-España _(es)_ | :black_circle: | :black_circle: | :no_entry_sign:
+ไทย _(th)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Türkçe _(tr)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Українська _(uk)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :no_entry_sign:
 
 :heavy_check_mark:: _Translated_<br/>
 :large_blue_circle:: _Partially translated, some more work to be done_<br/>
