@@ -5,7 +5,7 @@ Translations for programming puzzle game Robo Instructus.
 ![](https://user-images.githubusercontent.com/2331607/61449475-ee2c4c80-a94c-11e9-9390-3832f9c7f1e0.png)
 
 ## About
-This project exists to provide a way for open source community translations to be used in game. As an English solo developer with limited resources I'm not able to fund professional translations, so this repository can provide a route to a translated game that otherwise wouldn't exist.
+This project exists to provide a way for open source community translations to be used in game. As a solo developer with limited resources I'm not able to fund professional translations, so this repository can provide a route to a translated game that otherwise wouldn't exist.
 
 Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | The rest of the game
 :---: | :---: | :---: | :---:
