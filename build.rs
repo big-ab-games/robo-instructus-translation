@@ -10,7 +10,7 @@ fn main() {
 }
 
 fn generate_translations() {
-    let translations = std::env::current_dir().unwrap();
+    let translations = std::env::current_dir().unwrap().join("translated-pairs");
 
     let lang_replace: Vec<_> = fs::read_dir(&translations).unwrap()
         .filter_map(|entry| {
