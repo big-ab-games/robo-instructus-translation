@@ -18,7 +18,7 @@ Français _(fr)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Polski _(pl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:

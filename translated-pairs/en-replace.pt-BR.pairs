@@ -10,7 +10,7 @@ Perfil
 
 ### Menu
 Credits
-Credits
+Créditos
 
 Settings
 Configurações
@@ -265,21 +265,21 @@ Número total de frases de código avaliadas
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+{} mais lento que o melhor
 
 {} faster than previous best
-{} faster than previous best
+{} mais rápido que o melhor anterior
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+{} maior que a melhor
 
 {} shorter than previous best
-{} shorter than previous best
+{} menor que a melhor anterior
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+{} mais que a melhor
 
 {} fewer than previous best
-{} fewer than previous best
+{} menos que a melhor anterior
