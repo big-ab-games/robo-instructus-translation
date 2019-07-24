@@ -31,7 +31,6 @@ These translations have been created using google translate and need to be impro
 * 日本語 [en-replace.ja.pairs](./en-replace.ja.pairs)
 * 한국어 [en-replace.ko.pairs](./en-replace.ko.pairs)
 * Norsk [en-replace.no.pairs](./en-replace.no.pairs)
-* Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 * Română [en-replace.ro.pairs](./en-replace.ro.pairs)
 * Español-España [en-replace.es.pairs](./en-replace.es.pairs)
 * ไทย [en-replace.th.pairs](./en-replace.th.pairs)
@@ -52,6 +51,7 @@ These languages will be made available in game, though may still need tweaks.
 * Svenska [en-replace.sv.pairs](./en-replace.sv.pairs)
 * Italiano [en-replace.it.pairs](./en-replace.it.pairs)
 * Ελληνικά [en-replace.el.pairs](./en-replace.el.pairs)
+* Português-Brasil [en-replace.pt-BR.pairs](./en-replace.pt-BR.pairs)
 
 If you see a line that could be improved edit it and raise a pull request.
 
@@ -76,6 +76,7 @@ Improve or create the file `store-description.LANGUAGE.bbcode` with translated t
 * 简体中文 [store-description.zh-CN.bbcode](./store-description.zh-CN.bbcode)
 * 繁體中文 [store-description.zh-TW.bbcode](./store-description.zh-TW.bbcode)
 * Deutsch [store-description.de.bbcode](./store-description.de.bbcode)
+* Português-Brasil [store-description.pt-BR.bbcode](./store-description.pt-BR.bbcode)
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
