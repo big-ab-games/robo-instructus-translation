@@ -68,3 +68,6 @@ Improve or create the file `translated-store/store-description.LANGUAGE.bbcode` 
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
+
+## Credits
+If you help improve the game's translations you'll appear in the game's credits (unless you don't want to). Everyone in the [credits.txt](./credits.txt) is included. _In the game's title screen open the menu and press **Credits** to view them_.
