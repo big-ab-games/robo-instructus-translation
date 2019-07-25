@@ -70,7 +70,7 @@ The game description that appears in Steam & other stores. The original English 
 Improve or create the file `store/store-description.LANGUAGE.bbcode` with translated text. For example [store/store-description.ru.bbcode](./store/store-description.ru.bbcode).
 
 ## 3. Company messages
-Bit of the game's story delivered as messages from the players boss Judith. These are some of the first bits of text read by the player setting the scene. There are mostly paragraphs of text coming after `#!company` line markers.
+Bit of the game's story delivered as messages from the players boss Judith. These are some of the first bits of text read by the player setting the scene. There are mostly paragraphs of text coming after `#!company` line markers. Try to use the same whitespacing, number of new lines etc.
 
 Update the `company.LANGUAGE.robomarkup` file in the `company` directory. See the English [company/company.en.robomarkup](./company/company.en.robomarkup) file, duplicate this to start a new language translation.
 
