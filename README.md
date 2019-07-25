@@ -63,11 +63,11 @@ If you see a line that could be improved edit it and raise a pull request.
 ***`Your solution has a flaw uncovered by a hidden stage variant`, `Credits`, `{} slower than best`, `{} faster than previous best`***
 
 ## 2. Game store description
-The game description that appears in Steam & other stores. The original English description is in [translated-store/store-description.en.bbcode](./translated-store/store-description.en.bbcode).
+The game description that appears in Steam & other stores. The original English description is in [store/store-description.en.bbcode](./store/store-description.en.bbcode).
 
 ![](https://user-images.githubusercontent.com/2331607/59967068-293d8a80-951d-11e9-92c4-549bbeafe3a8.png)
 
-Improve or create the file `translated-store/store-description.LANGUAGE.bbcode` with translated text. For example [translated-store/store-description.ru.bbcode](./translated-store/store-description.ru.bbcode).
+Improve or create the file `store/store-description.LANGUAGE.bbcode` with translated text. For example [store/store-description.ru.bbcode](./store/store-description.ru.bbcode).
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
