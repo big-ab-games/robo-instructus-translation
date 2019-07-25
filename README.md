@@ -7,35 +7,35 @@ Translations for programming puzzle game Robo Instructus.
 ## About
 This project exists to provide a way for open source community translations to be used in game. As a solo developer with limited resources I'm not able to fund professional translations, so this repository can provide a route to a translated game that otherwise wouldn't exist.
 
-Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | The rest of the game
-:---: | :---: | :---: | :---:
-English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Deutsch _(de)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Français _(fr)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Polski _(pl)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :no_entry_sign:
-Português _(pt)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Italiano _(it)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :no_entry_sign:
-български език _(bg)_ | :black_circle: | :black_circle: | :no_entry_sign:
-čeština _(cs)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Dansk _(da)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Suomi _(fi)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Magyar _(hu)_ | :black_circle: | :black_circle: | :no_entry_sign:
-日本語 _(ja)_ | :black_circle: | :black_circle: | :no_entry_sign:
-한국어 _(ko)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Norsk _(no)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Română _(ro)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Español-España _(es)_ | :black_circle: | :black_circle: | :no_entry_sign:
-ไทย _(th)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Türkçe _(tr)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Українська _(uk)_ | :black_circle: | :black_circle: | :no_entry_sign:
-Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :no_entry_sign:
+Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | The rest of the game
+:---: | :---: | :---: | :---: | :---:
+English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Русский _(ru)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Deutsch _(de)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Français _(fr)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+български език _(bg)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+čeština _(cs)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Dansk _(da)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Suomi _(fi)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Magyar _(hu)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+日本語 _(ja)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+한국어 _(ko)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Norsk _(no)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Română _(ro)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Español-España _(es)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+ไทย _(th)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Türkçe _(tr)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Українська _(uk)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 
 :heavy_check_mark:: _Translated_<br/>
 :large_blue_circle:: _Partially translated, some more work to be done_<br/>
@@ -68,6 +68,11 @@ The game description that appears in Steam & other stores. The original English 
 ![](https://user-images.githubusercontent.com/2331607/59967068-293d8a80-951d-11e9-92c4-549bbeafe3a8.png)
 
 Improve or create the file `store/store-description.LANGUAGE.bbcode` with translated text. For example [store/store-description.ru.bbcode](./store/store-description.ru.bbcode).
+
+## 3. Company messages
+Bit of the game's story delivered as messages from the players boss Judith. These are some of the first bits of text read by the player setting the scene. There are mostly paragraphs of text coming after `#!company` line markers.
+
+Update the `company.LANGUAGE.robomarkup` file in the `company` directory. See the English [company/company.en.robomarkup](./company/company.en.robomarkup) file, duplicate this to start a new language translation.
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).

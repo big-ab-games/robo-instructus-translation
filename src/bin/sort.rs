@@ -12,7 +12,7 @@ use std::{
 };
 
 // REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
-include!("../../target/generated/translations.rs");
+include!("../../target/generated/translated-pairs.rs");
 
 fn main() {
     if env::var_os("RUST_LOG").is_none() {

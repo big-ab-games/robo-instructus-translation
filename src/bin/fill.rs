@@ -7,11 +7,10 @@
 
 use lazy_static::lazy_static;
 use rustc_hash::{FxHashMap, FxHashSet};
-use std::env;
-use std::io::Write;
+use std::{env, io::Write};
 
 // REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
-include!("../../target/generated/translations.rs");
+include!("../../target/generated/translated-pairs.rs");
 
 fn main() {
     if env::var_os("RUST_LOG").is_none() {
@@ -35,10 +34,8 @@ fn main() {
                     robo_instructus_translation::realtime::google_translate(lang, en).unwrap();
                 } else {
                     let path = format!("./translated-pairs/en-replace.{}.pairs", lang);
-                    let mut file = std::fs::OpenOptions::new()
-                        .append(true)
-                        .open(&path)
-                        .expect(&path);
+                    let mut file =
+                        std::fs::OpenOptions::new().append(true).open(&path).expect(&path);
                     let escaped = en.replace('\n', r"\n");
                     writeln!(file, "{}\n{}\n", &escaped, &escaped).expect(&path);
                 }

@@ -2,7 +2,6 @@ use percent_encoding::{utf8_percent_encode, QUERY_ENCODE_SET};
 use serde_json::Value;
 
 pub fn translate_to(lang: &str, en: &str) -> Option<String> {
-
     // handle newlines
     let text = en.replace('\n', "|");
 
@@ -11,8 +10,8 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
     //     "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={lang}&dt=t&q={text}",
     //     lang = lang,
     //     text = utf8_percent_encode(&text, QUERY_ENCODE_SET));
-    let api_key = std::env::var("GOOGLE_TRANSLATE_API_KEY")
-        .expect("Missing env GOOGLE_TRANSLATE_API_KEY");
+    let api_key =
+        std::env::var("GOOGLE_TRANSLATE_API_KEY").expect("Missing env GOOGLE_TRANSLATE_API_KEY");
     let url = format!(
         "https://translation.googleapis.com/language/translate/v2?q={text}&source=en&target={lang}&key={key}",
         lang = lang,
@@ -26,7 +25,7 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
     }
     match json["data"]["translations"][0]["translatedText"].take() {
         Value::String(translated) => Some(translated.replace("| ", "\n").replace("|", "\n")),
-        _ => None
+        _ => None,
     }
 }
 
