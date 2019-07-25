@@ -255,10 +255,10 @@ Ensure your solution is general enough\nto solve these hidden variants
 Stellen Sie sicher, dass Ihre Lösung allgemein genug ist, um diese versteckten Varianten zu lösen
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+Ihre Lösung hat einen Mangelm welcher durch eine versteckte Variante enthüllt wurde
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Künftige Level werden normal freigeschaltet, aber die \ndunkele Phase wird benötigt um zu punkten
 
 ### Score screen
 #### explanation of "Time" score
@@ -275,22 +275,22 @@ Gesamtzahl aller ausgewerteten Codesätze
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+{} Langsamer als Highscore
 
 {} faster than previous best
-{} faster than previous best
+{} Schneller als vorheriger Highscore
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+{} Länger als Highscore
 
 {} shorter than previous best
-{} shorter than previous best
+{} Kürzer als vorheriger Highscore
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+{} Mehr als Highscore
 
 {} fewer than previous best
-{} fewer than previous best
+{} Weniger als Highscore
 
