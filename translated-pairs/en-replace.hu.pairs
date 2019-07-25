@@ -91,6 +91,10 @@ Vsync
 Menu
 Menü
 
+#### Toggle to re-read the company messages you've received
+Company Inbox
+Vállalati beérkezett üzenetek
+
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
 Kód hivatkozás
@@ -289,3 +293,4 @@ Az értékelt kódmondatok teljes száma
 
 {} fewer than previous best
 {} fewer than previous best
+

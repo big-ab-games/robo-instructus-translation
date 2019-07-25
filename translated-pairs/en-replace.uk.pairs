@@ -91,6 +91,10 @@ Vsync
 Menu
 Меню
 
+#### Toggle to re-read the company messages you've received
+Company Inbox
+Вхідні компанії
+
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
 Код посилання
@@ -289,3 +293,4 @@ Total number of evaluated code phrases
 
 {} fewer than previous best
 {} fewer than previous best
+

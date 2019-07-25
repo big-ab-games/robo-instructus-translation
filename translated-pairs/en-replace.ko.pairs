@@ -91,6 +91,10 @@ Vsync
 Menu
 메뉴
 
+#### Toggle to re-read the company messages you've received
+Company Inbox
+회사받은 편지함
+
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
 코드 참조
@@ -289,3 +293,4 @@ Total number of evaluated code phrases
 
 {} fewer than previous best
 {} fewer than previous best
+

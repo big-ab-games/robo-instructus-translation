@@ -91,6 +91,10 @@ Vsync
 Menu
 Menu
 
+#### Toggle to re-read the company messages you've received
+Company Inbox
+Boîte de réception de l'entreprise
+
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
 Code de référence
@@ -289,4 +293,3 @@ Nombre total de phrases de code évaluées
 
 {} fewer than previous best
 {} fewer than previous best
-

@@ -91,6 +91,10 @@ Vsync
 Menu
 Meniul
 
+#### Toggle to re-read the company messages you've received
+Company Inbox
+Inbox pentru companie
+
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
 Cod de referință
@@ -289,3 +293,4 @@ Numărul total de fraze de cod evaluate
 
 {} fewer than previous best
 {} fewer than previous best
+
