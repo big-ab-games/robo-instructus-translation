@@ -255,10 +255,10 @@ Ensure your solution is general enough\nto solve these hidden variants
 Garanta que sua solução seja generalizada o suficiente para resolver essas variantes ocultas
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+Sua solução tem uma falha descoberta por uma variabilidade secreta do estágio
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Níveis futuros são destravados normalmente,mas\ncompletar fases negras é requerido para pontuação
 
 ### Score screen
 #### explanation of "Time" score
@@ -293,4 +293,3 @@ Número total de frases de código avaliadas
 
 {} fewer than previous best
 {} menos que a melhor anterior
-
