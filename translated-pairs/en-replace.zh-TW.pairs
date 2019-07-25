@@ -22,7 +22,7 @@ Audio
 音頻選項
 
 Save & Quit
-保存退出
+保存並退出
 
 #### as in "go back to previous menu"
 Back
@@ -48,7 +48,7 @@ Sound
 
 #### music volume
 Music
-音樂
+音量
 
 #### Screen that shows the game title where different profiles can be selected
 Title Screen
@@ -84,7 +84,7 @@ Language
 語言
 
 Vsync
-Vsync
+垂直同步
 
 ### Tooltips
 #### main menu button at top-left
@@ -93,7 +93,7 @@ Menu
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-代碼參考
+編碼指南
 
 Decrease Speed
 降速
@@ -145,7 +145,7 @@ Delete name
 刪除名稱
 
 Exit Level
-退出等級
+退出當前等級
 
 Delete profile
 刪除用户資料
@@ -155,7 +155,7 @@ Confirm delete
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-黑暗的階段
+黑暗階段
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
@@ -171,84 +171,84 @@ Modify the commands and \nre-run to reach the exit
 修改命令並重新執行以到達出口
 
 Press to exit level
-按此處退出等級
+點擊此處退出當前等級
 
 Levels have multiple stages\nclick here to view each
-每等級有幾個階段；按此處查看各階段
+每個等級有多個階段，點擊此處可查看各個階段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-代碼將在每個階段重新執行，因此單個解決方案需要解決所有階段。返回第一階段
+你的代碼將在每個階段重新執行，因此單個解決方案需要通過所有階段。返回第一階段
 
 Reach the first stage exit
 到達第一階段的出口
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-修改代碼到達每個階段的出口，記住代碼每個階段重新執行
+修改代碼以到達每個階段的出口，記住：代碼會在每個階段重新執行
 
 Change game speed
-改變遊戲速度
+修改遊戲速度
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-按此處打開代碼參考，它包含到目前為止已找到的所有手冊章節和函数
+點擊此處打開編碼指南，它包含到目前為止已找到的所有手冊章節和函数
 
 Click to close
 關閉
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-這個等級有些未完成的代碼，嘗試執行修改......或者簡直從頭開始
+當前等級還有些未完成的代碼，嘗試執行修改……或者乾脆從頭開始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-用鼠標滑輪，alt↑/↓，alt pageup/pagedown即可上下滾動
+用鼠標滑輪、alt↑/↓、alt pageup/pagedown 即可上下滾動
 
 Click to view all recovered messages
-按此處查看所有已找到的消息
+點擊此處查看所有已找到的消息
 
 Try using `loop` in your solution
-修改解決方案使用`loop`的命令
+嘗試在你的解決方案中使用 `loop` 命令
 
 Try using `else` and \na comparison like `>`
-修改解決方案使用`else`和嚴格不等號，如：`>`
+嘗試在你的解決方案中使用 `else` 和比較操作符（比如：`>`）
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-閲讀《Comparison》和《Conditions III》，看嚴格不等號（如：`>`）和`else`的例子
+閲讀《Comparison》和《Conditions III》，了解 `>` 和 `else` 的使用
 
 Try using a comparison like `>`
-嘗試使用嚴格不等號（如：`>`）
+嘗試使用比較操作符（比如：`>`）
 
 Try using `else`
-嘗試使用`else`
+嘗試使用 `else`
 
 Press to run with execution paused
-按此處執行並在第一命令暫停
+點擊此處執行並在第一條命令處暫停
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-請注意，正在被執行的代碼突出顯示
+請注意，正在執行的代碼會被突出顯示
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-按此處或按鍵盤的→即可前進到下一個評估
+點擊此處或按鍵盤的→即可前進到下一個評估
 
 Level solutions can be\nsaved and loaded here
 此處可以保存和加載等級的解決方案
 
 The best scoring code in each\ncategory is automatically saved
-每個類別中最好評分的解決方案就自動保存
+每個類別中最高評分的解決方案會被自動保存
 
 Reach the revealed location
 到達顯示的地方
 
 Hold alt to access more options while paused
-暫停時按住alt鍵即可接觸更多選項
+暫停時按住 alt 鍵即可查看更多選項
 
 Dark stages are similar to the others\nbut their details are hidden
-黑暗的階段與其它階段相似\n但看不出它們的細節
+黑暗階段與其它階段類似\n但是它們的細節會被隱藏起來
 
 Ensure your solution is general enough\nto solve these hidden variants
-確保您的解決方案足夠通用\n以解決這些隱藏的階段
+確保您的解決方案足夠通用\n以應對這些隱藏的變化
 
 Your solution has a flaw uncovered by a hidden stage variant
 Your solution has a flaw uncovered by a hidden stage variant
@@ -259,7 +259,7 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-函數調用運行時和環境延誤的總和
+函數調用運行時間和環境延時的總和
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -267,7 +267,7 @@ Number of distinct evaluated code phrases
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-已評估代碼短語的總數
+已評估的代碼短語總數
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
