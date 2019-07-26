@@ -1,0 +1,93 @@
+// Pseudo markup format for Robo Instructus containing the company messages received through the game's story.
+// Spoiler alert!
+//
+// `#!company` means the start of a message, the lines following are the message in simplified markdown.
+//  Most of the time the first line, starting with '# ' is the subject.
+
+
+// intro text, should be exactly 3 lines
+#!company id{c-await}
+Bergungsingenieur,
+Ankunftsbericht bestätigt
+Anweisungen abwarten.
+
+
+#!company id{c-receiving}
+Kommunikation empfangen
+
+
+#!company id{c-ack}
+Bestätigt
+
+
+#!company id{c-arrive}
+# Re: Iceni Bergungsankunftsbericht
+
+Du hast also einen Roboter gefunden? Sieht süß aus, wenn auch etwas primitiv. Aber wenn das die beste Bergung ist, die Sie finden können ... Nun, sagen wir einfach, sie deckt nicht einmal die Kosten der billig Nährstoffsuppenrationen, die Sie zweifellos genießen, während Sie dies lesen.
+
+Habe die von Ihnen gesendeten Scans überprüft und ich muss sagen, dass ich ein wenig verärgert bin. Wenn ich gewollt hätte, dass Sie verrostetes Metall und nutzlosen Abfall findest, hätten Sie einfach auf der Erde bleiben können. Iceni war ein hochmodernes Schiff. Wo sind alle Schiffskomponenten, Verkleidungen und Computer? Wo sind die Kolonisten ???
+
+Das Wetter an der Oberfläche muss viel härter sein als erwartet, um es so auseinander zu reißen. Kein Wunder, dass Sie keine Überlebenden auffinden. Daher stimme ich Ihrer Idee zu, diesen Roboter, den Sie an Ihrer Stelle gefunden haben, zu verwenden. Vorsicht ist besser als Nachsicht, da ich in diesem Quartal KEINEN von euch mehr verlieren kann.
+
+Verbinde dich also mit deinem neuen besten Freund dort unten und finde einen Weg, etwas daraus zu retten. Denn wenn wir keine großen Geschäfte machen, sehe ich vor Nigel schlecht aus. Und wenn ich schlecht aussehe, müssen Sie sich einen neuen Job suchen.
+
+Tschüss erstmal,
+Judith
+
+
+#!company id{c-underground}
+# Re: Iceni Bergungsbericht # 6
+
+Endlich eine gute Nachricht! So wie es aussieht, handelt es sich. bei den Ergebnissen ihres Scans, um einen unterirdischen Eingang. Sie gingen unter die Erde! Ich glaube nicht, dass ich jemals zuvor von sowas gehört habe.
+
+Das bedeutet, dass die Kolonisten NICHT alle erfroren sind / von diesen eisigen Winden in den Himmel getragen werden. Seltene Metalle, Transmitter ... sogar die Leute selbst könnten noch da unten sein.
+
+Ich kann es kaum erwarten, es Nigel zu sagen. Ooh ... vielleicht ist es eine Iris-Sache. Oder sogar eine Martin-Sache! Sie finden etwas Gewinn bringendes und ich könnte vor Ende des Geschäftsjahres auf Titan mit Big M zu Mittag essen. Los Team!
+
+Manchmal beneide ich Sie, wissen Sie das? Da draußen, Tausende von Kilometern von zu Hause entfernt, ohne Ablenkung von Familie, Freunden oder Freizeitaktivitäten. Ganz alleine mit Ihren Gedanken. Viele würden für diese Art von innerem Frieden töten.
+
+Leistet weiter so eine gute Arbeit. Und lassen Sie sich nichts von dem Roboter vormachen.
+
+Judith
+
+
+#!company id{c-lower}
+# Re: Eingang zu niedrigeren Ebenen
+
+Wie aus Ihrem Bericht hervorgeht, haben die Kolonisten dort unten einen funktionierenden Lebensraum errichtet. Ich glaube nicht, dass ich Ihnen sagen muss, wie wichtig dies für uns ist. Es ist in der Tat sehr bedeutend. Dies bedeutet, dass die Kolonisten sehr wahrscheinlich immer noch dort unten sind. Sie müssen sie erreichen. Zeit ist von entscheidender Bedeutung!
+
+Spezialisierte Bergungsteams sind bereits auf dem Weg um, unsere besten Männer und Frauen zu unterstützen. Aber sie werden Zeit brauchen, um Sie zu erreichen. Benutzen Sie den Roboter, um einen Weg für die Teams zu finden.
+
+Das gesamte Führungsteam ist hier genau richtig für Sie. Martin, der DRO-Ausschuss, Grant und Jan, Nigel, Barrington und die Leute von der Einkaufssteuergruppe, Niamh, Liam und Robin. Sogar Pamela. Jeder. Und wir alle wissen nur, dass Sie das Zeug dazu haben, diese Kolonisten nach Hause zu bringen.
+
+Judith
+
+
+#!company id{c-final}
+# Iceni salvage final report
+# Iceni Abschließender Bergungsbericht
+
+Anfänglich war von einer moderaten Menge an geringwertigen Schiffsresten und mineralischen Rückständen auszugehen. Der Bergungsingenieur vor Ort entdeckte jedoch die Überreste von 21% des ursprünglichen Besatzungsmanifests, die in einem sicheren Gewölbe in der Nähe des Planetenkerns aufbewahrt wurden.
+
+Dies führte zu gut erhaltenen Leichen von 207 Kolonisten. Die genetische Analyse zeigt, dass viele mit nicht beanspruchten Vermächtnissen und Erben von erheblichem Wert verbunden sind. Nach dem Off-Planet-Intestacy-Gesetz hat das Unternehmen durch den Erwerb dieser Reste einen großen Anspruch auf das Vermächtnis. Aufschlüsselung nach Elementen mit den unten angegebenen erwarteten Werten in Galacto-drachmae (GD)
+
+
+ - 207 menschliche Überreste. Verbunden mit Vermächtnissen insgesamt: 878.000.000.000,00 GD
+ - 72.834.841 Tonnen Keramikbeton (leicht verschmutzt) bei 10,00 GD / Tonne
+ - 53.552 Ferrotanplatten bei 7,00 GD / Platte
+ - 98 Tonnen Cyber-Amethyst bei 29,00 GD / Tonne
+ - 10 Pfadfinder Buggys. Gesamtwert 525,00 GD
+ - Persönlicher Schmuck und seltene Metalleffekte (eingeschmolzen) 2.560,99 GD 
+ - 1 Power Core (Plasma versengt) 10.000,00 GD
+ - Verfallene Automaten. Schrottwert 80,00 GD
+ - 1 funktionsfähiger Roboter & Sonde. Schrottwert 4,00 GD
+
+
+#!company id{c-promotion}
+# Begrüßen Sie den neuen CSO!
+
+Tolle Arbeit am Iceni-Projekt. Ich bin so froh, dass Sie an meiner bislang erfolgreichsten Bergungsaktion teilnehmen konnten. Wie Sie vielleicht gehört haben, habe ich mich sehr geehrt gefühlt, die Einladung zum leitenden Bergungsingenieur (CSO-OR) für den Outer Rim (vorläufig) angenommen zu haben.
+
+Denken Sie nicht, ich habe Ihren Beitrag zu meinem Projekt vergessen! Ihre Tage als Unterbergungsingenieur sind gezählt. Mit der mir als CSO-OR übertragenen Befugnis befördere ich Sie hiermit zum Bergungsingenieur. Glückwunsch!
+
+Judith
