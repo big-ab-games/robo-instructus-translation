@@ -1,0 +1,91 @@
+// Pseudo markup format for Robo Instructus containing the company messages received through the game's story.
+// Spoiler alert!
+//
+// `#!company` means the start of a message, the lines following are the message in simplified markdown.
+//  Most of the time the first line, starting with '# ' is the subject.
+
+
+// intro text, should be exactly 3 lines
+#!company id{c-await}
+Engenheiro Resgatador,
+Relatório de chegada reconhecido,
+Aguarde instruções.
+
+
+#!company id{c-receiving}
+Recebendo Comunicação
+
+
+#!company id{c-ack}
+Entendido
+
+
+#!company id{c-arrive}
+# Re:Relatório de chegada do resgate em Icenos
+
+Então você encontrou um robô? Parece fofo, Se bem que um tanto quanto primitivo. Mas se esse é o melhor resgate que você pode reaver... Bom, vamos apenas dizer que isso não cobre nem mesmo o valor dessas rações de nutrientes em sopa que sem dúvidas você deve estar aproveitando enquanto lê isso.
+
+Eu revi o escaneamento que você me enviou, e eu tenho que dizer que eu estou um pouco constrangida.Se eu quisesse que você encontrasse metal enferrujado e detritos inúteis você poderia simplesmente ter permanecido na terra.
+
+Icenos era um embarcação em estado da arte.Onde estão todos os componentes da nave,revestimento e computadores?Onde estão os colonos??? O clima na superfície deve ser mais severo do que é esperado para ter o dilacerado dessa forma. Então não é de se admirar que você não está coletando sobreviventes.Portanto eu concordo com sua idéia de tentar e usar esse robô que você encontrou, ao invés de você.
+
+Melhor prevenir do que remediar já que não posso perder mais NENHUM de vocês nesse trimestre. Então se conecte ao seu novo melhor amigo aí e encontre uma maneira de resgatar algo através disso. Porque enquanto nós não estivermos fazendo uma grande busca,eu estou dando uma má impressão a Nigel.E se eu estou sendo observada de uma maneira negativa,você vai acabar procurando por um novo emprego.
+
+Ciao por agora,
+Judith
+
+
+#!company id{c-underground}
+# Re:Relatório de resgate em Icenos #6
+
+Finalmente algumas notícia boa,Pelo que se vê no seu scanner é uma entrada subterrânea.Eles foram para o subsolo!Eu não creio que já ouvi falar disso antes.
+
+Isso significa que os colonos NÃO foram todos congelados até a morte/carregados pelo céu pelos ventos gelados.Metais raros,transmissores...Até as próprias pessoas poderiam estar lá embaixo.Mal posso esperar para falar a Nigel.Ooh...talvez seja algo para Iris.
+
+Ou talvez algo para Martin!Você encontra algo corpulento e eu poderia estar almoçando em Titã com Grande M. Antes do fim do ano fiscal.Em frente time!
+
+Ás vezes eu invejo você,sabia.lá fora. Milhares de milhas longe de casa sem nenhuma distração da família,amigos ou atividades de lazer.Totalmente sozinho com seus pensamentos.Muitos poderiam matar por esse tipo de paz interior.Eu imagino sua experiência.
+
+Mantenha o trabalho adequado e não tolere nenhumo destrato desse robô.
+
+Judith
+
+
+#!company id{c-lower}
+# Re: Entrada para os níveis inferiores
+
+Como o relatório informa agora ficou claro que os colonos construíram um habitat funcional lá embaixo. Eu não acredito que eu tenho que te dizer o quão significante que isso é para nós. é muito significante de fato.Isso significa que colonos estão possivelmente ainda lá embaixo.Você tem que alcança-los.Tempo é essencial!
+
+Times de especialistas em recuperação já estão a caminho para assistência. - nossos melhores homens e mulheres.Mas eles vão levar tempo até chegar à você. Use o robô para encontrar um caminho para as equipes.
+
+todo o time de executivos está firme aí contigo nisso.Martin,O Comitê DRO,Grant e Jan,Nigel,Barrington e os rapazes do grupo de direção de compras,Niam,Liam e Robin.Até Pamela.Todo mundo.E todos nós simplesmente sabemos que você tem o que é necessario para trazer esses colonos para casa.
+
+Judith
+
+
+#!company id{c-final}
+# Relatório final de salvaguarda do Icenos
+
+A expectativa inicial era de uma quantidade moderada de material de baixo valor resgatado do navio e de resíduo mineral.
+
+Entretanto o Engenheiro Resgatador no local descobriu os restos de 21% da equipe original preservados em um cofre de segurança perto do núcleo do planeta. Isso resultou em cadáveres bem preservados de 207 colonos. análise genética mostra que muitos estão associados com legados não reivindicados e heranças de valor significativo.Sob a Lei de instetação Extra-planetária,ao adquirir esses restos a compania agora tem uma forte reinvidicão.O índice de itens com seus valores presumidos em Dracma-Galática (DG)
+
+ - 207 restos humanos.Conectados com legados,totalizando: 878,000,000,000.00 DG
+ - 72,834,841 toneladas of ceramacrete (levemente empobrecida) a 10.00 DG / tonelada
+ - 53,552 painéis de ferrotânio a 7.00 DG / painel
+ - 98 toneladas de ciber-ametista a 29.00 DG / tonelada
+ - 10 Buggys de reconhecimento. Valor total de 525.00 DG
+ - Jóias particulares e metais raros. Derretidos 2,560.99 DG
+ - 1 núcleo de força (plasma chamuscado) 10,000.00 DG
+ - Autômato abandonado. Valor de sucata 80.00 DG
+ - 1 robô funcional & sonda. Valor de sucata 4.00 DG
+
+
+#!company id{c-promotion}
+# Diga oi para a nova OCR!
+
+Ótimo trabalho no projeto Icenos.Estou tão feliz que você pôde participar daquele que se tornou o meu maior projeto de sucesso em uma operação de salvaguarda até aqui.Como você pode ter ouvido devido ao meu desempenho eu fui profundamente honrada em aceitar um convite para se tornar Oficial-Chefe de Resgate para o anel exterior(interina).
+
+Não pense que eu esqueci da seu contribuição para o meu projeto!Seus dias como Engenheiro de Resgates Júnior chegaram ao fim.Com o poder investido em mim como OCR-AE(Eu),Eu te elevo ao cargo de Engenheiro de Resgates.Parabéns.
+
+Judith
