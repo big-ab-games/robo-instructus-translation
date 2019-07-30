@@ -110,7 +110,7 @@ fn build_company() {
                     if let Some((id, text)) = message.take() {
                         let text = text.trim();
                         inserts.push(quote! {
-                            company.insert(CompanyMessageId::from_str(#id), #text);
+                            company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
                         });
                     }
 
@@ -128,7 +128,7 @@ fn build_company() {
             if let Some((id, text)) = message.take() {
                 let text = text.trim();
                 inserts.push(quote! {
-                    company.insert(CompanyMessageId::from_str(#id), #text);
+                    company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
                 });
             }
 
@@ -146,6 +146,8 @@ fn build_company() {
 
     let lang_company_len = lang_company.len();
     let contents = quote! {
+        use std::convert::TryFrom;
+
         /// Company message id.
         #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
         pub enum CompanyMessageId {
@@ -159,10 +161,10 @@ fn build_company() {
             Promotion,
         }
 
-        impl CompanyMessageId {
-            /// Panics if unknown.
-            pub fn from_str(key: &str) -> Self {
-                match key {
+        impl TryFrom<&str> for CompanyMessageId {
+            type Error = &'static str;
+            fn try_from(key: &str) -> Result<Self, Self::Error> {
+                Ok(match key {
                     "c-await" => CompanyMessageId::Await,
                     "c-receiving" => CompanyMessageId::Receiving,
                     "c-ack" => CompanyMessageId::Acknowledge,
@@ -171,8 +173,8 @@ fn build_company() {
                     "c-lower" => CompanyMessageId::Lower,
                     "c-final" => CompanyMessageId::Final,
                     "c-promotion" => CompanyMessageId::Promotion,
-                    key => panic!("Unknown company key: {}", key),
-                }
+                    _ => return Err("Unknown company id"),
+                })
             }
         }
 

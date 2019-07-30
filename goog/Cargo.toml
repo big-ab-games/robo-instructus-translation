@@ -7,5 +7,5 @@ publish = false
 
 [dependencies]
 reqwest = "0.9"
-percent-encoding = "1"
+percent-encoding = "2"
 serde_json = "1"

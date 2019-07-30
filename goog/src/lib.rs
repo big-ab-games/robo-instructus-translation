@@ -1,5 +1,7 @@
-use percent_encoding::{utf8_percent_encode, QUERY_ENCODE_SET};
+use percent_encoding::{utf8_percent_encode, AsciiSet, CONTROLS};
 use serde_json::Value;
+
+const QUERY_ENCODE_SET: &AsciiSet = &CONTROLS.add(b' ').add(b'"').add(b'<').add(b'>').add(b'#');
 
 pub fn translate_to(lang: &str, en: &str) -> Option<String> {
     // handle newlines
@@ -37,5 +39,11 @@ fn translate_with_newlines_into_ru() {
     }
 
     let t = translate_to("ru", "Modify the commands and \nre-run to reach the exit");
-    assert_eq!(t, Some("Измените команды и \nповторно запустите, чтобы достичь выхода".into()));
+    assert_eq!(
+        t,
+        Some(
+            "Измените команды и \nповторно запустите, чтобы достичь выхода"
+                .into()
+        )
+    );
 }
