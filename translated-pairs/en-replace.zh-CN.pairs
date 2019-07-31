@@ -275,22 +275,22 @@ Total number of evaluated code phrases
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+比最好的慢{}ms
 
 {} faster than previous best
-{} faster than previous best
+比以前最好的快{}ms
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+比最好的长{}条
 
 {} shorter than previous best
-{} shorter than previous best
+比以前最好的短{}条
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+比最好的多{}条
 
 {} fewer than previous best
-{} fewer than previous best
+比以前最好的少{}条
 
