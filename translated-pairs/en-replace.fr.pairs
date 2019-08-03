@@ -62,7 +62,7 @@ High
 Haut
 
 Low
-Faible
+Bas
 
 Medium
 Moyen
@@ -75,10 +75,10 @@ Image de fond seulement
 
 #### eg "Fullscreen: On", "Autocomplete: Off"
 On
-Allumé
+Activé
 
 Off
-Eteint
+Désactivé
 
 Language
 Langue
@@ -97,7 +97,7 @@ Boîte de réception de l'entreprise
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-Code de référence
+Référence de code
 
 Decrease Speed
 Diminuer la vitesse
@@ -123,11 +123,11 @@ Réinitialiser
 
 #### start running the code
 Run
-Courir
+Exécuter
 
 #### start running the code but immediately paused / debugging
 Run (paused)
-Run (en pause)
+Exécuter (en pause)
 
 #### code navigation when paused/debugging
 Step over
@@ -149,7 +149,7 @@ Delete name
 Supprimer le nom
 
 Exit Level
-Niveau de sortie
+Sortir du niveau
 
 Delete profile
 Supprimer le profil
@@ -159,7 +159,7 @@ Confirmation de la suppression
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-Scène sombre
+Étape Masquée
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
@@ -169,13 +169,13 @@ Add the lines:
 Ajoutez les lignes:
 
 Press play to run
-Appuyez sur play pour faire fonctionner
+Appuyez sur jouer pour exécuter
 
 Modify the commands and \nre-run to reach the exit
-Modifiez les commandes et \nre-run pour atteindre la sortie
+Modifiez les commandes et \nréexécuté pour atteindre la sortie
 
 Press to exit level
-Appuyez sur pour sortir du niveau
+Appuyez pour sortir du niveau
 
 Levels have multiple stages\nclick here to view each
 Les niveaux ont plusieurs étapes \ncliquez ici pour les afficher
@@ -187,7 +187,7 @@ Reach the first stage exit
 Atteindre la sortie de la première étape
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Retravaillez pour atteindre toutes les sorties, rappelez-vous \nle code est réexécuté par le haut à chaque étape
+Retravaillez pour atteindre toutes les sorties, rappelez-vous \nle code est réexécuté depuis le début à chaque étape
 
 Change game speed
 Changez la vitesse de jeu
@@ -200,7 +200,7 @@ Click to close
 Cliquez pour fermer
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Il y a du code inachevé trouvé à ce niveau, essayez \nen l'exécutant et en le retravaillant ... ou commencez à partir de zéro
+Il y a du code inachevé trouvé dans ce niveau, essayez \nde l'exécuter et de le retravailler ... ou de commencer à partir de zéro
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
@@ -217,7 +217,7 @@ Essayez d'utiliser `else` et \nune comparaison comme `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Lisez Comparaison et Conditions III pour voir les utilisations `>` et `else`
+Lisez Comparaison et Conditions III pour voir les utilisations de `>` et de `else`
 
 Try using a comparison like `>`
 Essayez d’utiliser une comparaison comme `>`
@@ -226,7 +226,7 @@ Try using `else`
 Essayez d'utiliser `else`
 
 Press to run with execution paused
-Appuyez pour exécuter avec l'exécution en pause
+Appuyez pour lancer avec l'exécution en pause
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
@@ -234,13 +234,13 @@ Notez que l'évaluation en cours est surlignée
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Appuyez ou utilisez le clavier → pour passer à l'évaluation suivante.
+Appuyez, ou utilisez la touche → sur le clavier, pour passer à l'évaluation suivante.
 
 Level solutions can be\nsaved and loaded here
-Les solutions de niveau peuvent être \nenregistrées et chargées ici
+Les solutions du niveau peuvent être \nenregistrées et chargées ici
 
 The best scoring code in each\ncategory is automatically saved
-Le meilleur code de score dans chaque catégorie est automatiquement enregistré.
+Le code avec le meilleur score dans chaque catégorie est automatiquement enregistré.
 
 Reach the revealed location
 Atteignez le lieu révélé
@@ -249,47 +249,47 @@ Hold alt to access more options while paused
 Maintenez la touche Alt enfoncée pour accéder à plus d'options en pause
 
 Dark stages are similar to the others\nbut their details are hidden
-Les étapes sombres sont semblables aux autres \nmais leurs détails sont cachés
+Les étapes masquées sont semblables aux autres \nmais leurs détails sont cachés
 
 Ensure your solution is general enough\nto solve these hidden variants
-Assurez-vous que votre solution est suffisamment générale pour résoudre ces variantes cachées.
+Assurez-vous que votre solution est suffisamment générale pour résoudre ces variantes cachées
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+Votre solution a une erreur découverte dans une variante cachée
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Les niveaux futurs sont débloqués comme normalement mais\nla complétion des étapes masquées est requise pour marquer
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Somme des durées d&#39;exécution des appels de fonction
+Somme des durées d'éxécution des appels de fonction
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
-Nombre de phrases de code évaluées distinctes
+Nombre de lignes de code évaluées distinctes
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-Nombre total de phrases de code évaluées
+Nombre total de lignes de code évaluées
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+{} plus lent que le meilleur
 
 {} faster than previous best
-{} faster than previous best
+{} plus rapide que le meilleur précédent
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+{} plus longue que le meilleur
 
 {} shorter than previous best
-{} shorter than previous best
+{} plus courte que le meilleur précédent
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+{} de plus que le meilleur
 
 {} fewer than previous best
-{} fewer than previous best
+{} de moins que le meilleur précédent
