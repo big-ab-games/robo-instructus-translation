@@ -93,7 +93,7 @@ Menu
 
 #### Toggle to re-read the company messages you've received
 Company Inbox
-Компания Входящие
+Входящие сообщения
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
@@ -149,7 +149,7 @@ Delete name
 Удалить имя
 
 Exit Level
-Выход
+Покинуть уровень
 
 Delete profile
 Удалить профиль
@@ -255,10 +255,10 @@ Ensure your solution is general enough\nto solve these hidden variants
 Убедитесь, что ваше решение достаточно универсально,\nчтобы решить эти скрытые варианты
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+На скрытом варианте стадии обнаружился изъян в вашем решении
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Следующие уровни разблокированы, но\nдля счёта необходимо пройти тёмный этап
 
 ### Score screen
 #### explanation of "Time" score
@@ -275,21 +275,21 @@ Total number of evaluated code phrases
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+{} медленнее лучшего
 
 {} faster than previous best
-{} faster than previous best
+{} быстрее предыдущего лучшего
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+{} длиннее лучшего
 
 {} shorter than previous best
-{} shorter than previous best
+{} короче предыдущего лучшего
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+{} больше лучшего
 
 {} fewer than previous best
-{} fewer than previous best
+{} меньше предыдущего лучшего
