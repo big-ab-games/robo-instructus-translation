@@ -16,7 +16,7 @@ indexmap = { version = "1", optional = true }
 env_logger = { version = "0.6", optional = true }
 
 [build-dependencies]
-quote = "0.6"
+quote = "1"
 
 [features]
 realtime = ["crossbeam-channel", "log", "google_translate", "indexmap"]
