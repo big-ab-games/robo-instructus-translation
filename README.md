@@ -38,7 +38,7 @@ Türkçe _(tr)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_s
 Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 
 :heavy_check_mark:: _Translated_<br/>
-:large_blue_circle:: _Partially translated, some more work to be done_<br/>
+:large_blue_circle:: _Partially translated, some more work to be done / new text to translate_<br/>
 :black_circle:: _Not translated, please raise a pull request_<br/>
 :no_entry_sign:: _Not yet available in this repo, but I'm working on it!_
 
