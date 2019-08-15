@@ -294,3 +294,55 @@ Gesamtzahl aller ausgewerteten Codesätze
 {} fewer than previous best
 {} Weniger als Highscore
 
+### Editor hotkeys
+Undo
+Undo
+
+Redo
+Redo
+
+Copy
+Copy
+
+Paste
+Paste
+
+Cut line/selection
+Cut line/selection
+
+Duplicate line/selection
+Duplicate line/selection
+
+Move line/selection
+Move line/selection
+
+Indent selection
+Indent selection
+
+Unindent selection
+Unindent selection
+
+Navigate by word
+Navigate by word
+
+Delete previous word
+Delete previous word
+
+Delete next word
+Delete next word
+
+Comment/uncomment selection
+Comment/uncomment selection
+
+Autocomplete open
+Autocomplete open
+
+Autocomplete choose
+Autocomplete choose
+
+Autocomplete apply
+Autocomplete apply
+
+Autocomplete close
+Autocomplete close
+

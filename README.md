@@ -10,15 +10,15 @@ This project exists to provide a way for open source community translations to b
 Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | The rest of the game
 :---: | :---: | :---: | :---: | :---:
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
-Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
-Français _(fr)_ | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-简体中文 _(zh-CN)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
-繁體中文 _(zh-TW)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Русский _(ru)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Deutsch _(de)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
+Français _(fr)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
 Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :no_entry_sign:
@@ -60,7 +60,7 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files in the `translated
 If you see a line that could be improved edit it and raise a pull request.
 
 ##### Recent Additions
-***`Your solution has a flaw uncovered by a hidden stage variant`, `Credits`, `{} slower than best`, `{} faster than previous best`***
+***Editor hotkeys, `Your solution has a flaw uncovered by a hidden stage variant`, `Credits`***
 
 ## 2. Game store description
 The game description that appears in Steam & other stores. The original English description is in [store/store-description.en.bbcode](./store/store-description.en.bbcode).
