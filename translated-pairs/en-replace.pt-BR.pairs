@@ -296,16 +296,16 @@ Número total de frases de código avaliadas
 
 ### Editor hotkeys
 Undo
-Undo
+Desfazer
 
 Redo
-Redo
+Refazer
 
 Copy
-Copy
+Copiar
 
 Paste
-Paste
+Colar
 
 Cut line/selection
 Cut line/selection
@@ -345,4 +345,3 @@ Autocomplete apply
 
 Autocomplete close
 Autocomplete close
-
