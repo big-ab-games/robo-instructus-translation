@@ -37,7 +37,7 @@ fn main() {
                     let mut file =
                         std::fs::OpenOptions::new().append(true).open(&path).expect(&path);
                     let escaped = en.replace('\n', r"\n");
-                    writeln!(file, "{}\n{}\n", &escaped, &escaped).expect(&path);
+                    writeln!(file, "\n{}\n{}", &escaped, &escaped).expect(&path);
                 }
             }
         }
