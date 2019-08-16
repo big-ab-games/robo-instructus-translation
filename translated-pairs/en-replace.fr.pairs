@@ -296,16 +296,16 @@ Nombre total de lignes de code évaluées
 
 ### Editor hotkeys
 Undo
-Undo
+Annuler
 
 Redo
-Redo
+Refaire
 
 Copy
-Copy
+Copier
 
 Paste
-Paste
+Coller
 
 Cut line/selection
 Cut line/selection
@@ -345,4 +345,3 @@ Autocomplete apply
 
 Autocomplete close
 Autocomplete close
-

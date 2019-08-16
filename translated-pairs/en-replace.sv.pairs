@@ -296,16 +296,16 @@ Totalt antal utvärderade kodfraser
 
 ### Editor hotkeys
 Undo
-Undo
+Tillbaka
 
 Redo
-Redo
+Framåt
 
 Copy
-Copy
+Kopiera
 
 Paste
-Paste
+Klistra in
 
 Cut line/selection
 Cut line/selection
@@ -345,4 +345,3 @@ Autocomplete apply
 
 Autocomplete close
 Autocomplete close
-
