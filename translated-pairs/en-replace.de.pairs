@@ -308,40 +308,40 @@ Paste
 Einfügen
 
 Cut line/selection
-Cut line/selection
+Zeile/Auswahl ausschneiden
 
 Duplicate line/selection
-Duplicate line/selection
+Zeile/Auswahl duplizieren
 
 Move line/selection
-Move line/selection
+Zeile/Auswahl verschieben
 
 Indent selection
-Indent selection
+Auswahl einrücken
 
 Unindent selection
-Unindent selection
+Auswahl ausrücken
 
 Navigate by word
-Navigate by word
+Wortweise navigieren
 
 Delete previous word
-Delete previous word
+Vorheriges Wort löschen
 
 Delete next word
-Delete next word
+Nächstes Wort löschen
 
 Comment/uncomment selection
-Comment/uncomment selection
+Auswahl ein-/auskommentieren
 
 Autocomplete open
-Autocomplete open
+Autovervollständigung öffnen
 
 Autocomplete choose
-Autocomplete choose
+Autovervollständigung auswählen
 
 Autocomplete apply
-Autocomplete apply
+Autovervollständigung anwenden
 
 Autocomplete close
-Autocomplete close
+Autovervollständigung schließen
