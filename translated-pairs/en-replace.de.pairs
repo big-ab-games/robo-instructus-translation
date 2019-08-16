@@ -296,16 +296,16 @@ Gesamtzahl aller ausgewerteten Codesätze
 
 ### Editor hotkeys
 Undo
-Undo
+Rückgängig
 
 Redo
-Redo
+Wiederherstellen
 
 Copy
-Copy
+Kopieren
 
 Paste
-Paste
+Einfügen
 
 Cut line/selection
 Cut line/selection
@@ -345,4 +345,3 @@ Autocomplete apply
 
 Autocomplete close
 Autocomplete close
-
