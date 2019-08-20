@@ -10,7 +10,7 @@ Profil
 
 ### Menu
 Credits
-Credits
+Crédits
 
 Settings
 Réglages
@@ -184,7 +184,7 @@ Your code will be re-run each stage,\nso a single solution must solve all.\nRetu
 Votre code sera réexécuté à chaque étape, \nune seule solution doit tout résoudre. \nRevenir à la première étape
 
 Reach the first stage exit
-Atteindre la sortie de la première étape
+Atteignez la sortie de la première étape
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
 Retravaillez pour atteindre toutes les sorties, rappelez-vous \nle code est réexécuté depuis le début à chaque étape
@@ -308,40 +308,40 @@ Paste
 Coller
 
 Cut line/selection
-Cut line/selection
+Couper la ligne/sélection
 
 Duplicate line/selection
-Duplicate line/selection
+Dupliquer la ligne/sélection
 
 Move line/selection
-Move line/selection
+Déplacer la ligne/sélection
 
 Indent selection
-Indent selection
+Ajouter un retrait à la sélection
 
 Unindent selection
-Unindent selection
+Enlever un retrait à la sélection
 
 Navigate by word
-Navigate by word
+Naviguer par mot
 
 Delete previous word
-Delete previous word
+Supprimer mot précédent
 
 Delete next word
-Delete next word
+Supprimer mot suivant
 
 Comment/uncomment selection
-Comment/uncomment selection
+Commenter/Décommenter la sélection
 
 Autocomplete open
-Autocomplete open
+Ouvrir Saisie Automatique
 
 Autocomplete choose
-Autocomplete choose
+Choisir Saisie Automatique
 
 Autocomplete apply
-Autocomplete apply
+Appliquer Saisie Automatique
 
 Autocomplete close
-Autocomplete close
+Fermer Saisie Automatique
