@@ -10,7 +10,7 @@ This project exists to provide a way for open source community translations to b
 Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | The rest of the game
 :---: | :---: | :---: | :---: | :---:
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
+Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
 Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
 Français _(fr)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
 简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
