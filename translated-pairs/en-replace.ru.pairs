@@ -308,40 +308,40 @@ Paste
 Вставить
 
 Cut line/selection
-Cut line/selection
+Вырезать линию/выделенное
 
 Duplicate line/selection
-Duplicate line/selection
+Дублировать линию/выделенное
 
 Move line/selection
-Move line/selection
+Переместить линию/выделенное
 
 Indent selection
-Indent selection
+Увеличить отступ
 
 Unindent selection
-Unindent selection
+Уменьшить отступ
 
 Navigate by word
-Navigate by word
+Перемещаться по словам
 
 Delete previous word
-Delete previous word
+Удалить предыдущее слово
 
 Delete next word
-Delete next word
+Удалить следующее слово
 
 Comment/uncomment selection
-Comment/uncomment selection
+Закомментировать/Раскомментировать выделенное
 
 Autocomplete open
-Autocomplete open
+Открыть автодополнение
 
 Autocomplete choose
-Autocomplete choose
+Выбирать в автодополении
 
 Autocomplete apply
-Autocomplete apply
+Применить автодополнение
 
 Autocomplete close
-Autocomplete close
+Закрыть автодополнение
