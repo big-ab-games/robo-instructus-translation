@@ -1,0 +1,401 @@
+// Pseudo markup format for Robo Instructus containing the programming primer
+// received through the game's story.
+//
+// `#!unlock` means the start of a section, the lines following
+// are the message in simplified markdown.
+//
+// Most of the time the first line, starting with '# ' is the subject.
+//
+// Newlines always count, unlike markdown.
+//
+// Backticks wrap inline bits of code, e.g `var foo = q`.
+//
+// Three backticks "```" wrap around code blocks. They may have text
+// immediately after them, e.g. "```no_run" which should be left in english
+
+
+#!unlock type{primer} id{loops}
+# Loops
+
+`loop` is used to repeat commands. It will repeat the commands in its scope forever. A loop's scope is the commands indented that come after a `loop` line.
+
+```max_run=11
+robo_forward()  # called once
+
+loop
+    robo_forward()
+    robo_left()
+
+robo_left()  # never called
+```
+
+
+#!unlock type{primer} id{comments}
+# Comments
+
+Text after a '`#`' symbol will not be used as code, these are just comments used to make notes.
+
+```no_run
+robo_left()  # I think I'm starting to get this
+```
+
+
+#!unlock type{primer} id{conditionals}
+# Conditionals
+
+`if` can be used to execute commands, or not, based on a condition.
+
+```
+if robo_scan() is 1
+    # a tile is in front
+    robo_forward()
+
+if robo_scan() is -1
+    # no tile is in front
+    robo_left()
+```
+
+
+#!unlock type{primer} id{variables}
+# Variables
+
+You can save a number for use later in a `var`.
+
+```
+# save a function result into a variable 'scan'
+var scan = robo_scan()
+
+# use & re-use the saved variable in conditions
+if scan is 1
+    robo_forward()
+if scan is -1
+    robo_left()
+```
+This can be used to avoid having to call a slow function multiple times just to check the same result. It can also allow saving a result for use much later.
+
+#!unlock type{primer} id{conditionals-2}
+# Conditions II
+
+'`if expr`' simply checks if `expr` is non-zero. So `0` is interpreted as "false" while `1` or any other non-zero is "true". When `expr` is interpreted as "true" the indented commands will run.
+
+```
+if 0
+    robo_left()  # not called
+
+if 1
+    robo_forward()  # called
+```
+
+#!unlock type{primer} id{is}
+The keyword `is` compares two values producing `1` (true) when the values are the same or `0` (false) otherwise. This works naturally with `if`.
+
+`not` can also be used to convert a `0` to a `1`, or any non-zero to `0`.
+
+`not x is y ` may also be written ` x is not y ` producing `1` (true) when the values differ.
+
+```
+var scan = robo_scan()
+
+if scan is 1
+    robo_forward()
+
+if scan is not 1
+    robo_left()
+```
+
+
+#!unlock type{primer} id{comparison}
+# Comparison
+
+In addition to `is`, values can be compared with `>`, `>=`, `<`, `<=` operators.
+
+`    a > b  # a is greater than b`
+`    a >= b  # a is greater than or equal to b`
+`    a < b  # a is less than b`
+`    a <= b  # a is less than or equal to b`
+
+```
+var scan = robo_scan()
+if scan >= 1
+    robo_forward()
+if scan < 0
+    robo_left()
+```
+
+
+#!unlock type{primer} id{conditionals-3}
+# Conditions III
+
+After an `if` you can use `else` to deal with the 'otherwise' cases more easily.
+
+An `else` block runs when the `if` above it doesn't.
+
+```
+var scan = robo_scan()
+if scan is 1
+    robo_forward()
+else
+    robo_left()
+```
+
+
+#!unlock type{primer} id{else-if}
+
+Multiple `else if` can be chained together to deal with many possible exclusive cases.
+
+This ensures only one indented block will be executed.
+
+```
+var example = 14
+
+if example is 1
+    robo_left()
+    robo_forward()
+else if example <= 3
+    robo_forward()
+else if example > 12
+    robo_forward()
+    robo_forward()
+else
+    robo_left()
+```
+An `else` section at the end will only run if each `if` and `else if` test above it fails.
+
+
+#!unlock type{primer} id{scope}
+# Scope
+
+Indented code, like those that come after `loop` or `if` lines, represent "scope". A `var` can only be used in the scope it was declared in.
+```no_run
+if scan is 1
+    var foo = 123
+    if foo is 123  # works
+        robo_left()
+
+if foo is 123  # fails! not available in this outer scope
+    robo_left()
+```
+To make a `var` more widely available it can be declared an outer scope. So, for example, top-level variables are accessible everywhere and will not be removed.
+```no_run
+var foo
+if scan is 1
+    foo = 123
+    if foo is 123  # works
+        robo_left()
+
+if foo is 123  # works
+    robo_left()
+```
+Variables are removed at the end of their scope, so `var` usage in a `loop` will result in a fresh variable for each iteration.
+
+
+#!unlock type{primer} id{loops-2}
+# Loops II
+
+The `continue` keyword can be used to restart a loop mid-way, while the `break` keyword can be used to exit the current loop.
+
+```
+var count = 0
+loop
+    if count is not 2
+        robo_forward()
+        count += 1
+        continue
+    break
+
+robo_left()
+robo_left()
+```
+
+
+#!unlock type{primer} id{loops-3}
+# Loops III
+
+Consider this use of `loop` that turns left 5 times.
+```
+# turn left 5 times
+var loop_count = 1
+loop
+    if loop_count > 5
+        break
+    robo_left()
+    loop_count = loop_count + 1
+```
+While any kind of looping logic can be written with `loop`, keywords `for` & `while` are also available and can help create simpler code that achieves the same result.
+```
+# execute block until while condition is false
+var loop_count = 1
+while loop_count <= 5
+    robo_left()
+    loop_count = loop_count + 1
+```
+
+```
+# execute block with loop_count 1, 2, 3, 4 & 5
+for loop_count in 1,2,3,4,5
+    robo_left()
+```
+
+
+#!unlock type{primer} id{fun}
+# Functions
+
+The `robo_left()`, `robo_scan()`, etc commands are functions. A function is a block of code that can be run later. They are defined with the `fun` keyword.
+
+```
+# define a function
+fun go_right()
+    robo_left()
+    robo_left()
+
+go_right()  # call it
+go_right()
+```
+
+
+#!unlock type{primer} id{fun-b}
+Functions are useful for reducing repeated code and putting a name to a more complex operation.
+
+Functions can also call other functions. For example you could keep a count of `robo_left()` calls by wrapping it in another function and using that.
+
+```
+var left_count
+fun left_and_count()
+    robo_left()
+    left_count += 1  # increment the count
+
+while left_count < 3
+    left_and_count()
+```
+
+
+#!unlock type{primer} id{fun-2}
+# Functions II
+
+Functions can also take in numbers and/or output a number.
+
+```
+fun loneliest_number()
+    1  # last expression is returned
+
+# functions can take arguments
+fun largest(a, b)
+    if b > a
+        # can return early
+        return b
+    a
+
+var three = largest(2, 3)
+var one = largest(-5, loneliest_number())
+```
+
+
+#!unlock type{primer} id{bool}
+# Boolean operators
+
+The `and` & `or` operators can be used to combine zero & non-zero values. They can be used to produce more complex logical statements.
+
+An '`and`' expression returns `1` if both sides are non-zero.
+
+```
+var scan = robo_scan()
+var adjacent = robo_detect_adjacent()
+if scan < 0 and adjacent is 3
+    robo_forward()
+```
+An '`or`' expression returns `1` if either side is non-zero.
+```
+var scan = robo_scan()
+var safe = scan is 1 or scan is 2
+if safe
+    robo_forward()
+```
+
+
+#!unlock type{primer} id{seq}
+# Sequences
+
+`seq` is used to define a sequence of values. The values within can be accessed and modified by their index, starting with `0`.
+
+```
+seq list[]  # new empty seq
+seq numbers[] = 11, 22, 33
+
+var first = numbers[0]
+var third = numbers[2]
+numbers[1] = 77  # overwrite index 1 to 77 (was 22)
+if numbers[1] > 40
+    robo_left()
+```
+
+#!unlock type{primer} id{seq-b}
+The `add(sv)` function is used to add additional values to the end of the sequence. `remove(sv)` to remove a value by index. `size(s)` returns the number of values in the sequence.
+
+```
+seq list[]
+
+var size = list[].size()
+list[].add(11)  # add to end
+list[].add(33)
+
+var el = list[0]
+var size = list[].size()
+
+list[].remove(0)  # remove index 0
+var el = list[0]
+var size = list[].size()
+```
+
+#!unlock type{primer} id{loop-seq}
+# Looping sequences
+
+`for` can be used to loop over each value inside a sequence.
+
+```
+seq nums[] = 1, 234, 55, -23
+
+for number in nums[]
+    if number < 100
+        robo_use()
+    else
+        robo_left()
+```
+
+
+#!unlock type{primer} id{fun-3}
+# Functions III
+
+Functions can have `seq` arguments.
+
+```
+# function with a single seq argument
+fun sum(list[])
+    var sum
+    for n in list[]
+        sum += n
+    sum
+
+seq nums[] = 1, 2, 3
+var total = sum(nums[])
+
+total is 6
+```
+
+
+#!unlock type{primer} id{dot-call}
+There is another way to call functions with arguments.
+
+```no_run
+fun example(a, b, c, d)
+    # ...
+
+example(2, 3, 4, 5)  # normal call syntax
+
+2.example(3, 4, 5)  # dot call syntax
+```
+The second style may suit certain usages, for example the built-in `add`, `remove` & `size` functions.
+```no_run
+nums[].size() # 3 equivalent to size(nums[])
+
+nums[].sum()  # 6
+```

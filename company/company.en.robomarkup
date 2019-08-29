@@ -1,8 +1,12 @@
-// Pseudo markup format for Robo Instructus containing the company messages received through the game's story.
-// Spoiler alert!
+// Pseudo markup format for Robo Instructus containing the company messages
+// received through the game's story. Spoiler alert!
 //
-// `#!company` means the start of a message, the lines following are the message in simplified markdown.
-//  Most of the time the first line, starting with '# ' is the subject.
+// `#!company` means the start of a message, the lines following
+// are the message in simplified markdown.
+//
+// Most of the time the first line, starting with '# ' is the subject.
+//
+// Newlines always count, unlike markdown.
 
 
 // intro text, should be exactly 3 lines

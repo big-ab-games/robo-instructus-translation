@@ -15,6 +15,13 @@ include!("../target/generated/translated-pairs.rs");
 //     .. }
 include!("../target/generated/company.rs");
 
+// pub enum PrimerId { ... }
+//
+// PRIMER: FxHashMap<&str, FxHashMap<PrimerId, &str>>: {
+//     "en" -> { PrimerId::_ -> "...", .. },
+//     .. }
+include!("../target/generated/primer.rs");
+
 lazy_static! {
     static ref LANG: RwLock<String> = RwLock::new(String::new());
 }
@@ -72,6 +79,18 @@ fn company_lang(lang: &str, c: CompanyMessageId) -> &'static str {
         .unwrap_or_else(|| COMPANY["en"][&c])
 }
 
+/// Fetches global target language company message with the matching `key`, or falls back on
+/// lang='en'.
+#[inline]
+pub fn primer(c: PrimerId) -> &'static str {
+    primer_lang(LANG.read().as_str(), c)
+}
+
+/// Fetches `lang` primer section with the matching `key`, or falls back on lang='en'.
+fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
+    PRIMER.get(lang).and_then(|p| p.get(&c).copied()).unwrap_or_else(|| PRIMER["en"][&c])
+}
+
 #[test]
 fn translate_ru() {
     assert_eq!(&*translate_to("ru", "Begin"), "Начать");
@@ -102,11 +121,53 @@ fn company_fallback() {
 }
 
 #[test]
-fn await_is_3_lines() {
+fn company_await_is_3_lines() {
     for (lang, c) in &*COMPANY {
         if let Some(text) = c.get(&CompanyMessageId::Await) {
             let new_lines = text.chars().filter(|c| *c == '\n').count();
             assert_eq!(new_lines, 2, "`{}` has invalid CompanyMessageId::Await", lang);
         }
     }
+}
+
+#[test]
+fn primer_en() {
+    const EXPECTED_COMMENTS_PRIMER: &str = "# Comments\n\
+                                            \n\
+                                            Text after a '`#`' symbol will not be used as code, \
+                                            these are just comments used to make notes.\n\
+                                            \n\
+                                            ```no_run\n\
+                                            robo_left()  # I think I'm starting to get this\n\
+                                            ```";
+
+    assert_eq!(primer_lang("en", PrimerId::Comments), EXPECTED_COMMENTS_PRIMER);
+
+    // en should include all primer sections
+    assert!(!primer_lang("en", PrimerId::Loops).is_empty());
+    assert!(!primer_lang("en", PrimerId::Comments).is_empty());
+    assert!(!primer_lang("en", PrimerId::Conditionals).is_empty());
+    assert!(!primer_lang("en", PrimerId::Variables).is_empty());
+    assert!(!primer_lang("en", PrimerId::Conditionals2).is_empty());
+    assert!(!primer_lang("en", PrimerId::Is).is_empty());
+    assert!(!primer_lang("en", PrimerId::Comparison).is_empty());
+    assert!(!primer_lang("en", PrimerId::Conditionals3).is_empty());
+    assert!(!primer_lang("en", PrimerId::ElseIf).is_empty());
+    assert!(!primer_lang("en", PrimerId::Scope).is_empty());
+    assert!(!primer_lang("en", PrimerId::Loops2).is_empty());
+    assert!(!primer_lang("en", PrimerId::Loops3).is_empty());
+    assert!(!primer_lang("en", PrimerId::Fun).is_empty());
+    assert!(!primer_lang("en", PrimerId::FunB).is_empty());
+    assert!(!primer_lang("en", PrimerId::Fun2).is_empty());
+    assert!(!primer_lang("en", PrimerId::Bool).is_empty());
+    assert!(!primer_lang("en", PrimerId::Seq).is_empty());
+    assert!(!primer_lang("en", PrimerId::SeqB).is_empty());
+    assert!(!primer_lang("en", PrimerId::LoopSeq).is_empty());
+    assert!(!primer_lang("en", PrimerId::Fun3).is_empty());
+    assert!(!primer_lang("en", PrimerId::DotCall).is_empty());
+}
+
+#[test]
+fn primer_fallback() {
+    assert!(primer_lang("nosuch", PrimerId::Comments).starts_with("# Comments"));
 }
