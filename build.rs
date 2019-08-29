@@ -154,7 +154,7 @@ fn build_company() {
 }
 
 fn build_primer() {
-    let unlocks = std::env::current_dir().unwrap().join("unlocks");
+    let unlocks = std::env::current_dir().unwrap().join("primer");
 
     let lang_primer: Vec<_> = fs::read_dir(&unlocks)
         .unwrap()
