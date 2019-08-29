@@ -70,19 +70,7 @@ fn build_translated_pairs() {
         }
     };
 
-    let generated = Path::new("target").join("generated");
-    fs::create_dir_all(&generated).unwrap();
-
-    let dest_path = generated.join("translated-pairs.rs");
-    let mut file = fs::OpenOptions::new()
-        .read(true)
-        .write(true)
-        .create(true)
-        .truncate(true)
-        .open(&dest_path)
-        .unwrap();
-
-    file.write_all(contents.to_string().as_bytes()).unwrap();
+    write_generated("translated-pairs.rs", contents);
 }
 
 fn build_company() {
@@ -100,38 +88,12 @@ fn build_company() {
             let lang = path.split('.').nth(1).unwrap();
             let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
 
-            let mut inserts = vec![];
-            let mut message: Option<(String, String)> = None;
-
-            for line in BufReader::new(file).lines() {
-                let line = line.unwrap_or_else(|_| String::new());
-                if line.starts_with("//") {
-                    continue;
-                } else if line.starts_with("#!company") {
-                    if let Some((id, text)) = message.take() {
-                        let text = text.trim();
-                        inserts.push(quote! {
-                            company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
-                        });
-                    }
-
-                    let id_start = line.find("id{").expect("missing id{...}");
-                    let id: String =
-                        line[id_start + "id{".len()..].chars().take_while(|c| *c != '}').collect();
-
-                    message = Some((id, String::new()));
-                } else if let Some((_, text)) = message.as_mut() {
-                    text.push_str(&line);
-                    text.push('\n');
-                }
-            }
-
-            if let Some((id, text)) = message.take() {
-                let text = text.trim();
-                inserts.push(quote! {
+            let inserts: Vec<_> = robomarkup_sections("#!company", file)
+                .into_iter()
+                .map(|(id, text)| quote! {
                     company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
-                });
-            }
+                })
+                .collect();
 
             let inserts_len = inserts.len();
             quote! {
@@ -188,19 +150,7 @@ fn build_company() {
         }
     };
 
-    let generated = Path::new("target").join("generated");
-    fs::create_dir_all(&generated).unwrap();
-
-    let dest_path = generated.join("company.rs");
-    let mut file = fs::OpenOptions::new()
-        .read(true)
-        .write(true)
-        .create(true)
-        .truncate(true)
-        .open(&dest_path)
-        .unwrap();
-
-    file.write_all(contents.to_string().as_bytes()).unwrap();
+    write_generated("company.rs", contents);
 }
 
 fn build_primer() {
@@ -213,45 +163,17 @@ fn build_primer() {
             let path = entry.file_name().to_str().unwrap().to_owned();
             Some((entry, path))
         })
-        .filter(|(_, path)| path.ends_with(".robomarkup"))
+        .filter(|(_, path)| path.starts_with("primer.") && path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
             let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
 
-            let mut inserts = vec![];
-            let mut message: Option<(String, String)> = None;
-
-            for line in BufReader::new(file).lines() {
-                let line = line.unwrap_or_else(|_| String::new());
-                if line.starts_with("//") {
-                    continue;
-                } else if line.starts_with("#!unlock") {
-                    assert!(line.contains("type{primer}"), "Missing type{primer}");
-
-                    if let Some((id, text)) = message.take() {
-                        let text = text.trim();
-                        inserts.push(quote! {
-                            primer.insert(PrimerId::try_from(#id).unwrap(), #text);
-                        });
-                    }
-
-                    let id_start = line.find("id{").expect("missing id{...}");
-                    let id: String =
-                        line[id_start + "id{".len()..].chars().take_while(|c| *c != '}').collect();
-
-                    message = Some((id, String::new()));
-                } else if let Some((_, text)) = message.as_mut() {
-                    text.push_str(&line);
-                    text.push('\n');
-                }
-            }
-
-            if let Some((id, text)) = message.take() {
-                let text = text.trim();
-                inserts.push(quote! {
+            let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
+                .into_iter()
+                .map(|(id, text)| quote! {
                     primer.insert(PrimerId::try_from(#id).unwrap(), #text);
-                });
-            }
+                })
+                .collect();
 
             let inserts_len = inserts.len();
             quote! {
@@ -334,10 +256,14 @@ fn build_primer() {
         }
     };
 
+    write_generated("primer.rs", contents);
+}
+
+fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
     let generated = Path::new("target").join("generated");
     fs::create_dir_all(&generated).unwrap();
 
-    let dest_path = generated.join("primer.rs");
+    let dest_path = generated.join(file_name);
     let mut file = fs::OpenOptions::new()
         .read(true)
         .write(true)
@@ -346,5 +272,38 @@ fn build_primer() {
         .open(&dest_path)
         .unwrap();
 
-    file.write_all(contents.to_string().as_bytes()).unwrap();
+    write!(file, "{}", contents).unwrap();
+}
+
+fn extract_id(line: &str) -> String {
+    let id_start = line.find("id{").expect("missing id{...}");
+    line[id_start + "id{".len()..].chars().take_while(|c| *c != '}').collect()
+}
+
+/// Parses robomarkup files -> `[(id, contents), ...]`.
+///
+/// Tokens must have `id{...}` declared.
+fn robomarkup_sections(start_token: &str, file: fs::File) -> Vec<(String, String)> {
+    let mut message: Option<(String, String)> = None;
+    let mut out = vec![];
+
+    for line in BufReader::new(file).lines() {
+        let line = line.unwrap_or_else(|_| String::new());
+        if line.starts_with("//") {
+            continue;
+        } else if line.starts_with(start_token) {
+            if let Some((id, text)) = message.take() {
+                out.push((id, text.trim().to_owned()));
+            }
+            message = Some((extract_id(&line), String::new()));
+        } else if let Some((_, text)) = message.as_mut() {
+            text.push_str(&line);
+            text.push('\n');
+        }
+    }
+    if let Some((id, text)) = message.take() {
+        out.push((id, text.trim().to_owned()));
+    }
+
+    out
 }
