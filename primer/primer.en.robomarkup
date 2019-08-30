@@ -10,8 +10,9 @@
 //
 // Backticks wrap inline bits of code, e.g `var foo = q`.
 //
-// Three backticks "```" wrap around code blocks. They may have text
-// immediately after them, e.g. "```no_run" which should be left in english
+// Three backticks "```" wrap around code blocks. They may have text immediately
+// after them, e.g. "```no_run" which isn't displayed & should be left in english.
+// In code blocks only comments should be translated.
 
 
 #!unlock type{primer} id{loops}
