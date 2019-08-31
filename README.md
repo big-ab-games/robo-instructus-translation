@@ -7,35 +7,35 @@ Translations for programming puzzle game Robo Instructus.
 ## About
 This project exists to provide a way for open source community translations to be used in game. As a solo developer with limited resources I'm not able to fund professional translations, so this repository can provide a route to a translated game that otherwise wouldn't exist.
 
-Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | [4. Code Primer](#4-code-primer "Bartram's Code Primer.") | The rest of the game
-:---: | :---: | :---: | :---: | :---: | :---:
-English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
-Français _(fr)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :no_entry_sign:
-Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-български език _(bg)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-čeština _(cs)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Dansk _(da)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Suomi _(fi)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Magyar _(hu)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-日本語 _(ja)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-한국어 _(ko)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Norsk _(no)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Română _(ro)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Español-España _(es)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-ไทย _(th)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Türkçe _(tr)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Українська _(uk)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | [4. Code Primer](#4-code-primer "Bartram's Code Primer.") | [5. Function Docs](#5-function-docs "Function Documentation") | The rest of the game
+:---: | :---: | :---: | :---: | :---: | :---: | :---:
+English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
+Français _(fr)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
+Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+български език _(bg)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+čeština _(cs)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Dansk _(da)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Suomi _(fi)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Magyar _(hu)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+日本語 _(ja)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+한국어 _(ko)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Norsk _(no)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Română _(ro)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Español-España _(es)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+ไทย _(th)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Türkçe _(tr)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Українська _(uk)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 
 :heavy_check_mark:: _Translated_<br/>
 :large_blue_circle:: _Partially translated, some more work to be done / new text to translate_<br/>
@@ -77,7 +77,12 @@ Update the `company.LANGUAGE.robomarkup` file in the `company` directory. See th
 ## 4. Code Primer
 The fundamentals of how the game's programming language works are explained by Dr. Bartram's "Primer". Each section of the primer is marked with `#!unlock type{primer}` with the text coming after the contents of that section.
 
-Update the `primer.LANGUAGE.robomarkup` file in the `primer` directory. See the English [primer/primer.en.robomarkup](./primer/primer.en.robomarkup) file, duplicate this to start a new language translation.
+Update the `primer.LANGUAGE.robomarkup` file in the `primer` directory. Info: [primer/README](./primer/README.md). See the English [primer/primer.en.robomarkup](./primer/primer.en.robomarkup) file, duplicate this to start a new language translation.
+
+## 5. Function Docs
+Each function in the game comes with documentation. These are laid out similarly to the Primer.
+
+Update the `fun.LANGUAGE.robomarkup` file in the `function` directory. Info: [function/README](./function/README.md). See the English [function/fun.en.robomarkup](./function/fun.en.robomarkup) file, duplicate this to start a new language translation.
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
