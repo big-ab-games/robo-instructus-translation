@@ -46,9 +46,6 @@ Take a look at the existing `en-replace.LANGUAGE.pairs` files in the `translated
 
 If you see a line that could be improved edit it and raise a pull request.
 
-##### Recent Additions
-***Editor hotkeys, `Your solution has a flaw uncovered by a hidden stage variant`, `Credits`***
-
 ## 2. Game store description
 The game description that appears in Steam & other stores. The original English description is in [store/store-description.en.bbcode](./store/store-description.en.bbcode).
 
