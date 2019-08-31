@@ -22,6 +22,13 @@ include!("../target/generated/company.rs");
 //     .. }
 include!("../target/generated/primer.rs");
 
+// pub enum FunctionDocId { ... }
+//
+// FUN_DOCS: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>: {
+//     "en" -> { FunctionDocId::_ -> "...", .. },
+//     .. }
+include!("../target/generated/function_docs.rs");
+
 lazy_static! {
     static ref LANG: RwLock<String> = RwLock::new(String::new());
 }
@@ -72,14 +79,14 @@ pub fn company(c: CompanyMessageId) -> &'static str {
 }
 
 /// Fetches `lang` company message with the matching `key`, or falls back on lang='en'.
-fn company_lang(lang: &str, c: CompanyMessageId) -> &'static str {
+pub fn company_lang(lang: &str, c: CompanyMessageId) -> &'static str {
     COMPANY
         .get(lang)
         .and_then(|company| company.get(&c).copied())
         .unwrap_or_else(|| COMPANY["en"][&c])
 }
 
-/// Fetches global target language company message with the matching `key`, or falls back on
+/// Fetches global target language primer section with the matching `key`, or falls back on
 /// lang='en'.
 #[inline]
 pub fn primer(c: PrimerId) -> &'static str {
@@ -87,8 +94,20 @@ pub fn primer(c: PrimerId) -> &'static str {
 }
 
 /// Fetches `lang` primer section with the matching `key`, or falls back on lang='en'.
-fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
+pub fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
     PRIMER.get(lang).and_then(|p| p.get(&c).copied()).unwrap_or_else(|| PRIMER["en"][&c])
+}
+
+/// Fetches global target language function doc with the matching `key`,
+/// or falls back on lang='en'.
+#[inline]
+pub fn function_docs(id: FunctionDocId) -> &'static str {
+    function_docs_lang(LANG.read().as_str(), id)
+}
+
+/// Fetches `lang` function doc with the matching `key`, or falls back on lang='en'.
+pub fn function_docs_lang(lang: &str, id: FunctionDocId) -> &'static str {
+    FUN_DOCS.get(lang).and_then(|p| p.get(&id).copied()).unwrap_or_else(|| FUN_DOCS["en"][&id])
 }
 
 #[test]
@@ -131,6 +150,7 @@ fn company_await_is_3_lines() {
 }
 
 #[test]
+#[rustfmt::skip]
 fn primer_en() {
     const EXPECTED_COMMENTS_PRIMER: &str = "# Comments\n\
                                             \n\
@@ -143,31 +163,40 @@ fn primer_en() {
 
     assert_eq!(primer_lang("en", PrimerId::Comments), EXPECTED_COMMENTS_PRIMER);
 
-    // en should include all primer sections
-    assert!(!primer_lang("en", PrimerId::Loops).is_empty());
-    assert!(!primer_lang("en", PrimerId::Comments).is_empty());
-    assert!(!primer_lang("en", PrimerId::Conditionals).is_empty());
-    assert!(!primer_lang("en", PrimerId::Variables).is_empty());
-    assert!(!primer_lang("en", PrimerId::Conditionals2).is_empty());
-    assert!(!primer_lang("en", PrimerId::Is).is_empty());
-    assert!(!primer_lang("en", PrimerId::Comparison).is_empty());
-    assert!(!primer_lang("en", PrimerId::Conditionals3).is_empty());
-    assert!(!primer_lang("en", PrimerId::ElseIf).is_empty());
-    assert!(!primer_lang("en", PrimerId::Scope).is_empty());
-    assert!(!primer_lang("en", PrimerId::Loops2).is_empty());
-    assert!(!primer_lang("en", PrimerId::Loops3).is_empty());
-    assert!(!primer_lang("en", PrimerId::Fun).is_empty());
-    assert!(!primer_lang("en", PrimerId::FunB).is_empty());
-    assert!(!primer_lang("en", PrimerId::Fun2).is_empty());
-    assert!(!primer_lang("en", PrimerId::Bool).is_empty());
-    assert!(!primer_lang("en", PrimerId::Seq).is_empty());
-    assert!(!primer_lang("en", PrimerId::SeqB).is_empty());
-    assert!(!primer_lang("en", PrimerId::LoopSeq).is_empty());
-    assert!(!primer_lang("en", PrimerId::Fun3).is_empty());
-    assert!(!primer_lang("en", PrimerId::DotCall).is_empty());
+    // en should include all
+    use PrimerId::*;
+    for id in [
+        Loops, Comments, Conditionals, Variables, Conditionals2, Is, Comparison, Conditionals3,
+        ElseIf, Scope, Loops2, Loops3, Fun, FunB, Fun2, Bool, Seq, SeqB, LoopSeq, Fun3, DotCall
+    ].iter() {
+        assert!(!primer_lang("en", *id).trim().is_empty(), "{:?} empty", id);
+    }
 }
 
 #[test]
 fn primer_fallback() {
     assert!(primer_lang("nosuch", PrimerId::Comments).starts_with("# Comments"));
+}
+
+#[test]
+#[rustfmt::skip]
+fn function_docs_en() {
+    const EXPECTED: &str = "`robo_use()` Operates on the current tile returning tile specific \
+                            data, or `0` otherwise. Runtime $tu{robo_use()} ms\n\
+                            $render{robo_use}";
+    assert_eq!(function_docs_lang("en", FunctionDocId::Use), EXPECTED);
+
+    // en should include all
+    use FunctionDocId::*;
+    for id in [
+        LeftForward, Scan, ScanU1, ScanU2, ScanU3, ScanU4, Use, UseU1, UseU2, UseU3, UseU4,
+        ForwardLocation, Location, DetectAdjacent, Detect3, Detect3L, Probo, ProboScanU1, Transmit,
+        ProboUse, ShortLeft, ShortForward, ShortScan, ShortScanU1, ShortScanU2, ShortScanU3,
+        ShortScanU4, ShortUse, ShortUseU2, ShortUseU3, ShortUseU4, ShortDetectAdjacent,
+        ShortLocation, ShortForwardLocation, ShortDetect3, ShortDetect3L, ShortProboLeft,
+        ShortProboForward, ShortProboScan, ShortProboLocation, ShortProboUse, ShortTransmit,
+        ShortReceive,
+    ].iter() {
+        assert!(!function_docs_lang("en", *id).trim().is_empty(), "{:?} empty", id);
+    }
 }

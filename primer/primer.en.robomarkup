@@ -1,19 +1,4 @@
-// Pseudo markup format for Robo Instructus containing the programming primer
-// received through the game's story.
-//
-// `#!unlock` means the start of a section, the lines following
-// are the message in simplified markdown.
-//
-// Most of the time the first line, starting with '# ' is the subject.
-//
-// Newlines always count, unlike markdown.
-//
-// Backticks wrap inline bits of code, e.g `var foo = q`.
-//
-// Three backticks "```" wrap around code blocks. They may have text immediately
-// after them, e.g. "```no_run" which isn't displayed & should be left in english.
-// In code blocks only comments should be translated.
-
+// Pseudo markup format see ./README.md
 
 #!unlock type{primer} id{loops}
 # Loops

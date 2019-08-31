@@ -11,6 +11,7 @@ fn main() {
     build_translated_pairs();
     build_company();
     build_primer();
+    build_function_docs();
 }
 
 fn build_translated_pairs() {
@@ -163,7 +164,7 @@ fn build_primer() {
             let path = entry.file_name().to_str().unwrap().to_owned();
             Some((entry, path))
         })
-        .filter(|(_, path)| path.starts_with("primer.") && path.ends_with(".robomarkup"))
+        .filter(|(_, path)| path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
             let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
@@ -257,6 +258,156 @@ fn build_primer() {
     };
 
     write_generated("primer.rs", contents);
+}
+
+fn build_function_docs() {
+    let unlocks = std::env::current_dir().unwrap().join("function");
+
+    let lang_lookup: Vec<_> = fs::read_dir(&unlocks)
+        .unwrap()
+        .filter_map(|entry| {
+            let entry = entry.ok().unwrap();
+            let path = entry.file_name().to_str().unwrap().to_owned();
+            Some((entry, path))
+        })
+        .filter(|(_, path)| path.ends_with(".robomarkup"))
+        .map(|(entry, path)| {
+            let lang = path.split('.').nth(1).unwrap();
+            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+
+            let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
+                .into_iter()
+                .map(|(id, text)| quote! {
+                    lookup.insert(FunctionDocId::try_from(#id).unwrap(), #text);
+                })
+                .collect();
+
+            let inserts_len = inserts.len();
+            quote! {
+                lang_to_lookup.insert(#lang, {
+                    let mut lookup = FxHashMap::default();
+                    lookup.reserve(#inserts_len);
+                    #(#inserts)*
+                    lookup
+                });
+            }
+        })
+        .collect();
+
+    let lang_lookup_len = lang_lookup.len();
+    let contents = quote! {
+        /// Function documentation id.
+        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+        pub enum FunctionDocId {
+            LeftForward,
+            Scan,
+            ScanU1,
+            ScanU2,
+            ScanU3,
+            ScanU4,
+            Use,
+            UseU1,
+            UseU2,
+            UseU3,
+            UseU4,
+            ForwardLocation,
+            Location,
+            DetectAdjacent,
+            Detect3,
+            Detect3L,
+            Probo,
+            ProboScanU1,
+            Transmit,
+            ProboUse,
+            ShortLeft,
+            ShortForward,
+            ShortScan,
+            ShortScanU1,
+            ShortScanU2,
+            ShortScanU3,
+            ShortScanU4,
+            ShortUse,
+            ShortUseU2,
+            ShortUseU3,
+            ShortUseU4,
+            ShortDetectAdjacent,
+            ShortLocation,
+            ShortForwardLocation,
+            ShortDetect3,
+            ShortDetect3L,
+            ShortProboLeft,
+            ShortProboForward,
+            ShortProboScan,
+            ShortProboLocation,
+            ShortProboUse,
+            ShortTransmit,
+            ShortReceive,
+        }
+
+        impl std::convert::TryFrom<&str> for FunctionDocId {
+            type Error = String;
+            fn try_from(key: &str) -> Result<Self, Self::Error> {
+                Ok(match key {
+                    "left-forward" => FunctionDocId::LeftForward,
+                    "scan" => FunctionDocId::Scan,
+                    "scan-u1" => FunctionDocId::ScanU1,
+                    "scan-u2" => FunctionDocId::ScanU2,
+                    "scan-u3" => FunctionDocId::ScanU3,
+                    "scan-u4" => FunctionDocId::ScanU4,
+                    "use" => FunctionDocId::Use,
+                    "use-u1" => FunctionDocId::UseU1,
+                    "use-u2" => FunctionDocId::UseU2,
+                    "use-u3" => FunctionDocId::UseU3,
+                    "use-u4" => FunctionDocId::UseU4,
+                    "forward-location" => FunctionDocId::ForwardLocation,
+                    "location" => FunctionDocId::Location,
+                    "detect-adjacent" => FunctionDocId::DetectAdjacent,
+                    "detect-3" => FunctionDocId::Detect3,
+                    "detect-3l" => FunctionDocId::Detect3L,
+                    "probo" => FunctionDocId::Probo,
+                    "probo-scan-u1" => FunctionDocId::ProboScanU1,
+                    "transmit" => FunctionDocId::Transmit,
+                    "probo-use" => FunctionDocId::ProboUse,
+                    "s-left" => FunctionDocId::ShortLeft,
+                    "s-forward" => FunctionDocId::ShortForward,
+                    "s-scan" => FunctionDocId::ShortScan,
+                    "s-scan-u1" => FunctionDocId::ShortScanU1,
+                    "s-scan-u2" => FunctionDocId::ShortScanU2,
+                    "s-scan-u3" => FunctionDocId::ShortScanU3,
+                    "s-scan-u4" => FunctionDocId::ShortScanU4,
+                    "s-use" => FunctionDocId::ShortUse,
+                    "s-use-u2" => FunctionDocId::ShortUseU2,
+                    "s-use-u3" => FunctionDocId::ShortUseU3,
+                    "s-use-u4" => FunctionDocId::ShortUseU4,
+                    "s-detect-adjacent" => FunctionDocId::ShortDetectAdjacent,
+                    "s-location" => FunctionDocId::ShortLocation,
+                    "s-forward-location" => FunctionDocId::ShortForwardLocation,
+                    "s-detect-3" => FunctionDocId::ShortDetect3,
+                    "s-detect-3l" => FunctionDocId::ShortDetect3L,
+                    "s-probo-left" => FunctionDocId::ShortProboLeft,
+                    "s-probo-forward" => FunctionDocId::ShortProboForward,
+                    "s-probo-scan" => FunctionDocId::ShortProboScan,
+                    "s-probo-location" => FunctionDocId::ShortProboLocation,
+                    "s-probo-use" => FunctionDocId::ShortProboUse,
+                    "s-transmit" => FunctionDocId::ShortTransmit,
+                    "s-receive" => FunctionDocId::ShortReceive,
+                    _ => return Err(format!("Unknown function doc id: `{}`", key)),
+                })
+            }
+        }
+
+        lazy_static! {
+            pub static ref FUN_DOCS: FxHashMap<&'static str, FxHashMap<FunctionDocId, &'static str>> = {
+                use std::convert::TryFrom;
+                let mut lang_to_lookup = FxHashMap::default();
+                lang_to_lookup.reserve(#lang_lookup_len);
+                #(#lang_lookup)*
+                lang_to_lookup
+            };
+        }
+    };
+
+    write_generated("function_docs.rs", contents);
 }
 
 fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
