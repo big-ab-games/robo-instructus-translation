@@ -22,20 +22,7 @@ Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-български език _(bg)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-čeština _(cs)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Dansk _(da)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Suomi _(fi)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Magyar _(hu)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-日本語 _(ja)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-한국어 _(ko)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Norsk _(no)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Română _(ro)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Español-España _(es)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-ไทย _(th)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Türkçe _(tr)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Українська _(uk)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Tiếng Việt _(vn)_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+_others_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
 
 :heavy_check_mark:: _Translated_<br/>
 :large_blue_circle:: _Partially translated, some more work to be done / new text to translate_<br/>
