@@ -1,7 +1,7 @@
 use crossbeam_channel::{self as channel, Receiver, Sender};
 use indexmap::IndexMap;
-use lazy_static::lazy_static;
 use log::*;
+use once_cell::sync::Lazy;
 use parking_lot::RwLock;
 use std::{
     fs,
@@ -19,13 +19,12 @@ type EnglishPhase = String;
 type Translated = Arc<String>;
 type ReplaceMap = FxIndexMap<Language, FxIndexMap<EnglishPhase, Translated>>;
 
-lazy_static! {
-    static ref THREAD_STARTED: AtomicBool = AtomicBool::new(false);
-    static ref CHANNEL: UnknownChannel = channel::unbounded();
-    static ref REPLACE: RwLock<ReplaceMap> = <_>::default();
-}
+static THREAD_STARTED: AtomicBool = AtomicBool::new(false);
+static REPLACE: Lazy<RwLock<ReplaceMap>> = Lazy::new(<_>::default);
 
 pub(crate) fn notify_unknown(lang: &str, en: &str) {
+    static CHANNEL: Lazy<UnknownChannel> = Lazy::new(channel::unbounded);
+
     CHANNEL.0.send((lang.into(), en.into())).unwrap();
 
     if !THREAD_STARTED.swap(true, SeqCst) {
