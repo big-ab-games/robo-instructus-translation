@@ -39,11 +39,5 @@ fn translate_with_newlines_into_ru() {
     }
 
     let t = translate_to("ru", "Modify the commands and \nre-run to reach the exit");
-    assert_eq!(
-        t,
-        Some(
-            "Измените команды и \nповторно запустите, чтобы достичь выхода"
-                .into()
-        )
-    );
+    assert_eq!(t, Some("Измените команды и \nповторно запустите, чтобы достичь выхода".into()));
 }

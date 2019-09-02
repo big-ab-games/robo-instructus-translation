@@ -5,12 +5,11 @@
 //! cargo run --bin fill --features fill
 #![cfg(feature = "fill")]
 
-use lazy_static::lazy_static;
+// mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
+include!("../../target/generated/translated-pairs.rs");
+
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::{env, io::Write};
-
-// REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
-include!("../../target/generated/translated-pairs.rs");
 
 fn main() {
     if env::var_os("RUST_LOG").is_none() {
@@ -24,10 +23,10 @@ fn main() {
         robo_instructus_translation::realtime::external_init();
     }
 
-    let all_en: FxHashSet<_> = REPLACE.values().flat_map(FxHashMap::keys).collect();
+    let all_en: FxHashSet<_> = translated_pairs::MAP.values().flat_map(FxHashMap::keys).collect();
 
     // run all keys through all known languages to produce missing tranlations
-    for (lang, translations) in REPLACE.iter() {
+    for (lang, translations) in translated_pairs::MAP.iter() {
         for en in &all_en {
             if translations.get(*en).is_none() {
                 if machine_translate {

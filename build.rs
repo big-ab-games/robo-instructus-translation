@@ -1,4 +1,4 @@
-#![recursion_limit="128"]
+#![recursion_limit = "128"]
 
 use quote::quote;
 use std::{
@@ -61,13 +61,17 @@ fn build_translated_pairs() {
 
     let lang_replace_len = lang_replace.len();
     let contents = quote! {
-        lazy_static! {
-            pub static ref REPLACE: FxHashMap<&'static str, FxHashMap<&'static str, &'static str>> = {
-                let mut store = FxHashMap::default();
-                store.reserve(#lang_replace_len);
-                #(#lang_replace)*
-                store
-            };
+        mod translated_pairs {
+            use once_cell::sync::Lazy;
+            use rustc_hash::FxHashMap;
+
+            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<&'static str, &'static str>>> =
+                Lazy::new(|| {
+                    let mut store = FxHashMap::default();
+                    store.reserve(#lang_replace_len);
+                    #(#lang_replace)*
+                    store
+            });
         }
     };
 
@@ -91,8 +95,10 @@ fn build_company() {
 
             let inserts: Vec<_> = robomarkup_sections("#!company", file)
                 .into_iter()
-                .map(|(id, text)| quote! {
-                    company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
+                .map(|(id, text)| {
+                    quote! {
+                        company.insert(CompanyMessageId::try_from(#id).unwrap(), #text);
+                    }
                 })
                 .collect();
 
@@ -110,44 +116,48 @@ fn build_company() {
 
     let lang_company_len = lang_company.len();
     let contents = quote! {
-        /// Company message id.
-        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-        pub enum CompanyMessageId {
-            Await,
-            Receiving,
-            Acknowledge,
-            Arrive,
-            Underground,
-            Lower,
-            Final,
-            Promotion,
-        }
+        mod company {
+            use once_cell::sync::Lazy;
+            use rustc_hash::FxHashMap;
+            use std::convert::TryFrom;
 
-        impl std::convert::TryFrom<&str> for CompanyMessageId {
-            type Error = &'static str;
-            fn try_from(key: &str) -> Result<Self, Self::Error> {
-                Ok(match key {
-                    "c-await" => CompanyMessageId::Await,
-                    "c-receiving" => CompanyMessageId::Receiving,
-                    "c-ack" => CompanyMessageId::Acknowledge,
-                    "c-arrive" => CompanyMessageId::Arrive,
-                    "c-underground" => CompanyMessageId::Underground,
-                    "c-lower" => CompanyMessageId::Lower,
-                    "c-final" => CompanyMessageId::Final,
-                    "c-promotion" => CompanyMessageId::Promotion,
-                    _ => return Err("Unknown company id"),
-                })
+            /// Company message id.
+            #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+            pub enum CompanyMessageId {
+                Await,
+                Receiving,
+                Acknowledge,
+                Arrive,
+                Underground,
+                Lower,
+                Final,
+                Promotion,
             }
-        }
 
-        lazy_static! {
-            pub static ref COMPANY: FxHashMap<&'static str, FxHashMap<CompanyMessageId, &'static str>> = {
-                use std::convert::TryFrom;
-                let mut lang_to_company = FxHashMap::default();
-                lang_to_company.reserve(#lang_company_len);
-                #(#lang_company)*
-                lang_to_company
-            };
+            impl TryFrom<&str> for CompanyMessageId {
+                type Error = &'static str;
+                fn try_from(key: &str) -> Result<Self, Self::Error> {
+                    Ok(match key {
+                        "c-await" => CompanyMessageId::Await,
+                        "c-receiving" => CompanyMessageId::Receiving,
+                        "c-ack" => CompanyMessageId::Acknowledge,
+                        "c-arrive" => CompanyMessageId::Arrive,
+                        "c-underground" => CompanyMessageId::Underground,
+                        "c-lower" => CompanyMessageId::Lower,
+                        "c-final" => CompanyMessageId::Final,
+                        "c-promotion" => CompanyMessageId::Promotion,
+                        _ => return Err("Unknown company id"),
+                    })
+                }
+            }
+
+            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<CompanyMessageId, &'static str>>> =
+                Lazy::new(|| {
+                    let mut lang_to_company = FxHashMap::default();
+                    lang_to_company.reserve(#lang_company_len);
+                    #(#lang_company)*
+                    lang_to_company
+                });
         }
     };
 
@@ -171,8 +181,8 @@ fn build_primer() {
 
             let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
                 .into_iter()
-                .map(|(id, text)| quote! {
-                    primer.insert(PrimerId::try_from(#id).unwrap(), #text);
+                .map(|(id, text)| {
+                    quote! { primer.insert(PrimerId::try_from(#id).unwrap(), #text); }
                 })
                 .collect();
 
@@ -190,70 +200,74 @@ fn build_primer() {
 
     let lang_primer_len = lang_primer.len();
     let contents = quote! {
-        /// Primer section id.
-        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-        pub enum PrimerId {
-            Loops,
-            Comments,
-            Conditionals,
-            Variables,
-            Conditionals2,
-            Is,
-            Comparison,
-            Conditionals3,
-            ElseIf,
-            Scope,
-            Loops2,
-            Loops3,
-            Fun,
-            FunB,
-            Fun2,
-            Bool,
-            Seq,
-            SeqB,
-            LoopSeq,
-            Fun3,
-            DotCall,
-        }
+        mod primer {
+            use once_cell::sync::Lazy;
+            use rustc_hash::FxHashMap;
+            use std::convert::TryFrom;
 
-        impl std::convert::TryFrom<&str> for PrimerId {
-            type Error = &'static str;
-            fn try_from(key: &str) -> Result<Self, Self::Error> {
-                Ok(match key {
-                    "loops" => PrimerId::Loops,
-                    "comments" => PrimerId::Comments,
-                    "conditionals" => PrimerId::Conditionals,
-                    "variables" => PrimerId::Variables,
-                    "conditionals-2" => PrimerId::Conditionals2,
-                    "is" => PrimerId::Is,
-                    "comparison" => PrimerId::Comparison,
-                    "conditionals-3" => PrimerId::Conditionals3,
-                    "else-if" => PrimerId::ElseIf,
-                    "scope" => PrimerId::Scope,
-                    "loops-2" => PrimerId::Loops2,
-                    "loops-3" => PrimerId::Loops3,
-                    "fun" => PrimerId::Fun,
-                    "fun-b" => PrimerId::FunB,
-                    "fun-2" => PrimerId::Fun2,
-                    "bool" => PrimerId::Bool,
-                    "seq" => PrimerId::Seq,
-                    "seq-b" => PrimerId::SeqB,
-                    "loop-seq" => PrimerId::LoopSeq,
-                    "fun-3" => PrimerId::Fun3,
-                    "dot-call" => PrimerId::DotCall,
-                    _ => return Err("Unknown primer id"),
-                })
+            /// Primer section id.
+            #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+            pub enum PrimerId {
+                Loops,
+                Comments,
+                Conditionals,
+                Variables,
+                Conditionals2,
+                Is,
+                Comparison,
+                Conditionals3,
+                ElseIf,
+                Scope,
+                Loops2,
+                Loops3,
+                Fun,
+                FunB,
+                Fun2,
+                Bool,
+                Seq,
+                SeqB,
+                LoopSeq,
+                Fun3,
+                DotCall,
             }
-        }
 
-        lazy_static! {
-            pub static ref PRIMER: FxHashMap<&'static str, FxHashMap<PrimerId, &'static str>> = {
-                use std::convert::TryFrom;
-                let mut lang_to_primer = FxHashMap::default();
-                lang_to_primer.reserve(#lang_primer_len);
-                #(#lang_primer)*
-                lang_to_primer
-            };
+            impl TryFrom<&str> for PrimerId {
+                type Error = &'static str;
+                fn try_from(key: &str) -> Result<Self, Self::Error> {
+                    Ok(match key {
+                        "loops" => PrimerId::Loops,
+                        "comments" => PrimerId::Comments,
+                        "conditionals" => PrimerId::Conditionals,
+                        "variables" => PrimerId::Variables,
+                        "conditionals-2" => PrimerId::Conditionals2,
+                        "is" => PrimerId::Is,
+                        "comparison" => PrimerId::Comparison,
+                        "conditionals-3" => PrimerId::Conditionals3,
+                        "else-if" => PrimerId::ElseIf,
+                        "scope" => PrimerId::Scope,
+                        "loops-2" => PrimerId::Loops2,
+                        "loops-3" => PrimerId::Loops3,
+                        "fun" => PrimerId::Fun,
+                        "fun-b" => PrimerId::FunB,
+                        "fun-2" => PrimerId::Fun2,
+                        "bool" => PrimerId::Bool,
+                        "seq" => PrimerId::Seq,
+                        "seq-b" => PrimerId::SeqB,
+                        "loop-seq" => PrimerId::LoopSeq,
+                        "fun-3" => PrimerId::Fun3,
+                        "dot-call" => PrimerId::DotCall,
+                        _ => return Err("Unknown primer id"),
+                    })
+                }
+            }
+
+            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<PrimerId, &'static str>>> =
+                Lazy::new(|| {
+                    let mut lang_to_primer = FxHashMap::default();
+                    lang_to_primer.reserve(#lang_primer_len);
+                    #(#lang_primer)*
+                    lang_to_primer
+                });
         }
     };
 
@@ -277,8 +291,10 @@ fn build_function_docs() {
 
             let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
                 .into_iter()
-                .map(|(id, text)| quote! {
-                    lookup.insert(FunctionDocId::try_from(#id).unwrap(), #text);
+                .map(|(id, text)| {
+                    quote! {
+                        lookup.insert(FunctionDocId::try_from(#id).unwrap(), #text);
+                    }
                 })
                 .collect();
 
@@ -296,114 +312,118 @@ fn build_function_docs() {
 
     let lang_lookup_len = lang_lookup.len();
     let contents = quote! {
-        /// Function documentation id.
-        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-        pub enum FunctionDocId {
-            LeftForward,
-            Scan,
-            ScanU1,
-            ScanU2,
-            ScanU3,
-            ScanU4,
-            Use,
-            UseU1,
-            UseU2,
-            UseU3,
-            UseU4,
-            ForwardLocation,
-            Location,
-            DetectAdjacent,
-            Detect3,
-            Detect3L,
-            Probo,
-            ProboScanU1,
-            Transmit,
-            ProboUse,
-            ShortLeft,
-            ShortForward,
-            ShortScan,
-            ShortScanU1,
-            ShortScanU2,
-            ShortScanU3,
-            ShortScanU4,
-            ShortUse,
-            ShortUseU2,
-            ShortUseU3,
-            ShortUseU4,
-            ShortDetectAdjacent,
-            ShortLocation,
-            ShortForwardLocation,
-            ShortDetect3,
-            ShortDetect3L,
-            ShortProboLeft,
-            ShortProboForward,
-            ShortProboScan,
-            ShortProboLocation,
-            ShortProboUse,
-            ShortTransmit,
-            ShortReceive,
-        }
+        mod function_docs {
+            use once_cell::sync::Lazy;
+            use rustc_hash::FxHashMap;
+            use std::convert::TryFrom;
 
-        impl std::convert::TryFrom<&str> for FunctionDocId {
-            type Error = String;
-            fn try_from(key: &str) -> Result<Self, Self::Error> {
-                Ok(match key {
-                    "left-forward" => FunctionDocId::LeftForward,
-                    "scan" => FunctionDocId::Scan,
-                    "scan-u1" => FunctionDocId::ScanU1,
-                    "scan-u2" => FunctionDocId::ScanU2,
-                    "scan-u3" => FunctionDocId::ScanU3,
-                    "scan-u4" => FunctionDocId::ScanU4,
-                    "use" => FunctionDocId::Use,
-                    "use-u1" => FunctionDocId::UseU1,
-                    "use-u2" => FunctionDocId::UseU2,
-                    "use-u3" => FunctionDocId::UseU3,
-                    "use-u4" => FunctionDocId::UseU4,
-                    "forward-location" => FunctionDocId::ForwardLocation,
-                    "location" => FunctionDocId::Location,
-                    "detect-adjacent" => FunctionDocId::DetectAdjacent,
-                    "detect-3" => FunctionDocId::Detect3,
-                    "detect-3l" => FunctionDocId::Detect3L,
-                    "probo" => FunctionDocId::Probo,
-                    "probo-scan-u1" => FunctionDocId::ProboScanU1,
-                    "transmit" => FunctionDocId::Transmit,
-                    "probo-use" => FunctionDocId::ProboUse,
-                    "s-left" => FunctionDocId::ShortLeft,
-                    "s-forward" => FunctionDocId::ShortForward,
-                    "s-scan" => FunctionDocId::ShortScan,
-                    "s-scan-u1" => FunctionDocId::ShortScanU1,
-                    "s-scan-u2" => FunctionDocId::ShortScanU2,
-                    "s-scan-u3" => FunctionDocId::ShortScanU3,
-                    "s-scan-u4" => FunctionDocId::ShortScanU4,
-                    "s-use" => FunctionDocId::ShortUse,
-                    "s-use-u2" => FunctionDocId::ShortUseU2,
-                    "s-use-u3" => FunctionDocId::ShortUseU3,
-                    "s-use-u4" => FunctionDocId::ShortUseU4,
-                    "s-detect-adjacent" => FunctionDocId::ShortDetectAdjacent,
-                    "s-location" => FunctionDocId::ShortLocation,
-                    "s-forward-location" => FunctionDocId::ShortForwardLocation,
-                    "s-detect-3" => FunctionDocId::ShortDetect3,
-                    "s-detect-3l" => FunctionDocId::ShortDetect3L,
-                    "s-probo-left" => FunctionDocId::ShortProboLeft,
-                    "s-probo-forward" => FunctionDocId::ShortProboForward,
-                    "s-probo-scan" => FunctionDocId::ShortProboScan,
-                    "s-probo-location" => FunctionDocId::ShortProboLocation,
-                    "s-probo-use" => FunctionDocId::ShortProboUse,
-                    "s-transmit" => FunctionDocId::ShortTransmit,
-                    "s-receive" => FunctionDocId::ShortReceive,
-                    _ => return Err(format!("Unknown function doc id: `{}`", key)),
-                })
+            /// Function documentation id.
+            #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+            pub enum FunctionDocId {
+                LeftForward,
+                Scan,
+                ScanU1,
+                ScanU2,
+                ScanU3,
+                ScanU4,
+                Use,
+                UseU1,
+                UseU2,
+                UseU3,
+                UseU4,
+                ForwardLocation,
+                Location,
+                DetectAdjacent,
+                Detect3,
+                Detect3L,
+                Probo,
+                ProboScanU1,
+                Transmit,
+                ProboUse,
+                ShortLeft,
+                ShortForward,
+                ShortScan,
+                ShortScanU1,
+                ShortScanU2,
+                ShortScanU3,
+                ShortScanU4,
+                ShortUse,
+                ShortUseU2,
+                ShortUseU3,
+                ShortUseU4,
+                ShortDetectAdjacent,
+                ShortLocation,
+                ShortForwardLocation,
+                ShortDetect3,
+                ShortDetect3L,
+                ShortProboLeft,
+                ShortProboForward,
+                ShortProboScan,
+                ShortProboLocation,
+                ShortProboUse,
+                ShortTransmit,
+                ShortReceive,
             }
-        }
 
-        lazy_static! {
-            pub static ref FUN_DOCS: FxHashMap<&'static str, FxHashMap<FunctionDocId, &'static str>> = {
-                use std::convert::TryFrom;
-                let mut lang_to_lookup = FxHashMap::default();
-                lang_to_lookup.reserve(#lang_lookup_len);
-                #(#lang_lookup)*
-                lang_to_lookup
-            };
+            impl TryFrom<&str> for FunctionDocId {
+                type Error = String;
+                fn try_from(key: &str) -> Result<Self, Self::Error> {
+                    Ok(match key {
+                        "left-forward" => FunctionDocId::LeftForward,
+                        "scan" => FunctionDocId::Scan,
+                        "scan-u1" => FunctionDocId::ScanU1,
+                        "scan-u2" => FunctionDocId::ScanU2,
+                        "scan-u3" => FunctionDocId::ScanU3,
+                        "scan-u4" => FunctionDocId::ScanU4,
+                        "use" => FunctionDocId::Use,
+                        "use-u1" => FunctionDocId::UseU1,
+                        "use-u2" => FunctionDocId::UseU2,
+                        "use-u3" => FunctionDocId::UseU3,
+                        "use-u4" => FunctionDocId::UseU4,
+                        "forward-location" => FunctionDocId::ForwardLocation,
+                        "location" => FunctionDocId::Location,
+                        "detect-adjacent" => FunctionDocId::DetectAdjacent,
+                        "detect-3" => FunctionDocId::Detect3,
+                        "detect-3l" => FunctionDocId::Detect3L,
+                        "probo" => FunctionDocId::Probo,
+                        "probo-scan-u1" => FunctionDocId::ProboScanU1,
+                        "transmit" => FunctionDocId::Transmit,
+                        "probo-use" => FunctionDocId::ProboUse,
+                        "s-left" => FunctionDocId::ShortLeft,
+                        "s-forward" => FunctionDocId::ShortForward,
+                        "s-scan" => FunctionDocId::ShortScan,
+                        "s-scan-u1" => FunctionDocId::ShortScanU1,
+                        "s-scan-u2" => FunctionDocId::ShortScanU2,
+                        "s-scan-u3" => FunctionDocId::ShortScanU3,
+                        "s-scan-u4" => FunctionDocId::ShortScanU4,
+                        "s-use" => FunctionDocId::ShortUse,
+                        "s-use-u2" => FunctionDocId::ShortUseU2,
+                        "s-use-u3" => FunctionDocId::ShortUseU3,
+                        "s-use-u4" => FunctionDocId::ShortUseU4,
+                        "s-detect-adjacent" => FunctionDocId::ShortDetectAdjacent,
+                        "s-location" => FunctionDocId::ShortLocation,
+                        "s-forward-location" => FunctionDocId::ShortForwardLocation,
+                        "s-detect-3" => FunctionDocId::ShortDetect3,
+                        "s-detect-3l" => FunctionDocId::ShortDetect3L,
+                        "s-probo-left" => FunctionDocId::ShortProboLeft,
+                        "s-probo-forward" => FunctionDocId::ShortProboForward,
+                        "s-probo-scan" => FunctionDocId::ShortProboScan,
+                        "s-probo-location" => FunctionDocId::ShortProboLocation,
+                        "s-probo-use" => FunctionDocId::ShortProboUse,
+                        "s-transmit" => FunctionDocId::ShortTransmit,
+                        "s-receive" => FunctionDocId::ShortReceive,
+                        _ => return Err(format!("Unknown function doc id: `{}`", key)),
+                    })
+                }
+            }
+
+            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<FunctionDocId, &'static str>>> =
+                Lazy::new(|| {
+                    let mut lang_to_lookup = FxHashMap::default();
+                    lang_to_lookup.reserve(#lang_lookup_len);
+                    #(#lang_lookup)*
+                    lang_to_lookup
+                });
         }
     };
 

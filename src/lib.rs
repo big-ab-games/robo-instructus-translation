@@ -1,37 +1,27 @@
 #[cfg(feature = "realtime")]
 pub mod realtime;
 
-use lazy_static::lazy_static;
-use parking_lot::RwLock;
-use rustc_hash::FxHashMap;
-
-// REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
+// mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
 include!("../target/generated/translated-pairs.rs");
 
-// pub enum CompanyMessageId { ... }
-//
-// COMPANY: FxHashMap<&str, FxHashMap<CompanyMessageId, &str>>: {
-//     "en" -> { CompanyMessageId::Await -> "Acknowledge", .. },
-//     .. }
+// mod company { MAP: FxHashMap<&str, FxHashMap<CompanyMessageId, &str>>, ... }
 include!("../target/generated/company.rs");
 
-// pub enum PrimerId { ... }
-//
-// PRIMER: FxHashMap<&str, FxHashMap<PrimerId, &str>>: {
-//     "en" -> { PrimerId::_ -> "...", .. },
-//     .. }
+// mod primer { MAP: FxHashMap<&str, FxHashMap<PrimerId, &str>>, ... }
 include!("../target/generated/primer.rs");
 
-// pub enum FunctionDocId { ... }
-//
-// FUN_DOCS: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>: {
-//     "en" -> { FunctionDocId::_ -> "...", .. },
-//     .. }
+// mod function_docs { MAP: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>, ... }
 include!("../target/generated/function_docs.rs");
 
-lazy_static! {
-    static ref LANG: RwLock<String> = RwLock::new(String::new());
-}
+pub use company::CompanyMessageId;
+pub use function_docs::FunctionDocId;
+pub use primer::PrimerId;
+
+use once_cell::sync::Lazy;
+use parking_lot::RwLock;
+
+/// Global language, improves translation ergonomics at great cost
+static LANG: Lazy<RwLock<String>> = Lazy::new(<_>::default);
 
 /// Translations section of Robo Instructus credits
 pub const CREDITS: &str = include_str!("../credits.txt");
@@ -44,11 +34,7 @@ pub fn set_language_target(lang: &str) {
 #[inline]
 pub fn language_target<T, F: FnOnce(&str) -> T>(fun: F) -> T {
     let lang = &*LANG.read();
-    if lang.trim().is_empty() {
-        fun("en")
-    } else {
-        fun(lang)
-    }
+    if lang.trim().is_empty() { fun("en") } else { fun(lang) }
 }
 
 /// Translates english text into the global target language
@@ -61,7 +47,7 @@ pub fn translate(en: &str) -> &str {
 pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
     if lang == "en" || en.trim().is_empty() || lang.trim().is_empty() {
         en
-    } else if let Some(translated) = REPLACE.get(lang).and_then(|l| l.get(en)) {
+    } else if let Some(translated) = translated_pairs::MAP.get(lang).and_then(|l| l.get(en)) {
         translated
     } else {
         #[cfg(feature = "realtime")]
@@ -80,10 +66,10 @@ pub fn company(c: CompanyMessageId) -> &'static str {
 
 /// Fetches `lang` company message with the matching `key`, or falls back on lang='en'.
 pub fn company_lang(lang: &str, c: CompanyMessageId) -> &'static str {
-    COMPANY
+    company::MAP
         .get(lang)
         .and_then(|company| company.get(&c).copied())
-        .unwrap_or_else(|| COMPANY["en"][&c])
+        .unwrap_or_else(|| company::MAP["en"][&c])
 }
 
 /// Fetches global target language primer section with the matching `key`, or falls back on
@@ -95,7 +81,7 @@ pub fn primer(c: PrimerId) -> &'static str {
 
 /// Fetches `lang` primer section with the matching `key`, or falls back on lang='en'.
 pub fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
-    PRIMER.get(lang).and_then(|p| p.get(&c).copied()).unwrap_or_else(|| PRIMER["en"][&c])
+    primer::MAP.get(lang).and_then(|p| p.get(&c).copied()).unwrap_or_else(|| primer::MAP["en"][&c])
 }
 
 /// Fetches global target language function doc with the matching `key`,
@@ -107,7 +93,10 @@ pub fn function_docs(id: FunctionDocId) -> &'static str {
 
 /// Fetches `lang` function doc with the matching `key`, or falls back on lang='en'.
 pub fn function_docs_lang(lang: &str, id: FunctionDocId) -> &'static str {
-    FUN_DOCS.get(lang).and_then(|p| p.get(&id).copied()).unwrap_or_else(|| FUN_DOCS["en"][&id])
+    function_docs::MAP
+        .get(lang)
+        .and_then(|p| p.get(&id).copied())
+        .unwrap_or_else(|| function_docs::MAP["en"][&id])
 }
 
 #[test]
@@ -141,7 +130,7 @@ fn company_fallback() {
 
 #[test]
 fn company_await_is_3_lines() {
-    for (lang, c) in &*COMPANY {
+    for (lang, c) in &*company::MAP {
         if let Some(text) = c.get(&CompanyMessageId::Await) {
             let new_lines = text.chars().filter(|c| *c == '\n').count();
             assert_eq!(new_lines, 2, "`{}` has invalid CompanyMessageId::Await", lang);

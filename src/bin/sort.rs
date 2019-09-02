@@ -3,16 +3,15 @@
 //! cargo run --bin sort --features sort -- ru
 #![cfg(feature = "sort")]
 
-use lazy_static::lazy_static;
+// mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
+include!("../../target/generated/translated-pairs.rs");
+
 use log::*;
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::{
     env, fs,
     io::{self, BufRead, Write},
 };
-
-// REPLACE: FxHashMap<&str, FxHashMap<&str, &str>>: { "ru" -> { "yes" -> "да", .. }, .. }
-include!("../../target/generated/translated-pairs.rs");
 
 fn main() {
     if env::var_os("RUST_LOG").is_none() {
@@ -23,15 +22,19 @@ fn main() {
     let master: String = env::args().nth(1).unwrap();
 
     {
-        if !REPLACE.contains_key(master.as_str()) {
+        if !translated_pairs::MAP.contains_key(master.as_str()) {
             eprintln!("Unknown language {}", master);
             std::process::exit(1);
         }
-        let translation_counts = REPLACE.values().map(|t| t.len()).collect::<FxHashSet<_>>();
+        let translation_counts =
+            translated_pairs::MAP.values().map(|t| t.len()).collect::<FxHashSet<_>>();
         if translation_counts.len() != 1 {
             eprintln!(
                 "All translation must have equal coverage/size: {:?}",
-                REPLACE.iter().map(|(l, t)| (l, t.len())).collect::<FxHashMap<_, _>>()
+                translated_pairs::MAP
+                    .iter()
+                    .map(|(l, t)| (l, t.len()))
+                    .collect::<FxHashMap<_, _>>()
             );
             std::process::exit(2);
         }
@@ -59,7 +62,7 @@ fn main() {
     };
 
     // rewrite all .pairs files except master
-    for (lang, vals) in REPLACE.iter().filter(|(lang, _)| *lang != &master) {
+    for (lang, vals) in translated_pairs::MAP.iter().filter(|(lang, _)| *lang != &master) {
         let filename = format!("./translated-pairs/en-replace.{}.pairs", lang);
         let file =
             fs::OpenOptions::new().write(true).truncate(true).create(true).open(&filename).unwrap();
