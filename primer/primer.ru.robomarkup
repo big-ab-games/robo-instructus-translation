@@ -3,7 +3,7 @@
 #!unlock type{primer} id{loops}
 # Циклы
 
-`loop` используется для повторения команд. Оно бесконечно повторяет команды в своей области видимости. Область видимости цикла - это команды, идущие после строчки `loop` с дополнительным отступом.
+Цикл `loop` используется для повторения команд. Он бесконечно повторяет команды в своей области видимости. Область видимости цикла - это команды, идущие после строчки `loop` с дополнительным отступом.
 
 ```max_run=11
 robo_forward()  # будет вызвано один раз
@@ -73,11 +73,11 @@ if 1
 ```
 
 #!unlock type{primer} id{is}
-The keyword `is` compares two values producing `1` (true) when the values are the same or `0` (false) otherwise. This works naturally with `if`.
+Ключевое слово `is` сравнивает два значения и возвращает `1` (истину) когда значения совпадают или `0` (ложь) в противном случае. Естественно, это используется вместе с `if`.
 
-`not` can also be used to convert a `0` to a `1`, or any non-zero to `0`.
+`not` так же может быть использовано, что бы заменить `0` на `1`, или любое не-нулевое значение на `0`.
 
-`not x is y ` may also be written ` x is not y ` producing `1` (true) when the values differ.
+`not x is y` так же может быть записано как `x is not y` возвращает `1` (истину) когда значения различаются.
 
 ```
 var scan = robo_scan()
@@ -91,14 +91,14 @@ if scan is not 1
 
 
 #!unlock type{primer} id{comparison}
-# Comparison
+# Сравнения
 
-In addition to `is`, values can be compared with `>`, `>=`, `<`, `<=` operators.
+В дополнение к `is`, значения можно сравнивать с помощью операторов `>`, `>=`, `<`, `<=`.
 
-`    a > b  # a is greater than b`
-`    a >= b  # a is greater than or equal to b`
-`    a < b  # a is less than b`
-`    a <= b  # a is less than or equal to b`
+`    a > b  # a больше чем b`
+`    a >= b  # a больше или равно b`
+`    a < b  # a меньше чем b`
+`    a <= b  # меньше или равно b`
 
 ```
 var scan = robo_scan()
@@ -110,11 +110,11 @@ if scan < 0
 
 
 #!unlock type{primer} id{conditionals-3}
-# Conditions III
+# Условия III
 
-After an `if` you can use `else` to deal with the 'otherwise' cases more easily.
+После `if` вы можете использовать `else` что бы обработать 'иные' варианты было проще.
 
-An `else` block runs when the `if` above it doesn't.
+Блок `else` выполняется, если `if` выше не подходит.
 
 ```
 var scan = robo_scan()
@@ -127,9 +127,9 @@ else
 
 #!unlock type{primer} id{else-if}
 
-Multiple `else if` can be chained together to deal with many possible exclusive cases.
+Несколько `else if` может следовать друг за другом, что бы обработать разные возможные случаи.
 
-This ensures only one indented block will be executed.
+Это гарантирует, что будет выполнен только один блок.
 
 ```
 var example = 14
@@ -145,40 +145,40 @@ else if example > 12
 else
     robo_left()
 ```
-An `else` section at the end will only run if each `if` and `else if` test above it fails.
+Секция `else` в самом конце будет выполнена только если все проверки `if` и `else if` выше не будут успешны.
 
 
 #!unlock type{primer} id{scope}
-# Scope
+# Области видимости
 
-Indented code, like those that come after `loop` or `if` lines, represent "scope". A `var` can only be used in the scope it was declared in.
+Отступы в коде, как например после линий `loop` или `if`, обозначают "области видимости". Переменная `var` может быть использована только в той области видимости, в которой была объявлена.
 ```no_run
 if scan is 1
     var foo = 123
-    if foo is 123  # works
+    if foo is 123  # работает
         robo_left()
 
-if foo is 123  # fails! not available in this outer scope
+if foo is 123  # ошибка! переменная не доступна в этой области видимости
     robo_left()
 ```
-To make a `var` more widely available it can be declared an outer scope. So, for example, top-level variables are accessible everywhere and will not be removed.
+Что бы сделать переменную `var` широко доступной, её следует объявить во внешней области видимости. Так, например, высокоуровневые переменные доступны везде и никогда не будут удалены.
 ```no_run
 var foo
 if scan is 1
     foo = 123
-    if foo is 123  # works
+    if foo is 123  # работает
         robo_left()
 
-if foo is 123  # works
+if foo is 123  # работает
     robo_left()
 ```
-Variables are removed at the end of their scope, so `var` usage in a `loop` will result in a fresh variable for each iteration.
+Переменные удаляются при выходе из их области видимости, так что использование `var` в цикле `loop` приведёт к использованию новой переменной для каждой итерации.
 
 
 #!unlock type{primer} id{loops-2}
-# Loops II
+# Циклы II
 
-The `continue` keyword can be used to restart a loop mid-way, while the `break` keyword can be used to exit the current loop.
+Ключевое слово `continue` может быть использовано для перехода к новой итерации посреди цикла, в то время как `break` позволяет выйти из текущего цикла.
 
 ```
 var count = 0
@@ -195,11 +195,11 @@ robo_left()
 
 
 #!unlock type{primer} id{loops-3}
-# Loops III
+# Циклы III
 
-Consider this use of `loop` that turns left 5 times.
+Рассмотрим такой пример `loop` который повернёт налево 5 раз.
 ```
-# turn left 5 times
+# 5 раз повернуть налево
 var loop_count = 1
 loop
     if loop_count > 5
@@ -207,9 +207,9 @@ loop
     robo_left()
     loop_count = loop_count + 1
 ```
-While any kind of looping logic can be written with `loop`, keywords `for` & `while` are also available and can help create simpler code that achieves the same result.
+В то время как любые варианты логики циклов могут быть реализованы с помощью `loop`, ключевые слова `for` и `while` так же доступны и могут помочь писать более простой код приводящий к тому же результату.
 ```
-# execute block until while condition is false
+# выполняет блок пока выражение ложно
 var loop_count = 1
 while loop_count <= 5
     robo_left()
@@ -217,38 +217,38 @@ while loop_count <= 5
 ```
 
 ```
-# execute block with loop_count 1, 2, 3, 4 & 5
+# выполняет блок, подставляя в loop_count значения 1, 2, 3, 4 и 5
 for loop_count in 1,2,3,4,5
     robo_left()
 ```
 
 
 #!unlock type{primer} id{fun}
-# Functions
+# Функции
 
-The `robo_left()`, `robo_scan()`, etc commands are functions. A function is a block of code that can be run later. They are defined with the `fun` keyword.
+`robo_left()`, `robo_scan()` и прочие команды - это функции. Функции представляют собой блоки кода, который может быть выполнен позже. Опи объявляются с помощью ключевого слова `fun`.
 
 ```
-# define a function
+# объявляем функцию
 fun go_right()
     robo_left()
     robo_left()
 
-go_right()  # call it
+go_right()  # вызываем её
 go_right()
 ```
 
 
-#!unlock type{primer} id{fun-b}
-Functions are useful for reducing repeated code and putting a name to a more complex operation.
+#!unlock type{primer} id{fun-b}.
+Функции полезны для уменьшение повторений кода и присваивания имён более сложным операциям.
 
-Functions can also call other functions. For example you could keep a count of `robo_left()` calls by wrapping it in another function and using that.
+Функции так же могут вызывать другие функции. Например, вы можете сохранить число вызовов `robo_left()`, если обернёте вызов другой функцией и будете использовать её.
 
 ```
 var left_count
 fun left_and_count()
     robo_left()
-    left_count += 1  # increment the count
+    left_count += 1  # увеличиваем счётчик
 
 while left_count < 3
     left_and_count()
@@ -256,18 +256,18 @@ while left_count < 3
 
 
 #!unlock type{primer} id{fun-2}
-# Functions II
+# Функции II
 
-Functions can also take in numbers and/or output a number.
+Функции так же могут принимать числа и/или возвращать их.
 
 ```
 fun loneliest_number()
-    1  # last expression is returned
+    1  # последнее выражение будет возвращено
 
-# functions can take arguments
+# у функций могут быть параметры
 fun largest(a, b)
     if b > a
-        # can return early
+        # можно вернуть и раньше
         return b
     a
 
@@ -277,11 +277,11 @@ var one = largest(-5, loneliest_number())
 
 
 #!unlock type{primer} id{bool}
-# Boolean operators
+# Логические операторы
 
-The `and` & `or` operators can be used to combine zero & non-zero values. They can be used to produce more complex logical statements.
+Операторы `and` и `or` могут быть использованы для сочетания нулевых и не нулевых значений. Они позволяют создавать более сложные логические условия.
 
-An '`and`' expression returns `1` if both sides are non-zero.
+Выражение '`and`' возвращает `1` если с обоих сторон не нулевые значение.
 
 ```
 var scan = robo_scan()
@@ -289,7 +289,7 @@ var adjacent = robo_detect_adjacent()
 if scan < 0 and adjacent is 3
     robo_forward()
 ```
-An '`or`' expression returns `1` if either side is non-zero.
+Выражение '`or`' возвращает `1` если с любой стороны есть не нулевое значение.
 ```
 var scan = robo_scan()
 var safe = scan is 1 or scan is 2
@@ -299,43 +299,43 @@ if safe
 
 
 #!unlock type{primer} id{seq}
-# Sequences
+# Последовательности
 
-`seq` is used to define a sequence of values. The values within can be accessed and modified by their index, starting with `0`.
+`seq` используется для описания последовательности. Элементы последовательности могут быть получены и модифицированы по их индексу, начинающемуся с `0`.
 
 ```
-seq list[]  # new empty seq
+seq list[]  # новая пустая последовательность
 seq numbers[] = 11, 22, 33
 
 var first = numbers[0]
 var third = numbers[2]
-numbers[1] = 77  # overwrite index 1 to 77 (was 22)
+numbers[1] = 77  # заменить элемент с индексом 1 на 77 (было 22)
 if numbers[1] > 40
     robo_left()
 ```
 
 #!unlock type{primer} id{seq-b}
-The `add(sv)` function is used to add additional values to the end of the sequence. `remove(sv)` to remove a value by index. `size(s)` returns the number of values in the sequence.
+Функция `add(sv)` используется для добавления элементов в конец последовательности. `remove(sv)` для удаления элемента по его индексу. `size(s)` возвращает число элементов в последовательности.
 
 ```
 seq list[]
 
 var size = list[].size()
-list[].add(11)  # add to end
+list[].add(11)  # добавить в конец
 list[].add(33)
 
 var el = list[0]
 var size = list[].size()
 
-list[].remove(0)  # remove index 0
+list[].remove(0)  # удалить по индексу 0
 var el = list[0]
 var size = list[].size()
 ```
 
 #!unlock type{primer} id{loop-seq}
-# Looping sequences
+# Обход последовательностей
 
-`for` can be used to loop over each value inside a sequence.
+Цикл `for` может быть использован для обхода всех элементов в последовательности.
 
 ```
 seq nums[] = 1, 234, 55, -23
@@ -349,12 +349,12 @@ for number in nums[]
 
 
 #!unlock type{primer} id{fun-3}
-# Functions III
+# Функции III
 
-Functions can have `seq` arguments.
+Функции могут принимать `seq` в качестве параметра.
 
 ```
-# function with a single seq argument
+# функция с одним параметром-последовательностью
 fun sum(list[])
     var sum
     for n in list[]
@@ -369,19 +369,19 @@ total is 6
 
 
 #!unlock type{primer} id{dot-call}
-There is another way to call functions with arguments.
+Есть ещё один способ вызова функций с параметрами.
 
 ```no_run
 fun example(a, b, c, d)
     # ...
 
-example(2, 3, 4, 5)  # normal call syntax
+example(2, 3, 4, 5)  # обычный синтаксис вызова
 
-2.example(3, 4, 5)  # dot call syntax
+2.example(3, 4, 5)  # синтаксис вызова через точку
 ```
-The second style may suit certain usages, for example the built-in `add`, `remove` & `size` functions.
+Второй способ может быть удобен в некоторых случаях, например для встроенных функций `add`, `remove` и `size`.
 ```no_run
-nums[].size() # 3 equivalent to size(nums[])
+nums[].size() # 3, эквивалентно записи size(nums[])
 
 nums[].sum()  # 6
 ```
