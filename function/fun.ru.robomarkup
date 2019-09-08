@@ -1,47 +1,47 @@
 // Pseudo markup format see ./README.md
 
 #!unlock type{short} id{s-left}
-`robo_left() ` stays on the same tile, moves left
+`robo_left() ` оставаясь на той же ячейке, повернуться влево
 
 
 #!unlock type{short} id{s-forward}
-`robo_forward() ` moves forward (also veers right because triangles)
+`robo_forward() ` двигаться вперёд (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-scan}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход
 
 
 #!unlock type{short} id{s-scan-u1}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель
 
 
 #!unlock type{short} id{s-scan-u2}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch, `11`: location data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель, `11`: хранилище данных о местоположении
 
 
 #!unlock type{short} id{s-scan-u3}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch, `11`: location data store, `12`: direction data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении
 
 
 #!unlock type{short} id{s-scan-u4}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `3`: launcher, `10`: power switch, `11`: location data store, `12`: direction data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `3`: launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении
 
 
 #!unlock type{short} id{s-use}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off
+`robo_use() ` использовать текущую ячейку, возвращает: переключатель `1`: включено, `0`: выключено
 
 
 #!unlock type{short} id{s-use-u2}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id
+`robo_use() ` использовать текущую ячейку, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение
 
 
 #!unlock type{short} id{s-use-u3}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id, directions `1`: up, `2`: right
+`robo_use() ` использовать текущую ячейку, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение, направления `1`: вверх, `2`: вправо
 
 
 #!unlock type{short} id{s-use-u4}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id, directions `1`: up, `2`: right, `3`: down, `4`: left
+`robo_use() ` использовать текущую ячейку, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
 
 
 #!unlock type{short} id{s-detect-adjacent}
@@ -49,11 +49,11 @@
 
 
 #!unlock type{short} id{s-location}
-`robo_location() ` returns current location id
+`robo_location() ` возвращает id текущего местоположения
 
 
 #!unlock type{short} id{s-forward-location}
-`robo_forward_location() ` returns location id of tile in front
+`robo_forward_location() ` возвращает id местоположения ячейки перед роботом
 
 
 #!unlock type{short} id{s-detect-3}
@@ -65,11 +65,11 @@
 
 
 #!unlock type{short} id{s-probo-left}
-`probo_left() ` stays on the same tile, turns left
+`probo_left() ` оставаясь на той же ячейке, повернуться влево
 
 
 #!unlock type{short} id{s-probo-forward}
-`probo_forward() ` moves forward (also turns somewhat right)
+`probo_forward() ` двигаться вперёд (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-probo-scan}
