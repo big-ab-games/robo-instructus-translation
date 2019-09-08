@@ -364,7 +364,7 @@ fun sum(list[])
 seq nums[] = 1, 2, 3
 var total = sum(nums[])
 
-# total будет равен 6
+total is 6
 ```
 
 
