@@ -73,11 +73,11 @@ if 1
 ```
 
 #!unlock type{primer} id{is}
-The keyword `is` compares two values producing `1` (true) when the values are the same or `0` (false) otherwise. This works naturally with `if`.
+Ключевое слово `is` сравнивает два значения и возвращает `1` (истину) когда значения совпадают или `0` (ложь) в противном случае. Естественно, это используется вместе с `if`.
 
-`not` can also be used to convert a `0` to a `1`, or any non-zero to `0`.
+`not` так же может быть использовано, что бы заменить `0` на `1`, или любое не-нулевое значение на `0`.
 
-`not x is y ` may also be written ` x is not y ` producing `1` (true) when the values differ.
+`not x is y` так же может быть записано как `x is not y` возвращает `1` (истину) когда значения различаются.
 
 ```
 var scan = robo_scan()
