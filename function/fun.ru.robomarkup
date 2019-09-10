@@ -1,4 +1,4 @@
-﻿// Pseudo markup format see ./README.md
+// Pseudo markup format see ./README.md
 
 #!unlock type{short} id{s-left}
 `robo_left() ` оставаясь на той же ячейке, повернуться влево
@@ -85,11 +85,11 @@
 
 
 #!unlock type{short} id{s-transmit}
-`transmit(subject,data) ` transmits data on a subject
+`transmit(subject,data) ` передать данные на тему
 
 
 #!unlock type{short} id{s-receive}
-`receive(subject) ` consumes & returns oldest subject data value or `-20000` if none exists
+`receive(subject) ` получить и вернуть самые старые данные или `-20000` если ничего нет
 
 
 #!unlock type{functions} id{left-forward}
@@ -170,7 +170,7 @@ $render{robo_forward_location}
 ```no_run
 var location = robo_forward_location()  # 8823
 ```
-Each tile in a level has a distinct id number (positive & non-zero).
+Каждая ячейка на уровне имеет определённый id (положительный и не нулевой).
 
 
 #!unlock type{function} id{location}
@@ -217,9 +217,9 @@ $render{probo_scan-2}
 
 
 #!unlock type{functions} id{transmit}
-`transmit(subject,data)` Transmit a single `data` value associated with a `subject` value. Such transmissions may be received by other robots. Выполняется $tu{transmit(vv)} ms.
+`transmit(subject,data)` Отправить одно значение `data`, связанное с темой `subject`. Такие послания могут быть получены другими роботами. Выполняется $tu{transmit(vv)} ms.
 
-`receive(subject)` Receive a single data value transmitted by another robot with matching `subject` value. Data transmissions are received in order. If there is no subject transmission to receive returns `-20000`. Выполняется $tu{receive(v)} ms.
+`receive(subject)` Получить одну порцию данных, отправленных другим роботом и связанную с темой `subject`. Передачи данных получаются по-порядку. Если нет передачи на соответствующую тему, то возвращается значение `-20000`. Выполняется $tu{receive(v)} ms.
 
 
 #!unlock type{function} id{probo-use}
