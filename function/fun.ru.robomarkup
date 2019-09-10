@@ -33,15 +33,15 @@
 
 
 #!unlock type{short} id{s-use-u2}
-`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки
 
 
 #!unlock type{short} id{s-use-u3}
-`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение, направления `1`: вверх, `2`: вправо
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо
 
 
 #!unlock type{short} id{s-use-u4}
-`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: сохранённое местоположение, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
 
 
 #!unlock type{short} id{s-detect-adjacent}
@@ -81,7 +81,7 @@
 
 
 #!unlock type{short} id{s-probo-use}
-`probo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: safe location id, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
+`probo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
 
 
 #!unlock type{short} id{s-transmit}
@@ -136,30 +136,30 @@ $render{robo_use}
 
 #!unlock type{function-update} id{use-u1}
 `robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Выполняется $tu{robo_use()} ms
-- Переключатель: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
 $render{robo_use}
 
 
 #!unlock type{function-update} id{use-u2}
 `robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Выполняется $tu{robo_use()} ms
-- Переключатель: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Хранилище данных о местоположении: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
 $render{robo_use-2}
 
 
 #!unlock type{function-update} id{use-u3}
 `robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Выполняется $tu{robo_use()} ms
-- Переключатель: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Хранилище данных о местоположении: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Хранилище данных о направлении: Returns `1`: up, `2`: right. Additional runtime +$tu{robo_use_direction} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{robo_use-3}
 
 
 #!unlock type{function-update} id{use-u4}
 `robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Выполняется $tu{robo_use()} ms
-- Переключатель: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Хранилище данных о местоположении: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Хранилище данных о направлении: Returns `1`: up, `2`: right, `3`: down, `4`: left. Additional runtime +$tu{robo_use_direction} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{robo_use-3}
 
 
@@ -224,7 +224,7 @@ $render{probo_scan-2}
 
 #!unlock type{function} id{probo-use}
 `probo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Выполняется $tu{probo_use()} ms
-- Переключатель: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Хранилище данных о местоположении: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Хранилище данных о направлении: Returns `1`: up, `2`: right, `3`: down, `4`: left. Additional runtime +$tu{robo_use_direction} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{probo_use}
