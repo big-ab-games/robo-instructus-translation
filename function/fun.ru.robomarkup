@@ -49,11 +49,11 @@
 
 
 #!unlock type{short} id{s-location}
-`robo_location() ` возвращает id текущего местоположения
+`robo_location() ` возвращает id текущей ячейки
 
 
 #!unlock type{short} id{s-forward-location}
-`robo_forward_location() ` возвращает id местоположения ячейки перед роботом
+`robo_forward_location() ` возвращает id ячейки, расположенной перед роботом
 
 
 #!unlock type{short} id{s-detect-3}
@@ -77,7 +77,7 @@
 
 
 #!unlock type{short} id{s-probo-location}
-`probo_location() ` возвращает id текущего местоположения
+`probo_location() ` возвращает id текущей ячейки
 
 
 #!unlock type{short} id{s-probo-use}
@@ -100,31 +100,31 @@ $render{robo_forward}
 
 
 #!unlock type{function} id{scan}
-`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки нет совсем, `-999`: обозначает неизвестность.  Выполняется $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: обозначает неизвестность.  Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u1}
-`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки нет совсем, `-999`: неизвестно, `10`: переключатель. Выполняется $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u2}
-`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки нет совсем, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении. Выполняется $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u3}
-`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки нет совсем, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u4}
-`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки нет совсем, `-999`: неизвестно, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от свойств ячейки. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
@@ -164,7 +164,7 @@ $render{robo_use-3}
 
 
 #!unlock type{function} id{forward-location}
-`robo_forward_location()` Returns the id of the tile the robot is facing. Выполняется $tu{robo_forward_location()} ms.
+`robo_forward_location()` Возвращает id ячейки, расположенной перед роботом. Выполняется $tu{robo_forward_location()} ms.
 
 $render{robo_forward_location}
 ```no_run
@@ -174,7 +174,7 @@ Each tile in a level has a distinct id number (positive & non-zero).
 
 
 #!unlock type{function} id{location}
-`robo_location()` Returns the id of the current tile the robot is standing on. Выполняется $tu{robo_location()} ms.
+`robo_location()` Возвращает id ячейки, на которой сейчас находится робот. Выполняется $tu{robo_location()} ms.
 $render{robo_location}
 
 
@@ -203,15 +203,15 @@ $render{robo_detect_3l}
 
 `probo_forward()` Move the probe forward onto the tile space it's currently facing. New probe orientation veers rightwards. Выполняется $tu{probo_forward()} ms.
 
-`probo_location()` Returns the id of the current tile. Выполняется $tu{probo_location()} ms.
+`probo_location()` возвращает id текущей ячейки. Выполняется $tu{probo_location()} ms.
 
-`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
+`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
 
 $render{probo_scan}
 
 
 #!unlock type{function-update} id{probo-scan-u1}
-`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `3`: north launcher, `4`: south-east launcher, `5`: south-west launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
+`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: north launcher, `4`: south-east launcher, `5`: south-west launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
 
 $render{probo_scan-2}
 
