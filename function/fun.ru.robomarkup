@@ -1,47 +1,47 @@
 // Pseudo markup format see ./README.md
 
 #!unlock type{short} id{s-left}
-`robo_left() ` stays on the same tile, moves left
+`robo_left() ` оставаясь на той же ячейке, повернуться влево
 
 
 #!unlock type{short} id{s-forward}
-`robo_forward() ` moves forward (also veers right because triangles)
+`robo_forward() ` двигаться вперёд (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-scan}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход
 
 
 #!unlock type{short} id{s-scan-u1}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель
 
 
 #!unlock type{short} id{s-scan-u2}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch, `11`: location data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель, `11`: хранилище данных о местоположении
 
 
 #!unlock type{short} id{s-scan-u3}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `10`: power switch, `11`: location data store, `12`: direction data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении
 
 
 #!unlock type{short} id{s-scan-u4}
-`robo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `3`: launcher, `10`: power switch, `11`: location data store, `12`: direction data store
+`robo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `3`: launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении
 
 
 #!unlock type{short} id{s-use}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено
 
 
 #!unlock type{short} id{s-use-u2}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки
 
 
 #!unlock type{short} id{s-use-u3}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id, directions `1`: up, `2`: right
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо
 
 
 #!unlock type{short} id{s-use-u4}
-`robo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id, directions `1`: up, `2`: right, `3`: down, `4`: left
+`robo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
 
 
 #!unlock type{short} id{s-detect-adjacent}
@@ -49,11 +49,11 @@
 
 
 #!unlock type{short} id{s-location}
-`robo_location() ` returns current location id
+`robo_location() ` возвращает id текущей ячейки
 
 
 #!unlock type{short} id{s-forward-location}
-`robo_forward_location() ` returns location id of tile in front
+`robo_forward_location() ` возвращает id ячейки, расположенной перед роботом
 
 
 #!unlock type{short} id{s-detect-3}
@@ -65,121 +65,121 @@
 
 
 #!unlock type{short} id{s-probo-left}
-`probo_left() ` stays on the same tile, turns left
+`probo_left() ` оставаясь на той же ячейке, повернуться налево
 
 
 #!unlock type{short} id{s-probo-forward}
-`probo_forward() ` moves forward (also turns somewhat right)
+`probo_forward() ` двигаться вперёд (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-probo-scan}
-`probo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `3`: launcher, `10`: power switch, `11`: location data store, `12`: direction data store
+`probo_scan() ` сканировать ячейку спереди. Возвращает `-999`: неизвестно, `-1`: пустота, `1`: обычная, `2`: выход, `3`: launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`:  хранилище данных о направлении
 
 
 #!unlock type{short} id{s-probo-location}
-`probo_location() ` returns current location
+`probo_location() ` возвращает id текущей ячейки
 
 
 #!unlock type{short} id{s-probo-use}
-`probo_use() ` use current tile, returns: power switch `1`: on, `0`: off, location data store: safe location id, directions `1`: up, `2`: right, `3`: down, `4`: left
+`probo_use() ` взаимодействовать с текущей ячейкой, возвращает: переключатель `1`: включено, `0`: выключено, хранилище данных о местоположении: id безопасной ячейки, направления `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево
 
 
 #!unlock type{short} id{s-transmit}
-`transmit(subject,data) ` transmits data on a subject
+`transmit(subject,data) ` передать данные на тему
 
 
 #!unlock type{short} id{s-receive}
-`receive(subject) ` consumes & returns oldest subject data value or `-20000` if none exists
+`receive(subject) ` получить и вернуть самые старые данные или `-20000` если ничего нет
 
 
 #!unlock type{functions} id{left-forward}
-`robo_left()` Each call instructs the robot to move to the next side of the current tile, counter-clockwise. Runtime $tu{robo_left()} Mimas-seconds (ms).
+`robo_left()` Каждый вызов приказывает роботу переместиться к следующей стороне текущей ячейки, против часовой стрелки. Выполняется $tu{robo_left()} Mimas-seconds (ms).
 $render{robo_left}
-`robo_forward()` Instructs the robot to move forward onto a tile it's currently facing. The robot will favour veering to the right hand side when doing this. Runtime $tu{robo_forward()} ms.
+`robo_forward()` приказывает роботу передвинуться на ячейку перед собой. При этом робот повернётся вправо. Выполняется $tu{robo_forward()} ms.
 $render{robo_forward}
 
 
 #!unlock type{function} id{scan}
-`robo_scan()` Scans the tile in front, returns a value indicating the tile properties. `1` means a normal tile, `2` an exit, `-1` means no tile at all, `-999` means unknown.  Runtime $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: обозначает неизвестность.  Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u1}
-`robo_scan()` Scans the tile in front, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `10`: power switch. Runtime $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u2}
-`robo_scan()` Scans the tile in front, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `10`: power switch, `11`: location data store. Runtime $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u3}
-`robo_scan()` Scans the tile in front, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `10`: power switch, `11`: location data store, `12`: direction data store. Runtime $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function-update} id{scan-u4}
-`robo_scan()` Scans the tile in front, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `3`: launcher tile, `10`: power switch, `11`: location data store, `12`: direction data store. Runtime $tu{robo_scan()} ms.
+`robo_scan()` Сканирует ячейку спереди, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{robo_scan()} ms.
 
 $render{robo_scan}
 
 
 #!unlock type{function} id{use}
-`robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{robo_use()} ms
+`robo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{robo_use()} ms
 $render{robo_use}
 
 
 #!unlock type{function-update} id{use-u1}
-`robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{robo_use()} ms
-- Power switch: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
+`robo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{robo_use()} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
 $render{robo_use}
 
 
 #!unlock type{function-update} id{use-u2}
-`robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{robo_use()} ms
-- Power switch: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Location data store: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
+`robo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{robo_use()} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
 $render{robo_use-2}
 
 
 #!unlock type{function-update} id{use-u3}
-`robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{robo_use()} ms
-- Power switch: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Location data store: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Direction data store: Returns `1`: up, `2`: right. Additional runtime +$tu{robo_use_direction} ms
+`robo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{robo_use()} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{robo_use-3}
 
 
 #!unlock type{function-update} id{use-u4}
-`robo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{robo_use()} ms
-- Power switch: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Location data store: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Direction data store: Returns `1`: up, `2`: right, `3`: down, `4`: left. Additional runtime +$tu{robo_use_direction} ms
+`robo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{robo_use()} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{robo_use-3}
 
 
 #!unlock type{function} id{forward-location}
-`robo_forward_location()` Returns the id of the tile the robot is facing. Runtime $tu{robo_forward_location()} ms.
+`robo_forward_location()` Возвращает id ячейки, расположенной перед роботом. Выполняется $tu{robo_forward_location()} ms.
 
 $render{robo_forward_location}
 ```no_run
 var location = robo_forward_location()  # 8823
 ```
-Each tile in a level has a distinct id number (positive & non-zero).
+Каждая ячейка на уровне имеет определённый id (положительный и не нулевой).
 
 
 #!unlock type{function} id{location}
-`robo_location()` Returns the id of the current tile the robot is standing on. Runtime $tu{robo_location()} ms.
+`robo_location()` Возвращает id ячейки, на которой сейчас находится робот. Выполняется $tu{robo_location()} ms.
 $render{robo_location}
 
 
 #!unlock type{function} id{detect-adjacent}
-`robo_detect_adjacent()` Returns the total number of tiles adjacent to the current position. `0`, `1`, `2` or `3`. This works correctly even if some of the tiles are unknown to a `robo_scan()` call.  Runtime $tu{robo_detect_adjacent()} ms.
+`robo_detect_adjacent()` Returns the total number of tiles adjacent to the current position. `0`, `1`, `2` or `3`. This works correctly even if some of the tiles are unknown to a `robo_scan()` call.  Выполняется $tu{robo_detect_adjacent()} ms.
 $render{robo_detect_adjacent}
 ```no_run
 var its_safe = robo_detect_adjacent() is 3
@@ -187,44 +187,44 @@ var its_safe = robo_detect_adjacent() is 3
 
 
 #!unlock type{function} id{detect-3}
-`robo_detect_3()` Returns the total number of tiles in a straight right-veering line. This works correctly even if some of the tiles are unknown to a `robo_scan()` call. Runtime $tu{robo_detect_3()} ms.
+`robo_detect_3()` Returns the total number of tiles in a straight right-veering line. This works correctly even if some of the tiles are unknown to a `robo_scan()` call. Выполняется $tu{robo_detect_3()} ms.
 
 $render{robo_detect_3}
 
 
 #!unlock type{function} id{detect-3l}
-`robo_detect_3l()` Returns the total number of tiles in a straight left-veering line. Similar to `robo_detect_3()`. Runtime $tu{robo_detect_3l()} ms.
+`robo_detect_3l()` Returns the total number of tiles in a straight left-veering line. Similar to `robo_detect_3()`. Выполняется $tu{robo_detect_3l()} ms.
 
 $render{robo_detect_3l}
 
 
 #!unlock type{functions} id{probo}
-`probo_left()` Rotate left to face the next side of the current tile, counter-clockwise. Runtime $tu{probo_left()} ms.
+`probo_left()` Rotate left to face the next side of the current tile, counter-clockwise. Выполняется $tu{probo_left()} ms.
 
-`probo_forward()` Move the probe forward onto the tile space it's currently facing. New probe orientation veers rightwards. Runtime $tu{probo_forward()} ms.
+`probo_forward()` Move the probe forward onto the tile space it's currently facing. New probe orientation veers rightwards. Выполняется $tu{probo_forward()} ms.
 
-`probo_location()` Returns the id of the current tile. Runtime $tu{probo_location()} ms.
+`probo_location()` Возвращает id текущей ячейки. Выполняется $tu{probo_location()} ms.
 
-`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `3`: launcher tile, `10`: power switch, `11`: location data store, `12`: direction data store. Runtime $tu{probo_scan()} ms.
+`probo_scan()` Сканирует текущую ячейку, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: launcher tile, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
 
 $render{probo_scan}
 
 
 #!unlock type{function-update} id{probo-scan-u1}
-`probo_scan()` Scans the current tile, returns a value indicating the tile properties. `1` means a normal tile, `2`: exit, `-1`: no tile at all, `-999`: unknown, `3`: north launcher, `4`: south-east launcher, `5`: south-west launcher, `10`: power switch, `11`: location data store, `12`: direction data store. Runtime $tu{probo_scan()} ms.
+`probo_scan()` Сканирует текущую ячейку, возвращая значение в зависимости от её свойств. `1` обозначает обычную ячейку, `2`: выход, `-1`: ячейки точно нет, `-999`: неизвестно, `3`: north launcher, `4`: south-east launcher, `5`: south-west launcher, `10`: переключатель, `11`: хранилище данных о местоположении, `12`: хранилище данных о направлении. Выполняется $tu{probo_scan()} ms.
 
 $render{probo_scan-2}
 
 
 #!unlock type{functions} id{transmit}
-`transmit(subject,data)` Transmit a single `data` value associated with a `subject` value. Such transmissions may be received by other robots. Runtime $tu{transmit(vv)} ms.
+`transmit(subject,data)` Отправить одно значение `data`, связанное с темой `subject`. Такие послания могут быть получены другими роботами. Выполняется $tu{transmit(vv)} ms.
 
-`receive(subject)` Receive a single data value transmitted by another robot with matching `subject` value. Data transmissions are received in order. If there is no subject transmission to receive returns `-20000`. Runtime $tu{receive(v)} ms.
+`receive(subject)` Получить одну порцию данных, отправленных другим роботом и связанную с темой `subject`. Передачи данных получаются по-порядку. Если нет передачи на соответствующую тему, то возвращается значение `-20000`. Выполняется $tu{receive(v)} ms.
 
 
 #!unlock type{function} id{probo-use}
-`probo_use()` Operates on the current tile returning tile specific data, or `0` otherwise. Runtime $tu{probo_use()} ms
-- Power switch: Returns `1`: on, `0` off. Additional runtime +$tu{robo_use_power} ms
-- Location data store: Returns safe location id. Additional runtime +$tu{robo_use_location} ms
-- Direction data store: Returns `1`: up, `2`: right, `3`: down, `4`: left. Additional runtime +$tu{robo_use_direction} ms
+`probo_use()` Взаимодействует с текущей ячейкой и возвращает специфичные для её типа данные или `0`. Выполняется $tu{probo_use()} ms
+- Переключатель: возвращает `1`: включено, `0`: выключено. Выполняется дополнительно +$tu{robo_use_power} ms
+- Хранилище данных о местоположении: возвращает id безопасной ячейки. Выполняется дополнительно +$tu{robo_use_location} ms
+- Хранилище данных о направлении: возвращает `1`: вверх, `2`: вправо, `3`: вниз, `4`: влево. Выполняется дополнительно +$tu{robo_use_direction} ms
 $render{probo_use}
