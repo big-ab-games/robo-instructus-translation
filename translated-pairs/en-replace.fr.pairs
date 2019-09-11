@@ -161,6 +161,10 @@ Confirmation de la suppression
 Dark Stage
 Étape Masquée
 
+#### Top-left label before all the "available" functions in the current level
+Available:
+Disponible:
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Tapez les commandes ici
@@ -345,3 +349,4 @@ Appliquer Saisie Automatique
 
 Autocomplete close
 Fermer Saisie Automatique
+

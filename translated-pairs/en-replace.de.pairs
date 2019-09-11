@@ -161,6 +161,10 @@ Löschen bestätigen
 Dark Stage
 Dunkle Bühne
 
+#### Top-left label before all the "available" functions in the current level
+Available:
+Verfügbar:
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Geben Sie hier Befehle ein
@@ -345,3 +349,4 @@ Autovervollständigung anwenden
 
 Autocomplete close
 Autovervollständigung schließen
+

@@ -161,6 +161,10 @@ Confirme a exclusão
 Dark Stage
 Fase Negra
 
+#### Top-left label before all the "available" functions in the current level
+Available:
+Acessível:
+
 ### Overlay tutorials - these pop up to explain things
 Type commands here
 Digite os comandos aqui
@@ -345,3 +349,4 @@ Autocomplete apply
 
 Autocomplete close
 Fechar autocompletar
+
