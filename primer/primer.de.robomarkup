@@ -1,83 +1,83 @@
 // Pseudo markup format see ./README.md
 
 #!unlock type{primer} id{loops}
-# Loops
+# Schleifen
 
-`loop` is used to repeat commands. It will repeat the commands in its scope forever. A loop's scope is the commands indented that come after a `loop` line.
+`loop` wird benutzt, um Befehle in einer Endlosschleife zu wiederholen. Es werden alle Befehle wiederholt, die eingerückt nach dem Schlüsselwort `loop` folgen. Die eingerückten Befehle sind der Gültigkeitsbereich der `loop`-Schleife.
 
 ```max_run=11
-robo_forward()  # called once
+robo_forward()  # wird einmal aufgerufen
 
 loop
     robo_forward()
     robo_left()
 
-robo_left()  # never called
+robo_left()  # wird niemals aufgerufen
 ```
 
 
 #!unlock type{primer} id{comments}
-# Comments
+# Kommentare
 
-Text after a '`#`' symbol will not be used as code, these are just comments used to make notes.
+Text nach einer Raute '`#`' sind Kommentare. Diese werden nicht wie Code ausgeführt, sondern lediglich für Notizen verwendet.
 
 ```no_run
-robo_left()  # I think I'm starting to get this
+robo_left()  # Ich glaube, ich fange an, das zu verstehen.
 ```
 
 
 #!unlock type{primer} id{conditionals}
-# Conditionals
+# Bedingungen
 
-`if` can be used to execute commands, or not, based on a condition.
+Mit `if` kann man Befehle ausführen oder überspringen, wenn eine Bedingung erfüllt bzw. nicht erfüllt ist.
 
 ```
 if robo_scan() is 1
-    # a tile is in front
+    # vorne ist eine Kachel
     robo_forward()
 
 if robo_scan() is -1
-    # no tile is in front
+    # vorne ist keine Kachel
     robo_left()
 ```
 
 
 #!unlock type{primer} id{variables}
-# Variables
+# Variablen
 
-You can save a number for use later in a `var`.
+Zahlen können mit Hilfe von `var` in Variablen gespeichert werden, um sie später wiederzuverwenden.
 
 ```
-# save a function result into a variable 'scan'
+# speichert den Rückgabewert in der Variable 'scan'
 var scan = robo_scan()
 
-# use & re-use the saved variable in conditions
+# verwendet die gespeicherte Variable in Bedingungen
 if scan is 1
     robo_forward()
 if scan is -1
     robo_left()
 ```
-This can be used to avoid having to call a slow function multiple times just to check the same result. It can also allow saving a result for use much later.
+Dadurch kann man vermeiden eine langsame Funktion mehrmals aufrufen zu müssen, um deren Rückgabewert an verschiedenen Stellen zu überprüfen. Außerdem kann man so gespeicherte Werte auch viel später noch wiederverwenden.
 
 #!unlock type{primer} id{conditionals-2}
-# Conditions II
+# Bedingungen II
 
-'`if expr`' simply checks if `expr` is non-zero. So `0` is interpreted as "false" while `1` or any other non-zero is "true". When `expr` is interpreted as "true" the indented commands will run.
+'`if ausdruck`' überprüft eigentlich nur, ob `ausdruck` ungleich `0` ist. `0` wird als "falsch" interpretiert, während `1` und jeder andere Zahl ungleich `0` als "wahr" interpretiert wird. Wenn `ausdruck` als "wahr" interpretiert wird, dann werden die eingerückten Befehle ausgeführt.
 
 ```
 if 0
-    robo_left()  # not called
+    robo_left()  # wird nicht aufgerufen
 
 if 1
-    robo_forward()  # called
+    robo_forward()  # wird aufgerufen
 ```
 
 #!unlock type{primer} id{is}
-The keyword `is` compares two values producing `1` (true) when the values are the same or `0` (false) otherwise. This works naturally with `if`.
+Das Schlüsselwort `is` vergleicht zwei Werte und ergibt `1` (wahr), wenn die Werte gleich sind. Andernfalls wird `0` (falsch) zurückgegeben. `is` wird typischerweise in `if`-Bedingungen verwendet.
 
-`not` can also be used to convert a `0` to a `1`, or any non-zero to `0`.
+Das Schlüsselwort `not` konvertiert `0` zu `1` und jede andere Zahl zu `0`.
 
-`not x is y ` may also be written ` x is not y ` producing `1` (true) when the values differ.
+`not x is y` ergibt `1`, wenn beide werte nicht gleich sind und kann auch als `x is not y` geschrieben werden.
 
 ```
 var scan = robo_scan()
@@ -91,14 +91,14 @@ if scan is not 1
 
 
 #!unlock type{primer} id{comparison}
-# Comparison
+# Vergleiche
 
-In addition to `is`, values can be compared with `>`, `>=`, `<`, `<=` operators.
+Neben `is` können Werte auch mit den Operatoren `>`, `>=`, `<` und `<=` verglichen werden.
 
-`    a > b  # a is greater than b`
-`    a >= b  # a is greater than or equal to b`
-`    a < b  # a is less than b`
-`    a <= b  # a is less than or equal to b`
+`    a > b  # a ist größer b`
+`    a >= b  # a ist größer oder gleich b`
+`    a < b  # a ist kleiner b`
+`    a <= b  # a ist kleiner oder gleich b`
 
 ```
 var scan = robo_scan()
@@ -110,11 +110,11 @@ if scan < 0
 
 
 #!unlock type{primer} id{conditionals-3}
-# Conditions III
+# Bedingungen III
 
-After an `if` you can use `else` to deal with the 'otherwise' cases more easily.
+Nach einem `if` kann `else` benutzt werden, um den "Rest"-Fall zu behandeln.
 
-An `else` block runs when the `if` above it doesn't.
+Ein `else`-Block wird ausgeführt, wenn der `if`-Block darüber nicht ausgeführt wurde.
 
 ```
 var scan = robo_scan()
@@ -127,9 +127,9 @@ else
 
 #!unlock type{primer} id{else-if}
 
-Multiple `else if` can be chained together to deal with many possible exclusive cases.
+Mehrere `else if`-Blöcke können verkettet werden, um verschiedene Fälle zu behandeln, die sich gegenseitig ausschließen.
 
-This ensures only one indented block will be executed.
+Dadurch wird sichergestellt, dass nur ein eingerückter Block ausgeführt wird.
 
 ```
 var example = 14
@@ -145,40 +145,39 @@ else if example > 12
 else
     robo_left()
 ```
-An `else` section at the end will only run if each `if` and `else if` test above it fails.
+Einen `else`-Block am Ende wird nur ausgeführt, wenn alle `if` und `else if` Bedingungen darüber "falsch" ergaben.
 
 
 #!unlock type{primer} id{scope}
-# Scope
+# Gültigkeitsbereich
 
-Indented code, like those that come after `loop` or `if` lines, represent "scope". A `var` can only be used in the scope it was declared in.
+Eingerückte Code-Zeilen, wie die nach `loop`- oder `if`-Anweisungen, bilden einen eigenen "Gültigkeitsbereich". Eine Variable kann nur in dem Gültigkeitsbereich benutzt werden, in dem sie mit `var` deklariert wurde.
 ```no_run
 if scan is 1
     var foo = 123
-    if foo is 123  # works
+    if foo is 123  # kein Fehler
         robo_left()
 
-if foo is 123  # fails! not available in this outer scope
+if foo is 123  # Fehler! im äußeren Gültigkeitsbereich nicht verfügbar
     robo_left()
 ```
-To make a `var` more widely available it can be declared an outer scope. So, for example, top-level variables are accessible everywhere and will not be removed.
+Um eine `var` besser verfügbar zu machen, kann man sie in einem äußeren Gültigkeitsbereich deklarieren. Variablen aus dem äußersten Gültigkeitsbereich, zum Beispiel, sind überall verfügbar und werden nicht gelöscht.
 ```no_run
 var foo
 if scan is 1
     foo = 123
-    if foo is 123  # works
+    if foo is 123  # kein Fehler
         robo_left()
 
-if foo is 123  # works
+if foo is 123  # kein Fehler
     robo_left()
 ```
-Variables are removed at the end of their scope, so `var` usage in a `loop` will result in a fresh variable for each iteration.
-
+Variablen werden gelöscht sobald ihr Gültigkeitsbereich verlassen wird. Die Benutzung von `var` innerhalb einer `loop`-Schleife erstellt also eine neue Variable bei jedem Schleifen-Durchlauf.
 
 #!unlock type{primer} id{loops-2}
-# Loops II
+# Schleifen II
 
-The `continue` keyword can be used to restart a loop mid-way, while the `break` keyword can be used to exit the current loop.
+Das Schlüsselwort `continue` kann benutzt werden, um direkt den nächsten Schleifen-Durchlauf zu starten. Mit `break` hingegen kann man die aktuelle `loop`-Schleife vollständig abbrechen.
 
 ```
 var count = 0
@@ -195,9 +194,9 @@ robo_left()
 
 
 #!unlock type{primer} id{loops-3}
-# Loops III
+# Schleifen III
 
-Consider this use of `loop` that turns left 5 times.
+Die folgende `loop`-Schleife führt 5 Links-Drehungen aus.
 ```
 # turn left 5 times
 var loop_count = 1
@@ -207,9 +206,9 @@ loop
     robo_left()
     loop_count = loop_count + 1
 ```
-While any kind of looping logic can be written with `loop`, keywords `for` & `while` are also available and can help create simpler code that achieves the same result.
+Jegliche Schleifen-Logik kann zwar mit `loop` geschrieben werden, aber häufig lässt sich das selbe Ergebnis auch einfacher mit einer `for`- oder `while`-Schleife erreichen.
 ```
-# execute block until while condition is false
+# wiederholt den Block so lange, bis die while-Bedingung "falsch" ergibt
 var loop_count = 1
 while loop_count <= 5
     robo_left()
@@ -217,38 +216,38 @@ while loop_count <= 5
 ```
 
 ```
-# execute block with loop_count 1, 2, 3, 4 & 5
+# wiederholt den Block mit loop_count = 1, 2, 3, 4 & 5
 for loop_count in 1,2,3,4,5
     robo_left()
 ```
 
 
 #!unlock type{primer} id{fun}
-# Functions
+# Funktionen
 
-The `robo_left()`, `robo_scan()`, etc commands are functions. A function is a block of code that can be run later. They are defined with the `fun` keyword.
+Die Befehle `robo_left()`, `robo_scan()` etc. sind Funktionen. Eine Funktion ist ein Code-Block, der später ausgeführt werden kann und wird mit dem Schlüsselwort `fun` definiert.
 
 ```
-# define a function
+# definiert eine Funktion
 fun go_right()
     robo_left()
     robo_left()
 
-go_right()  # call it
+go_right()  # Funktions-Aufruf
 go_right()
 ```
 
 
 #!unlock type{primer} id{fun-b}
-Functions are useful for reducing repeated code and putting a name to a more complex operation.
+Funktionen sind nützlich um komplexeren Code, der oft wiederholt wird, einen Namen zu geben.
 
-Functions can also call other functions. For example you could keep a count of `robo_left()` calls by wrapping it in another function and using that.
+Funktionen können auch andere Funktionen aufrufen. Zum Beispiel könnten die Aufrufe von `robo_left()` gezählt werden, indem sie mit einer anderen Funktion umhüllt werden.
 
 ```
 var left_count
 fun left_and_count()
     robo_left()
-    left_count += 1  # increment the count
+    left_count += 1  # hochzählen
 
 while left_count < 3
     left_and_count()
@@ -258,16 +257,16 @@ while left_count < 3
 #!unlock type{primer} id{fun-2}
 # Functions II
 
-Functions can also take in numbers and/or output a number.
+Funktionen können auch Zahlen entgegennehmen oder zurückgeben.
 
 ```
 fun loneliest_number()
-    1  # last expression is returned
+    1  # letzter Ausdruck wird zurückgegeben
 
-# functions can take arguments
+# Funktion können Argumente entgegennehmen
 fun largest(a, b)
     if b > a
-        # can return early
+        # direkte Rückgabe
         return b
     a
 
@@ -277,11 +276,11 @@ var one = largest(-5, loneliest_number())
 
 
 #!unlock type{primer} id{bool}
-# Boolean operators
+# Boolesche Operatoren
 
-The `and` & `or` operators can be used to combine zero & non-zero values. They can be used to produce more complex logical statements.
+Die Operatoren `and` & `or` können 0 mit Zahlen ungleich 0 kombinieren, um komplexere logische Ausdrücke zu formen.
 
-An '`and`' expression returns `1` if both sides are non-zero.
+Der '`and`' Operator ergibt `1` wenn beide Seiten ungleich 0 sind.
 
 ```
 var scan = robo_scan()
@@ -289,7 +288,7 @@ var adjacent = robo_detect_adjacent()
 if scan < 0 and adjacent is 3
     robo_forward()
 ```
-An '`or`' expression returns `1` if either side is non-zero.
+Der '`or`' Operator ergibt `1` wenn mindestens eine der beiden Seiten ungleich 0 ist.
 ```
 var scan = robo_scan()
 var safe = scan is 1 or scan is 2
@@ -301,41 +300,41 @@ if safe
 #!unlock type{primer} id{seq}
 # Sequences
 
-`seq` is used to define a sequence of values. The values within can be accessed and modified by their index, starting with `0`.
+Mit `seq` wird eine Sequenz von Werten definiert. Die Werte der Sequenz können mit einem Index gelesen oder geändert werden, der bei 0 beginnt.
 
 ```
-seq list[]  # new empty seq
+seq list[]  # neue, leere Sequenz
 seq numbers[] = 11, 22, 33
 
 var first = numbers[0]
 var third = numbers[2]
-numbers[1] = 77  # overwrite index 1 to 77 (was 22)
+numbers[1] = 77  # überschreibt Index 1 mit 77 (war 22)
 if numbers[1] > 40
     robo_left()
 ```
 
 #!unlock type{primer} id{seq-b}
-The `add(sv)` function is used to add additional values to the end of the sequence. `remove(sv)` to remove a value by index. `size(s)` returns the number of values in the sequence.
+Die Funktion `add(sv)` wird benutzt, um zusätzliche Werte an das Ende einer Sequenz anzufügen. `remove(sv)` löscht den Wert bei einem Index. `size(s)` gibt die Anzahl der Werte in einer Sequenz zurück.
 
 ```
 seq list[]
 
 var size = list[].size()
-list[].add(11)  # add to end
+list[].add(11)  # fügt ans Ende an
 list[].add(33)
 
 var el = list[0]
 var size = list[].size()
 
-list[].remove(0)  # remove index 0
+list[].remove(0)  # löscht Index 0
 var el = list[0]
 var size = list[].size()
 ```
 
 #!unlock type{primer} id{loop-seq}
-# Looping sequences
+# Sequenzen iterieren
 
-`for` can be used to loop over each value inside a sequence.
+Mit `for` kann über jeden Wert in einer Sequenz iteriert werden.
 
 ```
 seq nums[] = 1, 234, 55, -23
@@ -349,12 +348,12 @@ for number in nums[]
 
 
 #!unlock type{primer} id{fun-3}
-# Functions III
+# Funktionen III
 
-Functions can have `seq` arguments.
+Funktionen können Sequenzen entgegennehmen.
 
 ```
-# function with a single seq argument
+# Funktion mit einem seq-Argument
 fun sum(list[])
     var sum
     for n in list[]
@@ -369,19 +368,19 @@ total is 6
 
 
 #!unlock type{primer} id{dot-call}
-There is another way to call functions with arguments.
+Es gibt einen weiteren Weg um Funktionen mit Argumenten aufzurufen.
 
 ```no_run
 fun example(a, b, c, d)
     # ...
 
-example(2, 3, 4, 5)  # normal call syntax
+example(2, 3, 4, 5)  # normaler Aufruf
 
-2.example(3, 4, 5)  # dot call syntax
+2.example(3, 4, 5)  # Punkt-Aufruf
 ```
-The second style may suit certain usages, for example the built-in `add`, `remove` & `size` functions.
+Der letztere Stil eignet sich besser in manchen Fällen, wie zum Beispiel bei den vordefinierten Funktionen `add`, `remove` & `size`.
 ```no_run
-nums[].size() # 3 equivalent to size(nums[])
+nums[].size() # 3 äquivalent zu size(nums[])
 
 nums[].sum()  # 6
 ```
