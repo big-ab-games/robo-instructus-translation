@@ -145,7 +145,7 @@ else if example > 12
 else
     robo_left()
 ```
-Eine `else`-Block am Ende wird nur ausgeführt, wenn alle `if` und `else if` Bedingungen darüber "falsch" ergaben.
+Einen `else`-Block am Ende wird nur ausgeführt, wenn alle `if` und `else if` Bedingungen darüber "falsch" ergaben.
 
 
 #!unlock type{primer} id{scope}
