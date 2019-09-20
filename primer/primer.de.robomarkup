@@ -255,7 +255,7 @@ while left_count < 3
 
 
 #!unlock type{primer} id{fun-2}
-# Functions II
+# Funktionen II
 
 Funktionen können auch Zahlen entgegennehmen oder zurückgeben.
 
