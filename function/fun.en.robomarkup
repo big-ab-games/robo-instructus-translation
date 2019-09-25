@@ -73,7 +73,7 @@
 
 
 #!unlock type{short} id{s-probo-scan}
-`probo_scan() ` scan the tile in front returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `3`: launcher, `10`: power switch, `11`: location data store, `12`: direction data store
+`probo_scan() ` scan current tile, returns `-999`: unknown, `-1`: absent, `1`: normal, `2`: exit, `3`: launcher, `10`: power switch, `11`: location data store, `12`: direction data store
 
 
 #!unlock type{short} id{s-probo-location}
@@ -179,7 +179,7 @@ $render{robo_location}
 
 
 #!unlock type{function} id{detect-adjacent}
-`robo_detect_adjacent()` Returns the total number of tiles adjacent to the current position. `0`, `1`, `2` or `3`. This works correctly even if some of the tiles are unknown to a `robo_scan()` call.  Runtime $tu{robo_detect_adjacent()} ms.
+`robo_detect_adjacent()` Returns the total number of tiles adjacent to the current position. `0`, `1`, `2` or `3`. This works correctly even if some of the tiles are unknown to a `robo_scan()` call. Runtime $tu{robo_detect_adjacent()} ms.
 $render{robo_detect_adjacent}
 ```no_run
 var its_safe = robo_detect_adjacent() is 3
