@@ -298,6 +298,44 @@ Nombre total de lignes de code évaluées
 {} fewer than previous best
 {} de moins que le meilleur précédent
 
+#### left half of score summary
+Finished in:
+Finished in:
+
+Solution size:
+Solution size:
+
+Run size:
+Run size:
+
+#### right half `{}` is replaced by the score
+{} ms
+{} ms
+
+{} phrases
+{} phrases
+
+#### Graph button
+Show outliers
+Show outliers
+
+Hide outliers
+Hide outliers
+
+#### Graph title
+Time
+Time
+
+Solution size
+Solution size
+
+Run size
+Run size
+
+#### Label for the vertical line marking a player's best/lowest score
+Best
+Best
+
 ### Editor hotkeys
 Undo
 Annuler
@@ -349,4 +387,48 @@ Appliquer Saisie Automatique
 
 Autocomplete close
 Fermer Saisie Automatique
+
+### Other headings & labels
+Functions
+Functions
+
+Recovered Messages
+Recovered Messages
+
+Try reworking your solution before proceeding
+Try reworking your solution before proceeding
+
+#### Unlock headings
+Decoding ...
+Decoding ...
+
+Message recovered
+Message recovered
+
+Functions unlocked
+Functions unlocked
+
+Function unlocked
+Function unlocked
+
+Function update
+Function update
+
+Functions not available
+Functions not available
+
+Functions inoperable
+Functions inoperable
+
+Functions restored
+Functions restored
+
+Primer section recovered
+Primer section recovered
+
+Paused execution unlocked
+Paused execution unlocked
+
+Scanning ...
+Scanning ...
 
