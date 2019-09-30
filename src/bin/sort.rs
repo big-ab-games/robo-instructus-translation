@@ -48,7 +48,7 @@ fn main() {
 
         let mut last_line = String::new();
         for line in io::BufReader::new(file).lines() {
-            let line = line.unwrap_or_else(|_| String::new()).replace(r"\n", "\n");;
+            let line = line.unwrap_or_else(|_| String::new()).replace(r"\n", "\n");
             if line.starts_with('#') {
                 ens.push(Line::Comment(line));
                 continue;

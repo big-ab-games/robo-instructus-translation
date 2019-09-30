@@ -13,6 +13,10 @@ include!("../target/generated/primer.rs");
 // mod function_docs { MAP: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>, ... }
 include!("../target/generated/function_docs.rs");
 
+// mod colony { MAP: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>, ... }
+include!("../target/generated/colony.rs");
+
+pub use colony::ColonyMessageId;
 pub use company::CompanyMessageId;
 pub use function_docs::FunctionDocId;
 pub use primer::PrimerId;
@@ -97,6 +101,21 @@ pub fn function_docs_lang(lang: &str, id: FunctionDocId) -> &'static str {
         .get(lang)
         .and_then(|p| p.get(&id).copied())
         .unwrap_or_else(|| function_docs::MAP["en"][&id])
+}
+
+/// Fetches global target language function doc with the matching `key`,
+/// or falls back on lang='en'.
+#[inline]
+pub fn colony(id: ColonyMessageId) -> &'static str {
+    colony_lang(LANG.read().as_str(), id)
+}
+
+/// Fetches `lang` function doc with the matching `key`, or falls back on lang='en'.
+pub fn colony_lang(lang: &str, id: ColonyMessageId) -> &'static str {
+    colony::MAP
+        .get(lang)
+        .and_then(|p| p.get(&id).copied())
+        .unwrap_or_else(|| colony::MAP["en"][&id])
 }
 
 #[test]
@@ -187,5 +206,27 @@ fn function_docs_en() {
         ShortReceive,
     ].iter() {
         assert!(!function_docs_lang("en", *id).trim().is_empty(), "{:?} empty", id);
+    }
+}
+
+#[test]
+#[rustfmt::skip]
+fn colony_en() {
+    const EXPECTED_TEXT: &str = "Jacob, what can we do about the doc? Things are falling apart. \
+                                 Why doesn't she respond? We've all lost people but it's been \
+                                 17 cycles since Jack passed. She's been locked away working on \
+                                 some project (we ASSUME) but we really need her out here.\n\n\
+                                 Hackett";
+
+    assert_eq!(colony_lang("en", ColonyMessageId::FallingApart), EXPECTED_TEXT);
+
+    // en should include all
+    use ColonyMessageId::*;
+    for id in [
+        PrimerIntro, Pathfinders, ScansUnreliable, Power, Pause, DataStore, IHaveAPlan, PauseFun,
+        MushroomsAgain, Direction, Direction2, Orientation, HotAir, FatalityReport, Launch,
+        FallingApart, Distress, ProtoProbe, Vault,
+    ].iter() {
+        assert!(!colony_lang("en", *id).trim().is_empty(), "{:?} empty", id);
     }
 }

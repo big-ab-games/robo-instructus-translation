@@ -12,6 +12,7 @@ fn main() {
     build_company();
     build_primer();
     build_function_docs();
+    build_colony();
 }
 
 fn build_translated_pairs() {
@@ -428,6 +429,114 @@ fn build_function_docs() {
     };
 
     write_generated("function_docs.rs", contents);
+}
+
+fn build_colony() {
+    let dir = std::env::current_dir().unwrap().join("colony");
+
+    let lang_message: Vec<_> = fs::read_dir(&dir)
+        .unwrap()
+        .filter_map(|entry| {
+            let entry = entry.ok().unwrap();
+            let path = entry.file_name().to_str().unwrap().to_owned();
+            Some((entry, path))
+        })
+        .filter(|(_, path)| path.ends_with(".robomarkup"))
+        .map(|(entry, path)| {
+            let lang = path.split('.').nth(1).unwrap();
+            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+
+            let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
+                .into_iter()
+                .map(|(id, text)| {
+                    quote! {
+                        colony.insert(ColonyMessageId::try_from(#id).unwrap(), #text);
+                    }
+                })
+                .collect();
+
+            let inserts_len = inserts.len();
+            quote! {
+                map.insert(#lang, {
+                    let mut colony = FxHashMap::default();
+                    colony.reserve(#inserts_len);
+                    #(#inserts)*
+                    colony
+                });
+            }
+        })
+        .collect();
+
+    let lang_message_len = lang_message.len();
+    let contents = quote! {
+        mod colony {
+            use once_cell::sync::Lazy;
+            use rustc_hash::FxHashMap;
+            use std::convert::TryFrom;
+
+            /// Colony message id.
+            #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+            pub enum ColonyMessageId {
+                PrimerIntro,
+                Pathfinders,
+                ScansUnreliable,
+                Power,
+                Pause,
+                DataStore,
+                IHaveAPlan,
+                PauseFun,
+                MushroomsAgain,
+                Direction,
+                Direction2,
+                Orientation,
+                HotAir,
+                FatalityReport,
+                Launch,
+                FallingApart,
+                Distress,
+                ProtoProbe,
+                Vault,
+            }
+
+            impl TryFrom<&str> for ColonyMessageId {
+                type Error = String;
+                fn try_from(key: &str) -> Result<Self, Self::Error> {
+                    Ok(match key {
+                        "primer-intro" => ColonyMessageId::PrimerIntro,
+                        "pathfinders" => ColonyMessageId::Pathfinders,
+                        "scans-unreliable" => ColonyMessageId::ScansUnreliable,
+                        "power" => ColonyMessageId::Power,
+                        "pause" => ColonyMessageId::Pause,
+                        "data-store" => ColonyMessageId::DataStore,
+                        "i-have-a-plan" => ColonyMessageId::IHaveAPlan,
+                        "pause-fun" => ColonyMessageId::PauseFun,
+                        "mushrooms-again" => ColonyMessageId::MushroomsAgain,
+                        "direction" => ColonyMessageId::Direction,
+                        "direction-2" => ColonyMessageId::Direction2,
+                        "orientation" => ColonyMessageId::Orientation,
+                        "hot-air" => ColonyMessageId::HotAir,
+                        "fatality-report" => ColonyMessageId::FatalityReport,
+                        "launch" => ColonyMessageId::Launch,
+                        "falling-apart" => ColonyMessageId::FallingApart,
+                        "distress" => ColonyMessageId::Distress,
+                        "proto-probe" => ColonyMessageId::ProtoProbe,
+                        "vault" => ColonyMessageId::Vault,
+                        _ => return Err(format!("Unknown colony id: {}", key)),
+                    })
+                }
+            }
+
+            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<ColonyMessageId, &'static str>>> =
+                Lazy::new(|| {
+                    let mut map = FxHashMap::default();
+                    map.reserve(#lang_message_len);
+                    #(#lang_message)*
+                    map
+                });
+        }
+    };
+
+    write_generated("colony.rs", contents);
 }
 
 fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {

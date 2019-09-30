@@ -7,27 +7,26 @@ Translations for programming puzzle game Robo Instructus.
 ## About
 This project exists to provide a way for open source community translations to be used in game. As a solo developer with limited resources I'm not able to fund professional translations, so this repository can provide a route to a translated game that otherwise wouldn't exist.
 
-Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | [4. Code Primer](#4-code-primer "Bartram's Code Primer.") | [5. Function Docs](#5-function-docs "Function Documentation") | The rest of the game
+Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | [4. Code Primer](#4-code-primer "Bartram's Code Primer.") | [5. Function Docs](#5-function-docs "Function Documentation") | [6. Colony Messages](#6-colony-messages "Colony Messages")
 :---: | :---: | :---: | :---: | :---: | :---: | :---:
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :heavy_check_mark: | :large_blue_circle: | :no_entry_sign:
-Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:
-Français _(fr)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :no_entry_sign:
-Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
-_others_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :no_entry_sign:
+Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :heavy_check_mark: | :large_blue_circle: | :black_circle:
+Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
+Français _(fr)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle:
+Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+_others_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 
 :heavy_check_mark:: _Translated_<br/>
 :large_blue_circle:: _Partially translated, some more work to be done / new text to translate_<br/>
 :black_circle:: _Not translated, please raise a pull request_<br/>
-:no_entry_sign:: _Not yet available in this repo, but I'm working on it!_
 
 ## Want to help?
 If you are multilingual and want to improve the game for your language(s) then please do.
@@ -67,6 +66,11 @@ Update the `primer.LANGUAGE.robomarkup` file in the `primer` directory. Info: [p
 Each function in the game comes with documentation. These are laid out similarly to the Primer.
 
 Update the `fun.LANGUAGE.robomarkup` file in the `function` directory. Info: [function/README](./function/README.md). See the English [function/fun.en.robomarkup](./function/fun.en.robomarkup) file, duplicate this to start a new language translation.
+
+## 6. Colony messages
+Messages between the colonists found gradually throughout the game. There are mostly paragraphs of text coming after `#!unlock` line markers. Try to use the same whitespacing, number of new lines etc.
+
+Update the `colony.LANGUAGE.robomarkup` file in the `colony` directory. See the English [colony/colony.en.robomarkup](./colony/colony.en.robomarkup) file, duplicate this to start a new language translation.
 
 ## New languages & translations
 If you'd like to see support for a new language please or have questions [raise an issue](https://github.com/big-ab-games/robo-instructus-translation/issues/new).
