@@ -300,135 +300,134 @@ Total number of evaluated code phrases
 
 #### left half of score summary
 Finished in:
-Finished in:
+完成時間：
 
 Solution size:
-Solution size:
+解決方案大小：
 
 Run size:
-Run size:
+執行大小：
 
 #### right half `{}` is replaced by the score
 {} ms
-{} ms
+{}ms
 
 {} phrases
-{} phrases
+{}條
 
 #### Graph button
 Show outliers
-Show outliers
+顯示圖表異常
 
 Hide outliers
-Hide outliers
+隱藏圖表異常
 
 #### Graph title
 Time
-Time
+執行時期
 
 Solution size
-Solution size
+解決方案大小
 
 Run size
-Run size
+執行大小
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-Best
+最好
 
 ### Editor hotkeys
 Undo
-Undo
+撤鎖
 
 Redo
-Redo
+重做
 
 Copy
-Copy
+複製
 
 Paste
-Paste
+粘貼
 
 Cut line/selection
-Cut line/selection
+剪下橫綫／選定的代碼
 
 Duplicate line/selection
-Duplicate line/selection
+重複橫綫／選定的代碼
 
 Move line/selection
-Move line/selection
+移動橫綫／選定的代碼
 
 Indent selection
-Indent selection
+增加縮進量
 
 Unindent selection
-Unindent selection
+減少縮進
 
 Navigate by word
-Navigate by word
+按字導航
 
 Delete previous word
-Delete previous word
+刪除上一个詞
 
 Delete next word
-Delete next word
+刪除下一个詞
 
 Comment/uncomment selection
-Comment/uncomment selection
+注釋掉選定的橫綫
 
 Autocomplete open
-Autocomplete open
+自動完成打開
 
 Autocomplete choose
-Autocomplete choose
+自動完成選擇
 
 Autocomplete apply
-Autocomplete apply
+自動完成應用
 
 Autocomplete close
-Autocomplete close
+自動完成關閉
 
 ### Other headings & labels
 Functions
-Functions
+函數
 
 Recovered Messages
-Recovered Messages
+已發掘的消息
 
 Try reworking your solution before proceeding
-Try reworking your solution before proceeding
+繼續之前，嘗試再造一下你的解決方案
 
 #### Unlock headings
 Decoding ...
-Decoding ...
+解讀中……
 
 Message recovered
-Message recovered
+發掘了新消息
 
 Functions unlocked
-Functions unlocked
+已解鎖的函數
 
 Function unlocked
-Function unlocked
+函數解鎖
 
 Function update
-Function update
+函數更新
 
 Functions not available
-Functions not available
+不可用的函數
 
 Functions inoperable
-Functions inoperable
+破壞的函數
 
 Functions restored
-Functions restored
+已恢複的函數
 
 Primer section recovered
-Primer section recovered
+發掘了手冊的新章節
 
 Paused execution unlocked
-Paused execution unlocked
+暫停執行解鎖
 
 Scanning ...
-Scanning ...
-
+掃描中……
