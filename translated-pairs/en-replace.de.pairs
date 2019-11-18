@@ -300,41 +300,41 @@ Gesamtzahl aller ausgewerteten Codesätze
 
 #### left half of score summary
 Finished in:
-Finished in:
+Geschafft in:
 
 Solution size:
-Solution size:
+Lösungsgröße:
 
 Run size:
-Run size:
+Laufgröße:
 
 #### right half `{}` is replaced by the score
 {} ms
 {} ms
 
 {} phrases
-{} phrases
+{} Code-Schnipsel 
 
 #### Graph button
 Show outliers
-Show outliers
+Ausreißer anzeigen
 
 Hide outliers
-Hide outliers
+Ausreißer ausblenden
 
 #### Graph title
 Time
-Time
+Zeit
 
 Solution size
-Solution size
+Lösungsgröße
 
 Run size
-Run size
+Laufgröße
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-Best
+Am Besten
 
 ### Editor hotkeys
 Undo
@@ -393,44 +393,44 @@ Functions
 Funktionen
 
 Recovered Messages
-Recovered Messages
+Wiederhergestellte Nachrichten
 
 Try reworking your solution before proceeding
-Try reworking your solution before proceeding
+Überarbeite die Lösung, bevor du fortfahren kannst
 
 #### Unlock headings
 Decoding ...
-Decoding ...
+Entschlüsselung ...
 
 Message recovered
-Message recovered
+Nachricht wiederhergestellt
 
 Functions unlocked
-Functions unlocked
+Funktionen freigeschaltet
 
 Function unlocked
-Function unlocked
+Funktion freigeschaltet
 
 Function update
-Function update
+Funktionsaktualisierung
 
 Functions not available
-Functions not available
+Funktionen nicht verfügbar
 
 Functions inoperable
-Functions inoperable
+Funktionen nicht funktionsfähig
 
 Functions restored
-Functions restored
+Funktionen wiederhergestellt
 
 Primer section recovered
-Primer section recovered
+Primer-Abschnitt wiederhergestellt
 
 Paused execution unlocked
-Paused execution unlocked
+Angehaltene Ausführung entsperrt
 
 Scanning ...
-Scanning ...
+Scannen ...
 
 #### suffix to denote "kilo" / 1000 of something
 k
