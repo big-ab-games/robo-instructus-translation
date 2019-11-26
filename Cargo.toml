@@ -7,7 +7,7 @@ publish = false
 
 [dependencies]
 rustc-hash = "1"
-parking_lot = "0.9"
+parking_lot = "0.10"
 once_cell = { version = "1", features = ["parking_lot"] }
 crossbeam-channel = { version = "0.4", optional = true }
 log = { version = "0.4", optional = true }
