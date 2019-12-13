@@ -36,7 +36,7 @@ Fullscreen
 Полноэкранный режим
 
 Snowfall
-Снегопад
+Снег
 
 #### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
@@ -55,7 +55,7 @@ Title Screen
 Главный экран
 
 Autocomplete
-Автодополнение
+Автозавершение
 
 #### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
@@ -123,11 +123,11 @@ Reset
 
 #### start running the code
 Run
-Запустить
+Пуск
 
 #### start running the code but immediately paused / debugging
 Run (paused)
-Запустить (приостановлено)
+Пуск (с паузой)
 
 #### code navigation when paused/debugging
 Step over
@@ -159,21 +159,21 @@ Confirm delete
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-Тёмный этап
+Тайный этаж
 
 #### Top-left label before all the "available" functions in the current level
 Available:
-Имеется в наличии:
+Доступно:
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
-Вводите здесь команды
+Вводите команды здесь
 
 Add the lines:
 Добавьте строки:
 
 Press play to run
-Нажмите play, чтобы запустить
+Нажмите Пуск, чтобы запустить
 
 Modify the commands and \nre-run to reach the exit
 Измените команды и повторно \nзапустите, чтобы достичь выхода
@@ -182,23 +182,23 @@ Press to exit level
 Нажмите для выхода из уровня
 
 Levels have multiple stages\nclick here to view each
-Уровни имеют несколько этапов \nнажмите здесь, чтобы посмотреть каждый
+Уровни имеют несколько этажей, \nнажмите здесь, чтобы посмотреть каждый
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Ваш код будет перезапускаться на каждом этапе,\nпоэтому одно решение должно подходить везде.\nВернуться к первому этапу
+Ваш код будет перезапускаться на каждом этаже,\nпоэтому одно решение должно подходить везде.\nВернуться к первому этажу
 
 Reach the first stage exit
-Дойти до выхода с первого этапа
+Дойти до выхода на первом этаже
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Переделайте, чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этапе
+Переделайте чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этаже
 
 Change game speed
 Изменить скорость игры
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Нажмите, чтобы открыть справочник по коду, он содержит все примеры\nи функции для начинающих, восстановленные до настоящего времени.
+Нажмите чтобы открыть справочник по коду, он содержит все примеры\nи функции, известные на данный момент
 
 Click to close
 Нажмите, чтобы закрыть
@@ -211,7 +211,7 @@ Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
 Прокрутка колёсиком мыши,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
-Нажмите, чтобы просмотреть\nвсе восстановленные сообщения
+Нажмите, чтобы просмотреть\nвсе полученные сообщения
 
 Try using `loop` in your solution
 Попробуйте использовать `loop` в вашем решении
@@ -230,15 +230,15 @@ Try using `else`
 Попробуйте использовать `else`
 
 Press to run with execution paused
-Нажмите, чтобы запустить с приостановленным исполнением
+Нажмите, чтобы запустить с паузой
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-Обратите внимание, что текущая оценка выделена
+Обратите внимание, что выполняемая команда выделена
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Нажмите или используйте клавишу →, чтобы перейти к следующей оценке
+Нажмите, или используйте клавишу →, чтобы перейти к следующей команде
 
 Level solutions can be\nsaved and loaded here
 Решения уровня могут быть\nсохранены и загружены здесь
@@ -250,19 +250,19 @@ Reach the revealed location
 Достигните обнаруженного места
 
 Hold alt to access more options while paused
-Удерживайте Alt, чтобы получить доступ к дополнительным параметрам во время паузы
+Зажмите Alt для доступа к дополнительным параметрам во время паузы
 
 Dark stages are similar to the others\nbut their details are hidden
-Темные стадии похожи на другие, но их детали скрыты
+Тайные этажи похожи на обычные, но их детали скрыты
 
 Ensure your solution is general enough\nto solve these hidden variants
 Убедитесь, что ваше решение достаточно универсально,\nчтобы решить эти скрытые варианты
 
 Your solution has a flaw uncovered by a hidden stage variant
-На скрытом варианте стадии обнаружился изъян в вашем решении
+На скрытом этаже в вашем решении обнаружился изъян
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Следующие уровни разблокированы, но\nдля счёта необходимо пройти тёмный этап
+Следующие уровни разблокированы, но\nдля счета необходимо пройти тайный этаж
 
 ### Score screen
 #### explanation of "Time" score
@@ -271,11 +271,11 @@ Sum of function call runtimes & environmental delays
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
-Количество различных оцененных кодовых фраз
+Количество выполненных фраз кода
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-Общее количество оцененных кодовых фраз
+Общее количество выполненных фраз кода
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
@@ -300,41 +300,41 @@ Total number of evaluated code phrases
 
 #### left half of score summary
 Finished in:
-Finished in:
+Закончено за:
 
 Solution size:
-Solution size:
+Размер решения:
 
 Run size:
-Run size:
+Размер выполнения:
 
 #### right half `{}` is replaced by the score
 {} ms
-{} ms
+{} мс
 
 {} phrases
-{} phrases
+{} фраз
 
 #### Graph button
 Show outliers
-Show outliers
+Подробная статистика
 
 Hide outliers
-Hide outliers
+Компактный вид
 
 #### Graph title
 Time
-Time
+Время
 
 Solution size
-Solution size
+Размер решения
 
 Run size
-Run size
+Размер выполнения
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-Best
+Лучш.
 
 ### Editor hotkeys
 Undo
@@ -350,13 +350,13 @@ Paste
 Вставить
 
 Cut line/selection
-Вырезать линию/выделенное
+Вырезать строку/выделенное
 
 Duplicate line/selection
-Дублировать линию/выделенное
+Дублировать строку/выделенное
 
 Move line/selection
-Переместить линию/выделенное
+Переместить строку/выделенное
 
 Indent selection
 Увеличить отступ
@@ -377,62 +377,62 @@ Comment/uncomment selection
 Закомментировать/Раскомментировать выделенное
 
 Autocomplete open
-Открыть автодополнение
+Открыть автозавершение
 
 Autocomplete choose
-Выбирать в автодополении
+Выбрать в автозавершении
 
 Autocomplete apply
-Применить автодополнение
+Применить автозавершение
 
 Autocomplete close
-Закрыть автодополнение
+Закрыть автозавершение
 
 ### Other headings & labels
 Functions
 Функции
 
 Recovered Messages
-Recovered Messages
+Полученные сообщения
 
 Try reworking your solution before proceeding
-Try reworking your solution before proceeding
+Попробуйте переработать ваше решение прежде чем продолжить
 
 #### Unlock headings
 Decoding ...
-Decoding ...
+Декодируем ...
 
 Message recovered
-Message recovered
+Сообщение получено
 
 Functions unlocked
-Functions unlocked
+Функции разблокированы
 
 Function unlocked
-Function unlocked
+Функция разблокирована
 
 Function update
-Function update
+Функция обновлена
 
 Functions not available
-Functions not available
+Функции недоступны
 
 Functions inoperable
-Functions inoperable
+Функции невыполнимы
 
 Functions restored
-Functions restored
+Функции восстановлены
 
 Primer section recovered
-Primer section recovered
+Пример получен
 
 Paused execution unlocked
-Paused execution unlocked
+Разблокирован запуск с паузой
 
 Scanning ...
-Scanning ...
+Сканируем ...
 
 #### suffix to denote "kilo" / 1000 of something
 k
-k
+к
 
