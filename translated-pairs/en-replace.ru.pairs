@@ -191,14 +191,14 @@ Reach the first stage exit
 Дойти до выхода на первом этаже
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Переделайте чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этаже
+Переделайте, чтобы добраться до всех выходов и помните,\nчто код перезапускается с начала на каждом этаже
 
 Change game speed
 Изменить скорость игры
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Нажмите чтобы открыть справочник по коду, он содержит все примеры\nи функции, известные на данный момент
+Нажмите, чтобы открыть справочник по коду, он содержит все примеры\nи функции, известные на данный момент
 
 Click to close
 Нажмите, чтобы закрыть
@@ -313,7 +313,7 @@ Run size:
 {} мс
 
 {} phrases
-{} фраз
+{} (фразы)
 
 #### Graph button
 Show outliers
