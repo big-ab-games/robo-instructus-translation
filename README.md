@@ -10,7 +10,7 @@ This project exists to provide a way for open source community translations to b
 Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Interface, menus, tutorial overlays") | [2. Store Description](#2-game-store-description "Game description that appears in Steam & other stores.") | [3. Company Messages](#3-company-messages "Messages from Judith.") | [4. Code Primer](#4-code-primer "Bartram's Code Primer.") | [5. Function Docs](#5-function-docs "Function Documentation") | [6. Colony Messages](#6-colony-messages "Colony Messages")
 :---: | :---: | :---: | :---: | :---: | :---: | :---:
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :heavy_check_mark: | :large_blue_circle: | :black_circle:
+Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
 Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
 Français _(fr)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 简体中文 _(zh-CN)_ | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
