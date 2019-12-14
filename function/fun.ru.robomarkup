@@ -5,7 +5,7 @@
 
 
 #!unlock type{short} id{s-forward}
-`robo_forward() ` двигаться вперед (отклоняясь направо, потому что ячейки треугольные)
+`robo_forward() ` двигаться вперед (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-scan}
@@ -69,7 +69,7 @@
 
 
 #!unlock type{short} id{s-probo-forward}
-`probo_forward() ` двигаться вперед (отклоняясь направо, потому что ячейки треугольные)
+`probo_forward() ` двигаться вперед (отклоняясь вправо, потому что ячейки треугольные)
 
 
 #!unlock type{short} id{s-probo-scan}
@@ -85,11 +85,11 @@
 
 
 #!unlock type{short} id{s-transmit}
-`transmit(subject,data) ` передает данные на тему
+`transmit(subject,data) ` передать данные на тему
 
 
 #!unlock type{short} id{s-receive}
-`receive(subject) ` получает и возвращает самые старые данные или `-20000`, если ничего нет
+`receive(subject) ` получать и возвратить самые старые данные или `-20000`, если ничего нет
 
 
 #!unlock type{functions} id{left-forward}
