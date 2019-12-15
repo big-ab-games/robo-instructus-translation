@@ -11,85 +11,85 @@
 
 // intro text, should be exactly 3 lines
 #!company id{c-await}
-Salvage Engineer,
-arrival report acknowledged
-await instruction.
+Специалист по сбору утильсырья,
+отчет о прибытии получен,
+ожидайте инструкций.
 
 
 #!company id{c-receiving}
-Receiving Communication
+Получение сообщения
 
 
 #!company id{c-ack}
-Acknowledge
+Подтверждение
 
 
 #!company id{c-arrive}
-# Re: Iceni salvage arrival report
+# Re: Отчет о прибытии специалиста на Льдынь
 
-So you found a robot? Looks cute, if a little primitive. But if that's the best salvage you can find... well, let's just say it won't even cover the cost of the value nutri-soup rations you're no doubt enjoying as you read this.
+Так ты нашел там робота? Он миленький, хотя и устарел слегка. Но если это все, что ты обнаружил... ну, скажем так, он даже не покроет стоимость того питательного супчика, которым ты без сомнения наслаждаешься, пока читаешь это.
 
-Have reviewed the scans you sent and I have to say I'm a little vexed. If I wanted you to find rusted metal and useless detritus you could have just stayed on earth. Iceni was a state of the art vessel. Where are all the ship components, cladding and computers? Where are the colonists???
+Посмотрела снимки, которые ты прислал. Должна сказать, я немного расстроена. Если б я хотела, чтобы ты нашел ржавые железяки и бесполезные обломки, ты мог бы остаться на Земле. Льдынь была первоклассным судном. Где останки корабля, где обшивка, приборы? Где поселенцы?!..
 
-Surface weather must be much harsher than expected to have torn it apart like that, so no wonder you aren't picking up any survivors. Therefore I agree with your idea to try and use this robot you've found in your stead. Better safe than sorry as I can't lose ANY more of you guys this quarter.
+Погода на поверхности, должно быть, куда суровее, чем мы ожидали, раз уж так разодрало весь корабль. Неудивительно, что ты не нашел выживших. Поэтому я соглашусь с твоей идеей, попробуй использовать найденного робота. Лучше перебдеть, чем недобдеть, я не могу потерять еще кого-то из вас, ребята. Не в этом квартале.
 
-So get connected to your new best friend down there and find a way to salvage something from this. Because when we aren't making big hauls, I'm looking bad to Nigel. And if I'm looking bad, you're looking for a new job.
+Так что объединяйся с твоим новым лучшим другом там, внизу, и давайте, ищите что-нибудь полезное. Ведь если наш улов будет плох, я буду злиться на Найджела. А ты будешь злиться на меня и искать новую работу.
 
-Ciao for now,
-Judith
+Чао пока что,
+Джудит
 
 
 #!company id{c-underground}
-# Re: Iceni salvage report #6
+# Re: Отчет специалиста со Льдыни №6
 
-Finally some good news! From the looks of your scan, it's a subterranean entrance. They went underground! I don't think I've ever heard of this before.
+Наконец-то хорошие новости! Судя по снимкам, это вход в подземные помещения. Они ушли под землю! Не думаю, чтобы слышала о чем-то таком раньше.
 
-It means that the colonists WEREN'T all frozen to death/carried off into the sky by those icy winds. Rare metals, transmitters... even the people themselves could still be down there.
+Это означает, что не все поселенцы замерзли до смерти или были унесены в небо ледяным ураганом. Редкие металлы, передатчики... ну и сами люди могут быть все еще там.
 
-Can't wait to tell Nigel. Ooh... maybe it's an Iris thing. Or even a Martin thing! You find something juicy and I could be lunching on Titan with big M before the end of the fiscal year. Go team!
+Не могу дождаться, чтобы рассказать Найджелу! Ох... может, еще Айрис расскажу. Или даже Мартину! Ты найди там что-нибудь сочненькое, и я смогу обедать с большим М. на Титане еще до конца отчетного года. Вперед, команда!
 
-Sometimes I envy you, you know. Out there, thousands of miles from home with no distractions from family, friends or leisure activities. Completely alone with your thoughts. Many would kill for the kind of inner peace I imagine you experience.
+Иногда я завидую тебе, знаешь. Где-то там, в тысячах километров от дома, и ни семья, ни друзья, ни всякие очень приятные дела тебя не отвлекают. Наедине со своими мыслями. Многие бы убили за возможность найти тот внутренний покой, который тебе дарован.
 
-Keep up the adequate work. And don't accept any attitude from that robot.
+Продолжай в том же духе. И сильно не привязывайся к этому роботу.
 
-Judith
+Джудит
 
 
 #!company id{c-lower}
-# Re: Entrance to lower levels
+# Re: Вход на нижние уровни
 
-As your report indicates, it's now clear the colonists built a functioning habitat down there. I don't think I have to tell you how significant this is for us. It's very significant indeed. This means the colonists are very likely to still be down there. You need to reach them. Time is of the essence!
+Судя по твоим отчетам, становится ясно, что поселенцы построили действующую среду обитания глубоко под землей. Полагаю, не стоит напоминать тебе, какое значение это имеет для нас. Огромное значение! Мы в полной уверенности, что выжившие есть. Ты должен найти их. Время дорого!
 
-Specialist recovery teams are already on their way to assist - our best men and women. But they will take time to reach you. Use the robot to find a path for the teams.
+Спасательные бригады уже в пути, наши лучшие мужчины и женщины спешат на помощь. Но когда они еще до тебя доберутся! Пока используй робота, чтобы проложить дорогу и для них.
 
-The whole executive team are right there with you on this. Martin, the DRO Committee, Grant and Jan, Nigel, Barrington and the guys from the procurement steering group, Niamh, Liam and Robin. Even Pamela. Everybody. And we all just know you've got what it takes to bring those colonists home.
+Вся наша дружная команда мысленно с тобой сейчас. Мартин, комитет по ЛПСБ, Грант и Йен, Найджел, Баррингтон и ребята из управления закупками, Нив, Лиам и Робин. Даже Памела. Все. И мы знаем, что ты сделаешь все возможное, чтобы вернуть тех поселенцев домой.
 
-Judith
+Джудит
 
 
 #!company id{c-final}
-# Iceni salvage final report
+# Заключительный отчет со Льдыни
 
-Initial expectation was of a moderate quantity of low-value ship salvage and mineral residue. However, the salvage engineer on site discovered the remains of 21% of the original crew manifest preserved in a secure vault near the planet's core.
+Исходные ожидания были связаны со средним кол-вом дешевых обломков корабля и минеральных остатков. Однако назначенный специалист по сбору утильсырья обнаружил тела членов экипажа (21% от первоначального списка), находящиеся в безопасном помещении рядом с ядром планеты.
 
-This resulted in well-preserved cadavers of 207 colonists. Genetic analysis shows many are associated with unclaimed legacies and inheritances of significant value. Under the Off-planet Intestacy Act, by acquiring these remains the company now has a strong claim. Itemised breakdown with expected values below in Galacto-drachmae (GD)
+Всего обнаружено 207 хорошо сохранившихся тел поселенцев. Генетический анализ показал, что многие из них связаны с невостребованным наследством и высокоценным завещанным им имуществом. В связи с Законом о Внепланетном Отсутствии Завещаний, обретенные компанией останки дают ей значительное право на обладание этим наследством. Детализированная смета с предполагаемыми ценами в Галактодрахмах приведена ниже:
 
- - 207 human remains. Connected to legacies total: 878,000,000,000.00 GD
- - 72,834,841 tonnes of ceramcrete (lightly soiled) @ 10.00 GD / tonne
- - 53,552 ferrotanium panels @ 7.00 GD / panel
- - 98 tonnes of cyber-amethyst @ 29.00 GD / tonne
- - 10 scout buggies. Total value 525.00 GD
- - Personal jewellery and rare metal effects. Melted down 2,560.99 GD
- - 1 power core (plasma scorched) 10,000.00 GD
- - Derelict automata. Scrap value 80.00 GD
- - 1 functional robot & probe. Scrap value 4.00 GD
+ - 207 человеческих тел. По получении наследства общая сумма: 878,000,000,000.00 Гд
+ - 72,834,841 тонн керамкрита (слегка грязного): по 10.00 Гд / тонна
+ - 53,552 ферротановых панелей: по 7.00 Гд / панель
+ - 98 тонн кибер-аметиста: по 29.00 Гд / тонна
+ - 10 поисковых внедорожников. Общая стоимость 525.00 Гд
+ - Личные украшения и драгметаллы. По переплавке 2,560.99 Гд
+ - 1 силовое ядро (обгорело от плазмы) 10,000.00 Гд
+ - Заброшенные автоматические устройства. Цена лома 80.00 Гд
+ - 1 рабочий робот и зонд. Цена лома 4.00 Гд
 
 
 #!company id{c-promotion}
-# Say hello to the new CSO!
+# Поздоровайся с новым ГНУ!
 
-Great work on the Iceni project. I'm so happy you could participate in what has turned out to be my most successful salvage operation yet. As you may have heard, due to my performance I was deeply honoured to accept an invitation to become Chief Salvage Officer for the Outer Rim (interim).
+Отличная работа на Льдыне! Я так рада, что ты был частью проекта, обернувшегося самой успешной моей операцией по сбору утиля. Как ты наверное уже слышал, из-за моей эффективности мне была оказана великая честь принять должность Главного по Надзору за Утилем во Внешнем Кольце (временно).
 
-Don't think I've forgotten your contribution to my project! Your days as a Junior Salvage Engineer are at an end. With the power vested in me as CSO-OR(I), I hereby elevate you to the rank of Salvage Engineer. Congrats!
+Не думай, что я забыла о твоем вкладе в мой проект! Младший специалист по утильсырью теперь в прошлом. Властью, данной мне должностью ГНУ-ВК(В), я настоящим повышаю тебя до специалиста по сбору утильсырья. Поздравляю!
 
-Judith
+Джудит
