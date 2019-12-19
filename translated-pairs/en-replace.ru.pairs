@@ -300,20 +300,20 @@ Total number of evaluated code phrases
 
 #### left half of score summary
 Finished in:
-Закончено за:
+Время выполнения (мс):
 
 Solution size:
-Размер решения:
+Кол-во фраз в решении:
 
 Run size:
-Размер выполнения:
+Общее кол-во фраз:
 
 #### right half `{}` is replaced by the score
 {} ms
-{} мс
+{} 
 
 {} phrases
-{} (фразы)
+{} 
 
 #### Graph button
 Show outliers
