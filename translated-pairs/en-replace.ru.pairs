@@ -33,14 +33,14 @@ UI Scale
 Масштаб интерфейса
 
 Fullscreen
-Полноэкранный режим
+Во весь экран
 
 Snowfall
 Снег
 
 #### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
-Эффекты
+Качество
 
 #### volume settings (sound as opposed to music)
 Sound
@@ -59,16 +59,16 @@ Autocomplete
 
 #### low,medium,high,maximum related to graphics effects quality, e.g. "Effects: Medium"
 High
-Высокие
+Высокое
 
 Low
-Низкие
+Низкое
 
 Medium
-Средние
+Среднее
 
 Maximum
-Максимальные
+Максимальное
 
 Background only
 Только фон
@@ -84,7 +84,7 @@ Language
 Язык
 
 Vsync
-Вертикальная синхронизация
+V-Sync
 
 ### Tooltips
 #### main menu button at top-left
@@ -115,7 +115,7 @@ Increase Code Execution Rate
 Увеличить скорость выполнения кода
 
 Load / Save new approach
-Загрузить / сохранить новый подход
+Загрузить / сохранить новый вариант
 
 #### resets current level
 Reset
@@ -131,7 +131,7 @@ Run (paused)
 
 #### code navigation when paused/debugging
 Step over
-Шаг через
+Следующая строка
 
 #### stop running code
 Stop
@@ -143,7 +143,7 @@ Pause
 
 #### code navigation when paused/debugging
 Step forward
-Шаг вперед
+Следующая команда
 
 Delete name
 Удалить имя
@@ -173,13 +173,13 @@ Add the lines:
 Добавьте строки:
 
 Press play to run
-Нажмите Пуск, чтобы запустить
+Для выполнения нажмите Пуск
 
 Modify the commands and \nre-run to reach the exit
 Измените команды и повторно \nзапустите, чтобы достичь выхода
 
 Press to exit level
-Нажмите для выхода из уровня
+Выход из уровня
 
 Levels have multiple stages\nclick here to view each
 Уровни имеют несколько этажей, \nнажмите здесь, чтобы посмотреть каждый
@@ -198,39 +198,39 @@ Change game speed
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Нажмите, чтобы открыть справочник по коду, он содержит все примеры\nи функции, известные на данный момент
+Открыть справочник по коду, содержащий примеры\nи функции, известные на данный момент
 
 Click to close
-Нажмите, чтобы закрыть
+Закрыть
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-На этом уровне найден какой-то незавершенный код, попробуйте \nзапустить его и доработать... или просто начните с чистого листа
+На уровне найден незавершенный код, попробуйте \nзапустить его и доработать... или просто начните с чистого листа
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-Прокрутка колёсиком мыши,\nalt ↑/↓, alt pageup/pagedown
+Прокрутка колесиком мыши,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
-Нажмите, чтобы просмотреть\nвсе полученные сообщения
+Просмотреть\nвсе полученные сообщения
 
 Try using `loop` in your solution
-Попробуйте использовать `loop` в вашем решении
+Используйте `loop` в вашем решении
 
 Try using `else` and \na comparison like `>`
-Попробуйте использовать `else` и \nсравнения вроде `>`
+Используйте `else` и \nсравнения вроде `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Прочитайте Сравнения и Условия III, чтобы увидеть использование `>` и `else`
+Прочтите Сравнения и Условия III, чтобы узнать, как использовать `>` и `else`
 
 Try using a comparison like `>`
-Попробуйте использовать сравнения вроде `>`
+Используйте сравнения вроде `>`
 
 Try using `else`
-Попробуйте использовать `else`
+Используйте `else`
 
 Press to run with execution paused
-Нажмите, чтобы запустить с паузой
+Начать пошаговое выполнение
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
@@ -238,25 +238,25 @@ Notice the current evaluation is highlighted
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Нажмите, или используйте клавишу →, чтобы перейти к следующей команде
+Нажмите здесь или используйте клавишу →, чтобы перейти к следующей команде
 
 Level solutions can be\nsaved and loaded here
 Решения уровня могут быть\nсохранены и загружены здесь
 
 The best scoring code in each\ncategory is automatically saved
-Код с наибольшей оценкой в каждой\nкатегории автоматически сохраняется
+Код с наилучшей оценкой в каждой\nкатегории сохраняется автоматически
 
 Reach the revealed location
 Достигните обнаруженного места
 
 Hold alt to access more options while paused
-Зажмите Alt для доступа к дополнительным параметрам во время паузы
+Нажмите Alt для доступа к доп. опциям во время паузы
 
 Dark stages are similar to the others\nbut their details are hidden
-Тайные этажи похожи на обычные, но их детали скрыты
+Тайные этажи похожи на обычные, но в подробностях не видны
 
 Ensure your solution is general enough\nto solve these hidden variants
-Убедитесь, что ваше решение достаточно универсально,\nчтобы решить эти скрытые варианты
+Убедитесь, что решение достаточно универсальное,\nчтобы пройти эти скрытые варианты
 
 Your solution has a flaw uncovered by a hidden stage variant
 На скрытом этаже в вашем решении обнаружился изъян
@@ -267,43 +267,43 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Общее время выполнения вызовов функций и задержек окружения
+Общее время выполнения вызовов функций и иных задержек
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
-Количество выполненных фраз кода
+Количество выполненных фраз в решении
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-Общее количество выполненных фраз кода
+Общее количество выполненных фраз
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} медленнее лучшего
+{} медленнее, чем лучшее
 
 {} faster than previous best
-{} быстрее предыдущего лучшего
+{} быстрее, чем пред. лучшее
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} длиннее лучшего
+{} больше, чем лучшее
 
 {} shorter than previous best
-{} короче предыдущего лучшего
+{} меньше, чем пред. лучшее
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} больше лучшего
+{} больше, чем лучшее
 
 {} fewer than previous best
-{} меньше предыдущего лучшего
+{} меньше, чем пред. лучшее
 
 #### left half of score summary
 Finished in:
-Время выполнения (мс):
+Время (мс):
 
 Solution size:
-Кол-во фраз в решении:
+Кол-во фраз:
 
 Run size:
 Общее кол-во фраз:
@@ -320,7 +320,7 @@ Show outliers
 Подробная статистика
 
 Hide outliers
-Компактный вид
+Краткая статистика
 
 #### Graph title
 Time
@@ -396,7 +396,7 @@ Recovered Messages
 Полученные сообщения
 
 Try reworking your solution before proceeding
-Попробуйте переработать ваше решение прежде чем продолжить
+Прежде чем продолжить, попробуйте переработать ваше решение 
 
 #### Unlock headings
 Decoding ...
@@ -424,10 +424,10 @@ Functions restored
 Функции восстановлены
 
 Primer section recovered
-Пример получен
+Получен раздел учебника
 
 Paused execution unlocked
-Разблокирован запуск с паузой
+Разблокирован пошаговый запуск
 
 Scanning ...
 Сканируем ...
@@ -438,94 +438,94 @@ k
 
 ### Level names, translating these is optional. It may be better to leave them in English?
 Hello Robo
-Hello Robo
+Привет, Робо!
 
 Keep Going!
-Keep Going!
+Так держать!
 
 Look Before You Leap
-Look Before You Leap
+Смотри куда идешь
 
 Testing Grounds
-Testing Grounds
+Испытательные полигоны
 
 Use Your Powers Wisely
-Use Your Powers Wisely
+Мудро используй силы источники
 
 Satnav To Safety
-Satnav To Safety
+Навигация для безопасности
 
 Gatehouse
-Gatehouse
+Врата
 
 The Ring
-The Ring
+Кольцо
 
 Sense Of Direction
-Sense Of Direction
+Чувство направления
 
 Orienteering
-Orienteering
+Ориентирование
 
 Treacherous Steps
-Treacherous Steps
+Неверные шаги
 
 Into The Unknown
-Into The Unknown
+В Неизвестность
 
 The Deductive Dance
-The Deductive Dance
+Танец умозаключений
 
 Remember Your Discoveries
-Remember Your Discoveries
+Запомни то, что видел
 
 Map The Way
-Map The Way
+Наметь путь
 
 Melting Pot
-Melting Pot
+Плавильный котел
 
 Leap Of Faith
-Leap Of Faith
+Прыжок веры
 
 Back Into The Unknown
-Back Into The Unknown
+Обратно в Неизвестность
 
 Double Detective
-Double Detective
+Двойное расследование
 
 Leap Of Logic
-Leap Of Logic
+Прыжок логики
 
 Map The Darkness
-Map The Darkness
+Путь во Тьме
 
 Launch Safety
-Launch Safety
+Безопасный полет
 
 The Maze
-The Maze
+Лабиринт
 
 Hello Probo
-Hello Probo
+Привет, Пробо!
 
 Make Use Of Me
-Make Use Of Me
+К вашим услугам
 
 Relearning To Walk
-Relearning To Walk
+Учимся ходить заново
 
 Imperfect Direction
-Imperfect Direction
+Несовершенство направления
 
 North Launch Mastery
-North Launch Mastery
+Искусство прыжка
 
 Twisting The Cast
-Twisting The Cast
+Крученый бросок
 
 The Way To The Vault
-The Way To The Vault
+Путь в Убежище
 
 Robo Pinball
-Robo Pinball
+Робо-пинбол
