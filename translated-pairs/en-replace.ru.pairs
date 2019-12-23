@@ -267,19 +267,19 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Общее время выполнения вызовов функций и внешних задержек
+Общее время выполнения вызовов функций и внешних задержек.
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Общее время выполнения вызовов функций роботом и внешних задержек
+Общее время выполнения вызовов функций роботом и внешних задержек.
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
-Количество выполненных фраз в решении
+Размер решения определяется количеством отдельных выполненных фраз. Фраза это наименьшая самостоятельная часть кода, будь то команда, функция, условие или сравнение.
 
 #### explanation of "Run size" score
 Total number of evaluated code phrases
-Общее количество выполненных фраз
+Длина выполнения рассчитывается из общего количества задействованных фраз кода, с повторами внутри решения и на всех этажах, включая тайные.
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
