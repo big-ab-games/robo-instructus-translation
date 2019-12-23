@@ -310,10 +310,10 @@ Run size:
 
 #### right half `{}` is replaced by the score
 {} ms
-{} 
+{}
 
 {} phrases
-{} 
+{}
 
 #### Graph button
 Show outliers
@@ -335,6 +335,44 @@ Run size
 #### Label for the vertical line marking a player's best/lowest score
 Best
 Лучшее
+
+#### Live stats labels shown as the solution runs
+Time:
+Time:
+
+Solution:
+Solution:
+
+Run:
+Run:
+
+### Load/save solution menu
+#### Short names for automatically saved best solutions (try to keep these short)
+##### A single one can be best in multiple categories
+time, solution, run
+time, solution, run
+
+time, solution
+time, solution
+
+time, run
+time, run
+
+solution, run
+solution, run
+
+time
+time
+
+solution
+solution
+
+run
+run
+
+#### Text shown when switching branch would lose changes
+Replace current?
+Replace current?
 
 ### Editor hotkeys
 Undo
