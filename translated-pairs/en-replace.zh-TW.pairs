@@ -269,6 +269,10 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 Sum of function call runtimes & environmental delays
 函數調用運行時間和環境延時的總和
 
+#### clarified version used after the probe appears
+Sum of robot function call runtimes & environmental delays
+Sum of robot function call runtimes & environmental delays
+
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
 不同的已評估代碼短語的數量

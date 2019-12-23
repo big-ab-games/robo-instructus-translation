@@ -269,6 +269,10 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 Sum of function call runtimes & environmental delays
 Συνολικός χρόνος κλήσης συναρτήσεων & περιβαλλοντικών καθυστερήσεων
 
+#### clarified version used after the probe appears
+Sum of robot function call runtimes & environmental delays
+Sum of robot function call runtimes & environmental delays
+
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
 Αριθμός διακριτών αξιολογούμενων φράσεων κώδικα

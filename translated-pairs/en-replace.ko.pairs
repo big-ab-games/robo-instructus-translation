@@ -269,6 +269,10 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 Sum of function call runtimes & environmental delays
 함수 호출 런타임의 합
 
+#### clarified version used after the probe appears
+Sum of robot function call runtimes & environmental delays
+Sum of robot function call runtimes & environmental delays
+
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
 별개의 평가 된 코드 구의 수

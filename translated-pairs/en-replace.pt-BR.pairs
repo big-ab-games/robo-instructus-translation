@@ -269,6 +269,10 @@ Níveis futuros são destravados normalmente,mas\ncompletar fases negras é requ
 Sum of function call runtimes & environmental delays
 Soma dos tempos de execução da chamada de função e os atrasos do ambiente
 
+#### clarified version used after the probe appears
+Sum of robot function call runtimes & environmental delays
+Sum of robot function call runtimes & environmental delays
+
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
 Número de frases de código distintas avaliadas
