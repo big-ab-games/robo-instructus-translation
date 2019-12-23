@@ -143,7 +143,7 @@ Pause
 
 #### code navigation when paused/debugging
 Step forward
-Следующая команда
+Следующий шаг
 
 Delete name
 Удалить имя
@@ -204,7 +204,7 @@ Click to close
 Закрыть
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-На уровне найден незавершенный код, попробуйте \nзапустить его и доработать... или просто начните с чистого листа
+На уровне найден незавершенный код, попробуйте \nзапустить его и доработать... или начните с чистого листа
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
@@ -259,7 +259,7 @@ Ensure your solution is general enough\nto solve these hidden variants
 Убедитесь, что решение достаточно универсальное,\nчтобы пройти эти скрытые варианты
 
 Your solution has a flaw uncovered by a hidden stage variant
-На скрытом этаже в вашем решении обнаружился изъян
+На скрытом этаже в вашем решении обнаружился недочет
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
 Следующие уровни разблокированы, но\nдля счета необходимо пройти тайный этаж
@@ -267,11 +267,11 @@ Future levels are unlocked as normal, but\ndark stage completion is required to 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Общее время выполнения вызовов функций и иных задержек
+Общее время выполнения вызовов функций и внешних задержек
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+Общее время выполнения вызовов функций роботом и внешних задержек
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -342,41 +342,41 @@ Best
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+Время:
 
 Solution:
-Solution:
+Решение:
 
 Run:
-Run:
+Выполнение:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+время, размер, длина
 
 time, solution
-time, solution
+время, размер
 
 time, run
-time, run
+время, длина
 
 solution, run
-solution, run
+размер, длина
 
 time
-time
+время
 
 solution
-solution
+размер
 
 run
-run
+длина
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+Заменить текущий?
 
 ### Editor hotkeys
 Undo
@@ -489,13 +489,13 @@ Look Before You Leap
 Смотри куда идешь
 
 Testing Grounds
-Испытательные полигоны
+Учебные полигоны
 
 Use Your Powers Wisely
-Мудро используй силы источники
+Уходя, гасите свет
 
 Satnav To Safety
-Навигация для безопасности
+Безопасная навигация
 
 Gatehouse
 Врата
@@ -513,13 +513,13 @@ Treacherous Steps
 Неверные шаги
 
 Into The Unknown
-В Неизвестность
+В неизвестность
 
 The Deductive Dance
 Танец умозаключений
 
 Remember Your Discoveries
-Запомни то, что видел
+Запомни свои находки
 
 Map The Way
 Наметь путь
@@ -531,7 +531,7 @@ Leap Of Faith
 Прыжок веры
 
 Back Into The Unknown
-Обратно в Неизвестность
+Обратно в неизвестность
 
 Double Detective
 Двойное расследование
@@ -558,7 +558,7 @@ Relearning To Walk
 Учимся ходить заново
 
 Imperfect Direction
-Несовершенство направления
+Дефектное направление
 
 North Launch Mastery
 Искусство прыжка
