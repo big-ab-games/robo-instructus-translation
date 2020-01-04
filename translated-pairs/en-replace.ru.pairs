@@ -234,11 +234,11 @@ Press to run with execution paused
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-Обратите внимание, что выполняемая команда выделена
+Обратите внимание, что выполняемая фраза выделена
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Нажмите здесь или используйте клавишу →, чтобы перейти к следующей команде
+Нажмите здесь или используйте клавишу →, чтобы перейти к следующей фразе
 
 Level solutions can be\nsaved and loaded here
 Решения уровня могут быть\nсохранены и загружены здесь
@@ -297,10 +297,10 @@ Total number of evaluated code phrases
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} больше, чем лучшее
+{} длиннее, чем лучшее
 
 {} fewer than previous best
-{} меньше, чем пред. лучшее
+{} короче, чем пред. лучшее
 
 #### left half of score summary
 Finished in:
@@ -380,10 +380,10 @@ Replace current?
 
 #### Other branch options
 initial code
-initial code
+исходный код
 
 last level code
-last level code
+код прошлого уровня
 
 ### Editor hotkeys
 Undo
@@ -473,7 +473,7 @@ Functions restored
 Функции восстановлены
 
 Primer section recovered
-Получен раздел учебника
+Получен новый пример
 
 Paused execution unlocked
 Разблокирован пошаговый запуск
