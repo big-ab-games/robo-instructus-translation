@@ -7,7 +7,7 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
     // handle newlines
     let text = en.replace('\n', "|");
 
-    let client = reqwest::Client::new();
+    let client = reqwest::blocking::Client::new();
     // let url = format!(
     //     "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={lang}&dt=t&q={text}",
     //     lang = lang,
