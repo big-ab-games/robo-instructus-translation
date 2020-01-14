@@ -198,7 +198,7 @@ Change game speed
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Открыть справочник по коду, содержащий примеры\nи функции, известные на данный момент
+Открыть справочник по коду, содержащий примеры\nи функции, восстановленные на данный момент
 
 Click to close
 Закрыть
@@ -211,7 +211,7 @@ Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
 Прокрутка колесиком мыши,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
-Просмотреть\nвсе полученные сообщения
+Просмотреть\nвосстановленные сообщения
 
 Try using `loop` in your solution
 Используйте `loop` в вашем решении
@@ -442,7 +442,7 @@ Functions
 Функции
 
 Recovered Messages
-Полученные сообщения
+Восстановленные сообщения
 
 Try reworking your solution before proceeding
 Прежде чем продолжить, попробуйте переработать ваше решение
@@ -452,7 +452,7 @@ Decoding ...
 Декодируем ...
 
 Message recovered
-Сообщение получено
+Восстановлено сообщение
 
 Functions unlocked
 Функции разблокированы
@@ -467,13 +467,13 @@ Functions not available
 Функции недоступны
 
 Functions inoperable
-Функции невыполнимы
+Функции неприменимы
 
 Functions restored
-Функции восстановлены
+Функции возвращены
 
 Primer section recovered
-Получен новый пример
+Восстановлен раздел учебника
 
 Paused execution unlocked
 Разблокирован пошаговый запуск
