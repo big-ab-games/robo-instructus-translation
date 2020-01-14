@@ -176,7 +176,7 @@ Press play to run
 Для выполнения нажмите Пуск
 
 Modify the commands and \nre-run to reach the exit
-Измените команды и повторно \nзапустите, чтобы достичь выхода
+Измените команды и запустите \nповторно, чтобы достичь выхода
 
 Press to exit level
 Выход из уровня
@@ -211,7 +211,7 @@ Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
 Прокрутка колесиком мыши,\nalt ↑/↓, alt pageup/pagedown
 
 Click to view all recovered messages
-Просмотреть\nвосстановленные сообщения
+Просмотреть восстановленные сообщения
 
 Try using `loop` in your solution
 Используйте `loop` в вашем решении
@@ -253,7 +253,7 @@ Hold alt to access more options while paused
 Нажмите Alt для доступа к доп. опциям во время паузы
 
 Dark stages are similar to the others\nbut their details are hidden
-Тайные этажи похожи на обычные, но в подробностях не видны
+Тайные этажи похожи на обычные,\nно в подробностях не видны
 
 Ensure your solution is general enough\nto solve these hidden variants
 Убедитесь, что решение достаточно универсальное,\nчтобы пройти эти скрытые варианты
