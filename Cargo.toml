@@ -9,8 +9,8 @@ publish = false
 rustc-hash = "1"
 parking_lot = "0.10"
 once_cell = { version = "1", features = ["parking_lot"] }
+log = "0.4"
 crossbeam-channel = { version = "0.4", optional = true }
-log = { version = "0.4", optional = true }
 google_translate = { path = "goog", optional = true }
 indexmap = { version = "1", optional = true }
 env_logger = { version = "0.7", optional = true }
@@ -19,8 +19,8 @@ env_logger = { version = "0.7", optional = true }
 quote = "1"
 
 [features]
-realtime = ["crossbeam-channel", "log", "google_translate", "indexmap"]
+realtime = ["crossbeam-channel", "google_translate", "indexmap"]
 fill = ["env_logger", "realtime"]
-sort = ["env_logger", "log"]
+sort = ["env_logger"]
 
 [workspace]
