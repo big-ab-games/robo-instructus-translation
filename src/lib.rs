@@ -58,7 +58,7 @@ pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
         realtime::notify_unknown(lang, en);
 
         #[cfg(not(feature = "realtime"))]
-        log::info!("Missing translation for {:?} in lang {:?}", en, lang);
+        log::debug!("Missing translation for {:?} in lang {:?}", en, lang);
 
         en
     }
