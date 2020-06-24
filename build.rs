@@ -21,8 +21,8 @@ fn build_translated_pairs() {
     let lang_replace: Vec<_> = fs::read_dir(&translations)
         .unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok().unwrap();
-            let path = entry.file_name().to_str().unwrap().to_owned();
+            let entry = entry.ok()?;
+            let path = entry.file_name().to_str()?.to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".pairs"))
@@ -85,8 +85,8 @@ fn build_company() {
     let lang_company: Vec<_> = fs::read_dir(&company)
         .unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok().unwrap();
-            let path = entry.file_name().to_str().unwrap().to_owned();
+            let entry = entry.ok()?;
+            let path = entry.file_name().to_str()?.to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".robomarkup"))
@@ -171,8 +171,8 @@ fn build_primer() {
     let lang_primer: Vec<_> = fs::read_dir(&unlocks)
         .unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok().unwrap();
-            let path = entry.file_name().to_str().unwrap().to_owned();
+            let entry = entry.ok()?;
+            let path = entry.file_name().to_str()?.to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".robomarkup"))
@@ -281,8 +281,8 @@ fn build_function_docs() {
     let lang_lookup: Vec<_> = fs::read_dir(&unlocks)
         .unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok().unwrap();
-            let path = entry.file_name().to_str().unwrap().to_owned();
+            let entry = entry.ok()?;
+            let path = entry.file_name().to_str()?.to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".robomarkup"))
@@ -437,8 +437,8 @@ fn build_colony() {
     let lang_message: Vec<_> = fs::read_dir(&dir)
         .unwrap()
         .filter_map(|entry| {
-            let entry = entry.ok().unwrap();
-            let path = entry.file_name().to_str().unwrap().to_owned();
+            let entry = entry.ok()?;
+            let path = entry.file_name().to_str()?.to_owned();
             Some((entry, path))
         })
         .filter(|(_, path)| path.ends_with(".robomarkup"))
