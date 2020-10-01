@@ -11,7 +11,7 @@ Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Inte
 :---: | :---: | :---: | :---: | :---: | :---: | :---:
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Deutsch _(de)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
+Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
 Français _(fr)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
