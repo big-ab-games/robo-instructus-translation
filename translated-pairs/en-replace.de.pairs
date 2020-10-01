@@ -271,7 +271,7 @@ Summe der Funktionsaufruf-Laufzeiten
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+Summe der Laufzeiten der Roboterfunktion und Verzögerungen in der Umgebung
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -342,48 +342,48 @@ Am Besten
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+Zeit:
 
 Solution:
-Solution:
+Lösung:
 
 Run:
-Run:
+Durchlauf:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+Zeit, Lösung, Durchlauf
 
 time, solution
-time, solution
+Zeit, Lösung
 
 time, run
-time, run
+Zeit, Durchlauf
 
 solution, run
-solution, run
+Lösung, Durchlauf
 
 time
-time
+Zeit
 
 solution
-solution
+Lösung
 
 run
-run
+Durchlauf
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+Aktuellen Code ersetzen?
 
 #### Other branch options
 initial code
-initial code
+Anfangscode
 
 last level code
-last level code
+Code des letzten Levels
 
 ### Editor hotkeys
 Undo
@@ -581,17 +581,17 @@ Robo Pinball
 
 ### Demo text, translating these is optional. This does not appear in the full game.
 Thank you for playing the demo
-Thank you for playing the demo
+Vielen Dank, dass Sie die Demo gespielt haben
 
 The full game is available now on Steam & itch.io
-The full game is available now on Steam & itch.io
+Das vollständige Spiel ist ab sofort auf Steam & itch.io verfügbar
 
 More info at www.roboinstruct.us
-More info at www.roboinstruct.us
+Weitere Infos unter www.roboinstruct.us
 
 Thanks for playing
-Thanks for playing
+Danke fürs Spielen
 
 Loads more in the full game!
-Loads more in the full game!
+Viel mehr in der Vollversion!
 
