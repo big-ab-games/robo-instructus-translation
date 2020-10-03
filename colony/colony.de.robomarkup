@@ -19,6 +19,7 @@ Ich stelle den Engineering Primer zur Verfügung, den ich etwas hastig konstruie
 Um meine prozedurale Sprache und Automatisierungstechniken in einfachen Worten zu umschreiben, enthält der Primer alles Nötige für eine wirksame Kontrolle unserer Automaten. Ich bin jedoch besorgt, dass sich die Beschreibungen in vielen Bereichen als unzureichend und knapp erweisen könnten. Ich bin kein natürlicher Lehrer. Bitte wenden Sie sich an Ihren Workshop-Kandidaten und die lokale Gruppe, wenn Sie Probleme haben. Nachricht an mich und andere Gruppen, wenn möglich, um weitere Anleitung zu bekommen.
 
 Unabhängig von Ihrer Spezialisierung bin ich der Überzeugung, dass wir alle durch sorgfältiges lernen, ordnungsgemäße Anwendung des Primers und hartnäckige Entschlossenheit zum Überleben der Kolonie beitragen können.
+
 - Dr A. Bartram
 
 
@@ -30,8 +31,11 @@ Herzliche Glückwünsche! Wir sind (sicher) angekommen in unserem neuen Zuhause:
 Ich habe Wörter wie "unbewohnbar" und "gefrorener Todesball" gehört, aber was bedeutet "unbewohnbar" überhaupt? Ich bevorzuge den Begriff „unbewohnt“. Wisst Ihr was das heißt, Jungs? Das heißt, wir haben den Planeten ganz für uns alleine.
 
 Ich weiß, dass jeder von Ihnen im Herzen ein Pionier ist. Anstatt Widrigkeiten zu sehen, sehen wir die Chancen. All der Kraft, die wir verwendet hätten, um diesen Planeten in ein üppiges Paradies zu verwandeln, können wir auf die jetzt kritischen Heizsysteme umleiten! Unsere Vorräte sollten uns durch lange, erschöpfendende Tage harter Arbeit beim Aufbau unserer Traumkolonie führen. Jetzt, mit dem stark reduzierten Arbeitsregime, werden diese Vorräte Wochen länger halten!
+
 Hören Sie, ich sage: Lassen Sie uns innehalten. Denken wir nach. Es war mir vom ersten Tag an klar, dass dies kein Zuckerschlecken wird. Aber keine Herausforderung kann der unglaublichen Kraft des menschlichen Geistes standhalten. Ich weiß, dass wir alle sehr "Bright" sind.
+
 Während wir sprechen, geben Alice Bartram und ihr Crack-Engineering-Team mit meiner Unterstützung den letzten Schliff für einen neuen Plan. Erwarten Sie also bald spannende Updates.
+
 Wie immer haben meine Adjutanten eine Politik der offenen Tür. Schauen Sie jederzeit innerhalb der Bürozeiten * vorbei und wir können reden!
 
 Jonathan Frinton-Belmont
@@ -42,7 +46,9 @@ Designierter Gouverneur (vorläufig)
 
 #!unlock id{scans-unreliable}
 James, die Scans sind einfach nicht 100% zuverlässig. Es gibt Bereiche, in denen wir nicht sicher sein können, ob tatsächlich Metall geborgern werden muss oder nicht. Es scheint nicht einmal zu wissen, warum. An manchen Orten wird es schwierig, die Roboter überhaupt zu bewegen.
+
 Scans von `-999` bedeuten im Grunde, dass wir nicht wirklich wissen, was vor uns liegt. Ich würde auf Nummer sicher gehen, also vermeide sie, wenn möglich. Ich muss mir schon einiges von unten über Sturzschäden anhören. Wir müssen wahrscheinlich die Bergung von den obersten Ebenen aufgeben.
+
 
  > Hey Jacob, hast du eine Idee, was ich daraus machen soll [Anhang]? Ich habe einen weiteren Arbeiter verloren.
  > Ist robo_scan () fehlerhaft oder so? Und ich fing an zu glauben, dass ich dies alles langsam verstehe.
@@ -53,14 +59,18 @@ $render{scans-unreliable}
 
 #!unlock id{power}
 Die Iceni werden irgendwann zu gefährlich um darauf zuzugreifen. Die derzeitige Überlegung ist, dass wir die letzten Phasen vollständig mit den Bots durchführen müssen, einschließlich der Abschaltung unserer Transportwege. Lillians Team wird die Stromschalter gemäß den Spezifikationen von Doktor Bartram in niedrigere Ebenen einbauen. Dadurch können die Roboter schließlich die Stromversorgung ausschalten.
-Sobald Ihre Roboter die Funktion "robo_use ()" identifiziert haben, können Sie diese Funktion aufrufen, um die Schalter zu betätigen. Verwendung (nach Bartram): Rufen Sie robo_use () an einem Netzschalter auf, um den Schalter umzuschalten. Wird "1" zurückgegeben, dann ist der Schalter jetzt eingeschaltet, "0", wenn der Schalter jetzt ausgeschaltet wurde.
-Diese Netzschalter haben die Nummer "10" nach "robo_scan ()", anscheinend sollte die Verwendungsfunktion" ausreichende Dokumentation "enthalten. Ich kann Sie schon mit den Augen rollen sehen, aber denkt daran, dass sie momentan unter großem Druck steht.
+
+Sobald Ihre Roboter die Funktion `robo_use()` identifiziert haben, können Sie diese Funktion aufrufen, um die Schalter zu betätigen. Verwendung (nach Bartram): Rufen Sie `robo_use()` an einem Netzschalter auf, um den Schalter umzuschalten. Wird `1` zurückgegeben, dann ist der Schalter jetzt eingeschaltet, `0`, wenn der Schalter jetzt ausgeschaltet wurde.
+
+Diese Netzschalter haben die Nummer `10` nach `robo_scan()`, anscheinend sollte die Verwendungsfunktion "ausreichende Dokumentation" enthalten. Ich kann Sie schon mit den Augen rollen sehen, aber denkt daran, dass sie momentan unter großem Druck steht.
+
 Jacob
 $render{power}
 
 
 #!unlock id{pause}
 James, du kannst die "Pause" -Funktion benutzen. Ich habe eine Weile gebraucht, um es zu verstehen, aber es ist ziemlich nützlich. Ich kann es euch beim nächsten Teamtreffen zeigen.
+
 - Aaron Kellner
 $render{pause}
 
@@ -71,8 +81,11 @@ $render{pause}
 
 #!unlock id{data-store}
 Wie Sie alle wissen, wird die Zuverlässigkeit beim Scannen bei den Robotern immer schlechter. Die Leute unten denken, es könnte umweltbedingt sein, vielleicht etwas in der Luft. Unabhängig davon müssen wir unsere Arbeit fortsetzen. Wenn der Arzt die Scanner reparieren kann, kehren wir zur Rettung der oberen Ebenen zurück. Konzentrieren wir uns jedoch zunächst auf die Abschnitte 0 bis 14, in denen sich die Bots noch recht gut bewegen können.
-Wir haben einige "Datenspeicher" eingerichtet, um festen Boden zu identifizieren, wenn "robo_scan ()" dies nicht kann. Verwendung (von Bartram): Rufen Sie "robo_use ()" auf einen Datenspeicher, um eine ID für einen sicheren Standort abzurufen. Diese Standorte sind für die Roboterdurchquerung sicher.
-Diese Datenspeicher haben die "robo_scan ()" Nummer "11".
+
+Wir haben einige "Datenspeicher" eingerichtet, um festen Boden zu identifizieren, wenn `robo_scan()` dies nicht kann. Verwendung (von Bartram): Rufen Sie `robo_use()` auf einen Datenspeicher, um eine ID für einen sicheren Standort abzurufen. Diese Standorte sind für die Roboterdurchquerung sicher.
+
+Diese Datenspeicher haben die `robo_scan()` Nummer `11`.
+
 Jacob
 $render{data-store}
 
@@ -82,6 +95,7 @@ Jonathan,
 
 Die Oberflächensuche hat nichts gefunden.
 Ich habe einen Plan. Wir müssen die Reserveleistung für eine vollständige geologische Untersuchung umleiten.
+
 - Alice
 
  > Doc,
@@ -97,7 +111,7 @@ Ich habe einen Plan. Wir müssen die Reserveleistung für eine vollständige geo
 #!unlock id{pause-fun}
 Hey Lillian, ich habe gerade aus der Dokumentation herausgefunden, dass wir die Ausführung von Code aus unterbrechen können, ohne die Taste zu drücken.
 
-"pause()"
+`pause()`
 
 Dies hätte wirklich geholfen, als wir diesen Orientierungsfehler gesucht hatten!
 
@@ -108,6 +122,7 @@ Dies hätte wirklich geholfen, als wir diesen Orientierungsfehler gesucht hatten
 Alice,
 
 Ich bin gerade von der Fabrikation zurückgekommen. Wenn ich gewusst hätte, dass wir diese Roboter in Serie produzieren würden, hätte ich auf die Schnickschnack verzichtet. Aber 11 neue gab es heute! Wie geht es Ihrer Legion von Farmer-Codern? Haben Sie schon Spaß am Unterrichten?
+
 Können Sie glauben, dass unser Roboter, unser kleines Projekt von der Reise hierher, die Kolonie retten wird?
 
 Heute Abend wieder Pilze. Ich habe ein gutes Gefühl bei dieser Charge. Ich werde sie dieses Mal richtig waschen, diese Neurolähmung war schrecklich.
@@ -124,16 +139,17 @@ Zu Ihrer Information, Team 3 hat auch die unzuverlässigen Scans gemildert.
  > Wir fügen Richtungsdaten hinzu, die auf festen Boden zeigen. Meistens sind sie nicht notwendig, aber sie könnten sehr nützlich sein, wenn sich die Scans verschlechtern.
  > Aaron hat einige funktionierende Codebeispiele, die er überarbeitet und an alle Teams senden wird. Aber kurz gesagt:
  >
- > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan () Nummer 12.
+ > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan() Nummer 12.
  $render{direction}
- > robo_use () mögliche Richtungen 1: nach oben, 2: nach rechts,
+ > robo_use() mögliche Richtungen 1: nach oben, 2: nach rechts,
+
 
 #!unlock id{direction-2}
 Entschuldigung, ich habe das Ende von Lillians Nachricht in der letzten Mitteilung abgeschnitten. Hier ist der vollständige Satz von Codes.
 
- > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan () Nummer 12.
+ > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan() Nummer 12.
  $render{direction}
- > robo_use () mögliche Richtungen 1: oben, 2: rechts, 3: unten, 4: links.
+ > robo_use() mögliche Richtungen 1: oben, 2: rechts, 3: unten, 4: links.
  >
  > - Lillian Westerman
 
@@ -142,6 +158,7 @@ Entschuldigung, ich habe das Ende von Lillians Nachricht in der letzten Mitteilu
 James, du hast Recht, die Speicher kennen die Ausrichtung eines Roboters nicht. Sie sind ziemlich dumm, aber dafür einfach einzurichten.
 
 Verfolgen Sie nicht die Roboterorientierung? Wir haben dies bereits nach jedem Oben / Links in Team 3 verfolgt, also habe ich einfach angenommen, dass alle Teams diesen Code hatten. Das tut mir leid! Ich bin gerade nicht in der Lage den Code zu übermitteln, aber ich kann Sie beim nächsten Teamtreffen definitiv durch den Code führen.
+
 - Aaron Kellner
 
  > Aaron, vermisse ich etwas mit diesen Richtungsgeschäften? Was meinst du mit "oben" / "rechts"?! Wie ist das nützlich? Der Speicher weiß nicht, in welche Richtung ich gehe, es funktioniert nicht.
@@ -189,7 +206,7 @@ Gouverneur
 #!unlock id{launch}
 Ich glaube, ich habe eine Lösung für die Risse gefunden, die sich in den unteren Ebenen öffnen, entweder durch die spärliche Felsstruktur hier unten oder durch die überminierten fehlfunktionierenden Bots.
 
-Ich habe einige Startplattformen aufgebaut, die die Roboter über Lücken schleudern können. Sie laden sich auf, wenn etwas über ihnen liegt. Wenn ein Roboter lange genug auf einem bleibt, wird der Start ausgelöst. Ich habe ihnen die "robo_scan ()" Nummer "3" zugewiesen.
+Ich habe einige Startplattformen aufgebaut, die die Roboter über Lücken schleudern können. Sie laden sich auf, wenn etwas über ihnen liegt. Wenn ein Roboter lange genug auf einem bleibt, wird der Start ausgelöst. Ich habe ihnen die `robo_scan()` Nummer `3` zugewiesen.
 
 Ehrlich gesagt sind sie ein bisschen schmerzhaft zu benutzen, aber sie funktionieren. Ich bin sicher, der Arzt hätte sich etwas Eleganteres ausgedacht, aber ich denke, das ist besser als nichts.
 
