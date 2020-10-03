@@ -14,78 +14,65 @@
 
 
 #!unlock id{primer-intro}
-I am making available the Engineering Primer I've somewhat hastily constructed to accompany the workshops following assembly-17.
+Ich stelle den Engineering Primer zur Verfügung, den ich etwas hastig konstruiert habe, um die Workshops nach Montage-17 zu begleiten.
 
-Outlining my procedural language and automation techniques in simple terms, the primer contains everything necessary for effective control of our automata. However, I'm worried the descriptions may prove insufficient and terse in many areas. I am not a natural teacher. Please consult with your workshop nominee and local group if you find yourself floundering. Message me and other groups if possible for further guidance.
+Um meine prozedurale Sprache und Automatisierungstechniken in einfachen Worten zu umschreiben, enthält der Primer alles Nötige für eine wirksame Kontrolle unserer Automaten. Ich bin jedoch besorgt, dass sich die Beschreibungen in vielen Bereichen als unzureichend und knapp erweisen könnten. Ich bin kein natürlicher Lehrer. Bitte wenden Sie sich an Ihren Workshop-Kandidaten und die lokale Gruppe, wenn Sie Probleme haben. Nachricht an mich und andere Gruppen, wenn möglich, um weitere Anleitung zu bekommen.
 
-No matter your speciality it is my belief that with careful study, proper application of the primer and dogged determination we may all contribute to the survival of the colony.
-
+Unabhängig von Ihrer Spezialisierung bin ich der Überzeugung, dass wir alle durch sorgfältiges lernen, ordnungsgemäße Anwendung des Primers und hartnäckige Entschlossenheit zum Überleben der Kolonie beitragen können.
 - Dr A. Bartram
 
 
 #!unlock id{pathfinders}
-My fellow pathfinders,
+Meine Mitstreiter,
 
-Congratulations! We have arrived (safely!) at our new home: Bright. As some of you may have heard, conditions on Bright are quite different to the pre-mission spectroscopic analysis.
+Herzliche Glückwünsche! Wir sind (sicher) angekommen in unserem neuen Zuhause: Bright. Wie einige von Ihnen vielleicht gehört haben, unterscheiden sich die Bedingungen auf Bright erheblich von denen der spektroskopischen Analyse, die vor der Mission durchgeführt wurde.
 
-I've heard words like “uninhabitable” and “frozen death ball” bandied around, but what does “uninhabitable” mean anyway? I prefer the term “uninhabited”. And, guess what guys? That means we have the planet all to ourselves.
+Ich habe Wörter wie "unbewohnbar" und "gefrorener Todesball" gehört, aber was bedeutet "unbewohnbar" überhaupt? Ich bevorzuge den Begriff „unbewohnt“. Wisst Ihr was das heißt, Jungs? Das heißt, wir haben den Planeten ganz für uns alleine.
 
-I know every single one of you is a pioneer at heart. Instead of seeing adversity, we see opportunity. All the power we would have used terraforming this planet into a lush paradise, we can redirect to the now-critical heating systems! Our supplies were to see us through long, back-breaking days of hard labour building our dream colony. Now, with the much reduced work regime, these supplies will stretch weeks longer!
-
-Listen, what I'm saying is: Let's pause. Let's think. I've been crystal clear from Day 1 that there will be challenges. But no challenge can withstand the awesome power of the human spirit. I know we've all got the “Bright” stuff.
-
-As we speak, Alice Bartram and her crack engineering team, with my support, are putting the finishing touches to a new plan. So expect exciting updates very soon.
-
-As always, my aides have an open-door policy. Drop by anytime within office hours* and let's chat!
+Ich weiß, dass jeder von Ihnen im Herzen ein Pionier ist. Anstatt Widrigkeiten zu sehen, sehen wir die Chancen. All der Kraft, die wir verwendet hätten, um diesen Planeten in ein üppiges Paradies zu verwandeln, können wir auf die jetzt kritischen Heizsysteme umleiten! Unsere Vorräte sollten uns durch lange, erschöpfendende Tage harter Arbeit beim Aufbau unserer Traumkolonie führen. Jetzt, mit dem stark reduzierten Arbeitsregime, werden diese Vorräte Wochen länger halten!
+Hören Sie, ich sage: Lassen Sie uns innehalten. Denken wir nach. Es war mir vom ersten Tag an klar, dass dies kein Zuckerschlecken wird. Aber keine Herausforderung kann der unglaublichen Kraft des menschlichen Geistes standhalten. Ich weiß, dass wir alle sehr "Bright" sind.
+Während wir sprechen, geben Alice Bartram und ihr Crack-Engineering-Team mit meiner Unterstützung den letzten Schliff für einen neuen Plan. Erwarten Sie also bald spannende Updates.
+Wie immer haben meine Adjutanten eine Politik der offenen Tür. Schauen Sie jederzeit innerhalb der Bürozeiten * vorbei und wir können reden!
 
 Jonathan Frinton-Belmont
-Governor-designate (interim)
+Designierter Gouverneur (vorläufig)
 
-*See accompanying message about reduced office hours due to power-saving protocols
+* Siehe Begleitmeldung zu verkürzten Bürozeiten aufgrund von Energiesparprotokollen
 
 
 #!unlock id{scans-unreliable}
-James, the scans just aren't 100% reliable. There are areas where we can't be sure if there is actually metal to be recovered or not. It doesn't seem like we even know why. In some places it's becoming hard to even move the robots around.
+James, die Scans sind einfach nicht 100% zuverlässig. Es gibt Bereiche, in denen wir nicht sicher sein können, ob tatsächlich Metall geborgern werden muss oder nicht. Es scheint nicht einmal zu wissen, warum. An manchen Orten wird es schwierig, die Roboter überhaupt zu bewegen.
+Scans von `-999` bedeuten im Grunde, dass wir nicht wirklich wissen, was vor uns liegt. Ich würde auf Nummer sicher gehen, also vermeide sie, wenn möglich. Ich muss mir schon einiges von unten über Sturzschäden anhören. Wir müssen wahrscheinlich die Bergung von den obersten Ebenen aufgeben.
 
-Scans of `-999` basically mean we don't even know what's in front of us. I'd err on the side of caution just avoid them if possible. I'm already getting an earful from below about fall damage. We'll probably have to abandon salvage from the upper most levels.
-
-
- > Hey Jacob, do you have any idea what I should make of this [attached]? I've lost another worker.
- > Is robo_scan() faulty or something? And I was starting to think I was getting my head around all this.
+ > Hey Jacob, hast du eine Idee, was ich daraus machen soll [Anhang]? Ich habe einen weiteren Arbeiter verloren.
+ > Ist robo_scan () fehlerhaft oder so? Und ich fing an zu glauben, dass ich dies alles langsam verstehe.
  >
  > Hackett
 $render{scans-unreliable}
 
 
 #!unlock id{power}
-The Iceni will eventually become too dangerous to access. The current thinking is we'll need to conduct the final stages totally using the bots, including powering down our transport routes. Lillian's team will be fitting power switches into lower levels according to Doctor Bartram's specs, these will eventually allow the robots to turn off the power.
-
-Once your robots have identified the function `robo_use()` the story is you'll be able to call this function to flip the switches. Usage (from Bartram): Call `robo_use()` on a power switch to toggle the switch. Returns `1` if the switch is now on, `0` if the switch has been turned off.
-
-These power switches have `robo_scan()` code `10`, apparently the use function should include "sufficient documentation". I can see you guys rolling your eyes already, but remember she's under a lot of pressure below too.
-
+Die Iceni werden irgendwann zu gefährlich um darauf zuzugreifen. Die derzeitige Überlegung ist, dass wir die letzten Phasen vollständig mit den Bots durchführen müssen, einschließlich der Abschaltung unserer Transportwege. Lillians Team wird die Stromschalter gemäß den Spezifikationen von Doktor Bartram in niedrigere Ebenen einbauen. Dadurch können die Roboter schließlich die Stromversorgung ausschalten.
+Sobald Ihre Roboter die Funktion "robo_use ()" identifiziert haben, können Sie diese Funktion aufrufen, um die Schalter zu betätigen. Verwendung (nach Bartram): Rufen Sie robo_use () an einem Netzschalter auf, um den Schalter umzuschalten. Wird "1" zurückgegeben, dann ist der Schalter jetzt eingeschaltet, "0", wenn der Schalter jetzt ausgeschaltet wurde.
+Diese Netzschalter haben die Nummer "10" nach "robo_scan ()", anscheinend sollte die Verwendungsfunktion" ausreichende Dokumentation "enthalten. Ich kann Sie schon mit den Augen rollen sehen, aber denkt daran, dass sie momentan unter großem Druck steht.
 Jacob
 $render{power}
 
 
 #!unlock id{pause}
-James, you can use the "pause" function. It took me a while to get it, but it's pretty useful now. I can show you guys at the next team meet.
-
+James, du kannst die "Pause" -Funktion benutzen. Ich habe eine Weile gebraucht, um es zu verstehen, aber es ist ziemlich nützlich. Ich kann es euch beim nächsten Teamtreffen zeigen.
 - Aaron Kellner
 $render{pause}
 
- > I remember the doctor stopping the code and moving forward at her own pace, does anyone remember how to do this? It's flying all over the bloody place I can't keep track of it.
+ > Ich erinnere mich, dass die Ärztin den Code stoppte und in ihrem eigenen Tempo vorwärts ging. Erinnert sich jemand daran, wie das geht? Es bewegt sich viel zu schnell und ich kann es nicht verfolgen.
  >
  > Hackett
 
 
 #!unlock id{data-store}
-As you all know robot scanning reliability is getting worse. The folks below think it could be environmental, something in the air perhaps. Regardless, we must continue our work. If the doc can fix the scanners we'll return to salvaging the upper levels, but for now let's focus on sections 0-14 where the bots can still move fairly well.
-
-We've setup some "data stores" to help identify solid ground when `robo_scan()` can't. Usage (from Bartram): Call `robo_use()` on a data store to fetch a safe location id, such locations are safe for robot traversal.
-
-These data stores have `robo_scan()` code `11`.
-
+Wie Sie alle wissen, wird die Zuverlässigkeit beim Scannen bei den Robotern immer schlechter. Die Leute unten denken, es könnte umweltbedingt sein, vielleicht etwas in der Luft. Unabhängig davon müssen wir unsere Arbeit fortsetzen. Wenn der Arzt die Scanner reparieren kann, kehren wir zur Rettung der oberen Ebenen zurück. Konzentrieren wir uns jedoch zunächst auf die Abschnitte 0 bis 14, in denen sich die Bots noch recht gut bewegen können.
+Wir haben einige "Datenspeicher" eingerichtet, um festen Boden zu identifizieren, wenn "robo_scan ()" dies nicht kann. Verwendung (von Bartram): Rufen Sie "robo_use ()" auf einen Datenspeicher, um eine ID für einen sicheren Standort abzurufen. Diese Standorte sind für die Roboterdurchquerung sicher.
+Diese Datenspeicher haben die "robo_scan ()" Nummer "11".
 Jacob
 $render{data-store}
 
@@ -93,27 +80,26 @@ $render{data-store}
 #!unlock id{i-have-a-plan}
 Jonathan,
 
-The surface searches have found nothing.
-I have a plan. We'll need to divert reserve power for a full geological survey.
-
+Die Oberflächensuche hat nichts gefunden.
+Ich habe einen Plan. Wir müssen die Reserveleistung für eine vollständige geologische Untersuchung umleiten.
 - Alice
 
  > Doc,
  >
- > All teams reported back now. Buggies covered 100km radius around the landing site. Just as we feared.  Ice plains. High Winds. No signs of life. Temperature constant and uncomfortable.
+ > Alle Teams haben sich jetzt gemeldet. Buggys legten einen Radius von 100 km um den Landeplatz zurück. Es ist genau so wie wir es befürchtet hatten. Eisebenen. Starke Winde. Keine Lebenszeichen. Temperatur konstant und unangenehm.
  >
- > Heading back now. I'm sorry.
+ > Ich komme jetzt zurück. Es tut mir Leid.
  >
  > Jacob
- > Search team alpha
+ > Suchteam Alpha
 
 
 #!unlock id{pause-fun}
-Hey Lillian, I just found out from the doc that we can pause execution from code, without hitting the button.
+Hey Lillian, ich habe gerade aus der Dokumentation herausgefunden, dass wir die Ausführung von Code aus unterbrechen können, ohne die Taste zu drücken.
 
-`pause()`
+"pause()"
 
-This would have really helped when we were hunting down that orientation bug!
+Dies hätte wirklich geholfen, als wir diesen Orientierungsfehler gesucht hatten!
 
 - Aaron
 
@@ -121,82 +107,79 @@ This would have really helped when we were hunting down that orientation bug!
 #!unlock id{mushrooms-again}
 Alice,
 
-I just got back from fabrication. If I'd known we were going to mass-produce these robots, I'd have left off the bells and whistles. 11 more today though! How are your legion of farmer-coders coming along? Enjoying teaching yet?
+Ich bin gerade von der Fabrikation zurückgekommen. Wenn ich gewusst hätte, dass wir diese Roboter in Serie produzieren würden, hätte ich auf die Schnickschnack verzichtet. Aber 11 neue gab es heute! Wie geht es Ihrer Legion von Farmer-Codern? Haben Sie schon Spaß am Unterrichten?
+Können Sie glauben, dass unser Roboter, unser kleines Projekt von der Reise hierher, die Kolonie retten wird?
 
-Can you believe that our robot, our little project from the voyage over here, is going to save the colony?
+Heute Abend wieder Pilze. Ich habe ein gutes Gefühl bei dieser Charge. Ich werde sie dieses Mal richtig waschen, diese Neurolähmung war schrecklich.
 
-Mushrooms again tonight. I've got a good feeling about this batch. I'll wash them properly this time, that neuro-paralysis was horrific.
-
-Till tonight,
+Bis heute Abend,
 Jack
-P.s. did you get anywhere with the probe design?
+P.s. Haben Sie mit dem Sondendesign etwas erreicht?
 
 
 #!unlock id{direction}
-FYI team 3 have also been mitigating the unreliable scans.
+Zu Ihrer Information, Team 3 hat auch die unzuverlässigen Scans gemildert.
 
- > Jacob, we've been working on another workaround for the dodgy scans.
- > We're adding direction data that will point toward solid ground. Mostly they're not necessary, but they could come in very handy if the scans worsen.
- > Aaron has some working code samples that he will clean up and send out to all the teams. But in short:
+ > Jacob, wir haben an einer anderen Problemumgehung für die ungenauen Scans gearbeitet.
+ > Wir fügen Richtungsdaten hinzu, die auf festen Boden zeigen. Meistens sind sie nicht notwendig, aber sie könnten sehr nützlich sein, wenn sich die Scans verschlechtern.
+ > Aaron hat einige funktionierende Codebeispiele, die er überarbeitet und an alle Teams senden wird. Aber kurz gesagt:
  >
- > Direction data stores contain directions relative to that tile. Identify with robo_scan() code 12.
+ > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan () Nummer 12.
  $render{direction}
- > robo_use() possible directions 1: up, 2: right,
-
+ > robo_use () mögliche Richtungen 1: nach oben, 2: nach rechts,
 
 #!unlock id{direction-2}
-Apologies I cut off the end of Lillian's message in the last one, here's the full set of codes.
+Entschuldigung, ich habe das Ende von Lillians Nachricht in der letzten Mitteilung abgeschnitten. Hier ist der vollständige Satz von Codes.
 
- > Direction data stores contain directions relative to that tile. Identify with robo_scan() code 12.
+ > Richtungsdatenspeicher enthalten Richtungen relativ zu dieser Kachel. Identifizieren Sie sich mit dem robo_scan () Nummer 12.
  $render{direction}
- > robo_use() possible directions 1: up, 2: right, 3: down, 4: left.
+ > robo_use () mögliche Richtungen 1: oben, 2: rechts, 3: unten, 4: links.
  >
  > - Lillian Westerman
 
 
 #!unlock id{orientation}
-James, you are correct the stores don't know a robot's orientation. They're pretty dumb, but they're also easy to setup.
+James, du hast Recht, die Speicher kennen die Ausrichtung eines Roboters nicht. Sie sind ziemlich dumm, aber dafür einfach einzurichten.
 
-Are you guys not tracking robot orientation? We were already tracking this after each forward/left in team 3, so I just assumed all teams had that code. Sorry about that! I'm away from the code right now, but I can definitely walk you through it at the next team meet.
-
+Verfolgen Sie nicht die Roboterorientierung? Wir haben dies bereits nach jedem Oben / Links in Team 3 verfolgt, also habe ich einfach angenommen, dass alle Teams diesen Code hatten. Das tut mir leid! Ich bin gerade nicht in der Lage den Code zu übermitteln, aber ich kann Sie beim nächsten Teamtreffen definitiv durch den Code führen.
 - Aaron Kellner
 
- > Aaron, am I missing something with these direction stores? What do you mean "up"/"right"?! How is this useful? The store doesn't know which way I'm facing, it doesn't work.
+ > Aaron, vermisse ich etwas mit diesen Richtungsgeschäften? Was meinst du mit "oben" / "rechts"?! Wie ist das nützlich? Der Speicher weiß nicht, in welche Richtung ich gehe, es funktioniert nicht.
  >
  > Hackett
 
 
 #!unlock id{hot-air}
-Alice, have you seen his latest one? This guy has enough hot air to power the whole colony!
+Alice, hast du seine neueste gesehen? Dieser Typ hat genug heiße Luft, um die ganze Kolonie mit Strom zu versorgen!
 
 Jack
 
- > Friends!
+ > Freunde!
  >
- > We have now initiated phase 2 of the new plan. By now many of you have moved to our cosy new dwellings in level B3. For those of you awaiting transfer, we can't wait for you to join us, nestled deep within the bosom of Bright's welcoming, rocky mantle. You'll find it's comparatively warm down here!
+ > Wir haben jetzt Phase 2 des neuen Plans eingeleitet. Inzwischen sind viele von Ihnen in unsere gemütlichen neuen Wohnungen in Level B3 gezogen. Für diejenigen unter Ihnen, die auf den Transfer warten, können wir es kaum erwarten, dass Sie sich uns anschließen, eingebettet tief in den Busen von Bright's einladendem, felsigem Mantel. Sie werden feststellen, dass es hier unten vergleichsweise warm ist!
  >
- > Our army of robots and freshly-minted robo-engineers are working tirelessly to dig even deeper and open up new levels and new geothermal power sources. And I will not rest until we are all safely under the ground.
+ > Unsere Armee von Robotern und frisch geprägten Robo-Ingenieuren arbeitet unermüdlich daran, noch tiefer zu graben und neue Ebenen und neue geothermische Energiequellen zu erschließen. Und ich werde nicht ruhen, bis wir alle sicher unter der Erde sind.
  >
- > Many thanks to Mary and the rest of the xenobotanists for discovering a new mushroom species which is almost totally edible. Get ready to update your recipes, everyone!
+ >Vielen Dank an Mary und den Rest der Xenobotaniker für die Entdeckung einer neuen Pilzart, die fast vollständig essbar ist. Machen Sie sich alle bereit, Ihre Rezepte zu aktualisieren!
  >
  > Jonathan Frinton-Belmont
- > Governor-designate
+ > Generalgouverneur
 
 
 #!unlock id{fatality-report}
-I'm so sorry Alice. I know you two were close. If there's anything I can do just let my office know.
+Es tut mir so leid, Alice. Ich weiß, dass ihr zwei euch nahe ward. Wenn ich etwas tun kann, lass es einfach mein Büro wissen.
 
 Jonathan Frinton-Belmont
-Governor
+Gouverneur
 
- > Fatality report #89d-b11
- > Location: S7 section 5 subsection L
- > Category: excavation
- > Team leader: Jack Sheppard
+ > Todesbericht #89d-b11
+ > Standort: S7 Sektion 5 Untersektion L
+ > Kategorie: Ausgrabung
+ > Gruppenführer: Jack Sheppard
  >
- > At 26:05 excavation team Gamma became trapped in a newly bored passage section 5. Further structural collapse occurred before rescue attempts could begin, resulting in the deaths of all team members. Suspected structural support failure due to metal fatigue.
+ > Um 26:05 Uhr wurde das Ausgrabungsteam Gamma in dem neu gebohrten Durchgang Abschnitt 5 gefangen. Ein weiterer struktureller Zusammenbruch ereignete sich, bevor Rettungsversuche beginnen konnten, was zum Tod aller Teammitglieder führte. Verdacht auf Versagen der strukturellen Unterstützung aufgrund von Metallermüdung.
  >
- > Fatality list:
+ > Todesliste:
  > - Jack Sheppard
  > - Alejandro Lopez
  > - Myah Lawrence
@@ -204,50 +187,50 @@ Governor
 
 
 #!unlock id{launch}
-I think I've found a solution to the cracks opening up on the lower levels, either by the sparse rock structure down here or the rogue-bots overmining.
+Ich glaube, ich habe eine Lösung für die Risse gefunden, die sich in den unteren Ebenen öffnen, entweder durch die spärliche Felsstruktur hier unten oder durch die überminierten fehlfunktionierenden Bots.
 
-I've rigged up some launch platforms that can hurl the robots over gaps. They work by charging up when something is on top of them. If a robot stays on one long enough it'll trigger the launch. I've assigned them `robo_scan()` code `3`.
+Ich habe einige Startplattformen aufgebaut, die die Roboter über Lücken schleudern können. Sie laden sich auf, wenn etwas über ihnen liegt. Wenn ein Roboter lange genug auf einem bleibt, wird der Start ausgelöst. Ich habe ihnen die "robo_scan ()" Nummer "3" zugewiesen.
 
-Honestly they're a bit of a pain to use, but they work. I'm sure the doc would have come up with something more elegant but I think this is better than nothing.
+Ehrlich gesagt sind sie ein bisschen schmerzhaft zu benutzen, aber sie funktionieren. Ich bin sicher, der Arzt hätte sich etwas Eleganteres ausgedacht, aber ich denke, das ist besser als nichts.
 
 - Anita
 $render{launch}
 
 
 #!unlock id{falling-apart}
-Jacob, what can we do about the doc? Things are falling apart. Why doesn't she respond? We've all lost people but it's been 17 cycles since Jack passed. She's been locked away working on some project (we ASSUME) but we really need her out here.
+Jacob, was können wir wegem dem Doc tun? Die Dinge hier fallen auseinander. Warum antwortet sie nicht? Wir haben alle Menschen verloren, aber es sind 17 Zyklen vergangen, seit Jack gestorben ist. Sie wurde weggesperrt, um an einem Projekt zu arbeiten (nehmen wir jedenfalls an), aber wir brauchen sie wirklich hier draußen.
 
 Hackett
 
 
 #!unlock id{distress}
-When was the last time anyone went up top? Can we even still get there? We're digging for materiel and geothermal energy, but we're getting further and further away from the surface. We don't even know if the distress signal is still transmitting. Isn't getting off Bright the goal?
+Wann war das letzte Mal jemand oben? Können wir überhaupt noch dorthin gelangen? Wir graben nach Material und Geothermie, aber wir entfernen uns immer weiter von der Oberfläche. Wir wissen nicht einmal, ob das Notsignal noch sendet. Ist es nicht das Ziel, von Bright runterzukommen?
 
 Hackett
 
 
 #!unlock id{proto-probe}
-I have spent quite some time working secluded in my subterranean lab. In this time it's become impossible to ignore the obvious truth; we cannot survive Bright. Rescue is our only faint hope.
+Ich habe einige Zeit in meinem unterirdischen Labor gearbeitet. In dieser Zeit ist es unmöglich geworden, die offensichtliche Wahrheit zu ignorieren; Wir können Bright nicht überleben. Rettung ist unsere einzige, wenn auch schwache, Hoffnung.
 
-As before my only real solace comes from working toward something that I believe may help. I've focused all efforts on a new robotic design to complement our current robots. This new probe is airborne and able to traverse the worst our unreliable home has to offer. It's designed to embed itself in the storage cavity of any 7th or later series robot and communicate with its "mother" using new software capabilities.
+Nach wie vor besteht mein einziger wirklicher Trost darin, auf etwas hinzuarbeiten, von dem ich glaube, dass es helfen kann. Ich habe alle Anstrengungen auf ein neues Roboterdesign konzentriert, das unsere aktuellen Roboter ergänzt. Diese neue Sonde ist in der Luft und kann das Schlimmste durchqueren, was unser unzuverlässiges Zuhause zu bieten hat. Es wurde entwickelt, um sich in den Speicherhohlraum eines Roboters der 7. oder späteren Serie einzubetten und mit seiner "Mutter" über neue Softwarefunktionen zu kommunizieren.
 
-Much of my time has been spent on getting the communication calls to be reliable. I believe I'm finally there, though I wish I had more time to test. A robot & probe working in tandem will be a truly powerful force.
+Ein Großteil meiner Zeit wurde darauf verwendet, dass die Kommunikationsanrufe zuverlässig sind. Ich glaube, ich bin endlich soweit, obwohl ich mir wünschte, ich hätte mehr Zeit zum Testen. Ein Roboter und eine Sonde, die zusammenarbeiten, werden eine wirklich mächtige Kraft sein.
 
-However, it's not a spectacle I'll be able to see myself. I'm quite sure I won't see the outside of this lab again. At least I won't have to eat any more of the mushrooms.
+Es ist jedoch kein Spektakel, das ich selbst sehen kann. Ich bin mir ziemlich sicher, dass ich das Äußere dieses Labors nicht wieder sehen werde. Zumindest muss ich keine Pilze mehr essen.
 
-I've sent the only full prototype probe up to the Iceni scaffold to find a compatible robot. If rescue should come, my hope is that these tools will aid an effort to save those of us that remain beneath the ice.
+Ich habe die einzige vollständige Prototypsonde zum Iceni-Gerüst geschickt, um einen kompatiblen Roboter zu finden. Sollte es zu einer Rettung kommen, hoffe ich, dass diese Werkzeuge dazu beitragen, diejenigen von uns zu retten, die unter dem Eis bleiben.
 
 - Dr A. Bartram
 
 
 #!unlock id{vault}
-Dear Friends,
+Liebe Freunde,
 
-Today begins the next step in our lives here on Bright. As many of you know, circumstances require us to take a step back and re-evaluate. Due to mining algorithm mistakes, more and more robots are out of control and tunnelling through our hab structures. As a result, the living quarters on almost all levels are uninhabitable, at risk of immediate collapse and therefore fall far below the relevant Health and Safety regulations (see Section 15 subparagraph 10).
+Heute beginnt der nächste Schritt in unserem Leben hier auf Bright. Wie viele von Ihnen wissen, erfordern die Umstände, dass wir einen Schritt zurücktreten und neu bewerten. Aufgrund von Fehlern beim Mining-Algorithmus sind immer mehr Roboter außer Kontrolle und tunneln durch unsere Hab-Strukturen. Infolgedessen sind die Wohnräume auf fast allen Ebenen unbewohnbar, drohen sofort zusammenzubrechen und liegen daher weit unter den einschlägigen Gesundheits- und Sicherheitsvorschriften (siehe Abschnitt 15 Unterabsatz 10).
 
-We in The Leadership Team (TLT) have been working hard on a new solution. We have created a secure and sealed vault deep within Bright’s core in which we will wait for rescue. In fact The Leadership Team (TLT) are already here. And the good news is following the recent spate of accidents (Incident Reports pending) our space and food concerns are now a thing of the past. The vault has room for all surviving residents with cots and combi-toilets shared between six. All robo-mining efforts are suspended indefinitely so say goodbye to that daily commute!
+Wir im Führungsteam (FT) haben hart an einer neuen Lösung gearbeitet. Wir haben ein sicheres und versiegeltes Gewölbe tief im Kern von Bright geschaffen, in dem wir auf die Rettung warten werden. Tatsächlich ist das Führungsteam (FT) bereits hier. Und die gute Nachricht ist, dass nach der jüngsten Flut von Unfällen (Unfallberichte anhängig) unsere Platz- und Lebensmittelprobleme nun der Vergangenheit angehören. Das Gewölbe bietet Platz für alle überlebenden Bewohner mit Feldbetten und Kombitoiletten, die sich sechs Personen teilen. Alle Robo-Mining-Bemühungen werden auf unbestimmte Zeit ausgesetzt. Verabschieden Sie sich also von diesem täglichen Pendelverkehr!
 
-The Leadership Team (TLT) invites you all to make your new home in the vault within 4 cycles after which the vault door will be sealed awaiting rescue. Have no doubt! Whatever rumours you may have heard, the rescue ships are definitely on their way.
+Das Führungsteam (FT) lädt Sie alle ein, innerhalb von 4 Zyklen Ihr neues Zuhause im Kern zu errichten. Danach wird die Tür nach draußen versiegelt und wir warten auf Rettung. Habt keinen Zweifel! Was auch immer Sie gehört haben mögen, die Rettungsschiffe sind definitiv auf dem Weg.
 
 Jonathan Frinton-Belmont
-Governor General
+Generalgouverneur
