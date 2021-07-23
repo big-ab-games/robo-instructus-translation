@@ -28,7 +28,10 @@ fn build_translated_pairs() {
         .filter(|(_, path)| path.ends_with(".pairs"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
-            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+            let file = fs::OpenOptions::new()
+                .read(true)
+                .open(entry.path())
+                .unwrap();
 
             let mut inserts = vec![];
 
@@ -92,7 +95,10 @@ fn build_company() {
         .filter(|(_, path)| path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
-            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+            let file = fs::OpenOptions::new()
+                .read(true)
+                .open(entry.path())
+                .unwrap();
 
             let inserts: Vec<_> = robomarkup_sections("#!company", file)
                 .into_iter()
@@ -178,7 +184,10 @@ fn build_primer() {
         .filter(|(_, path)| path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
-            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+            let file = fs::OpenOptions::new()
+                .read(true)
+                .open(entry.path())
+                .unwrap();
 
             let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
                 .into_iter()
@@ -288,7 +297,10 @@ fn build_function_docs() {
         .filter(|(_, path)| path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
-            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+            let file = fs::OpenOptions::new()
+                .read(true)
+                .open(entry.path())
+                .unwrap();
 
             let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
                 .into_iter()
@@ -444,7 +456,10 @@ fn build_colony() {
         .filter(|(_, path)| path.ends_with(".robomarkup"))
         .map(|(entry, path)| {
             let lang = path.split('.').nth(1).unwrap();
-            let file = fs::OpenOptions::new().read(true).open(entry.path()).unwrap();
+            let file = fs::OpenOptions::new()
+                .read(true)
+                .open(entry.path())
+                .unwrap();
 
             let inserts: Vec<_> = robomarkup_sections("#!unlock", file)
                 .into_iter()
@@ -557,7 +572,10 @@ fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
 
 fn extract_id(line: &str) -> String {
     let id_start = line.find("id{").expect("missing id{...}");
-    line[id_start + "id{".len()..].chars().take_while(|c| *c != '}').collect()
+    line[id_start + "id{".len()..]
+        .chars()
+        .take_while(|c| *c != '}')
+        .collect()
 }
 
 /// Parses robomarkup files -> `[(id, contents), ...]`.

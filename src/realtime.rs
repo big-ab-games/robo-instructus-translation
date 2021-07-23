@@ -13,7 +13,10 @@ use std::{
 };
 
 pub type FxIndexMap<K, V> = IndexMap<K, V, std::hash::BuildHasherDefault<rustc_hash::FxHasher>>;
-type UnknownChannel = (Sender<(Language, EnglishPhase)>, Receiver<(Language, EnglishPhase)>);
+type UnknownChannel = (
+    Sender<(Language, EnglishPhase)>,
+    Receiver<(Language, EnglishPhase)>,
+);
 type Language = String;
 type EnglishPhase = String;
 type Translated = Arc<String>;
@@ -58,11 +61,18 @@ pub fn google_translate(lang: &str, en: &str) -> Result<(), String> {
     if let Some(translated) = google_translate::translate_to(lang, en) {
         info!("Fetched google translation {:?} -> {:?}", en, translated);
         let translated = translated.into();
-        REPLACE.write().entry(lang.to_owned()).or_default().insert(en.into(), translated);
+        REPLACE
+            .write()
+            .entry(lang.to_owned())
+            .or_default()
+            .insert(en.into(), translated);
         write_replace().unwrap();
         Ok(())
     } else {
-        Err(format!("Google translate ({:?}, {:?}) didn't work", lang, en))
+        Err(format!(
+            "Google translate ({:?}, {:?}) didn't work",
+            lang, en
+        ))
     }
 }
 
@@ -102,12 +112,20 @@ fn read_persisted() -> io::Result<()> {
 fn write_replace() -> io::Result<()> {
     for (lang, vals) in &*REPLACE.read() {
         let filename = format!("en-replace.{}.google.pairs", lang);
-        let file =
-            fs::OpenOptions::new().write(true).truncate(true).create(true).open(&filename)?;
+        let file = fs::OpenOptions::new()
+            .write(true)
+            .truncate(true)
+            .create(true)
+            .open(&filename)?;
         let mut file = io::BufWriter::new(file);
 
         for (en, translated) in vals {
-            write!(file, "{}\n{}\n\n", en.replace('\n', r"\n"), translated.replace('\n', r"\n"))?;
+            write!(
+                file,
+                "{}\n{}\n\n",
+                en.replace('\n', r"\n"),
+                translated.replace('\n', r"\n")
+            )?;
         }
     }
 

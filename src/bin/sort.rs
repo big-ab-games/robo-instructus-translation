@@ -26,8 +26,10 @@ fn main() {
             eprintln!("Unknown language {}", master);
             std::process::exit(1);
         }
-        let translation_counts =
-            translated_pairs::MAP.values().map(|t| t.len()).collect::<FxHashSet<_>>();
+        let translation_counts = translated_pairs::MAP
+            .values()
+            .map(|t| t.len())
+            .collect::<FxHashSet<_>>();
         if translation_counts.len() != 1 {
             eprintln!(
                 "All translation must have equal coverage/size: {:?}",
@@ -62,10 +64,17 @@ fn main() {
     };
 
     // rewrite all .pairs files except master
-    for (lang, vals) in translated_pairs::MAP.iter().filter(|(lang, _)| *lang != &master) {
+    for (lang, vals) in translated_pairs::MAP
+        .iter()
+        .filter(|(lang, _)| *lang != &master)
+    {
         let filename = format!("./translated-pairs/en-replace.{}.pairs", lang);
-        let file =
-            fs::OpenOptions::new().write(true).truncate(true).create(true).open(&filename).unwrap();
+        let file = fs::OpenOptions::new()
+            .write(true)
+            .truncate(true)
+            .create(true)
+            .open(&filename)
+            .unwrap();
         let mut file = io::BufWriter::new(file);
 
         info!("sorting {}", filename);

@@ -38,7 +38,11 @@ pub fn set_language_target(lang: &str) {
 #[inline]
 pub fn language_target<T, F: FnOnce(&str) -> T>(fun: F) -> T {
     let lang = &*LANG.read();
-    if lang.trim().is_empty() { fun("en") } else { fun(lang) }
+    if lang.trim().is_empty() {
+        fun("en")
+    } else {
+        fun(lang)
+    }
 }
 
 /// Translates english text into the global target language
@@ -88,7 +92,10 @@ pub fn primer(c: PrimerId) -> &'static str {
 
 /// Fetches `lang` primer section with the matching `key`, or falls back on lang='en'.
 pub fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
-    primer::MAP.get(lang).and_then(|p| p.get(&c).copied()).unwrap_or_else(|| primer::MAP["en"][&c])
+    primer::MAP
+        .get(lang)
+        .and_then(|p| p.get(&c).copied())
+        .unwrap_or_else(|| primer::MAP["en"][&c])
 }
 
 /// Fetches global target language function doc with the matching `key`,
@@ -133,7 +140,10 @@ fn translate_pl() {
 
 #[test]
 fn company_en() {
-    assert_eq!(company_lang("en", CompanyMessageId::Acknowledge), "Acknowledge");
+    assert_eq!(
+        company_lang("en", CompanyMessageId::Acknowledge),
+        "Acknowledge"
+    );
 
     // en should include every CompanyMessageId
     assert!(!company_lang("en", CompanyMessageId::Receiving).is_empty());
@@ -147,7 +157,18 @@ fn company_en() {
 
 #[test]
 fn company_fallback() {
-    assert_eq!(company_lang("nosuch", CompanyMessageId::Receiving), "Receiving Communication");
+    assert_eq!(
+        company_lang("nosuch", CompanyMessageId::Receiving),
+        "Receiving Communication"
+    );
+}
+
+#[test]
+fn company_es() {
+    assert_eq!(
+        company_lang("es", CompanyMessageId::Acknowledge),
+        "Recibido"
+    );
 }
 
 #[test]
@@ -155,7 +176,11 @@ fn company_await_is_3_lines() {
     for (lang, c) in &*company::MAP {
         if let Some(text) = c.get(&CompanyMessageId::Await) {
             let new_lines = text.chars().filter(|c| *c == '\n').count();
-            assert_eq!(new_lines, 2, "`{}` has invalid CompanyMessageId::Await", lang);
+            assert_eq!(
+                new_lines, 2,
+                "`{}` has invalid CompanyMessageId::Await",
+                lang
+            );
         }
     }
 }
@@ -187,6 +212,12 @@ fn primer_en() {
 #[test]
 fn primer_fallback() {
     assert!(primer_lang("nosuch", PrimerId::Comments).starts_with("# Comments"));
+}
+
+#[test]
+fn primer_es() {
+    let text = primer_lang("es", PrimerId::Comments);
+    assert!(text.starts_with("# Comentarios"), "`{}`", text);
 }
 
 #[test]

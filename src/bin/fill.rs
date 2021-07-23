@@ -23,7 +23,10 @@ fn main() {
         robo_instructus_translation::realtime::external_init();
     }
 
-    let all_en: FxHashSet<_> = translated_pairs::MAP.values().flat_map(FxHashMap::keys).collect();
+    let all_en: FxHashSet<_> = translated_pairs::MAP
+        .values()
+        .flat_map(FxHashMap::keys)
+        .collect();
 
     // run all keys through all known languages to produce missing tranlations
     for (lang, translations) in translated_pairs::MAP.iter() {
@@ -33,8 +36,10 @@ fn main() {
                     robo_instructus_translation::realtime::google_translate(lang, en).unwrap();
                 } else {
                     let path = format!("./translated-pairs/en-replace.{}.pairs", lang);
-                    let mut file =
-                        std::fs::OpenOptions::new().append(true).open(&path).expect(&path);
+                    let mut file = std::fs::OpenOptions::new()
+                        .append(true)
+                        .open(&path)
+                        .expect(&path);
                     let escaped = en.replace('\n', r"\n");
                     writeln!(file, "\n{}\n{}", &escaped, &escaped).expect(&path);
                 }
