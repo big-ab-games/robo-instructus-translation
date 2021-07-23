@@ -22,6 +22,7 @@ Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
+Español _(es)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 _others_ | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 
 :heavy_check_mark:: _Translated_<br/>
