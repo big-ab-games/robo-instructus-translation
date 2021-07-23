@@ -123,15 +123,15 @@ Reiniciar
 
 #### start running the code
 Run
-correr
+Ejecutar
 
 #### start running the code but immediately paused / debugging
 Run (paused)
-Correr (pausado)
+Ejecutar (pausado)
 
 #### code navigation when paused/debugging
 Step over
-Paso sobre
+Pasar por encima
 
 #### stop running code
 Stop
@@ -149,7 +149,7 @@ Delete name
 Eliminar nombre
 
 Exit Level
-Nivel de salida
+Salir del nivel
 
 Delete profile
 Borrar perfil
@@ -159,69 +159,69 @@ Confirmar eliminación
 
 #### "Dark Stages" are the name of level stages that have totally hidden details
 Dark Stage
-Etapa oscura
+Etapa Oscura
 
 #### Top-left label before all the "available" functions in the current level
 Available:
-Disponible:
+Disponibles:
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
-Escriba los comandos aquí
+Escribe los comandos aquí
 
 Add the lines:
 Añade las líneas:
 
 Press play to run
-Presiona play para correr
+Presiona play para ejecutar
 
 Modify the commands and \nre-run to reach the exit
-Modificar los comandos y volver a ejecutar para llegar a la salida.
+Modifica los comandos y vuelve a \nejecutar para llegar a la salida
 
 Press to exit level
-Presione para salir del nivel
+Presiona para salir del nivel
 
 Levels have multiple stages\nclick here to view each
-Los niveles tienen varias etapas \nhaga clic aquí para ver cada uno
+Los niveles tienen varias etapas \nhaz clic aquí para ver cada uno
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-Su código se volverá a ejecutar en cada etapa, por lo que una sola solución debe resolverlo todo. Volver a la primera etapa
+Tu código se volverá a ejecutar en cada etapa,\npor lo que una sola solución debe resolverlo todo.\nVolver a la primera etapa
 
 Reach the first stage exit
-Alcanzar la primera salida de la etapa.
+Alcanza la primera salida de la etapa.
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-Redacción para llegar a todas las salidas, recuerda \nEl código se vuelve a ejecutar desde la parte superior en cada etapa.
+Rehazlo para llegar a todas las salidas, recuerda que\nel código se vuelve a ejecutar desde la parte superior en cada etapa.
 
 Change game speed
 Cambiar la velocidad del juego
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Haga clic para abrir la referencia de código, contiene todas las secciones de cebador y las funciones recuperadas hasta ahora
+Haz clic para abrir la referencia de código, que contiene todas\nlas secciones del manual y las funciones recuperadas hasta ahora
 
 Click to close
-Haga clic para cerrar
+Haz clic para cerrar
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-Hay un código inacabado en este nivel, intente ejecutarlo y volver a trabajar ... o simplemente comience desde cero
+Hay un código inacabado en este nivel, intenta ejecutarlo\ny rehacerlo... o simplemente comienza desde cero
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-Desplácese con la rueda del mouse,\nalt ↑/↓, alt pageup/pagedown
+Desplázate con la rueda del ratón,\nalt ↑/↓, alt avpág/repág
 
 Click to view all recovered messages
-Haga clic para ver todos los mensajes recuperados
+Haz clic para ver todos los mensajes recuperados
 
 Try using `loop` in your solution
 Intenta usar `loop` en tu solución
 
 Try using `else` and \na comparison like `>`
-Intente usar `else` y \nuna comparación como `>`
+Intenta usar `else` y \nuna comparación como `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Lea la Comparación y las Condiciones III para ver el uso de `>` y `else`
+Lee Comparación y Condiciones III para ver el uso de `>` y `else`
 
 Try using a comparison like `>`
 Intenta usar una comparación como `>`
@@ -230,48 +230,48 @@ Try using `else`
 Intenta usar `else`
 
 Press to run with execution paused
-Presiona para correr con la ejecución en pausa.
+Presiona para ejecutar la ejecución en pausa.
 
 #### this draws the players attention to part of the code being highlighted
 Notice the current evaluation is highlighted
-Observe que la evaluación actual está resaltada
+Observa que la evaluación actual está resaltada
 
 #### note: → char is converted into an icon and should always exist
 Press, or use keyboard →, to step forward to the next evaluation
-Presione, o use el teclado →, para avanzar a la siguiente evaluación
+Presiona, o usa la tecla →, para avanzar a la siguiente evaluación
 
 Level solutions can be\nsaved and loaded here
-Las soluciones de nivel se pueden guardar y cargar aquí
+Las soluciones de niveles\nse pueden guardar y cargar aquí
 
 The best scoring code in each\ncategory is automatically saved
-El código de mejor puntuación en cada categoría se guarda automáticamente
+El código de mejor puntuación en\ncada categoría se guarda automáticamente
 
 Reach the revealed location
-Alcanzar el lugar revelado.
+Alcanza el lugar revelado
 
 Hold alt to access more options while paused
-Mantenga presionada la tecla Alt para acceder a más opciones mientras está en pausa
+Mantén presionada la tecla Alt para acceder a más opciones en pausa
 
 Dark stages are similar to the others\nbut their details are hidden
-Los escenarios oscuros son similares a los otros, pero sus detalles están ocultos.
+Las etapas oscuras son similares a las otras,\npero sus detalles están ocultos.
 
 Ensure your solution is general enough\nto solve these hidden variants
-Asegúrese de que su solución sea lo suficientemente general para resolver estas variantes ocultas
+Asegúrate de que tu solución sea lo suficientemente general\npara resolver estas variantes ocultas
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+Tu solución tiene un fallo descubierto por una variante de la etapa
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Los futuros niveles se desbloquean normalmente,\npero completar las etapas oscuras es necesario para puntuar
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-Suma de los tiempos de ejecución de llamada de función
+Suma de los tiempos de ejecución de funciones
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+Suma de los tiempos de ejecución de funciones de robot
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -283,203 +283,203 @@ Número total de frases de código evaluadas
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+{} más lento que el mejor
 
 {} faster than previous best
-{} faster than previous best
+{} más rápido que el anterior mejor
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+{} más largo que el mejor
 
 {} shorter than previous best
-{} shorter than previous best
+{} más corto que el anterior mejor
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+{} más que el mejor
 
 {} fewer than previous best
-{} fewer than previous best
+{} menos que el anterior mejor
 
 #### left half of score summary
 Finished in:
-Finished in:
+Terminado en:
 
 Solution size:
-Solution size:
+Tamaño de la solución:
 
 Run size:
-Run size:
+Tamaño de ejecución:
 
 #### right half `{}` is replaced by the score
 {} ms
 {} ms
 
 {} phrases
-{} phrases
+{} frases
 
 #### Graph button
 Show outliers
-Show outliers
+Mostrar valores atípicos
 
 Hide outliers
-Hide outliers
+Ocultar valores atípicos
 
 #### Graph title
 Time
-Time
+Tiempo
 
 Solution size
-Solution size
+Tamaño de la solución
 
 Run size
-Run size
+Tamaño de la ejecución
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-Best
+Mejor
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+Tiempo:
 
 Solution:
-Solution:
+Solución:
 
 Run:
-Run:
+Ejecución:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+tiempo, solución, ejecución
 
 time, solution
-time, solution
+tiempo, solución
 
 time, run
-time, run
+tiempo, ejecución
 
 solution, run
-solution, run
+solución, ejecución
 
 time
-time
+tiempo
 
 solution
-solution
+solución
 
 run
-run
+ejecución
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+¿Reemplazar el actual?
 
 #### Other branch options
 initial code
-initial code
+código inicial
 
 last level code
-last level code
+código del último nivel
 
 ### Editor hotkeys
 Undo
-Undo
+Deshacer
 
 Redo
-Redo
+Rehacer
 
 Copy
-Copy
+Copiar
 
 Paste
-Paste
+Pegar
 
 Cut line/selection
-Cut line/selection
+Cortar línea/selección
 
 Duplicate line/selection
-Duplicate line/selection
+Duplicar línea/selección
 
 Move line/selection
-Move line/selection
+Mover línea/selección
 
 Indent selection
-Indent selection
+Indentar selección
 
 Unindent selection
-Unindent selection
+Desindentar selección
 
 Navigate by word
-Navigate by word
+Navegar por palabra
 
 Delete previous word
-Delete previous word
+Eliminar palabra previa
 
 Delete next word
-Delete next word
+Eliminar siguiente palabra
 
 Comment/uncomment selection
-Comment/uncomment selection
+Comentar/descomentar selección
 
 Autocomplete open
-Autocomplete open
+Abrir autocompletar
 
 Autocomplete choose
-Autocomplete choose
+Elegir autocompletar
 
 Autocomplete apply
-Autocomplete apply
+Aplicar autocompletar
 
 Autocomplete close
-Autocomplete close
+Cerrar autocompletar
 
 ### Other headings & labels
 Functions
-Functions
+Funciones
 
 Recovered Messages
-Recovered Messages
+Mensajes recuperados
 
 Try reworking your solution before proceeding
-Try reworking your solution before proceeding
+Prueba a rehacer tu solución antes de continuar
 
 #### Unlock headings
 Decoding ...
-Decoding ...
+Descodificando...
 
 Message recovered
-Message recovered
+Mensaje recuperado
 
 Functions unlocked
-Functions unlocked
+Funciones desbloqueadas
 
 Function unlocked
-Function unlocked
+Función desbloqueada
 
 Function update
-Function update
+Función actualizada
 
 Functions not available
-Functions not available
+Funciones no disponibles
 
 Functions inoperable
-Functions inoperable
+Funciones inoperables
 
 Functions restored
-Functions restored
+Funciones restauradas
 
 Primer section recovered
-Primer section recovered
+Sección del manual recuperada
 
 Paused execution unlocked
-Paused execution unlocked
+Ejecución pausada desbloqueada
 
 Scanning ...
-Scanning ...
+Escaneando...
 
 #### suffix to denote "kilo" / 1000 of something
 k
