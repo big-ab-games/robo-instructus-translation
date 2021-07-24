@@ -1,0 +1,253 @@
+// Pseudo markup format for Robo Instructus containing the company messages
+// received through the game's story. Spoiler alert!
+//
+// `#!unlock` means the start of a message, the lines following
+// are the message in simplified markdown.
+//
+// Newlines always count, unlike markdown.
+//
+// Text like `$render{some-id}` indicate where to render an "image" in-game.
+// These shouldn't be modified.
+//
+// Lines beginning with ` > ` are reply-bodies the white-space usage
+// should not be modified.
+
+
+#!unlock id{primer-intro}
+Estoy haciendo disponible el Manual de Ingeniería que he creado apresuradamente para tener en los talleres después del ensamblaje 17.
+
+Resumiendo mi lenguaje procedimental y mis técnicas de automatización en términos simples, el manual contiene todo lo necesario para el control efectivo de nuestros autómatas. Sin embargo, me preocupa que las descripciones puedan resultar insuficientes y concisas en muchas áreas. No soy un profesor nato. Por favor, consulta con el candidato de tu taller y con el grupo local si tienes dificultades. Envíame un mensaje a mí y a otros grupos si es posible para obtener más orientación.
+
+Independientemente de tu especialidad, creo que con un estudio cuidadoso, la aplicación adecuada del manual y una determinación obstinada, todos podemos contribuir a la supervivencia de la colonia.
+
+- Dr A. Bartram
+
+
+#!unlock id{pathfinders}
+Mis compañeros pioneros,
+
+¡Felicidades! Hemos llegado (¡sanos y salvos!) a nuestro nuevo hogar: Bright. Como algunos de vosotros habréis escuchado, las condiciones en Bright son bastante diferentes a las del análisis espectroscópico previo a la misión.
+
+He escuchado palabras como “inhabitable” y “bola de la muerte congelada”, pero ¿qué significa “inhabitable” de todos modos? Prefiero el término “deshabitado”. Y adivinen qué, chicos. Eso significa que tenemos el planeta para nosotros solos.
+
+Sé que cada uno de vosotros es un pionero de corazón. En lugar de ver la adversidad, vemos la oportunidad. ¡Todo el poder que hubiéramos usado para transformar este planeta en un paraíso exuberante, podemos redirigi
+
+Escucha, lo que estoy diciendo es: Hagamos una pausa. Pensemos. Desde el primer día he tenido muy claro que habrá desafíos. Pero ningún desafío puede resistir el asombroso poder del espíritu humano. Sé que todos tenemos lo necesario en Bright.
+
+Mientras hablamos, Alice Bartram y su equipo de ingeniería de élite, con mi apoyo, están dando los toques finales a un nuevo plan. Así que espera actualizaciones emocionantes muy pronto.
+
+Como siempre, mis ayudantes tienen una política de puertas abiertas. Visítanos en cualquier momento dentro del horario de oficina* y ¡charlemos!
+
+Jonathan Frinton-Belmont
+Gobernador designado (interino)
+
+*Consulta el mensaje adjunto sobre la reducción del horario de oficina debido a los protocolos de ahorro de energía
+
+
+#!unlock id{scans-unreliable}
+James, los escaneos no son fiables al 100%. Hay áreas en las que no podemos estar seguros de si realmente hay metal que recuperar o no. No parece que sepamos siquiera por qué. En algunos lugares se está volviendo difícil incluso mover los robots.
+
+Los escaneos de `-999` básicamente significan que ni siquiera sabemos lo que tenemos frente a nosotros. Pecaría por precaución, simplemente evítalos si es posible. Ya estoy escuchando las quejas sobre los daños causados por caídas. Probablemente tendremos que abandonar el salvamento de los niveles más altos.
+
+
+ > Oye, Jacob, ¿tienes alguna idea de lo que debería hacer con esto [adjunto]? Perdí a otro trabajador.
+ > ¿Es defectuoso robo_scan() o algo así? Y yo que estaba empezando a pensar que estaba entendiendo todo esto.
+ >
+ > Hackett
+$render{scans-unreliable}
+
+
+#!unlock id{power}
+El Iceni en algún momento se volverá demasiado peligroso para acceder. La idea actual es que tendremos que realizar las etapas finales utilizando totalmente los bots, incluido el apagado de nuestras rutas de transporte. El equipo de Lillian instalará interruptores de energía en niveles inferiores de acuerdo con las especificaciones del Doctor Bartram, que en algún momento permitirán que los robots apaguen la energía.
+
+Una vez que sus robots hayan identificado la función `robo_use()`, la historia es que podrás llamar a esta función para activar los interruptores. Uso (de Bartram): Llama a `robo_use()` en un interruptor de energía para encender el interruptor. Devuelve `1` si el interruptor ahora está encendido, `0` si el interruptor se ha apagado.
+
+Estos interruptores de energía tienen el código `robo_scan()` `10`. Aparentemente la función de uso debería incluir "documentación suficiente". Ya puedo veros poniendo los ojos en blanco, pero recordad que ella también está bajo mucha presión.
+
+Jacob
+$render{power}
+
+
+#!unlock id{pause}
+James, puedes usar la función "pausa". Me llevó un tiempo conseguirlo, pero ahora es bastante útil. Os la puedo mostrar en la próxima reunión del equipo.
+
+- Aaron Kellner
+$render{pause}
+
+ > Recuerdo al Doctor deteniendo el código y avanzándolo a su propio ritmo, ¿alguien recuerda cómo hacer esto? Está corriendo a toda velocidad y no puedo seguirlo.
+ >
+ > Hackett
+
+
+#!unlock id{data-store}
+Como todos sabéis, la fiabilidad del escaneo de los robots está empeorando. Los colegas de abajo piensan que podría ser ambiental, tal vez algo en el aire. Independientemente, debemos continuar con nuestro trabajo. Si el Doctor puede arreglar los escáneres, volveremos a salvar los niveles superiores, pero por ahora centrémonos en las secciones 0-14 donde los bots aún pueden moverse bastante bien.
+
+Hemos configurado algunos "almacenes de datos" para ayudar a identificar el terreno sólido cuando `robo_scan()` no puede. Uso (de Bartram): Llama a `robo_use()` en un almacén de datos para obtener un id de ubicación segura, siendo estas ubicaciones seguras para el recorrido del robot.
+
+Estos almacenes de datos tienen el código de `robo_scan()` `11`.
+
+Jacob
+$render{data-store}
+
+
+#!unlock id{i-have-a-plan}
+Jonathan,
+
+Las búsquedas superficiales no han encontrado nada.
+Tengo un plan. Necesitaremos desviar la energía de reserva para un estudio geológico completo.
+
+- Alice
+
+ > Doc,
+ >
+ > Todos los equipos informaron ahora. Los buggies cubrieron un radio de 100 km alrededor del lugar de aterrizaje. Tal como temíamos. Llanuras de hielo. Vientos fuertes. No hay señales de vida. Temperatura constante e incómoda.
+ >
+ > Regresando ahora. Lo siento.
+ >
+ > Jacob
+ > Equipo de búsqueda alfa
+
+
+#!unlock id{pause-fun}
+Hola Lillian, acabo de enterarme por el Doctor que podemos pausar la ejecución desde el código, sin presionar el botón.
+
+`pause()`
+
+¡Esto habría ayudado mucho cuando estábamos buscando ese error de orientación!
+
+- Aaron
+
+
+#!unlock id{mushrooms-again}
+Alice,
+
+Acabo de regresar de la fabricación. Si hubiera sabido que íbamos a producir estos robots en masa, habría dejado de lado la parafernalia. ¡Sin embargo, 11 más hoy! ¿Cómo va tu legión de programadores? ¿Disfrutas todavía enseñando?
+
+¿Puedes creer que nuestro robot, nuestro pequeño proyecto, salvará la colonia?
+
+Hongos otra vez esta noche. Tengo un buen presentimiento sobre este lote. Los lavaré bien esta vez, esa neuro-parálisis fue horrible.
+
+Hasta esta noche,
+Jack
+PD: ¿Llegaste a alguna parte con el diseño de la sonda?
+
+
+#!unlock id{direction}
+Para tu información, el equipo 3 también ha estado mejorando los escaneos no confiables.
+
+ > Jacob, hemos estado trabajando en otra solución para los escaneos poco fiables.
+ > Estamos añadiendo datos de dirección que apuntarán a tierra firme. En su mayoría, no son necesarios, pero podrían resultar muy útiles si los escaneos empeoran.
+ > Aaron tiene algunos ejemplos de código funcionando que depurará y enviará a todos los equipos. Pero en resumen:
+ >
+ > Los almacenes de datos de dirección contienen direcciones relativas a esa casilla. Se identifican con el código de robo_scan() 12.
+ $render{direction}
+ > Posibles direcciones de robo_use() 1: arriba, 2: derecha,
+
+
+#!unlock id{direction-2}
+Disculpas, corté el final del último mensaje de Lillian, aquí está el conjunto completo de códigos.
+
+ > Los almacenes de datos de dirección contienen direcciones relativas a esa casilla. Se identifican con el código de robo_scan() 12.
+ $render{direction}
+ > Posibles direcciones de robo_use() 1: arriba, 2: derecha, 3: abajo, 4: izquierda.
+ >
+ > - Lillian Westerman
+
+
+#!unlock id{orientation}
+James, tienes razón, los almacenes no conocen la orientación de un robot. Son bastante tontos, pero también fáciles de configurar.
+
+¿No estáis registrando la orientación del robot? Ya estábamos registrando esto después de cada paso adelante/a la izquierda en el equipo 3, así que asumí que todos los equipos tenían ese código. ¡Lo siento por ello! No tengo a mano el código en este momento, pero puedo explicártelo en la próxima reunión del equipo.
+
+- Aaron Kellner
+
+ > Aaron, ¿me estoy perdiendo algo con estos almacenes de dirección? ¿Qué quieres decir con "arriba"/"derecha"? ¿Cómo funciona esto? El almacén no sabe a qué dirección me dirijo, no funciona.
+ >
+ > Hackett
+
+
+#!unlock id{hot-air}
+Alice, ¿has visto su último? ¡Este tipo tiene suficiente aire caliente para alimentar a toda la colonia!
+
+Jack
+
+ > ¡Amigos!
+ >
+ > Hemos iniciado la fase 2 del nuevo plan. A estas alturas, muchos de vosotros ya se han mudado a nuestras nuevas y acogedoras viviendas en el nivel B3. Para aquellos de vosotros que esperáis el traslado, no vemos el momento de que os unáis a nosotros, acurrucados en lo profundo del seno del acogedor manto rocoso de Bright. ¡Descubriréis que hace algo de calor aquí abajo!
+ >
+ > Nuestro ejército de robots y robo-ingenieros recién llegados están trabajando incansablemente para profundizar aún más y abrir nuevos niveles y nuevas fuentes de energía geotérmica. Y no descansaré hasta que estemos todos a salvo bajo tierra.
+ >
+ > Muchas gracias a Mary y al resto de xenobotánicos por descubrir una nueva especie de hongo casi totalmente comestible. ¡Preparaos todos para actualizar vuestras recetas!
+ >
+ > Jonathan Frinton-Belmont
+ > Gobernador designado
+
+
+#!unlock id{fatality-report}
+Lo siento mucho Alice. Sé que vosotros dos érais íntimos. Si hay algo que pueda hacer, comunícaselo a mi oficina.
+
+Jonathan Frinton-Belmont
+Gobernador
+
+ > Informe de baja #89d-b11
+ > Localización: S7 sección 5 subsección L
+ > Categoría: excavación
+ > Líder del equipo: Jack Sheppard
+ >
+ > A las 26:05, el equipo de excavación Gamma quedó atrapado en la sección 5 del pasaje recién perforado. Se produjo un colapso estructural adicional antes de que pudieran comenzar los intentos de rescate, lo que provocó la muerte de todos los miembros del equipo. Se sospecha de un error del soporte estructural debido a la fatiga del metal.
+ >
+ > Lista de bajas:
+ > - Jack Sheppard
+ > - Alejandro Lopez
+ > - Myah Lawrence
+ > - Aaron Kellner
+
+
+#!unlock id{launch}
+Creo que he encontrado una solución a las grietas que se abren en los niveles inferiores, ya sea por la escasa estructura rocosa de aquí abajo o por los pícaro-bots que minan en exceso.
+
+He preparado algunas plataformas de lanzamiento que pueden arrojar a los robots por encima de los huecos. Funcionan al cargarse cuando hay algo encima de ellos. Si un robot permanece en uno el tiempo suficiente, activará el lanzamiento. Les he asignado el código de `robo_scan()` `3`.
+
+Honestamente, son un poco difíciles de usar, pero funcionan. Estoy seguro de que al Doctor se le habría ocurrido algo más elegante, pero creo que esto es mejor que nada.
+
+- Anita
+$render{launch}
+
+
+#!unlock id{falling-apart}
+Jacob, ¿qué podemos hacer con el Doctor? Las cosas se están desmoronando. ¿Por qué no responde? Todos hemos perdido gente, pero han pasado 17 ciclos desde que Jack falleció. Ella ha estado encerrada trabajando en algún proyecto (ASUMIMOS) pero realmente la necesitamos aquí.
+
+Hackett
+
+
+#!unlock id{distress}
+¿Cuándo fue la última vez que alguien subió a la cima? ¿Podemos siquiera llegar allí? Estamos cavando en busca de material y energía geotérmica, pero nos alejamos cada vez más de la superficie. Ni siquiera sabemos si la señal de socorro todavía se está transmitiendo. ¿No es salir de Bright el objetivo?
+
+Hackett
+
+
+#!unlock id{proto-probe}
+He pasado bastante tiempo trabajando aislado en mi laboratorio subterráneo. En este tiempo se vuelve imposible ignorar la verdad obvia; no podemos sobrevivir a Bright. El rescate es nuestra única débil esperanza.
+
+Como antes, mi único consuelo real proviene de trabajar en algo que creo que puede ayudar. He centrado todos mis esfuerzos en un nuevo diseño robótico para complementar nuestros robots actuales. Esta nueva sonda está en el aire y puede atravesar lo peor que nuestro hogar poco confiable tiene para ofrecer. Está diseñado para integrarse en la cavidad de almacenamiento de cualquier robot de la séptima serie o posterior y comunicarse con su "madre" utilizando nuevas capacidades de software.
+
+Gran parte de mi tiempo lo he dedicado a conseguir que las llamadas de comunicación sean fiables. Creo que finalmente lo tengo, aunque desearía tener más tiempo para probar. Un robot y una sonda trabajando en conjunto serán una fuerza verdaderamente poderosa.
+
+Sin embargo, no es un espectáculo que pueda ver yo mismo. Estoy bastante seguro de que no volveré a ver el exterior de este laboratorio. Al menos no tendré que comer más hongos.
+
+He enviado la única sonda prototipo completa al andamio Iceni para encontrar un robot compatible. Si llega el rescate, espero que estas herramientas ayuden en un esfuerzo por salvar a aquellos de nosotros que permanecemos bajo el hielo.
+
+- Dr A. Bartram
+
+
+#!unlock id{vault}
+Queridos Amigos,
+
+Hoy comienza el siguiente paso en nuestras vidas aquí en Bright. Como muchos de ustedes saben, las circunstancias nos obligan a dar un paso atrás y reevaluar. Debido a errores del algoritmo de minería, cada vez más robots están fuera de control y atraviesan nuestras estructuras habitacionales. Como resultado, las viviendas en casi todos los niveles son inhabitables, corren el riesgo de colapso inmediato y, por lo tanto, están muy por debajo de las regulaciones de salud y seguridad pertinentes (ver Sección 15, subpárrafo 10).
+
+En El Equipo Liderazgo (EEL) hemos estado trabajando arduamente en una nueva solución. Hemos creado una bóveda segura y sellada en las profundidades del núcleo de Bright en la que esperaremos el rescate. De hecho, El Equipo Liderazgo (EEL) ya está aquí. Y la buena noticia es que después de la reciente serie de accidentes (informes de incidentes pendientes), nuestras preocupaciones sobre el espacio y la comida son ahora cosa del pasado. La bóveda tiene espacio para todos los residentes supervivientes con catres y baños combinados compartidos entre seis. Todos los esfuerzos de robo-minería se suspenden indefinidamente, ¡así que diga adiós a ese viaje diario al trabajo!
+
+El Equipo Liderazgo (EEL) os invita a todos a crear vuestro nuevo hogar en la bóveda dentro de 4 ciclos, después de lo cual la puerta de la bóveda se sellará en espera del rescate. ¡No tengáis duda! Independientemente de los rumores que hayáis escuchado, las naves de rescate están en camino.
+
+Jonathan Frinton-Belmont
+Gobernador General
