@@ -1,0 +1,230 @@
+// Pseudo markup format see ./README.md
+
+#!unlock type{short} id{s-left}
+`robo_left() ` permanece en la misma casilla, se mueve hacia la izquierda
+
+
+#!unlock type{short} id{s-forward}
+`robo_forward() ` se mueve adelante (y gira hacia la derecha, debido a los triángulos)
+
+
+#!unlock type{short} id{s-scan}
+`robo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida
+
+
+#!unlock type{short} id{s-scan-u1}
+`robo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida, `10`: interruptor de energía
+
+
+#!unlock type{short} id{s-scan-u2}
+`robo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida, `10`: interruptor de energía, `11`: almacén de datos de ubicación
+
+
+#!unlock type{short} id{s-scan-u3}
+`robo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección
+
+
+#!unlock type{short} id{s-scan-u4}
+`robo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida, `3`: lanzador, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección
+
+
+#!unlock type{short} id{s-use}
+`robo_use() ` usa la casilla actual y devuelve: interruptor de energía `1`: encendido, `0`: apagado
+
+
+#!unlock type{short} id{s-use-u2}
+`robo_use() ` usa la casilla actual y devuelve: interruptor de energía `1`: encendido, `0`: apagado, almacén de datos de ubicación: id de ubicación segura
+
+
+#!unlock type{short} id{s-use-u3}
+`robo_use() ` usa la casilla actual y devuelve: interruptor de energía `1`: encendido, `0`: apagado, almacén de datos de ubicación: id de ubicación segura, direcciones `1`: arriba, `2`: derecha
+
+
+#!unlock type{short} id{s-use-u4}
+`robo_use() ` usa la casilla actual y devuelve: interruptor de energía `1`: encendido, `0`: apagado, almacén de datos de ubicación: id de ubicación segura, direcciones `1`: arriba, `2`: derecha, `3`: abajo, `4`: izquierda
+
+
+#!unlock type{short} id{s-detect-adjacent}
+`robo_detect_adjacent() ` devuelve el número de casillas adyacentes no ausentes, no afectada por desconocidas
+
+
+#!unlock type{short} id{s-location}
+`robo_location() ` devuelve el id de ubicación actual
+
+
+#!unlock type{short} id{s-forward-location}
+`robo_forward_location() ` devuelve el id de ubicación de la casilla de enfrente
+
+
+#!unlock type{short} id{s-detect-3}
+`robo_detect_3() ` devuelve el número de casillas delanteras (a la derecha) no ausentes, no afectada por desconocidas
+
+
+#!unlock type{short} id{s-detect-3l}
+`robo_detect_3l() ` devuelve el número de casillas delanteras (a la izquierda) no ausentes, no afectada por desconocidas
+
+
+#!unlock type{short} id{s-probo-left}
+`probo_left() ` permanece en la misma casilla, se mueve hacia la izquierda
+
+
+#!unlock type{short} id{s-probo-forward}
+`probo_forward() ` se mueve adelante (y gira hacia la derecha)
+
+
+#!unlock type{short} id{s-probo-scan}
+`probo_scan() ` escanea la casilla de delante y devuelve `-999`: desconocida, `-1`: ausente, `1`: normal, `2`: salida, `3`: lanzador, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección
+
+
+#!unlock type{short} id{s-probo-location}
+`probo_location() ` devuelve la ubicación actual
+
+
+#!unlock type{short} id{s-probo-use}
+`probo_use() ` usa la casilla actual y devuelve: interruptor de energía `1`: encendido, `0`: apagado, almacén de datos de ubicación: id de ubicación segura, direcciones `1`: arriba, `2`: derecha, `3`: abajo, `4`: izquierda
+
+
+#!unlock type{short} id{s-transmit}
+`transmit(subject,data) ` transmite datos (data) sobre un asunto (subject)
+
+
+#!unlock type{short} id{s-receive}
+`receive(subject) ` consume y devuelve el valor del asunto (subject) más antiguo o `-20000` si no hay ninguno
+
+
+#!unlock type{functions} id{left-forward}
+`robo_left()` Cada llamada indica al robot que se mueva al siguiente lado de la casilla actual, en sentido contrario a las agujas del reloj. Tiempo de ejecución $tu{robo_left()} Mimas-segundos (ms).
+$render{robo_left}
+`robo_forward()` Indica al robot que se mueva hacia delante sobre una casilla que tenga enfrente. El robot priorizará girar a la derecha al hacer esto. Tiempo de ejecución $tu{robo_forward()} ms.
+$render{robo_forward}
+
+
+#!unlock type{function} id{scan}
+`robo_scan()` Escanea la casilla de enfrente y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2` una salida, `-1` significa que no hay ninguna casilla, `-999` significa desconocida. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u1}
+`robo_scan()` Escanea la casilla de enfrente y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2` salida, `-1` ninguna casilla, `-999` desconocida, `10`: interruptor de energía. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u2}
+`robo_scan()` Escanea la casilla de enfrente y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2` salida, `-1` ninguna casilla, `-999` desconocida, `10`: interruptor de energía, `11`: almacén de datos de ubicación. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u3}
+`robo_scan()` Escanea la casilla de enfrente y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2` salida, `-1` ninguna casilla, `-999` desconocida, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u4}
+`robo_scan()` Escanea la casilla de enfrente y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2` salida, `3`: lanzador, `-1` ninguna casilla, `-999` desconocida, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+
+#!unlock type{function} id{use}
+`robo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{robo_use()} ms
+$render{robo_use}
+
+
+#!unlock type{function-update} id{use-u1}
+`robo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{robo_use()} ms
+- Interruptor de energía: Devuelve `1`: encendido, `0` apagado. Tiempo de ejecución adicional +$tu{robo_use_power} ms
+$render{robo_use}
+
+
+#!unlock type{function-update} id{use-u2}
+`robo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{robo_use()} ms
+- Interruptor de energía: Devuelve `1`: encendido, `0` apagado. Tiempo de ejecución adicional +$tu{robo_use_power} ms
+- Almacén de datos de ubicación: Devuelve el id de ubicación segura. Tiempo de ejecución adicional +$tu{robo_use_location} ms
+$render{robo_use-2}
+
+
+#!unlock type{function-update} id{use-u3}
+`robo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{robo_use()} ms
+- Interruptor de energía: Devuelve `1`: encendido, `0` apagado. Tiempo de ejecución adicional +$tu{robo_use_power} ms
+- Almacén de datos de ubicación: Devuelve el id de ubicación segura. Tiempo de ejecución adicional +$tu{robo_use_location} ms
+- Almacén de datos de dirección: Devuelve `1`: arriba, `2`: derecha. Tiempo de ejecución adicional +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+
+#!unlock type{function-update} id{use-u4}
+`robo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{robo_use()} ms
+- Interruptor de energía: Devuelve `1`: encendido, `0` apagado. Tiempo de ejecución adicional +$tu{robo_use_power} ms
+- Almacén de datos de ubicación: Devuelve el id de ubicación segura. Tiempo de ejecución adicional +$tu{robo_use_location} ms
+- Almacén de datos de dirección: Devuelve `1`: arriba, `2`: derecha, `3`: abajo, `4`: izquierda. Tiempo de ejecución adicional +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+
+#!unlock type{function} id{forward-location}
+`robo_forward_location()` Devuelve el id de la casilla frente al robot. Tiempo de ejecución $tu{robo_forward_location()} ms.
+
+$render{robo_forward_location}
+```no_run
+var location = robo_forward_location()  # 8823
+```
+Cada casilla de un nivel tiene un número de id distinto (positivo y distinto de cero).
+
+
+#!unlock type{function} id{location}
+`robo_location()` Devuelve el id de la casilla en la que está actualmente el robot. Tiempo de ejecución $tu{robo_location()} ms.
+$render{robo_location}
+
+
+#!unlock type{function} id{detect-adjacent}
+`robo_detect_adjacent()` Devuelve el número total de casillas adyacentes a la posición actual. `0`, `1`, `2` o `3`. Funciona correctamente incluso si algunas de las casillas son desconocidas en una llamada a `robo_scan()`. Tiempo de ejecución $tu{robo_detect_adjacent()} ms.
+$render{robo_detect_adjacent}
+```no_run
+var its_safe = robo_detect_adjacent() is 3
+```
+
+
+#!unlock type{function} id{detect-3}
+`robo_detect_3()` Devuelve el número total de casillas en una línea recta hacia la derecha. Funciona correctamente incluso si algunas de las casillas son desconocidas en una llamada a `robo_scan()`. Runtime $tu{robo_detect_3()} ms.
+
+$render{robo_detect_3}
+
+
+#!unlock type{function} id{detect-3l}
+`robo_detect_3l()` Devuelve el número total de casillas en una línea recta hacia la izquierda. Similar a `robo_detect_3()`. Tiempo de ejecución $tu{robo_detect_3l()} ms.
+
+$render{robo_detect_3l}
+
+
+#!unlock type{functions} id{probo}
+`probo_left()` Gira a la izquierda para encarar al siguiente lado de la actual casilla, en sentido antihorario. Tiempo de ejecución $tu{probo_left()} ms.
+
+`probo_forward()` Mueve la sonda hacia delante en el espacio de la casilla frente a la que está actualmente. La nueva orientación de la sonda gira hacia la derecha. Tiempo de ejecución $tu{probo_forward()} ms.
+
+`probo_location()` Devuelve el id de la casilla actual. Tiempo de ejecución $tu{probo_location()} ms.
+
+`probo_scan()` Escanea la casilla actual y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2`: salida, `-1`: ninguna casilla, `-999`: desconocida, `3`: lanzador, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{probo_scan}
+
+
+#!unlock type{function-update} id{probo-scan-u1}
+`probo_scan()` Escanea la casilla actual y devuelve un valor indicando las propiedades de la casilla. `1` significa una casilla normal, `2`: salida, `-1`: ninguna casilla, `-999`: desconocida, `3`: lanzador norte, `4`: lanzador sudeste, `5`: lanzador sudoeste, `10`: interruptor de energía, `11`: almacén de datos de ubicación, `12`: almacén de datos de dirección. Tiempo de ejecución $tu{robo_scan()} ms.
+
+$render{probo_scan-2}
+
+
+#!unlock type{functions} id{transmit}
+`transmit(subject,data)` Transmite un solo valor de datos (data) asociado a un valor de un asunto (subject). Estas transmisiones pueden ser recibidas por otros robots. Tiempo de ejecución $tu{transmit(vv)} ms.
+
+`receive(subject)` Recibe un único valor de datos transmitido por otro robot con el valor correspondiente de asunto (`subject`). Las transmisiones de datos se reciben en orden. Si no hay una transmisión de un asunto que recibir, devuelve "-20000". Tiempo de ejecución $tu{receive(v)} ms.
+
+
+#!unlock type{function} id{probo-use}
+`probo_use()` Opera en la casilla actual, devolviendo datos específicos de la casilla o `0` en caso contrario. Tiempo de ejecución $tu{probo_use()} ms
+- Interruptor de energía: Devuelve `1`: encendido, `0` apagado. Tiempo de ejecución adicional +$tu{robo_use_power} ms
+- Almacén de datos de ubicación: Devuelve el id de ubicación segura. Tiempo de ejecución adicional +$tu{robo_use_location} ms
+- Almacén de datos de dirección: Devuelve `1`: arriba, `2`: derecha, `3`: abajo, `4`: izquierda. Tiempo de ejecución adicional +$tu{robo_use_direction} ms
+$render{probo_use}
