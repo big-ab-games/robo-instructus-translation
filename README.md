@@ -12,6 +12,7 @@ Language | [1. Interface & tutorials](#1-interface-menus-tutorial-overlays "Inte
 English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Русский _(ru)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Español _(es)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Français _(fr)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 简体中文 _(zh-CN)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 繁體中文 _(zh-TW)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
@@ -19,7 +20,6 @@ Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :bla
 Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle:
-Español _(es)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Ελληνικά _(el)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
