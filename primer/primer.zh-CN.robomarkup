@@ -1,0 +1,396 @@
+// Pseudo markup format see ./README.md
+
+#!unlock type{primer} id{loops}
+# 循环
+
+`loop` 循环用于重复命令。 它将一直重复执行作用域内的命令。 
+一个循环的作用域包含了`loop` 行之后缩进的命令。
+
+```max_run=11
+robo_forward()  # 调用一次
+
+loop
+    robo_forward()
+    robo_left()
+
+robo_left()  # 不被调用
+```
+
+
+#!unlock type{primer} id{comments}
+# 注释
+
+'`#`' 号后面的文本不被当作代码， 它们是用作笔记的注释内容。
+
+```no_run
+robo_left()  # 觉得我开始有点理解了。
+```
+
+
+#!unlock type{primer} id{conditionals}
+# 条件
+
+`if`根据指定的条件，决定执行或跳过命令。
+
+```
+if robo_scan() is 1
+    # 面前有格子
+    robo_forward()
+
+if robo_scan() is -1
+    # 面前是空的
+    robo_left()
+```
+
+
+#!unlock type{primer} id{variables}
+# 变量
+
+你可以将数字保存在`var`中， 以备之后使用。
+
+```
+# 将函数结果保存在变量'scan'中
+var scan = robo_scan()
+
+# 在条件短语中使用、重用保存的变量值
+if scan is 1
+    robo_forward()
+if scan is -1
+    robo_left()
+```
+这样可以避免为了检查同样的结果，而多次调用耗费时间的函数。 
+也可以保存结果用于之后使用。
+
+#!unlock type{primer} id{conditionals-2}
+# 条件 二
+
+'`if expr`' （条件表达式）简单检查 `expr` （表达式）是否为非0值。 
+因此`0`当作是"false"（假）， 而  `1`或者其他非0值被当作 "true"（真）。 
+当 `expr` 的值为"true" 时，之后缩进的代码会运行。
+
+```
+if 0
+    robo_left()  # 不调用
+
+if 1
+    robo_forward()  # 调用
+```
+
+#!unlock type{primer} id{is}
+关键字 `is` 用于比较两个值，当它们相等时得到`1` (真)， 否则得到`0` (假) 。 一般用于配合`if` 语句。
+
+`not` （非）可以将 `0` 改作 `1`， 或者把任意非零值改作 `0`。
+
+`not x is y ` 也写作 ` x is not y ` ，当x和y不同时得到 `1` (真)。
+
+```
+var scan = robo_scan()
+
+if scan is 1
+    robo_forward()
+
+if scan is not 1
+    robo_left()
+```
+
+
+#!unlock type{primer} id{comparison}
+# 比较
+
+除了 `is`， 也可以用 `>`， `>=`， `<`， `<=` 操作符来比较值的大小。
+
+`    a > b  # a 大于 b`
+`    a >= b  # a 大于等于 b`
+`    a < b  # a 小于 b`
+`    a <= b  # a 小于等于 b`
+
+```
+var scan = robo_scan()
+if scan >= 1
+    robo_forward()
+if scan < 0
+    robo_left()
+```
+
+
+#!unlock type{primer} id{conditionals-3}
+# 条件 三
+
+为了更容易处理'其它'情况，你可以在`if` 之后使用 `else` 。
+
+ 当前面的 `if`语句不成立时，`else` 语句块将得到执行。
+
+```
+var scan = robo_scan()
+if scan is 1
+    robo_forward()
+else
+    robo_left()
+```
+
+
+#!unlock type{primer} id{else-if}
+
+多个`else if`可以串联在一起，用于处理多种相互独立的情况。
+
+这样可以保证只有一个缩进块会被执行。
+
+```
+var example = 14
+
+if example is 1
+    robo_left()
+    robo_forward()
+else if example <= 3
+    robo_forward()
+else if example > 12
+    robo_forward()
+    robo_forward()
+else
+    robo_left()
+```
+最后地`else`部分， 只有在它前面的`if`和`else if`都不通过时执行。
+
+
+#!unlock type{primer} id{scope}
+# 作用域
+
+缩进代码，比如`loop`或者`if`之后的部分，, 即是"作用域"。 
+`var`（变量）只能在声明的作用域内使用。
+```no_run
+if scan is 1
+    var foo = 123
+    if foo is 123  # 可行
+        robo_left()
+
+if foo is 123  # 失败！这里在foo的作用域之外
+    robo_left()
+```
+为了扩大`var` 可用范围，可以在外部作用域声明它。
+举例来说，顶级（作用域的）变量可以在任何位置使用，并且不会被移除。
+```no_run
+var foo
+if scan is 1
+    foo = 123
+    if foo is 123  # 可行
+        robo_left()
+
+if foo is 123  # 可行
+    robo_left()
+```
+变量会在作用域结束的时候被移除， 
+因此在`loop`中声明`var`会在循环的每次遍历中得到一个新的变量。
+
+
+#!unlock type{primer} id{loops-2}
+# 循环 二
+
+`continue` 关键字用于循环过程中重新开始循环， 
+而`break`关键字用于离开当前循环。
+
+```
+var count = 0
+loop
+    if count is not 2
+        robo_forward()
+        count += 1
+        continue
+    break
+
+robo_left()
+robo_left()
+```
+
+
+#!unlock type{primer} id{loops-3}
+# 循环 三
+
+思考下面的 `loop` ， 用于执行左转5次。
+```
+# 左转5次
+var loop_count = 1
+loop
+    if loop_count > 5
+        break
+    robo_left()
+    loop_count = loop_count + 1
+```
+虽然所有的循环逻辑都可以使用 `loop`来完成， 关键字`for` 以及 `while` 也是可用的，不改变结果的前提下， 它们用来帮助创建更简洁的代码。
+```
+# 执行代码块，直到条件为假时结束
+var loop_count = 1
+while loop_count <= 5
+    robo_left()
+    loop_count = loop_count + 1
+```
+
+```
+# 执行代码块，每次分别为 loop_count 赋值1，2，3，4 及 5
+for loop_count in 1,2,3,4,5
+    robo_left()
+```
+
+
+#!unlock type{primer} id{fun}
+# 函数
+
+ 类似`robo_left()`， `robo_scan()` 等等的命令叫做函数。 函数时可以用于将来执行的代码块。 它们用`fun`关键字定义。
+
+```
+# 定义一个函数
+fun go_right()
+    robo_left()
+    robo_left()
+
+go_right()  # 调用函数
+go_right()
+```
+
+
+#!unlock type{primer} id{fun-b}
+当需要减少重复代码， 以及为复杂操作命名时， 函数非常有用。
+
+函数也可以调用其它函数。 比如你可以记录`robo_left()`的调用次数，  只需要把它封装到另一个函数并改为调用该函数。
+
+```
+var left_count
+fun left_and_count()
+    robo_left()
+    left_count += 1  # count计数加1
+
+while left_count < 3
+    left_and_count()
+```
+
+
+#!unlock type{primer} id{fun-2}
+# 函数 二
+
+函数可以接收一个或多个数字输入，也可以输出一个数字。
+
+```
+fun loneliest_number()
+    1  # 最后一个表达式作为返回值
+
+# functions can take arguments
+fun largest(a, b)
+    if b > a
+        # 也可以提前返回
+        return b
+    a
+
+var three = largest(2, 3)
+var one = largest(-5, loneliest_number())
+```
+
+
+#!unlock type{primer} id{bool}
+# 布尔操作符
+
+`and`（与）和`or`（或）操作符用于组合0值与非0值。 
+它们可以用来产生更复杂的逻辑状态。
+
+当两边的值均为非0时， '`and`'（与）表达式返回`1`。
+
+```
+var scan = robo_scan()
+var adjacent = robo_detect_adjacent()
+if scan < 0 and adjacent is 3
+    robo_forward()
+```
+只要任意一边的值为非0，'`or`'（或）表达式就返回`1`。
+```
+var scan = robo_scan()
+var safe = scan is 1 or scan is 2
+if safe
+    robo_forward()
+```
+
+
+#!unlock type{primer} id{seq}
+# 数组（数列、序列）
+
+`seq`（数组、数列、序列）用于定义一系列的值。这些值可以通过它们的下标来访问，下标从`0` 开始。
+
+```
+seq list[]  # 新的空数组
+seq numbers[] = 11, 22, 33
+
+var first = numbers[0]
+var third = numbers[2]
+numbers[1] = 77  # 把下表为1的值修改为77（原值22）
+if numbers[1] > 40
+    robo_left()
+```
+
+#!unlock type{primer} id{seq-b}
+`add(sv)`函数用于在数组末端增加新值。 `remove(sv)` 删除指定下标的值。 `size(s)` 返回数组中有多少个值。
+
+```
+seq list[]
+
+var size = list[].size()
+list[].add(11)  # 增加到末尾
+list[].add(33)
+
+var el = list[0]
+var size = list[].size()
+
+list[].remove(0)  # 删除第0个元素
+var el = list[0]
+var size = list[].size()
+```
+
+#!unlock type{primer} id{loop-seq}
+# 遍历数组
+
+`for` 可以用于遍历数组中的每个值。
+
+```
+seq nums[] = 1, 234, 55, -23
+
+for number in nums[]
+    if number < 100
+        robo_use()
+    else
+        robo_left()
+```
+
+
+#!unlock type{primer} id{fun-3}
+# 函数 三
+
+函数可以接收 `seq` 作为参数。
+
+```
+# 接受单个数组的函数
+fun sum(list[])
+    var sum
+    for n in list[]
+        sum += n
+    sum
+
+seq nums[] = 1, 2, 3
+var total = sum(nums[])
+
+total is 6
+```
+
+
+#!unlock type{primer} id{dot-call}
+还有另外一种调用带参数函数的方法。
+
+```no_run
+fun example(a, b, c, d)
+    # ...
+
+example(2, 3, 4, 5)  # 正常调用语法
+
+2.example(3, 4, 5)  # 点调用语法
+```
+第二种风格适合特定用途， 比如自带的`add`， `remove`及`size`函数。
+```no_run
+nums[].size() # 3 等同于size(nums[])
+
+nums[].sum()  # 6
+```
