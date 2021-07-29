@@ -172,6 +172,11 @@ fn company_es() {
 }
 
 #[test]
+fn company_zh_cn() {
+    assert_eq!(company_lang("zh-CN", CompanyMessageId::Acknowledge), "认可");
+}
+
+#[test]
 fn company_await_is_3_lines() {
     for (lang, c) in &*company::MAP {
         if let Some(text) = c.get(&CompanyMessageId::Await) {
@@ -218,6 +223,12 @@ fn primer_fallback() {
 fn primer_es() {
     let text = primer_lang("es", PrimerId::Comments);
     assert!(text.starts_with("# Comentarios"), "`{}`", text);
+}
+
+#[test]
+fn primer_zh_cn() {
+    let text = primer_lang("zh-CN", PrimerId::Comments);
+    assert!(text.starts_with("# 注释"), "`{}`", text);
 }
 
 #[test]
