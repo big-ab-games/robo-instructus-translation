@@ -272,7 +272,7 @@ while left_count < 3
 fun loneliest_number()
     1  # 最后一个表达式作为返回值
 
-# functions can take arguments
+# 函数可以接收参数
 fun largest(a, b)
     if b > a
         # 也可以提前返回
