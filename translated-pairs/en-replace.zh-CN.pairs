@@ -48,7 +48,7 @@ Sound
 
 #### music volume
 Music
-音量
+音乐
 
 #### Screen that shows the game title where different profiles can be selected
 Title Screen
@@ -100,10 +100,10 @@ Code Reference
 编码指南
 
 Decrease Speed
-降速
+减速
 
 Increase Speed
-增速
+加速
 
 Message Archive
 消息记录
@@ -115,7 +115,7 @@ Increase Code Execution Rate
 提高代码执行率
 
 Load / Save new approach
-加载/保存新方法
+加载/保存新方案
 
 #### resets current level
 Reset
@@ -149,10 +149,10 @@ Delete name
 删除名称
 
 Exit Level
-退出当前等级
+退出关卡
 
 Delete profile
-删除用户资料
+删除用户
 
 Confirm delete
 确认删除
@@ -179,13 +179,13 @@ Modify the commands and \nre-run to reach the exit
 修改命令并重新执行以到达出口
 
 Press to exit level
-点击此处退出当前等级
+点击此处退出当前关卡
 
 Levels have multiple stages\nclick here to view each
-每个等级有多个阶段，点击此处可查看各个阶段
+每个关卡有多个阶段，点击此处可查看各个阶段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-你的代码将在每个阶段重新执行，因此单个解决方案需要通过所有阶段。返回第一阶段
+你的代码将在每个阶段重新执行，因此单个解决方案需要适用于所有阶段。返回第一阶段
 
 Reach the first stage exit
 到达第一阶段的出口
@@ -204,11 +204,11 @@ Click to close
 关闭
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-当前等级还有些未完成的代码，尝试执行并修改……或者干脆从头开始
+当前关卡还有些未完成的代码，尝试执行并修改……或者干脆从头开始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-用鼠标滑轮、alt↑/↓、alt pageup/pagedown 即可上下滚动
+用鼠标滚轮、alt↑/↓、alt pageup/pagedown 即可上下滚动
 
 Click to view all recovered messages
 点击此处查看所有已找到的消息
@@ -221,7 +221,7 @@ Try using `else` and \na comparison like `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-阅读《Comparison》和《Conditions III》，了解 `>` 和 `else` 的使用
+阅读《比较》和《条件 III》，了解 `>` 和 `else` 的使用
 
 Try using a comparison like `>`
 尝试使用比较操作符（比如：`>`）
@@ -241,7 +241,7 @@ Press, or use keyboard →, to step forward to the next evaluation
 点击此处或按键盘的→即可前进到下一个评估
 
 Level solutions can be\nsaved and loaded here
-此处可以保存和加载等级的解决方案
+此处可以保存和加载关卡的解决方案
 
 The best scoring code in each\ncategory is automatically saved
 每个类别中评分最高的解决方案会被自动保存
@@ -259,19 +259,19 @@ Ensure your solution is general enough\nto solve these hidden variants
 确保您的解决方案足够通用\n以应对这些隐藏的变化
 
 Your solution has a flaw uncovered by a hidden stage variant
-隐藏的变化揭了您的解决方案的问题
+隐藏的变化揭示了您的解决方案的问题
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-虽然未来的等级已经被解锁，\n但您只解决黑暗階段才能记分
+虽然未来的关卡已经被解锁，\n但您只有完成黑暗階段才能得分
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-函数调用运行时间和环境延时的总和
+函数调用耗时和环境延时的总和
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+机器人函数调用耗时和环境延时的总和
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -307,83 +307,83 @@ Finished in:
 完成时间：
 
 Solution size:
-解决方案大小：
+方案大小：
 
 Run size:
 执行大小：
 
 #### right half `{}` is replaced by the score
 {} ms
-{}ms
+{} ms
 
 {} phrases
-{}条
+{} 语句
 
 #### Graph button
 Show outliers
-显示图表异常
+显示异常数据
 
 Hide outliers
-隐藏图表异常
+隐藏异常数据
 
 #### Graph title
 Time
-执行时期
+执行时间
 
 Solution size
-解决方案大小
+方案大小
 
 Run size
 执行大小
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-最好
+最佳
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+用时:
 
 Solution:
-Solution:
+方案:
 
 Run:
-Run:
+执行:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+时间, 方案, 执行
 
 time, solution
-time, solution
+时间, 方案
 
 time, run
-time, run
+时间, 执行
 
 solution, run
-solution, run
+方案, 执行
 
 time
-time
+时间
 
 solution
-solution
+方案
 
 run
-run
+执行
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+替换当前？
 
 #### Other branch options
 initial code
-initial code
+初始代码
 
 last level code
-last level code
+上一关代码
 
 ### Editor hotkeys
 Undo
@@ -399,22 +399,22 @@ Paste
 粘贴
 
 Cut line/selection
-剪下横线／选定的代码
+剪切行／选定的代码
 
 Duplicate line/selection
-重复横线／选定的代码
+复制行／选定的代码
 
 Move line/selection
-移动横线／选定的代码
+移动行／选定的代码
 
 Indent selection
-增加缩进量
+增加缩进
 
 Unindent selection
 减少缩进
 
 Navigate by word
-按字导航
+按词导航
 
 Delete previous word
 删除上一个词
@@ -423,10 +423,10 @@ Delete next word
 删除下一个词
 
 Comment/uncomment selection
-注释掉选定的横线
+注释/恢复所选
 
 Autocomplete open
-自动完成打开
+自动完成开启
 
 Autocomplete choose
 自动完成选择
@@ -442,17 +442,17 @@ Functions
 函数
 
 Recovered Messages
-已发掘的消息
+已恢复的消息
 
 Try reworking your solution before proceeding
-继续之前，尝试再造一下你的解决方案
+继续之前，尝试改造你的解决方案
 
 #### Unlock headings
 Decoding ...
-解读中……
+解码中……
 
 Message recovered
-发掘了新消息
+恢复了新消息
 
 Functions unlocked
 已解锁的函数
@@ -467,23 +467,23 @@ Functions not available
 不可用的函数
 
 Functions inoperable
-破坏的函数
+不适用的函数
 
 Functions restored
 已恢复的函数
 
 Primer section recovered
-发掘了手册的新章节
+恢复了手册的新章节
 
 Paused execution unlocked
-暂停执行解锁
+暂停执行已解锁
 
 Scanning ...
-扫描中……
+正在扫描...
 
 #### suffix to denote "kilo" / 1000 of something
 k
-千
+k
 
 ### Level names, translating these is optional. It may be better to leave them in English?
 Hello Robo
