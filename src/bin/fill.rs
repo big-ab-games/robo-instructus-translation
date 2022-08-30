@@ -6,7 +6,7 @@
 #![cfg(feature = "fill")]
 
 // mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
-include!("../../target/generated/translated-pairs.rs");
+include!(concat!(env!("OUT_DIR"), "/translated-pairs.rs"));
 
 use rustc_hash::{FxHashMap, FxHashSet};
 use std::{env, io::Write};

@@ -2,7 +2,7 @@
 
 use quote::quote;
 use std::{
-    fs,
+    env, fs,
     io::{BufRead, BufReader, Write},
     path::*,
 };
@@ -555,7 +555,8 @@ fn build_colony() {
 }
 
 fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
-    let generated = Path::new("target").join("generated");
+    let out_dir = env::var("OUT_DIR").unwrap();
+    let generated = Path::new(&out_dir);
     fs::create_dir_all(&generated).unwrap();
 
     let dest_path = generated.join(file_name);

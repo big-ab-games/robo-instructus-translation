@@ -2,19 +2,19 @@
 pub mod realtime;
 
 // mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
-include!("../target/generated/translated-pairs.rs");
+include!(concat!(env!("OUT_DIR"), "/translated-pairs.rs"));
 
 // mod company { MAP: FxHashMap<&str, FxHashMap<CompanyMessageId, &str>>, ... }
-include!("../target/generated/company.rs");
+include!(concat!(env!("OUT_DIR"), "/company.rs"));
 
 // mod primer { MAP: FxHashMap<&str, FxHashMap<PrimerId, &str>>, ... }
-include!("../target/generated/primer.rs");
+include!(concat!(env!("OUT_DIR"), "/primer.rs"));
 
 // mod function_docs { MAP: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>, ... }
-include!("../target/generated/function_docs.rs");
+include!(concat!(env!("OUT_DIR"), "/function_docs.rs"));
 
 // mod colony { MAP: FxHashMap<&str, FxHashMap<FunctionDocId, &str>>, ... }
-include!("../target/generated/colony.rs");
+include!(concat!(env!("OUT_DIR"), "/colony.rs"));
 
 pub use colony::ColonyMessageId;
 pub use company::CompanyMessageId;
@@ -130,12 +130,12 @@ pub fn colony_lang(lang: &str, id: ColonyMessageId) -> &'static str {
 
 #[test]
 fn translate_ru() {
-    assert_eq!(&*translate_to("ru", "Begin"), "Начать");
+    assert_eq!(translate_to("ru", "Begin"), "Начать");
 }
 
 #[test]
 fn translate_pl() {
-    assert_eq!(&*translate_to("pl", "Begin"), "Rozpocznij");
+    assert_eq!(translate_to("pl", "Begin"), "Rozpocznij");
 }
 
 #[test]

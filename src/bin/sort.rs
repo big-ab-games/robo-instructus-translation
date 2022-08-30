@@ -4,7 +4,7 @@
 #![cfg(feature = "sort")]
 
 // mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
-include!("../../target/generated/translated-pairs.rs");
+include!(concat!(env!("OUT_DIR"), "/translated-pairs.rs"));
 
 use log::*;
 use rustc_hash::{FxHashMap, FxHashSet};
