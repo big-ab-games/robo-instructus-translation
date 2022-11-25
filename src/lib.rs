@@ -48,7 +48,7 @@ pub fn language_target<T, F: FnOnce(&str) -> T>(fun: F) -> T {
 /// Translates english text into the global target language
 #[inline]
 pub fn translate(en: &str) -> &str {
-    translate_to(&*LANG.read(), en)
+    translate_to(&LANG.read(), en)
 }
 
 /// Translates english text into the input target language

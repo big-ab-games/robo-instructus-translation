@@ -26,7 +26,7 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
         return None;
     }
     match json["data"]["translations"][0]["translatedText"].take() {
-        Value::String(translated) => Some(translated.replace("| ", "\n").replace("|", "\n")),
+        Value::String(translated) => Some(translated.replace("| ", "\n").replace('|', "\n")),
         _ => None,
     }
 }

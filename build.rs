@@ -557,7 +557,7 @@ fn build_colony() {
 fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
     let out_dir = env::var("OUT_DIR").unwrap();
     let generated = Path::new(&out_dir);
-    fs::create_dir_all(&generated).unwrap();
+    fs::create_dir_all(generated).unwrap();
 
     let dest_path = generated.join(file_name);
     let mut file = fs::OpenOptions::new()
