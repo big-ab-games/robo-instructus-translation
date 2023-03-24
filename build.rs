@@ -565,7 +565,7 @@ fn write_generated<T: std::fmt::Display>(file_name: &str, contents: T) {
         .write(true)
         .create(true)
         .truncate(true)
-        .open(&dest_path)
+        .open(dest_path)
         .unwrap();
 
     write!(file, "{}", contents).unwrap();

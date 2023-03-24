@@ -21,7 +21,7 @@ pub fn translate_to(lang: &str, en: &str) -> Option<String> {
         text = utf8_percent_encode(&text, QUERY_ENCODE_SET)
     );
 
-    let mut json: Value = client.get(&url).send().ok()?.json().ok()?;
+    let mut json: Value = client.get(url).send().ok()?.json().ok()?;
     if json["data"]["translations"].is_null() {
         return None;
     }
