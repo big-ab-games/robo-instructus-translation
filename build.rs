@@ -18,7 +18,7 @@ fn main() {
 fn build_translated_pairs() {
     let translations = std::env::current_dir().unwrap().join("translated-pairs");
 
-    let lang_replace: Vec<_> = fs::read_dir(&translations)
+    let lang_replace: Vec<_> = fs::read_dir(translations)
         .unwrap()
         .filter_map(|entry| {
             let entry = entry.ok()?;
@@ -85,7 +85,7 @@ fn build_translated_pairs() {
 fn build_company() {
     let company = std::env::current_dir().unwrap().join("company");
 
-    let lang_company: Vec<_> = fs::read_dir(&company)
+    let lang_company: Vec<_> = fs::read_dir(company)
         .unwrap()
         .filter_map(|entry| {
             let entry = entry.ok()?;
@@ -174,7 +174,7 @@ fn build_company() {
 fn build_primer() {
     let unlocks = std::env::current_dir().unwrap().join("primer");
 
-    let lang_primer: Vec<_> = fs::read_dir(&unlocks)
+    let lang_primer: Vec<_> = fs::read_dir(unlocks)
         .unwrap()
         .filter_map(|entry| {
             let entry = entry.ok()?;
@@ -287,7 +287,7 @@ fn build_primer() {
 fn build_function_docs() {
     let unlocks = std::env::current_dir().unwrap().join("function");
 
-    let lang_lookup: Vec<_> = fs::read_dir(&unlocks)
+    let lang_lookup: Vec<_> = fs::read_dir(unlocks)
         .unwrap()
         .filter_map(|entry| {
             let entry = entry.ok()?;
@@ -446,7 +446,7 @@ fn build_function_docs() {
 fn build_colony() {
     let dir = std::env::current_dir().unwrap().join("colony");
 
-    let lang_message: Vec<_> = fs::read_dir(&dir)
+    let lang_message: Vec<_> = fs::read_dir(dir)
         .unwrap()
         .filter_map(|entry| {
             let entry = entry.ok()?;
