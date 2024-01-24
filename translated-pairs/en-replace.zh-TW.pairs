@@ -100,10 +100,10 @@ Code Reference
 編碼指南
 
 Decrease Speed
-降速
+減速
 
 Increase Speed
-增速
+加速
 
 Message Archive
 消息記錄
@@ -115,7 +115,7 @@ Increase Code Execution Rate
 提高代碼執行率
 
 Load / Save new approach
-加載/保存新方法
+加載/保存新方案
 
 #### resets current level
 Reset
@@ -149,10 +149,10 @@ Delete name
 刪除名稱
 
 Exit Level
-退出當前等級
+退出關卡
 
 Delete profile
-刪除用户資料
+刪除用户
 
 Confirm delete
 確認刪除
@@ -179,13 +179,13 @@ Modify the commands and \nre-run to reach the exit
 修改命令並重新執行以到達出口
 
 Press to exit level
-點擊此處退出當前等級
+點擊此處退出當前關卡
 
 Levels have multiple stages\nclick here to view each
-每個等級有多個階段，點擊此處可查看各個階段
+每個關卡有多個階段，點擊此處可查看各個階段
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-你的代碼將在每個階段重新執行，因此單個解決方案需要通過所有階段。返回第一階段
+你的代碼將在每個階段重新執行，因此單個解決方案需要適用於所有階段。返回第一階段
 
 Reach the first stage exit
 到達第一階段的出口
@@ -204,11 +204,11 @@ Click to close
 關閉
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-當前等級還有些未完成的代碼，嘗試執行修改……或者乾脆從頭開始
+當前關卡還有些未完成的代碼，嘗試執行修改……或者乾脆從頭開始
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-用鼠標滑輪、alt↑/↓、alt pageup/pagedown 即可上下滾動
+用鼠標滾輪、alt↑/↓、alt pageup/pagedown 即可上下滾動
 
 Click to view all recovered messages
 點擊此處查看所有已找到的消息
@@ -221,7 +221,7 @@ Try using `else` and \na comparison like `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-閲讀《Comparison》和《Conditions III》，了解 `>` 和 `else` 的使用
+閲讀《比較》和《條件 III》，了解 `>` 和 `else` 的使用
 
 Try using a comparison like `>`
 嘗試使用比較操作符（比如：`>`）
@@ -241,7 +241,7 @@ Press, or use keyboard →, to step forward to the next evaluation
 點擊此處或按鍵盤的→即可前進到下一個評估
 
 Level solutions can be\nsaved and loaded here
-此處可以保存和加載等級的解決方案
+此處可以保存和加載關卡的解決方案
 
 The best scoring code in each\ncategory is automatically saved
 每個類別中最高評分的解決方案會被自動保存
@@ -259,19 +259,19 @@ Ensure your solution is general enough\nto solve these hidden variants
 確保您的解決方案足夠通用\n以應對這些隱藏的變化
 
 Your solution has a flaw uncovered by a hidden stage variant
-隱藏的變化揭了您的解決方案的問題
+隱藏的變化揭示了您的解決方案的問題
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-雖然未來的等級已經被解鎖，\n但您只解決黑暗階段纔能記分
+雖然未來的關卡已經被解鎖，\n但您只有完成黑暗階段纔能得分
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-函數調用運行時間和環境延時的總和
+函數調用耗時和環境延時的總和
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+機器人函數調用耗時和環境延時的總和
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -307,83 +307,83 @@ Finished in:
 完成時間：
 
 Solution size:
-解決方案大小：
+方案大小：
 
 Run size:
 執行大小：
 
 #### right half `{}` is replaced by the score
 {} ms
-{}ms
+{} 毫秒
 
 {} phrases
-{}條
+{} 語句
 
 #### Graph button
 Show outliers
-顯示圖表異常
+顯示異常數據
 
 Hide outliers
-隱藏圖表異常
+隱藏異常數據
 
 #### Graph title
 Time
-執行時期
+執行時間
 
 Solution size
-解決方案大小
+方案大小
 
 Run size
 執行大小
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-最好
+最佳
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+用時:
 
 Solution:
-Solution:
+方案:
 
 Run:
-Run:
+執行:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+時間，方案，執行
 
 time, solution
-time, solution
+時間，方案
 
 time, run
-time, run
+時間，執行
 
 solution, run
-solution, run
+方案，執行
 
 time
-time
+時間
 
 solution
-solution
+方案
 
 run
-run
+執行
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+替換當前？
 
 #### Other branch options
 initial code
-initial code
+初始代碼
 
 last level code
-last level code
+上一關代碼
 
 ### Editor hotkeys
 Undo
@@ -399,13 +399,13 @@ Paste
 粘貼
 
 Cut line/selection
-剪下橫綫／選定的代碼
+剪切行／選定的代碼
 
 Duplicate line/selection
-重複橫綫／選定的代碼
+複製行／選定的代碼
 
 Move line/selection
-移動橫綫／選定的代碼
+移動行／選定的代碼
 
 Indent selection
 增加縮進量
@@ -414,7 +414,7 @@ Unindent selection
 減少縮進
 
 Navigate by word
-按字導航
+按詞導航
 
 Delete previous word
 刪除上一个詞
@@ -423,10 +423,10 @@ Delete next word
 刪除下一个詞
 
 Comment/uncomment selection
-注釋掉選定的橫綫
+注釋、恢復所選
 
 Autocomplete open
-自動完成打開
+自動完成開啓
 
 Autocomplete choose
 自動完成選擇
@@ -442,17 +442,17 @@ Functions
 函數
 
 Recovered Messages
-已發掘的消息
+已恢復的消息
 
 Try reworking your solution before proceeding
-繼續之前，嘗試再造一下你的解決方案
+繼續之前，嘗試改造你的解決方案
 
 #### Unlock headings
 Decoding ...
-解讀中……
+解碼中……
 
 Message recovered
-發掘了新消息
+恢復了新消息
 
 Functions unlocked
 已解鎖的函數
@@ -467,19 +467,19 @@ Functions not available
 不可用的函數
 
 Functions inoperable
-破壞的函數
+不適用的函數
 
 Functions restored
 已恢複的函數
 
 Primer section recovered
-發掘了手冊的新章節
+恢復了手冊的新章節
 
 Paused execution unlocked
-暫停執行解鎖
+暫停執行已解鎖
 
 Scanning ...
-掃描中……
+正在掃描……
 
 #### suffix to denote "kilo" / 1000 of something
 k
