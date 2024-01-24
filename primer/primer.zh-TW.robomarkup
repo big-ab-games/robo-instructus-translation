@@ -1,0 +1,396 @@
+// Pseudo markup format see ./README.md
+
+#!unlock type{primer} id{loops}
+# 循環
+
+`loop`循環用於重複命令。它將一直重複執行作用域內的命令。
+一個循環的作用域包含了`loop`行之後縮進的命令。
+
+```max_run=11
+robo_forward()  # 調用一次
+
+loop
+    robo_forward()
+    robo_left()
+
+robo_left()  # 不被調用
+```
+
+
+#!unlock type{primer} id{comments}
+# 註釋
+
+'`#`' 號後面的文本不被當作代碼，它們是用作筆記的註釋內容。
+
+```no_run
+robo_left()  # 覺得我開始有點理解了。
+```
+
+
+#!unlock type{primer} id{conditionals}
+# 條件
+
+`if`根據指定的條件，決定執行或跳過命令。
+
+```
+if robo_scan() is 1
+    # 面前有格子
+    robo_forward()
+
+if robo_scan() is -1
+    # 面前是空的
+    robo_left()
+```
+
+
+#!unlock type{primer} id{variables}
+# 變量
+
+你可以將數字保存在`var`中，以備之後使用。
+
+```
+# 將函數結果保存在變量“scan”中
+var scan = robo_scan()
+
+# 在條件短語中使用、重用保存的變量值
+if scan is 1
+    robo_forward()
+if scan is -1
+    robo_left()
+```
+這樣可以避免為了檢查同樣的結果，而多次調用耗費時間的函數。 
+也可以保存結果用於之後使用。
+
+#!unlock type{primer} id{conditionals-2}
+# 條件 二
+
+“`if expr`”（條件表達式）簡單檢查`expr`（表達式）是否為非0值。
+因此`0`當作是“false”（假），而`1`或者其他非0值被當作“true”（真）。 
+當`expr`的值為“true”時，之後縮進的代碼會運行。
+
+```
+if 0
+    robo_left()  # 不調用
+
+if 1
+    robo_forward()  # 調用
+```
+
+#!unlock type{primer} id{is}
+關鍵字`is`用於比較兩個值，當它們相等時得到`1`（真），否則得到`0`（假）。一般用於配合`if`語句。
+
+`not`（非）可以將`0`改作`1`，或者把任意非零值改作`0`。
+
+`not x is y `也寫作` x is not y `，當x和y不同時得到`1`（真）。
+
+```
+var scan = robo_scan()
+
+if scan is 1
+    robo_forward()
+
+if scan is not 1
+    robo_left()
+```
+
+
+#!unlock type{primer} id{comparison}
+# 比較
+
+除了`is`，也可以用`>`，`>=`，`<`，`<=`操作符來比較值的大小。
+
+`    a > b  # a 大於 b`
+`    a >= b  # a 大於等於 b`
+`    a < b  # a 小於 b`
+`    a <= b  # a 小於等於 b`
+
+```
+var scan = robo_scan()
+if scan >= 1
+    robo_forward()
+if scan < 0
+    robo_left()
+```
+
+
+#!unlock type{primer} id{conditionals-3}
+# 條件 三
+
+為了更容易處理“其它”情況，你可以在`if`之後使用`else`。
+
+當前面的`if`語句不成立時，`else`語句塊將得到執行。
+
+```
+var scan = robo_scan()
+if scan is 1
+    robo_forward()
+else
+    robo_left()
+```
+
+
+#!unlock type{primer} id{else-if}
+
+多個`else if`可以串聯在一起，用於處理多種相互獨立的情況。
+
+這樣可以保證只有一個縮進塊會被執行。
+
+```
+var example = 14
+
+if example is 1
+    robo_left()
+    robo_forward()
+else if example <= 3
+    robo_forward()
+else if example > 12
+    robo_forward()
+    robo_forward()
+else
+    robo_left()
+```
+最後地`else`部分，只有在它前面的`if`和`else if`都不通過時執行。
+
+
+#!unlock type{primer} id{scope}
+# 作用域
+
+縮進代碼，比如`loop`或者`if`之後的部分，即是“作用域”。 
+`var`（變量）只能在聲明的作用域內使用。
+```no_run
+if scan is 1
+    var foo = 123
+    if foo is 123  # 可行
+        robo_left()
+
+if foo is 123  # 失敗！這裡在foo的作用域之外
+    robo_left()
+```
+為了擴大`var` 可用範圍，可以在外部作用域聲明它。
+舉例來説，頂級（作用域的）變量可以在任何位置使用，並且不會被移除。
+```no_run
+var foo
+if scan is 1
+    foo = 123
+    if foo is 123  # 可行
+        robo_left()
+
+if foo is 123  # 可行
+    robo_left()
+```
+變量會在作用域結束的時候被移除， 
+因此在`loop`中聲明`var`會在循環的每次遍歷中得到一個新的變量。
+
+
+#!unlock type{primer} id{loops-2}
+# 循環 二
+
+`continue`關鍵字用於循環過程中重新開始循環， 
+而`break`關鍵字用於離開當前循環。
+
+```
+var count = 0
+loop
+    if count is not 2
+        robo_forward()
+        count += 1
+        continue
+    break
+
+robo_left()
+robo_left()
+```
+
+
+#!unlock type{primer} id{loops-3}
+# 循環 三
+
+思考下面的`loop`，用於執行左轉五次。
+```
+# 左轉5次
+var loop_count = 1
+loop
+    if loop_count > 5
+        break
+    robo_left()
+    loop_count = loop_count + 1
+```
+雖然所有的循環邏輯都可以使用`loop`來完成，關鍵字`for`以及`while`也是可用的，不改變結果的前提下，它們用來幫助創建更簡潔的代碼。
+```
+# 執行代碼塊，直到條件為假時結束
+var loop_count = 1
+while loop_count <= 5
+    robo_left()
+    loop_count = loop_count + 1
+```
+
+```
+# 執行代碼塊，每次分別為 loop_count 賦值1，2，3，4及5
+for loop_count in 1,2,3,4,5
+    robo_left()
+```
+
+
+#!unlock type{primer} id{fun}
+# 函數
+
+類似`robo_left()`，`robo_scan()`等等的命令叫做函數。函數時可以用於將來執行的代碼塊。它們用`fun`關鍵字定義。
+
+```
+# 定義一個函數
+fun go_right()
+    robo_left()
+    robo_left()
+
+go_right()  # 調用函數
+go_right()
+```
+
+
+#!unlock type{primer} id{fun-b}
+當需要減少重複代碼，以及為複雜操作命名時，函數非常有用。
+
+函數也可以調用其它函數。比如你可以記錄`robo_left()`的調用次數，只需要把它封裝到另一個函數並改為調用該函數。
+
+```
+var left_count
+fun left_and_count()
+    robo_left()
+    left_count += 1  # count計數加1
+
+while left_count < 3
+    left_and_count()
+```
+
+
+#!unlock type{primer} id{fun-2}
+# 函數 二
+
+函數可以接收一個或多個數字輸入，也可以輸出一個數字。
+
+```
+fun loneliest_number()
+    1  # 最後一個表達式作為返回值
+
+# 函數可以接收參數
+fun largest(a, b)
+    if b > a
+        # 也可以提前返回
+        return b
+    a
+
+var three = largest(2, 3)
+var one = largest(-5, loneliest_number())
+```
+
+
+#!unlock type{primer} id{bool}
+# 布爾操作符
+
+`and`（與）和`or`（或）操作符用於組合0值與非0值。
+它們可以用來產生更複雜的邏輯狀態。
+
+當兩邊的值均為非0時，“`and`”（與）表達式返回`1`。
+
+```
+var scan = robo_scan()
+var adjacent = robo_detect_adjacent()
+if scan < 0 and adjacent is 3
+    robo_forward()
+```
+只要任意一邊的值為非0，“`or`”（或）表達式就返回`1`。
+```
+var scan = robo_scan()
+var safe = scan is 1 or scan is 2
+if safe
+    robo_forward()
+```
+
+
+#!unlock type{primer} id{seq}
+# 數組（數列、序列）
+
+`seq`（數組、數列、序列）用於定義一系列的值。這些值可以通過它們的下標來訪問，下標從`0`開始。
+
+```
+seq list[]  # 新的空數組
+seq numbers[] = 11, 22, 33
+
+var first = numbers[0]
+var third = numbers[2]
+numbers[1] = 77  # 把下表為1的值修改為77（原值22）
+if numbers[1] > 40
+    robo_left()
+```
+
+#!unlock type{primer} id{seq-b}
+`add(sv)`函數用於在數組末端增加新值。`remove(sv)`刪除指定下標的值。`size(s)`返回數組中有多少個值。
+
+```
+seq list[]
+
+var size = list[].size()
+list[].add(11)  # 增加到末尾
+list[].add(33)
+
+var el = list[0]
+var size = list[].size()
+
+list[].remove(0)  # 刪除第0個元素
+var el = list[0]
+var size = list[].size()
+```
+
+#!unlock type{primer} id{loop-seq}
+# 遍歷數組
+
+`for` 可以用於遍歷數組中的每個值。
+
+```
+seq nums[] = 1, 234, 55, -23
+
+for number in nums[]
+    if number < 100
+        robo_use()
+    else
+        robo_left()
+```
+
+
+#!unlock type{primer} id{fun-3}
+# 函數 三
+
+函數可以接收`seq`作為參數。
+
+```
+# 接受單個數組的函數
+fun sum(list[])
+    var sum
+    for n in list[]
+        sum += n
+    sum
+
+seq nums[] = 1, 2, 3
+var total = sum(nums[])
+
+total is 6
+```
+
+
+#!unlock type{primer} id{dot-call}
+還有另外一種調用帶參數函數的方法。
+
+```no_run
+fun example(a, b, c, d)
+    # ...
+
+example(2, 3, 4, 5)  # 正常調用語法
+
+2.example(3, 4, 5)  # 點調用語法
+```
+第二種風格適合特定用途，比如自帶的`add`，`remove`及`size`函數。
+```no_run
+nums[].size() # 3 等同於size(nums[])
+
+nums[].sum()  # 6
+```
