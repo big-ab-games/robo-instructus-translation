@@ -1,0 +1,230 @@
+// Pseudo markup format see ./README.md
+
+#!unlock type{short} id{s-left}
+`robo_left() ` 原地左轉
+
+
+#!unlock type{short} id{s-forward}
+`robo_forward() ` 前進（同時由於三角形格子，會右轉）
+
+
+#!unlock type{short} id{s-scan}
+`robo_scan() ` 掃描前方格子返回值 `-999`: 未知, `-1`: 缺失, `1`: 普通, `2`: 出口
+
+
+#!unlock type{short} id{s-scan-u1}
+`robo_scan() ` 掃描前方格子返回值 `-999`: 未知, `-1`: 缺失, `1`: 普通, `2`: 出口, `10`: 電源開關
+
+
+#!unlock type{short} id{s-scan-u2}
+`robo_scan() ` 掃描前方格子返回值 `-999`: 未知, `-1`: 缺失, `1`: 普通, `2`: 出口, `10`: 電源開關, `11`: 位置數據存儲
+
+
+#!unlock type{short} id{s-scan-u3}
+`robo_scan() ` 掃描前方格子返回值 `-999`: 未知, `-1`: 缺失, `1`: 普通, `2`: 出口, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲
+
+
+#!unlock type{short} id{s-scan-u4}
+`robo_scan() ` 掃描前方格子返回值 `-999`: 未知, `-1`: 缺失, `1`: 普通, `2`: 出口, `3`: 發射器, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲
+
+
+#!unlock type{short} id{s-use}
+`robo_use() ` 使用當前格子, 返回值: 電源開關 `1`: 開啟, `0`: 關閉
+
+
+#!unlock type{short} id{s-use-u2}
+`robo_use() ` 使用當前格子, 返回值: 電源開關 `1`: 開啟, `0`: 關閉, 位置數據存儲: 安全位置id
+
+
+#!unlock type{short} id{s-use-u3}
+`robo_use() ` 使用當前格子, 返回值: 電源開關 `1`: 開啟, `0`: 關閉, 位置數據存儲: 安全位置id, 方向 `1`: 上, `2`: 右
+
+
+#!unlock type{short} id{s-use-u4}
+`robo_use() ` 使用當前格子, 返回值: 電源開關 `1`: 開啟, `0`: 關閉, 位置數據存儲: 安全位置id, 方向 `1`: 上, `2`: 右, `3`: 下, `4`: 左
+
+
+#!unlock type{short} id{s-detect-adjacent}
+`robo_detect_adjacent() ` 返回相鄰的非缺失格子數，不受未知影響
+
+
+#!unlock type{short} id{s-location}
+`robo_location() ` 返回當前位置id
+
+
+#!unlock type{short} id{s-forward-location}
+`robo_forward_location() ` 返回前方一格的id
+
+
+#!unlock type{short} id{s-detect-3}
+`robo_detect_3() ` 返回前方3格的非缺失數 (右向)， 不受未知影響
+
+
+#!unlock type{short} id{s-detect-3l}
+`robo_detect_3l() ` 返回前方3格的非缺失數 (左向)， 不受未知影響
+
+
+#!unlock type{short} id{s-probo-left}
+`probo_left() ` 停留原地， 左轉
+
+
+#!unlock type{short} id{s-probo-forward}
+`probo_forward() ` 前進 (也會向右)
+
+
+#!unlock type{short} id{s-probo-scan}
+`probo_scan() ` 掃描當前格, 返回值 `-999`: 未知, `-1`: 缺失, `1`: 正常, `2`: 出口, `3`: 發射器, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲
+
+
+#!unlock type{short} id{s-probo-location}
+`probo_location() ` 返回當前位置id
+
+
+#!unlock type{short} id{s-probo-use}
+`probo_use() ` 使用當前格子, 返回值: 電源開關 `1`: 開啟, `0`: 關閉, 位置數據存儲: 安全位置id, 方向 `1`: 上, `2`: 右, `3`: 下, `4`: 左
+
+
+#!unlock type{short} id{s-transmit}
+`transmit(subject,data) ` 向目標（subject）傳送數據（data）
+
+
+#!unlock type{short} id{s-receive}
+`receive(subject) ` 返回並消耗最舊的目標數據， 不存在則返回`-20000`
+
+
+#!unlock type{functions} id{left-forward}
+`robo_left()` 每次調用令機器人逆時針轉向當前格的另一條邊。耗時 $tu{robo_left()} Mimas-seconds (ms)。
+$render{robo_left}
+`robo_forward()` 命令機器人向面朝方向前進一格。機器人前進時偏好向右轉。耗時 $tu{robo_forward()} ms。
+$render{robo_forward}
+
+
+#!unlock type{function} id{scan}
+`robo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2` 是出口, `-1` 表示沒有格子, `-999` 表示未知。耗時 $tu{robo_scan()} ms。
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u1}
+`robo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `10`: 電源開關。耗時 $tu{robo_scan()} ms。
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u2}
+`robo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `10`: 電源開關, `11`: 位置數據存儲。耗時 $tu{robo_scan()} ms。
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u3}
+`robo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲。耗時 $tu{robo_scan()} ms。
+
+$render{robo_scan}
+
+
+#!unlock type{function-update} id{scan-u4}
+`robo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `3`: 發射器格, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲。耗時 $tu{robo_scan()} ms。
+
+$render{robo_scan}
+
+
+#!unlock type{function} id{use}
+`robo_use()` 操作當前格並返回相關數據，否則為 `0` 。耗時 $tu{robo_use()} ms
+$render{robo_use}
+
+
+#!unlock type{function-update} id{use-u1}
+`robo_use()` 操作當前格並返回相關數據，否則為 `0` 。耗時 $tu{robo_use()} ms
+- 電源開關: 返回值 `1`: 開啟, `0` 關閉。額外耗時 +$tu{robo_use_power} ms
+$render{robo_use}
+
+
+#!unlock type{function-update} id{use-u2}
+`robo_use()` 操作當前格並返回相關數據， 否則為 `0` 。耗時 $tu{robo_use()} ms
+- 電源開關: 返回值 `1`: 開啟, `0` 關閉. 額外耗時 +$tu{robo_use_power} ms
+- 位置數據存儲: 返回安全位置id。額外耗時 +$tu{robo_use_location} ms
+$render{robo_use-2}
+
+
+#!unlock type{function-update} id{use-u3}
+`robo_use()` 操作當前格並返回相關數據，否則為 `0` 。耗時 $tu{robo_use()} ms
+- 電源開關: 返回值 `1`: 開啟, `0` 關閉。額外耗時 +$tu{robo_use_power} ms
+- 位置數據存儲: 返回安全位置id。額外耗時 +$tu{robo_use_location} ms
+- 方向數據存儲: 返回值 `1`: 上, `2`: 右。額外耗時 +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+
+#!unlock type{function-update} id{use-u4}
+`robo_use()` 操作當前格並返回相關數據， 否則為 `0` 。耗時 $tu{robo_use()} ms
+- 電源開關: 返回值 `1`: 開啟, `0` 關閉. 額外耗時 +$tu{robo_use_power} ms
+- 位置數據存儲: 返回安全位置id。額外耗時 +$tu{robo_use_location} ms
+- 方向數據存儲: 返回值 `1`: 上, `2`: 右, `3`: 下, `4`: 左。額外耗時 +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+
+#!unlock type{function} id{forward-location}
+`robo_forward_location()` 返回機器人面前一格的id。耗時 $tu{robo_forward_location()} ms。
+
+$render{robo_forward_location}
+```no_run
+var location = robo_forward_location()  # 8823
+```
+關卡中的每一格都有唯一id值 (正數，包括缺失格)。
+
+
+#!unlock type{function} id{location}
+`robo_location()` 返回機器人所站格子的id。耗時 $tu{robo_location()} ms。
+$render{robo_location}
+
+
+#!unlock type{function} id{detect-adjacent}
+`robo_detect_adjacent()` 返回當前位置相鄰格子（非缺失）的總數。 `0`, `1`, `2` 或 `3`。即使`robo_scan()`調用顯示未知的格子，也能正常工作。耗時 $tu{robo_detect_adjacent()} ms。
+$render{robo_detect_adjacent}
+```no_run
+var its_safe = robo_detect_adjacent() is 3
+```
+
+
+#!unlock type{function} id{detect-3}
+`robo_detect_3()` 返回前方直線3格的非缺失數（右向）。即使`robo_scan()`調用顯示未知的格子，也能正常工作。耗時 $tu{robo_detect_3()} ms。
+
+$render{robo_detect_3}
+
+
+#!unlock type{function} id{detect-3l}
+`robo_detect_3l()` 返回前方直線3格的非缺失數（左向）。類似於`robo_detect_3()`。耗時 $tu{robo_detect_3l()} ms。
+
+$render{robo_detect_3l}
+
+
+#!unlock type{functions} id{probo}
+`probo_left()` 左轉以面向當前格子的另一邊，逆時針。耗時$tu{probo_left()} ms。
+
+`probo_forward()` 移動探測器向面朝方向前進一格。探測器新的朝向偏右。耗時 $tu{probo_forward()} ms。
+
+`probo_location()` 返回當前位置id。耗時 $tu{probo_location()} ms。
+
+`probo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `3`: 發射器格, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲。耗時 $tu{probo_scan()} ms。
+
+$render{probo_scan}
+
+
+#!unlock type{function-update} id{probo-scan-u1}
+`probo_scan()` 掃描面前一格，返回值用以確定格子屬性。 `1` 表示正常格, `2`: 出口, `-1`: 沒有格子, `-999`: 未知, `3`: 發射器格, `4`: 東南發射器, `5`: 西南發射器, `10`: 電源開關, `11`: 位置數據存儲, `12`: 方向數據存儲。耗時 $tu{probo_scan()} ms。
+
+$render{probo_scan-2}
+
+
+#!unlock type{functions} id{transmit}
+`transmit(subject,data)` 傳送`subject`目標值及其關聯的`data`數據值。傳輸數據可被其他機器人接收。耗時 $tu{transmit(vv)} ms。
+
+`receive(subject)` 接收指定`subject`目標的單個數據值，該值由其它機器人發送。數據按傳輸順序接收。如果沒有收到目標傳輸則返回 `-20000`。耗時 $tu{receive(v)} ms。
+
+
+#!unlock type{function} id{probo-use}
+`probo_use()` 操作當前格並返回相關數據，否則返回`0`。耗時 $tu{probo_use()} ms
+- 電源開關: 返回值 `1`: 開, `0` 關。額外耗時 +$tu{robo_use_power} ms
+- 位置數據存儲: 返回安全位置id。額外耗時 +$tu{robo_use_location} ms
+- 方向數據存儲: 返回值 `1`: 上, `2`: 下, `3`: 左, `4`: 右。額外耗時 +$tu{robo_use_direction} ms
+$render{probo_use}
