@@ -32,7 +32,7 @@ pub const CREDITS: &str = include_str!("../credits.txt");
 
 /// Sets the global target translation language
 pub fn set_language_target(lang: &str) {
-    *LANG.write() = lang.to_owned();
+    lang.clone_into(&mut LANG.write());
 }
 
 #[inline]

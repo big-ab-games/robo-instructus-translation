@@ -6,7 +6,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-rustc-hash = "1"
+rustc-hash = "2"
 parking_lot = "0.12"
 once_cell = { version = "1", features = ["parking_lot"] }
 log = "0.4"
