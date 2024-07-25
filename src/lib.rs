@@ -1,6 +1,3 @@
-#[cfg(feature = "realtime")]
-pub mod realtime;
-
 // mod translated_pairs { MAP: FxHashMap<&str, FxHashMap<&str, &str>> }
 include!(concat!(env!("OUT_DIR"), "/translated-pairs.rs"));
 
@@ -21,23 +18,22 @@ pub use company::CompanyMessageId;
 pub use function_docs::FunctionDocId;
 pub use primer::PrimerId;
 
-use once_cell::sync::Lazy;
-use parking_lot::RwLock;
+use std::sync::{LazyLock, RwLock};
 
 /// Global language, improves translation ergonomics at great cost
-static LANG: Lazy<RwLock<String>> = Lazy::new(<_>::default);
+static LANG: LazyLock<RwLock<String>> = LazyLock::new(<_>::default);
 
 /// Translations section of Robo Instructus credits
 pub const CREDITS: &str = include_str!("../credits.txt");
 
 /// Sets the global target translation language
 pub fn set_language_target(lang: &str) {
-    lang.clone_into(&mut LANG.write());
+    lang.clone_into(&mut LANG.write().unwrap());
 }
 
 #[inline]
 pub fn language_target<T, F: FnOnce(&str) -> T>(fun: F) -> T {
-    let lang = &*LANG.read();
+    let lang = &*LANG.read().unwrap();
     if lang.trim().is_empty() {
         fun("en")
     } else {
@@ -48,7 +44,7 @@ pub fn language_target<T, F: FnOnce(&str) -> T>(fun: F) -> T {
 /// Translates english text into the global target language
 #[inline]
 pub fn translate(en: &str) -> &str {
-    translate_to(&LANG.read(), en)
+    translate_to(&LANG.read().unwrap(), en)
 }
 
 /// Translates english text into the input target language
@@ -58,12 +54,7 @@ pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
     } else if let Some(translated) = translated_pairs::MAP.get(lang).and_then(|l| l.get(en)) {
         translated
     } else {
-        #[cfg(feature = "realtime")]
-        realtime::notify_unknown(lang, en);
-
-        #[cfg(not(feature = "realtime"))]
         log::debug!("Missing translation for {:?} in lang {:?}", en, lang);
-
         en
     }
 }
@@ -72,7 +63,7 @@ pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
 /// lang='en'.
 #[inline]
 pub fn company(c: CompanyMessageId) -> &'static str {
-    company_lang(LANG.read().as_str(), c)
+    company_lang(LANG.read().unwrap().as_str(), c)
 }
 
 /// Fetches `lang` company message with the matching `key`, or falls back on lang='en'.
@@ -87,7 +78,7 @@ pub fn company_lang(lang: &str, c: CompanyMessageId) -> &'static str {
 /// lang='en'.
 #[inline]
 pub fn primer(c: PrimerId) -> &'static str {
-    primer_lang(LANG.read().as_str(), c)
+    primer_lang(LANG.read().unwrap().as_str(), c)
 }
 
 /// Fetches `lang` primer section with the matching `key`, or falls back on lang='en'.
@@ -102,7 +93,7 @@ pub fn primer_lang(lang: &str, c: PrimerId) -> &'static str {
 /// or falls back on lang='en'.
 #[inline]
 pub fn function_docs(id: FunctionDocId) -> &'static str {
-    function_docs_lang(LANG.read().as_str(), id)
+    function_docs_lang(LANG.read().unwrap().as_str(), id)
 }
 
 /// Fetches `lang` function doc with the matching `key`, or falls back on lang='en'.
@@ -117,7 +108,7 @@ pub fn function_docs_lang(lang: &str, id: FunctionDocId) -> &'static str {
 /// or falls back on lang='en'.
 #[inline]
 pub fn colony(id: ColonyMessageId) -> &'static str {
-    colony_lang(LANG.read().as_str(), id)
+    colony_lang(LANG.read().unwrap().as_str(), id)
 }
 
 /// Fetches `lang` function doc with the matching `key`, or falls back on lang='en'.

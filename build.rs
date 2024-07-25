@@ -66,11 +66,11 @@ fn build_translated_pairs() {
     let lang_replace_len = lang_replace.len();
     let contents = quote! {
         mod translated_pairs {
-            use once_cell::sync::Lazy;
+            use std::sync::LazyLock;
             use rustc_hash::FxHashMap;
 
-            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<&'static str, &'static str>>> =
-                Lazy::new(|| {
+            pub static MAP: LazyLock<FxHashMap<&'static str, FxHashMap<&'static str, &'static str>>> =
+                LazyLock::new(|| {
                     let mut store = FxHashMap::default();
                     store.reserve(#lang_replace_len);
                     #(#lang_replace)*
@@ -124,9 +124,8 @@ fn build_company() {
     let lang_company_len = lang_company.len();
     let contents = quote! {
         mod company {
-            use once_cell::sync::Lazy;
             use rustc_hash::FxHashMap;
-            use std::convert::TryFrom;
+            use std::{convert::TryFrom, sync::LazyLock};
 
             /// Company message id.
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
@@ -158,8 +157,8 @@ fn build_company() {
                 }
             }
 
-            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<CompanyMessageId, &'static str>>> =
-                Lazy::new(|| {
+            pub static MAP: LazyLock<FxHashMap<&'static str, FxHashMap<CompanyMessageId, &'static str>>> =
+                LazyLock::new(|| {
                     let mut lang_to_company = FxHashMap::default();
                     lang_to_company.reserve(#lang_company_len);
                     #(#lang_company)*
@@ -211,9 +210,8 @@ fn build_primer() {
     let lang_primer_len = lang_primer.len();
     let contents = quote! {
         mod primer {
-            use once_cell::sync::Lazy;
             use rustc_hash::FxHashMap;
-            use std::convert::TryFrom;
+            use std::{convert::TryFrom, sync::LazyLock};
 
             /// Primer section id.
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
@@ -271,8 +269,8 @@ fn build_primer() {
                 }
             }
 
-            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<PrimerId, &'static str>>> =
-                Lazy::new(|| {
+            pub static MAP: LazyLock<FxHashMap<&'static str, FxHashMap<PrimerId, &'static str>>> =
+                LazyLock::new(|| {
                     let mut lang_to_primer = FxHashMap::default();
                     lang_to_primer.reserve(#lang_primer_len);
                     #(#lang_primer)*
@@ -326,9 +324,8 @@ fn build_function_docs() {
     let lang_lookup_len = lang_lookup.len();
     let contents = quote! {
         mod function_docs {
-            use once_cell::sync::Lazy;
             use rustc_hash::FxHashMap;
-            use std::convert::TryFrom;
+            use std::{convert::TryFrom, sync::LazyLock};
 
             /// Function documentation id.
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
@@ -430,8 +427,8 @@ fn build_function_docs() {
                 }
             }
 
-            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<FunctionDocId, &'static str>>> =
-                Lazy::new(|| {
+            pub static MAP: LazyLock<FxHashMap<&'static str, FxHashMap<FunctionDocId, &'static str>>> =
+                LazyLock::new(|| {
                     let mut lang_to_lookup = FxHashMap::default();
                     lang_to_lookup.reserve(#lang_lookup_len);
                     #(#lang_lookup)*
@@ -485,9 +482,8 @@ fn build_colony() {
     let lang_message_len = lang_message.len();
     let contents = quote! {
         mod colony {
-            use once_cell::sync::Lazy;
             use rustc_hash::FxHashMap;
-            use std::convert::TryFrom;
+            use std::{convert::TryFrom, sync::LazyLock};
 
             /// Colony message id.
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
@@ -541,8 +537,8 @@ fn build_colony() {
                 }
             }
 
-            pub static MAP: Lazy<FxHashMap<&'static str, FxHashMap<ColonyMessageId, &'static str>>> =
-                Lazy::new(|| {
+            pub static MAP: LazyLock<FxHashMap<&'static str, FxHashMap<ColonyMessageId, &'static str>>> =
+                LazyLock::new(|| {
                     let mut map = FxHashMap::default();
                     map.reserve(#lang_message_len);
                     #(#lang_message)*
