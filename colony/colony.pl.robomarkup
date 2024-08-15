@@ -1,0 +1,251 @@
+// Pseudo markup format for Robo Instructus containing the company messages
+// received through the game's story. Spoiler alert!
+//
+// `#!unlock` means the start of a message, the lines following
+// are the message in simplified markdown.
+//
+// Newlines always count, unlike markdown.
+//
+// Text like `$render{some-id}` indicate where to render an "image" in-game.
+// These shouldn't be modified.
+//
+// Lines beginning with ` > ` are reply-bodies the white-space usage
+// should not be modified.
+
+
+#!unlock id{primer-intro}
+Udostępniam „Inżynieryjny Podręcznik”, który przygotowałam nieco pośpiesznie, aby towarzyszył warsztatom po zakończeniu zgromadzenia-17.
+
+Zawierając moje proceduralne podejście do języka i technik automatyzacji w prostych słowach, podręcznik zawiera wszystko, co niezbędne do skutecznej kontroli naszych automatów. Niemniej jednak obawiam się, że opisy mogą okazać się niewystarczające i zbyt zwięzłe w wielu miejscach. Nie jestem naturalną nauczycielką. Proszę skonsultować się z nominowanym do warsztatów i lokalną grupą, jeśli poczujesz się zagubiony. W razie potrzeby skontaktuj się ze mną i innymi grupami w celu uzyskania dalszych wskazówek.
+
+Bez względu na Twoją specjalizację, wierzę, że dzięki dokładnej nauce, właściwemu zastosowaniu podręcznika i nieugiętej determinacji wszyscy możemy przyczynić się do przetrwania kolonii.
+
+- Dr A. Bartram
+
+
+#!unlock id{pathfinders}
+Moi drodzy pionierzy,
+
+Gratulacje! Dotarliśmy (bezpiecznie!) do naszego nowego domu: Bright. Jak niektórzy z Was mogli już usłyszeć, warunki na Bright znacznie różnią się od tych przewidywanych na podstawie przedmisyjnej analizy spektroskopowej.
+
+Słyszałem określenia takie jak „niezamieszkalny” i „zamarznięta kula śmierci”, ale co to właściwie znaczy „niezamieszkalny”? Ja wolę używać terminu „niezamieszkany”. I zgadnijcie co, ludzie? To oznacza, że mamy całą planetę tylko dla siebie.
+
+Wiem, że każdy z Was jest pionierem w sercu. Zamiast widzieć trudności, dostrzegamy szanse. Całą energię, którą mieliśmy przeznaczyć na terraformowanie tej planety w bujny raj, możemy teraz przekierować na krytycznie potrzebne systemy grzewcze! Nasze zapasy miały nam wystarczyć na długie, wyczerpujące dni ciężkiej pracy przy budowie naszej wymarzonej kolonii. Teraz, przy znacznie zmniejszonym reżimie pracy, te zapasy wystarczą na kilka dodatkowych tygodni!
+
+Posłuchajcie, co mam na myśli: Zatrzymajmy się. Pomyślmy. Od pierwszego dnia jasno mówiłem, że będą wyzwania. Ale żadne wyzwanie nie może się równać z niesamowitą siłą ludzkiego ducha. Wiem, że wszyscy mamy w sobie „jasną” stronę.
+
+W tym momencie Alice Bartram i jej zespół inżynierów, z moim wsparciem, kończą pracę nad nowym planem. Oczekujcie więc wkrótce ekscytujących aktualizacji.
+
+Jak zawsze, moi asystenci mają politykę otwartych drzwi. Odwiedzajcie nas w dowolnym momencie w godzinach urzędowych* i porozmawiajmy!
+
+Jonathan Frinton-Belmont
+P.o. gubernatora
+
+*Zobacz dołączoną wiadomość dotyczącą skróconych godzin pracy biura ze względu na protokoły oszczędzania energii.
+
+
+#!unlock id{scans-unreliable}
+James, skany po prostu nie są w 100% wiarygodne. Są obszary, w których nie możemy być pewni, czy rzeczywiście jest tam metal do odzyskania, czy nie. Wygląda na to, że nawet nie wiemy dlaczego. W niektórych miejscach staje się coraz trudniej poruszać robotami.
+
+Skany o wartości `-999` zasadniczo oznaczają, że nawet nie wiemy, co jest przed nami. Wolałbym zachować ostrożność i unikać tych obszarów, jeśli to możliwe. Już teraz dostaję sporo uwag z niższych poziomów na temat uszkodzeń spowodowanych upadkami. Prawdopodobnie będziemy musieli zrezygnować z odzysku na najwyższych poziomach.
+
+> Hej Jacob, masz pojęcie, co mam z tym zrobić [w załączniku]? Straciłem kolejnego pracownika.
+> Czy robo_scan() jest uszkodzony czy coś? A zaczynałem już myśleć, że ogarniam to wszystko.
+>
+> Hackett
+$render{scans-unreliable}
+
+
+#!unlock id{power}
+Iceni w końcu stanie się zbyt niebezpieczne, aby mieć do niego dostęp. Obecne myślenie jest takie, że będziemy musieli przeprowadzić końcowe etapy całkowicie za pomocą robotów, w tym wyłączenie naszych tras transportowych. Zespół Lillian zamontuje wyłączniki zasilania na niższych poziomach zgodnie ze specyfikacjami doktora Bartrama. Te wyłączniki pozwolą robotom na wyłączenie zasilania.
+
+Gdy Twoje roboty zidentyfikują funkcję `robo_use()`, będziesz mógł wywołać tę funkcję, aby przełączać wyłączniki. Użycie (według Bartram): Wywołaj `robo_use()` na wyłączniku zasilania, aby przełączyć wyłącznik. Zwraca `1`, jeśli wyłącznik jest teraz włączony, lub `0`, jeśli wyłącznik został wyłączony.
+
+Te wyłączniki zasilania mają kod `robo_scan()` `10`, a funkcja użycia powinna zawierać „wystarczającą dokumentację”. Już widzę, jak przewracacie oczami, ale pamiętajcie, że ona też jest pod dużą presją na niższych poziomach.
+
+Jacob
+$render{power}
+
+
+#!unlock id{pause}
+James, możesz użyć funkcji „pause”. Zajęło mi trochę czasu, żeby ją zrozumieć, ale teraz jest całkiem przydatna. Mogę wam to pokazać na następnym spotkaniu zespołu.
+
+- Aaron Kellner
+$render{pause}
+
+> Pamiętam, że doktor zatrzymała kod i ruszyła naprzód we własnym tempie, czy ktoś pamięta, jak to zrobić? Wszystko lata we wszystkie strony i nie mogę tego ogarnąć.
+>
+> Hackett
+
+
+#!unlock id{data-store}
+Jak wszyscy wiecie, niezawodność skanowania przez roboty pogarsza się. Ludzie na niższych poziomach myślą, że może to mieć związek z warunkami środowiskowymi, może z czymś w powietrzu. Niezależnie od przyczyny, musimy kontynuować naszą pracę. Jeśli doktor naprawi skanery, wrócimy do odzyskiwania surowców z wyższych poziomów, ale na razie skupmy się na sekcjach 0-14, gdzie roboty mogą się jeszcze całkiem dobrze poruszać.
+
+Ustawiliśmy kilka „magazynów danych”, które pomogą zidentyfikować stabilny grunt, gdy `robo_scan()` nie daje pewności. Użycie (według Bartram): Wywołaj `robo_use()` na magazynie danych, aby uzyskać identyfikator bezpiecznej lokalizacji; takie miejsca są bezpieczne dla poruszania się robotów.
+
+Te magazyny danych mają kod `robo_scan()` `11`.
+
+Jacob
+$render{data-store}
+
+
+#!unlock id{i-have-a-plan}
+Jonathan,
+
+Poszukiwania na powierzchni nic nie znalazły. Mam plan. Będziemy musieli przekierować rezerwową energię na pełne badanie geologiczne.
+
+- Alice
+
+> Pani doktor,
+>
+> Wszystkie zespoły już wróciły. Pojazdy pokryły promień 100 km wokół miejsca lądowania. Tak jak się obawialiśmy. Lodowe równiny. Silne wiatry. Brak oznak życia. Temperatura stała i nieprzyjemna.
+>
+> Wracamy teraz. Przepraszam.
+>
+> Jacob  
+> Zespół poszukiwawczy Alfa
+
+
+#!unlock id{pause-fun}
+Hej Lillian, właśnie dowiedziałem się od doktora, że możemy wstrzymać wykonanie kodu, bez naciskania przycisku.
+
+`pause()`
+
+To naprawdę by nam pomogło, kiedy szukaliśmy tego błędu orientacji!
+
+- Aaron
+
+
+#!unlock id{mushrooms-again}
+Alice,
+
+Właśnie wróciłem z fabrykacji. Gdybym wiedział, że będziemy masowo produkować te roboty, zrezygnowałbym z dodatkowych funkcji. Dzisiaj jeszcze 11 sztuk! Jak idzie praca nad Twoim legionem programistów-rolników? Cieszy Cię nauczanie?
+
+Czy możesz uwierzyć, że nasz robot, nasz mały projekt z podróży tutaj, uratuje kolonię?
+
+Na kolację znów grzyby. Mam dobre przeczucie co do tej partii. Tym razem umyję je dokładnie, tamten neuro-paraliż był przerażający.
+
+Do wieczora,
+Jack
+
+P.S. Czy udało Ci się coś osiągnąć z projektem sondy?
+
+
+#!unlock id{direction}
+FYI, zespół 3 również pracuje nad złagodzeniem problemów z zawodnymi skanami.
+
+> Jacob, pracujemy nad innym rozwiązaniem problemu z wadliwymi skanami. 
+> Dodajemy dane kierunkowe, które wskażą na stabilny grunt. Głównie są one niepotrzebne, ale mogą okazać się bardzo przydatne, jeśli skany się pogorszą. 
+> Aaron ma działające próbki kodu, które oczyści i wyśle do wszystkich zespołów. Krótko mówiąc:
+>
+> Magazyny danych kierunkowych zawierają kierunki względne do danej płytki. Identyfikuj za pomocą kodu `robo_scan()` 12.
+$render{direction}
+> Możliwe kierunki dla `robo_use()`: 1: w górę, 2: w prawo
+
+
+#!unlock id{direction-2}
+Przepraszam za urwanie końca wiadomości Lillian w poprzedniej wiadomosci, oto pełny zestaw kodów.
+
+> Magazyny danych kierunkowych zawierają kierunki względne do danej płytki. Identyfikuj za pomocą kodu `robo_scan()` 12.
+$render{direction}
+> Możliwe kierunki dla `robo_use()`: 1: w górę, 2: w prawo, 3: w dół, 4: w lewo.
+>
+> - Lillian Westerman
+
+
+#!unlock id{orientation}
+James, masz rację, magazyny danych nie znają orientacji robota. Są dość prymitywne, ale też łatwe do skonfigurowania.
+
+Czy nie śledzicie orientacji robota? My już śledziliśmy to po każdym ruchu do przodu/lewo w zespole 3, więc zakładałem, że wszystkie zespoły mają ten kod. Przepraszam za to! Teraz nie mam dostępu do kodu, ale na pewno przeprowadzę Cię przez to na następnym spotkaniu zespołu.
+
+- Aaron Kellner
+
+> Aaron, czy coś przeoczyłem w tych magazynach kierunkowych? Co masz na myśli mówiąc „w górę”/„w prawo”?! Jak to jest użyteczne? Magazyn nie wie, w którą stronę patrzę, to nie działa.
+>
+> Hackett
+
+
+#!unlock id{hot-air}
+Alice, widziałaś jego najnowszą wiadomość? Ten facet ma tyle gorącego powietrza, że mógłby napędzać całą kolonię!
+
+Jack
+
+> Przyjaciele!
+>
+> Rozpoczęliśmy teraz fazę 2 nowego planu. Wiele z Was przeniosło się już do naszych przytulnych nowych mieszkań na poziomie B3. Dla tych, którzy czekają na transfer, nie możemy się doczekać, aż do nas dołączycie, osadzeni głęboko w przyjaznym, skalnym płaszczu Bright. Zobaczycie, że jest tu stosunkowo ciepło!
+>
+> Nasza armia robotów i świeżo upieczeni robo-inżynierowie pracują niestrudzenie, aby kopać jeszcze głębiej i otworzyć nowe poziomy oraz źródła energii geotermalnej. I nie spocznę, dopóki wszyscy nie będziemy bezpiecznie pod ziemią.
+>
+> Wielkie podziękowania dla Mary i reszty xenobotaników za odkrycie nowego gatunku grzybów, który jest niemal całkowicie jadalny. Przygotujcie się na aktualizację przepisów, wszyscy!
+>
+> Jonathan Frinton-Belmont  
+> Gubernator - desygnowany
+
+
+#!unlock id{fatality-report}
+Przepraszam bardzo, Alice. Wiem, że byliście blisko. Jeśli mogę w czymś pomóc, proszę daj znać mojemu biuru.
+
+Jonathan Frinton-Belmont  
+Gubernator
+
+> Raport o zgonach #89d-b11  
+> Lokalizacja: S7 sekcja 5 podsekcja L  
+> Kategoria: wykopaliska  
+> Lider zespołu: Jack Sheppard  
+>
+> O godzinie 26:05 zespół wykopaliskowy Gamma został uwięziony w nowo wydrążonym korytarzu sekcji 5. Kolejne zawalenie struktury miało miejsce przed rozpoczęciem prób ratunkowych, co doprowadziło do śmierci wszystkich członków zespołu. Podejrzewana awaria wsparcia strukturalnego z powodu zmęczenia metalu.
+>
+> Lista ofiar:
+> - Jack Sheppard
+> - Alejandro Lopez
+> - Myah Lawrence
+> - Aaron Kellner
+
+
+#!unlock id{launch}
+Myślę, że znalazłem rozwiązanie dla pęknięć otwierających się na niższych poziomach, być może z powodu rzadkiej struktury skał tutaj lub nadmiernym wydobyciu przez niekontrolowane boty.
+
+Zbudowałem platformy startowe, które mogą wyrzucać roboty nad szczelinami. Działają one poprzez ładowanie, gdy coś znajduje się na ich powierzchni. Jeśli robot pozostanie na jednej z nich wystarczająco długo, uruchomi to wyrzut. Przypisałem im kod `robo_scan()` `3`.
+
+Szczerze mówiąc, są trochę kłopotliwe w użyciu, ale działają. Jestem pewna, że doktor wymyśliłaby coś bardziej eleganckiego, ale myślę, że to lepsze niż nic.
+
+- Anita  
+$render{launch}
+
+#!unlock id{falling-apart}  
+Jacob, co możemy zrobić z doktor? Wszystko się sypie. Dlaczego nie odpowiada? Wszyscy straciliśmy ludzi, ale minęło już 17 cykli od śmierci Jacka. Ona jest zamknięta gdzieś, pracując nad jakimś projektem (PRZYPUSZCZAMY), ale naprawdę potrzebujemy jej tutaj.
+
+Hackett
+
+
+#!unlock id{distress}
+Kiedy ostatni raz ktoś był na górze? Czy w ogóle możemy się tam jeszcze dostać? Wykopujemy materiały i energię geotermalną, ale oddalamy się coraz bardziej od powierzchni. Nie wiemy nawet, czy sygnał ratunkowy nadal jest nadawany. Czy nie o to właśnie chodzi, żeby opuścić Bright?
+
+Hackett
+
+
+#!unlock id{proto-probe}
+Spędziłam sporo czasu pracując w odosobnionym laboratorium podziemnym. W tym czasie stało się niemożliwe, aby ignorować oczywistą prawdę: nie możemy przetrwać na Bright. Ratunek to nasza jedyna nikła nadzieja.
+
+Jak wcześniej, jedyną pociechą jest dla mnie praca nad czymś, co może pomóc. Skupiłam wszystkie wysiłki na nowym projekcie robota, który ma uzupełnić nasze obecne maszyny. Nowa sonda jest powietrzna i zdolna do pokonania najgorszych warunków, jakie oferuje nasz zawodny dom. Została zaprojektowana, aby osadzić się w komorze magazynowej każdego robota serii 7 lub późniejszej i komunikować się z „matką” za pomocą nowych możliwości oprogramowania.
+
+Większość mojego czasu spędziłam na zapewnieniu niezawodności komunikacji. Wierzę, że w końcu osiągnęłam ten cel, choć życzyłabym sobie więcej czasu na testy. Robot i sonda działające razem będą naprawdę potężną siłą.
+
+Jednak nie będę mogła zobaczyć tego spektaklu osobiście. Jestem niemal pewna, że nie opuszczę już tego laboratorium. Przynajmniej nie będę musiała jeść więcej grzybów.
+
+Wysłałam jedyny pełny prototyp sondy na rusztowanie Iceni, aby znaleźć kompatybilnego robota. Jeśli ratunek nadejdzie, mam nadzieję, że te narzędzia pomogą w wysiłkach na rzecz ocalenia tych z nas, którzy pozostali pod lodem.
+
+- Dr A. Bartram
+
+
+#!unlock id{vault}
+Drodzy Przyjaciele,
+
+Dziś zaczyna się kolejny etap naszego życia tutaj na Bright. Jak wielu z Was wie, okoliczności zmuszają nas do cofnięcia się i ponownej oceny sytuacji. Z powodu błędów w algorytmach wydobywczych coraz więcej robotów wymyka się spod kontroli i przemieszcza się przez nasze struktury mieszkalne. W rezultacie kwatery mieszkalne na niemal wszystkich poziomach są niezamieszkałe, zagrożone natychmiastowym zawaleniem i dlatego nie spełniają odpowiednich norm zdrowotnych i bezpieczeństwa (patrz Rozdział 15, podpunkt 10).
+
+My, Zespół Kierowniczy (TLT), ciężko pracowaliśmy nad nowym rozwiązaniem. Stworzyliśmy bezpieczny i szczelny skarbiec głęboko w jądrze Bright, gdzie będziemy czekać na ratunek. W rzeczywistości Zespół Kierowniczy (TLT) jest już tam. A dobra wiadomość jest taka, że po ostatnich wypadkach (raporty incydentów w toku) nasze obawy dotyczące przestrzeni i żywności są teraz przeszłością. Skarbiec ma miejsce dla wszystkich ocalałych mieszkańców, z łóżkami i toaletami kombi dzielonymi między sześcioma osobami. Wszystkie wysiłki związane z wydobywaniem przez roboty zostały wstrzymane na czas nieokreślony, więc pożegnajcie się z codziennymi dojazdami!
+
+Zespół Kierowniczy (TLT) zaprasza Was wszystkich do osiedlenia się w skarbcu w ciągu 4 cykli, po czym drzwi skarbca zostaną zamknięte, czekając na ratunek. Nie miejcie wątpliwości! Niezależnie od tego, jakie plotki słyszeliście, statki ratunkowe na pewno są w drodze.
+
+Jonathan Frinton-Belmont  
+Gubernator Generalny

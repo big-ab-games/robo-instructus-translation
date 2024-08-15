@@ -10,23 +10,23 @@ Profil
 
 ### Menu
 Credits
-Credits
+Zasługi
 
 Settings
 Ustawienia
 
 Video
-Wideo
+Grafika
 
 Audio
-Audio
+Dźwięk
 
 Save & Quit
 Zapisz i wyjdź
 
 #### as in "go back to previous menu"
 Back
-Powrót
+Wróc
 
 #### UI = user interface
 UI Scale
@@ -84,7 +84,7 @@ Language
 Język
 
 Vsync
-Vsync
+Synchronizacja pionowa
 
 ### Tooltips
 #### main menu button at top-left
@@ -97,7 +97,7 @@ Skrzynka odbiorcza firmy
 
 #### A list of all functions & code "primers" unlocked so far
 Code Reference
-Opis dostępnych funkcji
+Opis dostępnych funkcji języka
 
 Decrease Speed
 Zmniejsz prędkość
@@ -109,10 +109,10 @@ Message Archive
 Archiwum wiadomości
 
 Decrease Code Execution Rate
-Zmniejsz prędkość wykonania kodu
+Zmniejsz prędkość wykonywania kodu
 
 Increase Code Execution Rate
-Zwiększ prędkość wykonania kodu
+Zwiększ prędkość wykonywania kodu
 
 Load / Save new approach
 Załaduj / zapisz nowe podejście
@@ -149,7 +149,7 @@ Delete name
 Usuń nazwę
 
 Exit Level
-Wyjście
+Wyjście z poziomu
 
 Delete profile
 Usuń profil
@@ -163,11 +163,11 @@ Dark Stage
 
 #### Top-left label before all the "available" functions in the current level
 Available:
-Dostępny:
+Dostępne:
 
 ### Overlay tutorials - these pop up to explain things
 Type commands here
-Wpisz tutaj polecenia
+Tutaj wpisz polecenia
 
 Add the lines:
 Dodaj linie:
@@ -176,7 +176,7 @@ Press play to run
 Naciśnij play, aby uruchomić
 
 Modify the commands and \nre-run to reach the exit
-Zmodyfikuj polecenia i ponownie uruchom, aby dotrzeć do wyjścia
+Zmodyfikuj polecenia i uruchom ponownie, aby dotrzeć do wyjścia
 
 Press to exit level
 Naciśnij, aby wyjść z poziomu
@@ -221,7 +221,7 @@ Spróbuj użyć `else` i \nporównania jak `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Przeczytaj "Porównanie" i "Warunki III", aby zobaczyć zasady użycia `>` i `else`
+Przeczytaj "Porównanie" i "Warunki III", aby zobaczyć zasady użycia `>` oraz `else`
 
 Try using a comparison like `>`
 Spróbuj użyć porównania, takiego jak `>`
@@ -259,10 +259,10 @@ Ensure your solution is general enough\nto solve these hidden variants
 Upewnij się, że twoje rozwiązanie jest wystarczająco ogólne, aby rozwiązać te ukryte warianty
 
 Your solution has a flaw uncovered by a hidden stage variant
-Your solution has a flaw uncovered by a hidden stage variant
+Twoje rozwiązanie posiada wadę odkrytą przez ukryty wariant sceny
 
 Future levels are unlocked as normal, but\ndark stage completion is required to score
-Future levels are unlocked as normal, but\ndark stage completion is required to score
+Kolejne poziomy są odblokowywane jak zwykle, ale\nukończenie ciemnych scen jest wymagane dla zaliczenia
 
 ### Score screen
 #### explanation of "Time" score
@@ -271,7 +271,7 @@ Suma czasów wykonywania wywołań funkcji
 
 #### clarified version used after the probe appears
 Sum of robot function call runtimes & environmental delays
-Sum of robot function call runtimes & environmental delays
+Suma wywołań funkcji robota oraz opóźnień środowiska
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
@@ -283,203 +283,203 @@ Całkowita liczba ocenionych zwrotów kodowych
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-{} slower than best
+wolniej o {} od najlepszego wynik
 
 {} faster than previous best
-{} faster than previous best
+szybciej o {} od poprzedniego najlepszy wynik
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
-{} longer than best
+dłuższe o {} od najlepszego wyniku
 
 {} shorter than previous best
-{} shorter than previous best
+krótsze o {} od poprzedniego najlepszego wyniku
 
 #### "Run size" score comparison `{}` is replaced by the number
 {} more than best
-{} more than best
+większy o {} od najlepszego wyniku
 
 {} fewer than previous best
-{} fewer than previous best
+mniejszy o {} od poprzedniego najlepszego wyniku
 
 #### left half of score summary
 Finished in:
-Finished in:
+Ukończono w:
 
 Solution size:
-Solution size:
+Rozmiar rozwiązania:
 
 Run size:
-Run size:
+Rozmiar uruchomienia:
 
 #### right half `{}` is replaced by the score
 {} ms
 {} ms
 
 {} phrases
-{} phrases
+{} wyrażeń
 
 #### Graph button
 Show outliers
-Show outliers
+Pokaż odstające
 
 Hide outliers
-Hide outliers
+Ukryj odstające
 
 #### Graph title
 Time
-Time
+Czas
 
 Solution size
-Solution size
+Rozmiar rozwiązania
 
 Run size
-Run size
+Rozmiar uruchomienia
 
 #### Label for the vertical line marking a player's best/lowest score
 Best
-Best
+Najlepszy
 
 #### Live stats labels shown as the solution runs
 Time:
-Time:
+Czas:
 
 Solution:
-Solution:
+Rozwiązanie:
 
 Run:
-Run:
+Uruchomienie:
 
 ### Load/save solution menu
 #### Short names for automatically saved best solutions (try to keep these short)
 ##### A single one can be best in multiple categories
 time, solution, run
-time, solution, run
+czas, rozwiązanie, uruchomienie
 
 time, solution
-time, solution
+czas, rozwiązanie
 
 time, run
-time, run
+czas, uruchomienie
 
 solution, run
-solution, run
+rozwiązanie, uruchomienie
 
 time
-time
+czas
 
 solution
-solution
+rozwiązanie
 
 run
-run
+uruchomienie
 
 #### Text shown when switching branch would lose changes
 Replace current?
-Replace current?
+Zastąpić obecne?
 
 #### Other branch options
 initial code
-initial code
+pierwotny kod
 
 last level code
-last level code
+kod z ostatniego poziomu
 
 ### Editor hotkeys
 Undo
-Undo
+Cofnij
 
 Redo
-Redo
+Ponów
 
 Copy
-Copy
+Kopiuj
 
 Paste
-Paste
+Wklej
 
 Cut line/selection
-Cut line/selection
+Wytnij linie/zaznaczenie
 
 Duplicate line/selection
-Duplicate line/selection
+Duplikuj linie/zaznaczenie
 
 Move line/selection
-Move line/selection
+Przesuń linie/zaznaczenie
 
 Indent selection
-Indent selection
+Utwórz wcięcie dla zaznaczenia
 
 Unindent selection
-Unindent selection
+Cofnij wcięcie dla zaznaczenia
 
 Navigate by word
-Navigate by word
+Nawiguj po słowie
 
 Delete previous word
-Delete previous word
+Usuń poprzednie słowo
 
 Delete next word
-Delete next word
+Usuń następne słow
 
 Comment/uncomment selection
-Comment/uncomment selection
+Skomentuj/usuń komentarz zaznaczonego obszaru
 
 Autocomplete open
-Autocomplete open
+Otwórz autouzupełnienie
 
 Autocomplete choose
-Autocomplete choose
+Wybierz autouzupełnienie
 
 Autocomplete apply
-Autocomplete apply
+Zastosuj autouzupełnienie
 
 Autocomplete close
-Autocomplete close
+Zamknij autouzupełnienie
 
 ### Other headings & labels
 Functions
-Functions
+Funkcje
 
 Recovered Messages
-Recovered Messages
+Odzyskane wiadomości
 
 Try reworking your solution before proceeding
-Try reworking your solution before proceeding
+Spróbuj przerobić swoje rozwiązanie przed kontynuacją
 
 #### Unlock headings
 Decoding ...
-Decoding ...
+Dekodowanie ...
 
 Message recovered
-Message recovered
+Wiadomość odzyskana
 
 Functions unlocked
-Functions unlocked
+Funkcje odblokowane
 
 Function unlocked
-Function unlocked
+Funkcja odblokowana
 
 Function update
-Function update
+Funkcja zaktualizowana
 
 Functions not available
-Functions not available
+Funkcje niedostępne
 
 Functions inoperable
-Functions inoperable
+Funkcje niesprawne
 
 Functions restored
-Functions restored
+Funkcje odzyskane
 
 Primer section recovered
-Primer section recovered
+Odzyskane sekcje samouczka
 
 Paused execution unlocked
-Paused execution unlocked
+Wstrzymanie wykonania odblokowane
 
 Scanning ...
-Scanning ...
+Skanowanie ...
 
 #### suffix to denote "kilo" / 1000 of something
 k
@@ -581,17 +581,17 @@ Robo Pinball
 
 ### Demo text, translating these is optional. This does not appear in the full game.
 Thank you for playing the demo
-Thank you for playing the demo
+Dziękuję za zagranie w wersję demonstracyjną
 
 The full game is available now on Steam & itch.io
-The full game is available now on Steam & itch.io
+Pełna wersja dostępna jest na Steam oraz itch.io
 
 More info at www.roboinstruct.us
-More info at www.roboinstruct.us
+Więcej informacji na www.roboinstruct.us
 
 Thanks for playing
-Thanks for playing
+Dziękuję za grę
 
 Loads more in the full game!
-Loads more in the full game!
+O wiele więcej w pełnej wersji gry!
 
