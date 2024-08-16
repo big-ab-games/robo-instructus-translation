@@ -1,0 +1,188 @@
+// Pseudo markup format see ./README.md
+
+#!unlock type{short} id{s-left}
+`robo_left()` pozostaje na tej samej płytce, skręca w lewo
+
+#!unlock type{short} id{s-forward}
+`robo_forward()` przesuwa robota do przodu (również nieco w prawo z powodu trójkątnych płytek)
+
+#!unlock type{short} id{s-scan}
+`robo_scan()` skanuje płytkę przed sobą i zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście
+
+#!unlock type{short} id{s-scan-u1}
+`robo_scan()` skanuje płytkę przed sobą i zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście, `10`: przełącznik zasilania
+
+#!unlock type{short} id{s-scan-u2}
+`robo_scan()` skanuje płytkę przed sobą i zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji
+
+#!unlock type{short} id{s-scan-u3}
+`robo_scan()` skanuje płytkę przed sobą i zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku
+
+#!unlock type{short} id{s-scan-u4}
+`robo_scan()` skanuje płytkę przed sobą i zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście, `3`: wyrzutnia, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku
+
+#!unlock type{short} id{s-use}
+`robo_use()` używa bieżącej płytki, zwraca: przełącznik zasilania `1`: włączony, `0`: wyłączony
+
+#!unlock type{short} id{s-use-u2}
+`robo_use()` używa bieżącej płytki, zwraca: przełącznik zasilania `1`: włączony, `0`: wyłączony, magazyn danych lokalizacji: bezpieczny identyfikator lokalizacji
+
+#!unlock type{short} id{s-use-u3}
+`robo_use()` używa bieżącej płytki, zwraca: przełącznik zasilania `1`: włączony, `0`: wyłączony, magazyn danych lokalizacji: bezpieczny identyfikator lokalizacji, kierunki `1`: w górę, `2`: w prawo
+
+#!unlock type{short} id{s-use-u4}
+`robo_use()` używa bieżącej płytki, zwraca: przełącznik zasilania `1`: włączony, `0`: wyłączony, magazyn danych lokalizacji: bezpieczny identyfikator lokalizacji, kierunki `1`: w górę, `2`: w prawo, `3`: w dół, `4`: w lewo
+
+#!unlock type{short} id{s-detect-adjacent}
+`robo_detect_adjacent()` zwraca liczbę niebrakujących przyległych płytek, nieznane nie wpływaają na wynik
+
+#!unlock type{short} id{s-location}
+`robo_location()` zwraca identyfikator bieżącej lokalizacji
+
+#!unlock type{short} id{s-forward-location}
+`robo_forward_location()` zwraca identyfikator płytki przed sobą
+
+#!unlock type{short} id{s-detect-3}
+`robo_detect_3()` zwraca liczbę niebrakujących płytek do przodu na 3 odcinkach (w prawo), nieznane nie wpływają na wynik
+
+#!unlock type{short} id{s-detect-3l}
+`robo_detect_3l()` zwraca liczbę niebrakujących płytek do przodu na 3 odcinkach (w lewo), nieznane nie wpływają na wynik
+
+#!unlock type{short} id{s-probo-left}
+`probo_left()` pozostaje na tej samej płytce, skręca w lewo
+
+#!unlock type{short} id{s-probo-forward}
+`probo_forward()` przesuwa sondę do przodu (również skręca nieco w prawo)
+
+#!unlock type{short} id{s-probo-scan}
+`probo_scan()` skanuje bieżącą płytkę, zwraca: `-999`: nieznane, `-1`: brak, `1`: normalna, `2`: wyjście, `3`: wyrzutnia, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku
+
+#!unlock type{short} id{s-probo-location}
+`probo_location()` zwraca identyfikator bieżącej płytki
+
+#!unlock type{short} id{s-probo-use}
+`probo_use()` używa bieżącej płytki, zwraca: przełącznik zasilania `1`: włączony, `0`: wyłączony, magazyn danych lokalizacji: bezpieczny identyfikator lokalizacji, kierunki `1`: w górę, `2`: w prawo, `3`: w dół, `4`: w lewo
+
+#!unlock type{short} id{s-transmit}
+`transmit(temat, dane)` przesyła dane związane z tematem
+
+#!unlock type{short} id{s-receive}
+`receive(temat)` odbiera i zwraca najstarszą wartość danych dla danego tematu lub `-20000`, jeśli brak danych
+
+#!unlock type{functions} id{left-forward}
+`robo_left()` Każde wywołanie nakazuje robotowi obrót w lewo na następną stronę bieżącej płytki, przeciwnie do ruchu wskazówek zegara. Czas wykonania $tu{robo_left()} milisekund (ms).
+$render{robo_left}
+`robo_forward()` Nakazuje robotowi przesunięcie do przodu na płytkę, na którą aktualnie patrzy. Robot będzie preferował skręt w prawo podczas tego ruchu. Czas wykonania $tu{robo_forward()} ms.
+$render{robo_forward}
+
+#!unlock type{function} id{scan}
+`robo_scan()` Skanuje płytkę przed sobą, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2` oznacza wyjście, `-1` oznacza brak płytki, `-999` oznacza nieznane. Czas wykonania $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+#!unlock type{function-update} id{scan-u1}
+`robo_scan()` Skanuje płytkę przed sobą, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `10`: przełącznik zasilania. Czas wykonania $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+#!unlock type{function-update} id{scan-u2}
+`robo_scan()` Skanuje płytkę przed sobą, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji. Czas wykonania $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+#!unlock type{function-update} id{scan-u3}
+`robo_scan()` Skanuje płytkę przed sobą, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku. Czas wykonania $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+#!unlock type{function-update} id{scan-u4}
+`robo_scan()` Skanuje płytkę przed sobą, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `3`: płytka wyrzutni, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku. Czas wykonania $tu{robo_scan()} ms.
+
+$render{robo_scan}
+
+#!unlock type{function} id{use}
+`robo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki lub `0` w przeciwnym razie. Czas wykonania $tu{robo_use()} ms
+$render{robo_use}
+
+#!unlock type{function-update} id{use-u1}
+`robo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki lub `0` w przeciwnym razie. Czas wykonania $tu{robo_use()} ms
+- Przełącznik zasilania: Zwraca `1`: włączony, `0`: wyłączony. Dodatkowy czas wykonania +$tu{robo_use_power} ms
+$render{robo_use}
+
+#!unlock type{function-update} id{use-u2}
+`robo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki lub `0` w przeciwnym razie. Czas wykonania $tu{robo_use()} ms
+- Przełącznik zasilania: Zwraca `1`: włączony, `0`: wyłączony. Dodatkowy czas wykonania +$tu{robo_use_power} ms
+- Magazyn danych lokalizacji: Zwraca identyfikator bezpiecznej lokalizacji. Dodatkowy czas wykonania +$tu{robo_use_location} ms
+$render{robo_use-2}
+
+#!unlock type{function-update} id{use-u3}
+`robo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki lub `0` w przeciwnym razie. Czas wykonania $tu{robo_use()} ms
+- Przełącznik zasilania: Zwraca `1`: włączony, `0`: wyłączony. Dodatkowy czas wykonania +$tu{robo_use_power} ms
+- Magazyn danych lokalizacji: Zwraca identyfikator bezpiecznej lokalizacji. Dodatkowy czas wykonania +$tu{robo_use_location} ms
+- Magazyn danych kierunku: Zwraca `1`: w górę, `2`: w prawo. Dodatkowy czas wykonania +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+#!unlock type{function-update} id{use-u4}
+`robo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki lub `0` w przeciwnym razie. Czas wykonania $tu{robo_use()} ms
+- Przełącznik zasilania: Zwraca `1`: włączony, `0`: wyłączony. Dodatkowy czas wykonania +$tu{robo_use_power} ms
+- Magazyn danych lokalizacji: Zwraca identyfikator bezpiecznej lokalizacji. Dodatkowy czas wykonania +$tu{robo_use_location} ms
+- Magazyn danych kierunku: Zwraca `1`: w górę, `2`: w prawo, `3`: w dół, `4`: w lewo. Dodatkowy czas wykonania +$tu{robo_use_direction} ms
+$render{robo_use-3}
+
+#!unlock type{function} id{forward-location}
+`robo_forward_location()` Zwraca identyfikator płytki, na którą robot patrzy. Czas wykonania $tu{robo_forward_location()} ms.
+
+$render{robo_forward_location}
+```no_run
+var location = robo_forward_location()  # 8823
+```
+Każda płytka na poziomie ma unikalny identyfikator (dodatni i różny od zera).
+
+#!unlock type{function} id{location}
+`robo_location()` Zwraca identyfikator bieżącej płytki, na której stoi robot. Czas wykonania $tu{robo_location()} ms.
+$render{robo_location}
+
+#!unlock type{function} id{detect-adjacent}
+`robo_detect_adjacent()` Zwraca łączną liczbę płytek przylegających do bieżącej pozycji. `0`, `1`, `2` lub `3`. Działa poprawnie, nawet jeśli niektóre z płytek są nieznane dla `robo_scan()`. Czas wykonania $tu{robo_detect_adjacent()} ms.
+$render{robo_detect_adjacent}
+```no_run
+var its_safe = robo_detect_adjacent() is 3
+```
+
+#!unlock type{function} id{detect-3}
+`robo_detect_3()` Zwraca łączną liczbę płytek w prostej linii w prawo na 3 odcinkach. Działa poprawnie, nawet jeśli niektóre z płytek są nieznane dla `robo_scan()`. Czas wykonania $tu{robo_detect_3()} ms.
+
+$render{robo_detect_3}
+
+#!unlock type{function} id{detect-3l}
+`robo_detect_3l()` Zwraca łączną liczbę płytek w prostej linii w lewo na 3 odcinkach. Podobne do `robo_detect_3()`. Czas wykonania $tu{robo_detect_3l()} ms.
+
+$render{robo_detect_3l}
+
+#!unlock type{functions} id{probo}
+`probo_left()` Obraca w lewo na następną stronę bieżącej płytki, przeciwnie do ruchu wskazówek zegara. Czas wykonania $tu{probo_left()} ms.
+
+`probo_forward()` Przesuwa sondę do przodu na płytkę, na którą aktualnie patrzy. Nowa orientacja sondy skręca nieco w prawo. Czas wykonania $tu{probo_forward()} ms.
+
+`probo_location()` Zwraca identyfikator bieżącej płytki. Czas wykonania $tu{probo_location()} ms.
+
+`probo_scan()` Skanuje bieżącą płytkę, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `3`: płytka wyrzutni, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku. Czas wykonania $tu{probo_scan()} ms.
+
+$render{probo_scan}
+
+#!unlock type{function-update} id{probo-scan-u1}
+`probo_scan()` Skanuje bieżącą płytkę, zwraca wartość wskazującą właściwości płytki. `1` oznacza płytkę normalną, `2`: wyjście, `-1`: brak płytki, `-999`: nieznane, `3`: wyrzutnia północna, `4`: wyrzutnia południowo-wschodnia, `5`: wyrzutnia południowo-zachodnia, `10`: przełącznik zasilania, `11`: magazyn danych lokalizacji, `12`: magazyn danych kierunku. Czas wykonania $tu{probo_scan()} ms.
+
+$render{probo_scan-2}
+
+#!unlock type{functions} id{transmit}
+`transmit(temat, dana)` Przesyła pojedynczą wartość danych powiązaną z wartością tematu. Takie transmisje mogą być odbierane przez inne roboty. Czas wykonania $tu{transmit(vv)} ms.
+
+`receive(temat)` Odbiera pojedynczą wartość danych przesłaną przez innego robota z dopasowanym tematem. Transmisje danych są odbierane w kolejności. Jeśli brak transmisji dla danego tematu, zwraca `-20000`. Czas wykonania $tu{receive(v)} ms.
+
+`probo_use()` Operuje na bieżącej płytce, zwracając dane specyficzne dla płytki, lub `0` w przeciwnym razie. Czas wykonania $tu{probo_use()} ms.
+- Przełącznik zasilania: Zwraca `1`: włączony, `0`: wyłączony. Dodatkowy czas wykonania +$tu{robo_use_power} ms
+- Magazyn danych lokalizacji: Zwraca bezpieczny identyfikator lokalizacji. Dodatkowy czas wykonania +$tu{robo_use_location} ms
+- Magazyn danych kierunku: Zwraca `1`: w górę, `2`: w prawo, `3`: w dół, `4`: w lewo. Dodatkowy czas wykonania +$tu{robo_use_direction} ms
+
+$render{probo_use}
