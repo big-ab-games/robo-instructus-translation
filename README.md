@@ -14,11 +14,11 @@ English _(en)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
 Deutsch _(de)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 简体中文 _(zh-CN)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Español _(es)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Polski _(pl)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 繁體中文 _(zh-TW)_ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:
 Français _(fr)_ | :large_blue_circle: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Nederlands _(nl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Svenska _(sv)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
-Polski _(pl)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Português-Brasil _(pt-BR)_ | :large_blue_circle: | :heavy_check_mark: | :heavy_check_mark: | :black_circle: | :black_circle: | :black_circle:
 Português _(pt)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
 Italiano _(it)_ | :large_blue_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle:
