@@ -26,7 +26,7 @@ Zapisz i wyjdź
 
 #### as in "go back to previous menu"
 Back
-Wróc
+Wróć
 
 #### UI = user interface
 UI Scale
@@ -198,7 +198,7 @@ Zmień szybkość gry
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-Kliknij, aby otworzyć opis dostępnych funkcji, zawiera on wszystkie\nsekcje i funkcje poznane do tej pory
+Kliknij, aby otworzyć Podręcznik, zawiera on wszystkie\nsekcje podręcznika i funkcje poznane do tej pory
 
 Click to close
 Kliknij, aby zamknąć
@@ -221,7 +221,7 @@ Spróbuj użyć `else` i \nporównania jak `>`
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
-Przeczytaj "Porównanie" i "Warunki III", aby zobaczyć zasady użycia `>` oraz `else`
+Przeczytaj "Porównania" i "Warunki III", aby zobaczyć zasady użycia `>` oraz `else`
 
 Try using a comparison like `>`
 Spróbuj użyć porównania, takiego jak `>`
@@ -283,10 +283,10 @@ Całkowita liczba ocenionych zwrotów kodowych
 
 #### "Time" score comparison `{}` is replaced by the number, e.g. "6000 slower than best"
 {} slower than best
-wolniej o {} od najlepszego wynik
+wolniej o {} od najlepszego wyniku
 
 {} faster than previous best
-szybciej o {} od poprzedniego najlepszy wynik
+szybciej o {} od poprzedniego najlepszego wyniku
 
 #### "Solution size" score comparison `{}` is replaced by the number
 {} longer than best
@@ -420,22 +420,22 @@ Delete previous word
 Usuń poprzednie słowo
 
 Delete next word
-Usuń następne słow
+Usuń następne słowo
 
 Comment/uncomment selection
 Skomentuj/usuń komentarz zaznaczonego obszaru
 
 Autocomplete open
-Otwórz autouzupełnienie
+Otwórz autouzupełnianie
 
 Autocomplete choose
-Wybierz autouzupełnienie
+Wybierz autouzupełnianie
 
 Autocomplete apply
-Zastosuj autouzupełnienie
+Zastosuj autouzupełnianie
 
 Autocomplete close
-Zamknij autouzupełnienie
+Zamknij autouzupełnianie
 
 ### Other headings & labels
 Functions
@@ -473,7 +473,7 @@ Functions restored
 Funkcje odzyskane
 
 Primer section recovered
-Odzyskane sekcje samouczka
+Odzyskane sekcje podręcznika
 
 Paused execution unlocked
 Wstrzymanie wykonania odblokowane
