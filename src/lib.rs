@@ -51,11 +51,14 @@ pub fn translate(en: &str) -> &str {
 pub fn translate_to<'a>(lang: &str, en: &'a str) -> &'a str {
     if lang == "en" || en.trim().is_empty() || lang.trim().is_empty() {
         en
-    } else if let Some(translated) = translated_pairs::MAP.get(lang).and_then(|l| l.get(en)) {
-        translated
     } else {
-        log::debug!("Missing translation for {:?} in lang {:?}", en, lang);
-        en
+        match translated_pairs::MAP.get(lang).and_then(|l| l.get(en)) {
+            Some(translated) => translated,
+            _ => {
+                log::debug!("Missing translation for {:?} in lang {:?}", en, lang);
+                en
+            }
+        }
     }
 }
 
