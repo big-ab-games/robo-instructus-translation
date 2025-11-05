@@ -3,7 +3,7 @@
 #!unlock type{primer} id{loops}
 # Pętle
 
-`loop` jest używane do powtarzania poleceń. Będzie powtarzać polecenia w swoim zakresie w nieskończoność. Zakres pętli to polecenia wcięte, które pojawiają się po linii `loop`.
+`loop` jest używane do powtarzania poleceń. Będzie powtarzać polecenia w swoim zakresie w nieskończoność. Zakres pętli to wcięte polecenia, które pojawiają się po linii `loop`.
 
 ```max_run=11
 robo_forward()  # wywołane raz
@@ -45,7 +45,7 @@ if robo_scan() is -1
 #!unlock type{primer} id{variables}
 # Zmienne
 
-Można zapisać liczbę do późniejszego użycia w `var`.
+Można zapisać liczbę do późniejszego użycia dzięki `var`.
 
 ```
 # zapisz wynik funkcji do zmiennej 'scan'
@@ -57,12 +57,12 @@ if scan is 1
 if scan is -1
     robo_left()
 ```
-Może to być użyte do uniknięcia wywoływania powolnej funkcji wielokrotnie, aby sprawdzić ten sam wynik. Może to także pozwolić na zapisanie wyniku do późniejszego użycia.
+Może to być użyte do uniknięcia wielokrotnego wywoływania powolnej funkcji, aby sprawdzić ten sam wynik. Może to także pozwolić na zapisanie wyniku do późniejszego użycia.
 
 #!unlock type{primer} id{conditionals-2}
 # Warunki II
 
-'`if expr`' po prostu sprawdza, czy `expr` jest różne od zera. Tak więc `0` jest interpretowane jako "fałsz", podczas gdy `1` lub dowolna inna wartość różna od zera jest "prawda". Kiedy `expr` jest interpretowane jako "prawda", wcięte polecenia zostaną wykonane.
+'`if expr`' po prostu sprawdza, czy `expr` jest różne od zera. Tak więc `0` jest interpretowane jako "fałsz", podczas gdy `1` lub dowolna inna wartość różna od zera oznacza "prawda". Kiedy `expr` jest interpretowane jako "prawda", wcięte polecenia zostaną wykonane.
 
 ```
 if 0
@@ -73,11 +73,11 @@ if 1
 ```
 
 #!unlock type{primer} id{is}
-Słowo kluczowe `is` porównuje dwie wartości, produkując `1` (prawda), gdy wartości są takie same, lub `0` (fałsz) w przeciwnym razie. Działa to naturalnie z `if`.
+Słowo kluczowe `is` porównuje dwie wartości, zwracając `1` (prawda) - gdy wartości są takie same, lub `0` (fałsz) w przeciwnym razie. Działa to naturalnie z `if`.
 
 `not` może również być używane do konwersji `0` na `1`, lub dowolnej wartości różnej od zera na `0`.
 
-`not x is y` może być również zapisane jako `x is not y`, produkując `1` (prawda), gdy wartości różnią się.
+`not x is y` może być również zapisane jako `x is not y`, zwracając `1` (prawda), gdy wartości różnią się.
 
 ```
 var scan = robo_scan()
@@ -145,7 +145,7 @@ else if example > 12
 else
     robo_left()
 ```
-Sekcja `else` na końcu będzie działać tylko wtedy, gdy każdy `if` i `else if` powyżej niej zawiedzie.
+Sekcja `else` na końcu będzie działać tylko wtedy, gdy każdy `if` oraz `else if` powyżej niej zawiedzie.
 
 
 #!unlock type{primer} id{scope}
@@ -178,7 +178,7 @@ Zmienne są usuwane na końcu ich zakresu, więc użycie `var` w `loop` spowoduj
 #!unlock type{primer} id{loops-2}
 # Pętle II
 
-Słowo kluczowe `continue` może być używane do ponownego rozpoczęcia pętli w połowie, podczas gdy słowo kluczowe `break` może być używane do zakończenia bieżącej pętli.
+Słowo kluczowe `continue` może być używane do ponownego rozpoczęcia pętli w połowie wykonania, podczas gdy słowo kluczowe `break` może być używane do zakończenia bieżącej pętli.
 
 ```
 var count = 0
@@ -262,12 +262,12 @@ Funkcje mogą również przyjmować liczby i/lub zwracać liczbę.
 
 ```
 fun loneliest_number()
-    1  # ostatni wyrażenie jest zwracane
+    1  # ostatnie wyrażenie jest zwracane
 
 # funkcje mogą przyjmować argumenty
 fun largest(a, b)
     if b > a
-       
+
 
  # można zwrócić wcześniej
         return b
@@ -371,7 +371,7 @@ total is 6
 
 
 #!unlock type{primer} id{dot-call}
-Jest inny sposób wywoływania funkcji z argumentami.
+Jest też inny sposób wywoływania funkcji z argumentami.
 
 ```no_run
 fun example(a, b, c, d)
